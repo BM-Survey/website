@@ -1,0 +1,57 @@
+<svg width="360" height="300" viewBox="0 0 360 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bldA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DFF3E4"/>
+    </linearGradient>
+    <linearGradient id="bldB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F1FBF3"/>
+      <stop offset="1" stop-color="#CDEBD4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Short building (left, behind) -->
+  <g opacity="0.8">
+    <rect x="66" y="150" width="70" height="120" rx="8" fill="url(#bldB)"/>
+    <g fill="#7DC98B">
+      <rect x="80" y="166" width="14" height="14" rx="2"/>
+      <rect x="108" y="166" width="14" height="14" rx="2"/>
+      <rect x="80" y="192" width="14" height="14" rx="2"/>
+      <rect x="108" y="192" width="14" height="14" rx="2"/>
+      <rect x="80" y="218" width="14" height="14" rx="2"/>
+      <rect x="108" y="218" width="14" height="14" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Tall building (center, front) -->
+  <g>
+    <rect x="138" y="86" width="84" height="184" rx="9" fill="url(#bldA)"/>
+    <rect x="170" y="70" width="20" height="20" rx="4" fill="#FFFFFF"/>
+    <g fill="#4CAF63">
+      <rect x="154" y="106" width="16" height="16" rx="2"/>
+      <rect x="190" y="106" width="16" height="16" rx="2"/>
+      <rect x="154" y="136" width="16" height="16" rx="2"/>
+      <rect x="190" y="136" width="16" height="16" rx="2"/>
+      <rect x="154" y="166" width="16" height="16" rx="2"/>
+      <rect x="190" y="166" width="16" height="16" rx="2"/>
+      <rect x="154" y="196" width="16" height="16" rx="2"/>
+      <rect x="190" y="196" width="16" height="16" rx="2"/>
+    </g>
+    <rect x="170" y="230" width="20" height="40" rx="3" fill="#3E9C54"/>
+  </g>
+
+  <!-- Medium building (right, behind) -->
+  <g opacity="0.85">
+    <rect x="224" y="122" width="72" height="148" rx="8" fill="url(#bldB)"/>
+    <g fill="#7DC98B">
+      <rect x="238" y="140" width="15" height="15" rx="2"/>
+      <rect x="267" y="140" width="15" height="15" rx="2"/>
+      <rect x="238" y="168" width="15" height="15" rx="2"/>
+      <rect x="267" y="168" width="15" height="15" rx="2"/>
+      <rect x="238" y="196" width="15" height="15" rx="2"/>
+      <rect x="267" y="196" width="15" height="15" rx="2"/>
+      <rect x="238" y="224" width="15" height="15" rx="2"/>
+      <rect x="267" y="224" width="15" height="15" rx="2"/>
+    </g>
+  </g>
+</svg>

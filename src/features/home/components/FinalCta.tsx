@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { Button } from "@/components/ui/Button";
 import { Check } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
@@ -23,6 +25,22 @@ export function FinalCta({ locale, cta }: FinalCtaProps) {
         <div
           className="absolute -bottom-[45%] -end-[5%] h-[460px] w-[460px] rounded-full bg-[radial-gradient(circle,rgba(34,195,94,0.28),transparent_62%)]"
           aria-hidden
+        />
+        <Image
+          src="/illustrations/gold-coins.svg"
+          alt=""
+          aria-hidden
+          width={360}
+          height={300}
+          className="pointer-events-none absolute bottom-0 -inset-s-6 hidden w-44 select-none opacity-90 drop-shadow-[0_12px_30px_rgba(0,0,0,0.25)] md:block lg:w-56"
+        />
+        <Image
+          src="/illustrations/gold-coins.svg"
+          alt=""
+          aria-hidden
+          width={360}
+          height={300}
+          className="pointer-events-none absolute bottom-0 -inset-e-6 hidden w-44 -scale-x-100 select-none opacity-90 drop-shadow-[0_12px_30px_rgba(0,0,0,0.25)] md:block lg:w-56"
         />
         <div className="relative">
           <h2 className="mb-4 font-display text-[clamp(34px,4.4vw,58px)] leading-[1.05] font-black tracking-tight text-white">

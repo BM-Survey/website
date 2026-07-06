@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { Button } from "@/components/ui/Button";
 import { ArrowRight, Check, Lock, Shield } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
@@ -27,10 +29,19 @@ export function About({ locale, about, actions }: AboutProps) {
           {/* Photo placeholder with GDPR badge */}
           <div className="relative">
             <div
-              className="aspect-[4/5] w-full rounded-[26px] bg-[radial-gradient(circle_at_30%_20%,#c7d5ff,transparent_55%),radial-gradient(circle_at_75%_85%,#bff0d3,transparent_55%),linear-gradient(160deg,#e8edff,#dfeafe)]"
+              className="flex aspect-4/5 w-full items-center justify-center overflow-hidden rounded-[26px] bg-[radial-gradient(circle_at_30%_20%,#c7d5ff,transparent_55%),radial-gradient(circle_at_75%_85%,#bff0d3,transparent_55%),linear-gradient(160deg,#e8edff,#dfeafe)]"
               role="img"
               aria-label={about.photoAlt}
-            />
+            >
+              <Image
+                src="/illustrations/survey-phone.svg"
+                alt=""
+                aria-hidden
+                width={480}
+                height={600}
+                className="pointer-events-none h-[86%] w-auto select-none"
+              />
+            </div>
             <div className="absolute -bottom-5 -start-5 flex items-center gap-3 rounded-3xl bg-white p-4 shadow-[var(--shadow-float)]">
               <span className="flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-br from-success to-success-dark text-white">
                 <Lock width={22} height={22} />

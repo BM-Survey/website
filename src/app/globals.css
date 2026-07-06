@@ -43,6 +43,8 @@
   --animate-marquee-rev: marqR 46s linear infinite;
   --animate-spin-slow: spin 1s linear infinite;
   --animate-pulse-ring: pulseRing 1.8s ease-out infinite;
+  --animate-scroll-dot: scrollDot 1.8s ease-in-out infinite;
+  --animate-scroll-nudge: scrollNudge 1.8s ease-in-out infinite;
 }
 
 @keyframes floaty {
@@ -95,6 +97,31 @@
   }
   100% {
     opacity: 0;
+  }
+}
+@keyframes scrollDot {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes scrollNudge {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
   }
 }
 @keyframes fadeIn {

@@ -54,6 +54,24 @@
           "reward": "$3.20",
           "title": "Weekly grocery choices"
         }
+      },
+      "flow": {
+        "answerQuestion": "How often do you shop online?",
+        "answerOptions": [
+          "A few times a week",
+          "About once a week",
+          "Once a month",
+          "Rarely"
+        ],
+        "answerProgress": "Question 3 of 8",
+        "submitTitle": "Review & submit",
+        "submitDone": "All 8 questions answered",
+        "submitCta": "Submit answers",
+        "paidTitle": "You've been paid!",
+        "paidAmount": "+$2.50",
+        "paidVia": "Sent to your PayPal",
+        "paidBalanceLabel": "New balance",
+        "paidBalanceValue": "$127.00"
       }
     },
     "badges": {

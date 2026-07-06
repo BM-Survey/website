@@ -54,6 +54,24 @@
           "reward": "$3.20",
           "title": "साप्ताहिक किराना विकल्प"
         }
+      },
+      "flow": {
+        "answerQuestion": "आप कितनी बार ऑनलाइन खरीदारी करते हैं?",
+        "answerOptions": [
+          "सप्ताह में कई बार",
+          "लगभग सप्ताह में एक बार",
+          "महीने में एक बार",
+          "कभी-कभार"
+        ],
+        "answerProgress": "प्रश्न 3 / 8",
+        "submitTitle": "समीक्षा करें और भेजें",
+        "submitDone": "सभी 8 प्रश्नों के उत्तर दिए गए",
+        "submitCta": "उत्तर भेजें",
+        "paidTitle": "आपको भुगतान मिल गया!",
+        "paidAmount": "+$2.50",
+        "paidVia": "आपके PayPal पर भेजा गया",
+        "paidBalanceLabel": "नया बैलेंस",
+        "paidBalanceValue": "$127.00"
       }
     },
     "badges": {

@@ -1,0 +1,24 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD34D"/>
+      <stop offset="1" stop-color="#F5A623"/>
+    </linearGradient>
+    <linearGradient id="medalFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE9A3"/>
+      <stop offset="1" stop-color="#FFC94D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ribbons -->
+  <path d="M120 150 L100 250 L138 226 L150 260 L150 150 Z" fill="url(#ribbon)"/>
+  <path d="M180 150 L200 250 L162 226 L150 260 L150 150 Z" fill="#E8961B"/>
+
+  <!-- Medal disc -->
+  <circle cx="150" cy="120" r="86" fill="url(#ribbon)"/>
+  <circle cx="150" cy="120" r="68" fill="url(#medalFace)"/>
+  <circle cx="150" cy="120" r="68" fill="none" stroke="#E39A1F" stroke-width="3" stroke-dasharray="3 6"/>
+
+  <!-- Star -->
+  <path d="M150 74 L165 108 L202 112 L174 137 L182 174 L150 154 L118 174 L126 137 L98 112 L135 108 Z" fill="#FFFFFF"/>
+</svg>

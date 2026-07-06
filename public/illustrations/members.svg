@@ -1,0 +1,37 @@
+<svg width="360" height="300" viewBox="0 0 360 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mAvatarA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A9BCFF"/>
+      <stop offset="1" stop-color="#6E8BFF"/>
+    </linearGradient>
+    <linearGradient id="mAvatarB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8AA5FF"/>
+      <stop offset="1" stop-color="#4E6FE8"/>
+    </linearGradient>
+    <linearGradient id="mAvatarC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C7D3FF"/>
+      <stop offset="1" stop-color="#9FB4FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Back avatar (left) -->
+  <g opacity="0.75">
+    <circle cx="96" cy="150" r="52" fill="url(#mAvatarC)"/>
+    <circle cx="96" cy="132" r="19" fill="#EAF0FF"/>
+    <path d="M62 186a34 30 0 0 1 68 0z" fill="#EAF0FF"/>
+  </g>
+
+  <!-- Back avatar (right) -->
+  <g opacity="0.85">
+    <circle cx="264" cy="150" r="52" fill="url(#mAvatarB)"/>
+    <circle cx="264" cy="132" r="19" fill="#F2F6FF"/>
+    <path d="M230 186a34 30 0 0 1 68 0z" fill="#F2F6FF"/>
+  </g>
+
+  <!-- Front avatar (center) -->
+  <g>
+    <circle cx="180" cy="158" r="64" fill="url(#mAvatarA)"/>
+    <circle cx="180" cy="136" r="23" fill="#FFFFFF"/>
+    <path d="M138 200a42 36 0 0 1 84 0z" fill="#FFFFFF"/>
+  </g>
+</svg>

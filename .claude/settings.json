@@ -22,7 +22,15 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3001/en/blog-stories-tips-and-updates-from-insight-panel/cash-out-guide)",
       "Bash(curl -s http://localhost:3001/en)",
       "Bash(curl -s http://localhost:3001/en/blog-stories-tips-and-updates-from-insight-panel/five-minute-surveys)",
-      "Bash(pkill -f \"next dev\")"
+      "Bash(pkill -f \"next dev\")",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('src/locales/en/home.json'\\)\\);print\\(json.dumps\\(d['hero'],indent=1\\)\\)\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3005/en)",
+      "Bash(curl -s -o /dev/null -w \"status=%{http_code} type=%{content_type}\\\\n\" http://localhost:3005/icon.svg)",
+      "Bash(python3 -c \"import json;json.load\\(open\\('src/locales/ar/home.json'\\)\\);json.load\\(open\\('src/locales/te/home.json'\\)\\);print\\('json valid'\\)\")",
+      "Bash(curl -s -o /tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/home.html -w \"%{http_code}\" http://localhost:3001/en)",
+      "Bash(kill 55234)",
+      "Bash(pkill -f \"next dev -p 3005\")",
+      "Bash(curl -s -o /private/tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/h.html -w \"%{http_code}\" http://localhost:3001/en)"
     ],
     "additionalDirectories": [
       "/Users/apple/Desktop/pronttera/b2b-ip-website/src/app/[locale]",

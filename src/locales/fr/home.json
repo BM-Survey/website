@@ -54,6 +54,24 @@
           "reward": "3,20 $",
           "title": "Choix de courses hebdomadaires"
         }
+      },
+      "flow": {
+        "answerQuestion": "À quelle fréquence achetez-vous en ligne ?",
+        "answerOptions": [
+          "Plusieurs fois par semaine",
+          "Environ une fois par semaine",
+          "Une fois par mois",
+          "Rarement"
+        ],
+        "answerProgress": "Question 3 sur 8",
+        "submitTitle": "Vérifier et envoyer",
+        "submitDone": "Les 8 questions ont été répondues",
+        "submitCta": "Envoyer les réponses",
+        "paidTitle": "Vous avez été payé !",
+        "paidAmount": "+2,50 $",
+        "paidVia": "Envoyé sur votre PayPal",
+        "paidBalanceLabel": "Nouveau solde",
+        "paidBalanceValue": "127,00 $"
       }
     },
     "badges": {
