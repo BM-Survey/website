@@ -36,7 +36,9 @@
       "Bash(echo \"TSC EXIT $?\")",
       "Bash(curl -s http://localhost:3001/en -o /private/tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/h3.html -w \"HTTP %{http_code}\\\\n\")",
       "Bash(curl -s http://localhost:3001/en -o /private/tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/h4.html -w \"HTTP %{http_code}\\\\n\")",
-      "Bash(python3 -)"
+      "Bash(python3 -)",
+      "Bash(python3 -c \"import json;print\\(json.dumps\\(json.load\\(open\\('src/locales/en/home.json'\\)\\)['video'],indent=1\\)\\)\")",
+      "Bash(curl -s http://localhost:3001/en -o /private/tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/h5.html -w \"HTTP %{http_code}\\\\n\")"
     ],
     "additionalDirectories": [
       "/Users/apple/Desktop/pronttera/b2b-ip-website/src/app/[locale]",
