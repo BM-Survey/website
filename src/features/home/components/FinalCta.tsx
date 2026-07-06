@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Check } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
+import { Reveal } from "@/components/ui/Reveal";
 import type { HomeDictionary } from "@/i18n/dictionaries";
 import { anchors, authUrls } from "@/lib/navigation";
 
@@ -15,6 +16,7 @@ export function FinalCta({ cta }: FinalCtaProps) {
 
   return (
     <section className="bg-white px-6 pt-10 pb-32" aria-label={`${cta.titleLine1} ${cta.titleLine2}`}>
+      <Reveal variant="zoom">
       <Container className="relative overflow-hidden rounded-[36px] bg-gradient-to-br from-primary to-primary-dark px-6 py-20 text-center sm:px-10">
         <div
           className="absolute -top-2/5 -start-[5%] h-[400px] w-[400px] rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.18),transparent_60%)]"
@@ -40,7 +42,7 @@ export function FinalCta({ cta }: FinalCtaProps) {
           height={320}
           className="pointer-events-none absolute bottom-0 -inset-e-6 hidden w-44 -scale-x-100 select-none opacity-90 drop-shadow-[0_12px_30px_rgba(0,0,0,0.25)] md:block lg:w-56"
         />
-        <div className="relative">
+        <Reveal stagger={0.1} delay={0.2} className="relative">
           <h2 className="mb-4 font-display text-[clamp(34px,4.4vw,58px)] leading-[1.05] font-black tracking-tight text-white">
             {cta.titleLine1}
             <br />
@@ -64,8 +66,9 @@ export function FinalCta({ cta }: FinalCtaProps) {
               </li>
             ))}
           </ul>
-        </div>
+        </Reveal>
       </Container>
+      </Reveal>
     </section>
   );
 }

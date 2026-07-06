@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/Button";
 import { ArrowRight, Check, Lock, Shield } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { Reveal } from "@/components/ui/Reveal";
 import { Section } from "@/components/ui/Section";
 import type { CommonDictionary, HomeDictionary } from "@/i18n/dictionaries";
 import { authUrls } from "@/lib/navigation";
@@ -25,7 +26,7 @@ export function About({ about, actions }: AboutProps) {
       <Container size="md">
         <div className="grid items-center gap-14 lg:grid-cols-2">
           {/* Photo placeholder with GDPR badge */}
-          <div className="relative">
+          <Reveal variant="left" className="relative">
             <div
               className="flex aspect-4/5 w-full items-center justify-center overflow-hidden rounded-[26px] bg-[radial-gradient(circle_at_30%_20%,#c7d5ff,transparent_55%),radial-gradient(circle_at_75%_85%,#bff0d3,transparent_55%),linear-gradient(160deg,#e8edff,#dfeafe)]"
               role="img"
@@ -49,9 +50,9 @@ export function About({ about, actions }: AboutProps) {
                 <div className="text-[12.5px] text-muted">{about.badge.text}</div>
               </div>
             </div>
-          </div>
+          </Reveal>
 
-          <div>
+          <Reveal stagger={0.09} delay={0.1}>
             <Eyebrow>{about.eyebrow}</Eyebrow>
             <h2 className="mt-5 mb-5 font-display text-[clamp(30px,3.4vw,44px)] leading-[1.1] font-black tracking-tight text-ink">
               {about.title}
@@ -75,7 +76,7 @@ export function About({ about, actions }: AboutProps) {
                 <ArrowRight width={18} height={18} className="rtl:rotate-180" />
               </Button>
             </div>
-          </div>
+          </Reveal>
         </div>
       </Container>
     </Section>

@@ -1,6 +1,7 @@
 import { ArrowRight } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { Reveal } from "@/components/ui/Reveal";
 import { Section } from "@/components/ui/Section";
 import type { HomeDictionary } from "@/i18n/dictionaries";
 import { anchors } from "@/lib/navigation";
@@ -15,16 +16,18 @@ export function Faq({ faq }: FaqProps) {
   return (
     <Section id="faq" className="bg-white" ariaLabel={faq.title}>
       <Container size="sm">
-        <div className="mb-12 text-center">
+        <Reveal className="mb-12 text-center">
           <Eyebrow>{faq.eyebrow}</Eyebrow>
           <h2 className="mt-4 font-display text-[clamp(32px,3.6vw,46px)] leading-tight font-black tracking-tight text-ink">
             {faq.title}
           </h2>
-        </div>
+        </Reveal>
 
-        <FaqAccordion items={faq.items} />
+        <Reveal delay={0.1}>
+          <FaqAccordion items={faq.items} />
+        </Reveal>
 
-        <div className="mt-9 text-center">
+        <Reveal delay={0.2} className="mt-9 text-center">
           <p className="mb-4 text-[15px] text-muted">{faq.moreText}</p>
           <Link
             href={anchors.faq}
@@ -33,7 +36,7 @@ export function Faq({ faq }: FaqProps) {
             {faq.moreLink}
             <ArrowRight width={16} height={16} className="rtl:rotate-180" />
           </Link>
-        </div>
+        </Reveal>
       </Container>
     </Section>
   );

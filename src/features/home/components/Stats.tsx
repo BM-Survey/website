@@ -3,8 +3,10 @@ import Image from "next/image";
 import { Briefcase, Star, Users } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { Reveal } from "@/components/ui/Reveal";
 import { Section } from "@/components/ui/Section";
 import type { HomeDictionary } from "@/i18n/dictionaries";
+import { CountUp } from "./CountUp";
 import { StarRating } from "./StarRating";
 
 type StatsProps = {
@@ -15,14 +17,14 @@ export function Stats({ stats }: StatsProps) {
   return (
     <Section className="bg-bg" ariaLabel={stats.title}>
       <Container>
-        <div className="mx-auto mb-12 max-w-[620px] text-center">
+        <Reveal className="mx-auto mb-12 max-w-[620px] text-center">
           <Eyebrow>{stats.eyebrow}</Eyebrow>
           <h2 className="mt-4 font-display text-[clamp(32px,3.6vw,46px)] leading-tight font-black tracking-tight text-ink">
             {stats.title}
           </h2>
-        </div>
+        </Reveal>
 
-        <div className="grid gap-4 lg:grid-cols-[1.05fr_1.15fr]">
+        <Reveal variant="zoom" stagger={0.12} className="grid gap-4 lg:grid-cols-[1.05fr_1.15fr]">
           {/* Big blue card */}
           <article className="relative flex min-h-[420px] flex-col overflow-hidden rounded-[26px] bg-gradient-to-br from-primary to-primary-dark p-9 shadow-[0_20px_44px_rgba(46,91,255,0.22)]">
             <Image
@@ -38,7 +40,7 @@ export function Stats({ stats }: StatsProps) {
             </p>
             <div className="mt-auto">
               <div className="font-display text-[clamp(52px,7.5vw,108px)] leading-[0.86] font-black tracking-tighter text-white">
-                {stats.paid.value}
+                <CountUp value={stats.paid.value} />
               </div>
               <p className="mt-5 max-w-[340px] text-[17px] leading-relaxed text-white/85">
                 {stats.paid.description}
@@ -66,7 +68,7 @@ export function Stats({ stats }: StatsProps) {
                     {stats.members.label}
                   </p>
                   <div className="font-display text-[clamp(30px,3.4vw,44px)] font-black tracking-tight text-white">
-                    {stats.members.value}
+                    <CountUp value={stats.members.value} />
                   </div>
                 </div>
               </article>
@@ -88,7 +90,7 @@ export function Stats({ stats }: StatsProps) {
                     {stats.brands.label}
                   </p>
                   <div className="font-display text-[clamp(30px,3.4vw,44px)] font-black tracking-tight text-white">
-                    {stats.brands.value}
+                    <CountUp value={stats.brands.value} />
                   </div>
                 </div>
               </article>
@@ -105,9 +107,10 @@ export function Stats({ stats }: StatsProps) {
               />
               <div className="relative">
                 <div className="flex items-center gap-2">
-                  <span className="font-display text-[clamp(34px,3.8vw,50px)] leading-none font-black tracking-tight text-ink">
-                    {stats.rating.value}
-                  </span>
+                  <CountUp
+                    value={stats.rating.value}
+                    className="font-display text-[clamp(34px,3.8vw,50px)] leading-none font-black tracking-tight text-ink"
+                  />
                   <Star width={30} height={30} className="text-amber" />
                 </div>
                 <p className="mt-2 font-display text-[13px] font-bold tracking-wide text-muted uppercase">
@@ -117,7 +120,7 @@ export function Stats({ stats }: StatsProps) {
               <StarRating size={22} label={stats.rating.value} />
             </article>
           </div>
-        </div>
+        </Reveal>
       </Container>
     </Section>
   );

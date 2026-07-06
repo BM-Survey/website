@@ -75,7 +75,7 @@ export function Hero({ hero, actions }: HeroProps) {
 
           <Container className="relative grid w-full items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
         {/* LEFT */}
-        <div className="max-w-[560px]">
+        <div className="max-w-[560px] [&>*]:animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_both] [&>*:nth-child(2)]:[animation-delay:90ms] [&>*:nth-child(3)]:[animation-delay:180ms] [&>*:nth-child(4)]:[animation-delay:270ms] [&>*:nth-child(5)]:[animation-delay:360ms]">
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary-border bg-white px-3.5 py-1.5 shadow-[0_4px_14px_rgba(16,32,90,0.06)]">
             <StarRating size={14} label={`${hero.ratingValue} / 5`} />
             <span className="font-display text-[13px] font-bold text-ink">{hero.ratingValue}</span>
@@ -145,7 +145,7 @@ export function Hero({ hero, actions }: HeroProps) {
         </div>
 
         {/* RIGHT: phone mockup + floating badges */}
-        <div className="relative flex justify-center">
+        <div className="relative flex animate-[riseIn_0.9s_cubic-bezier(0.22,1,0.36,1)_0.25s_both] justify-center">
           <PhoneFrame>
             <div className="relative h-full">
               <PhoneScreen active={step === 0}>
@@ -163,21 +163,25 @@ export function Hero({ hero, actions }: HeroProps) {
             </div>
           </PhoneFrame>
 
-          {/* Floating badge: paid */}
-          <div className="absolute top-16 -start-2 flex animate-[floaty_5s_ease-in-out_infinite] items-center gap-2.5 rounded-2xl bg-white px-3.5 py-2.5 shadow-[var(--shadow-float)]">
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-[#ffd25a] to-amber text-white">
-              <Coins width={17} height={17} />
-            </span>
-            <span>
-              <span className="block font-display text-sm font-extrabold leading-none">
-                {hero.badges.paid.value}
+          {/* Floating badge: paid — entrance runs on the outer wrapper so it
+              doesn't fight the infinite floaty transform on the inner one */}
+          <div className="absolute top-16 -start-2 animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_0.55s_both]">
+            <div className="flex animate-[floaty_5s_ease-in-out_infinite] items-center gap-2.5 rounded-2xl bg-white px-3.5 py-2.5 shadow-[var(--shadow-float)]">
+              <span className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-[#ffd25a] to-amber text-white">
+                <Coins width={17} height={17} />
               </span>
-              <span className="block text-[10.5px] text-muted">{hero.badges.paid.label}</span>
-            </span>
+              <span>
+                <span className="block font-display text-sm font-extrabold leading-none">
+                  {hero.badges.paid.value}
+                </span>
+                <span className="block text-[10.5px] text-muted">{hero.badges.paid.label}</span>
+              </span>
+            </div>
           </div>
 
           {/* Floating badge: instant */}
-          <div className="absolute bottom-20 -end-3 flex animate-[floaty2_6s_ease-in-out_infinite] items-center gap-2.5 rounded-2xl bg-white px-3.5 py-2.5 shadow-[var(--shadow-float)]">
+          <div className="absolute bottom-20 -end-3 animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_0.7s_both]">
+            <div className="flex animate-[floaty2_6s_ease-in-out_infinite] items-center gap-2.5 rounded-2xl bg-white px-3.5 py-2.5 shadow-[var(--shadow-float)]">
             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft text-primary">
               <Bolt width={16} height={16} />
             </span>
@@ -186,7 +190,8 @@ export function Hero({ hero, actions }: HeroProps) {
                 {hero.badges.instant.value}
               </span>
               <span className="block text-[10.5px] text-muted">{hero.badges.instant.label}</span>
-            </span>
+              </span>
+            </div>
           </div>
         </div>
           </Container>

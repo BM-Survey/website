@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { Bolt, Clock, Star } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { Reveal } from "@/components/ui/Reveal";
 import type { HomeDictionary } from "@/i18n/dictionaries";
 import { PhoneFrame } from "./PhoneFrame";
 
@@ -36,7 +37,7 @@ export function FeatureSurveys({ feature }: FeatureSurveysProps) {
   return (
     <section id="how-it-works" className="py-24 sm:py-30" aria-label={`${feature.titleLine1} ${feature.titleLine2}`}>
       <Container className="grid items-center gap-14 lg:grid-cols-2">
-        <div>
+        <Reveal variant="left" stagger={0.09}>
           <Eyebrow>{feature.eyebrow}</Eyebrow>
           <h2 className="mt-5 mb-5 font-display text-[clamp(32px,3.6vw,46px)] leading-tight font-black tracking-tight text-ink">
             {feature.titleLine1}
@@ -59,9 +60,9 @@ export function FeatureSurveys({ feature }: FeatureSurveysProps) {
               </li>
             ))}
           </ul>
-        </div>
+        </Reveal>
 
-        <div className="flex justify-center">
+        <Reveal variant="right" delay={0.15} className="flex justify-center">
           <PhoneFrame>
             <div className="px-4 pt-11 pb-4">
               <div className="mb-3.5 font-display text-lg font-extrabold">{p.heading}</div>
@@ -85,7 +86,7 @@ export function FeatureSurveys({ feature }: FeatureSurveysProps) {
               <MatchCard match={p.cards.coffee.match} reward={p.cards.coffee.reward} title={p.cards.coffee.title} tone="orange" />
             </div>
           </PhoneFrame>
-        </div>
+        </Reveal>
       </Container>
     </section>
   );

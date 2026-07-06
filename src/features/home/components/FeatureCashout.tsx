@@ -1,5 +1,6 @@
 import { Check, Coins, Shield } from "@/components/ui/icons";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { Reveal } from "@/components/ui/Reveal";
 import type { HomeDictionary } from "@/i18n/dictionaries";
 import { PhoneFrame } from "./PhoneFrame";
 
@@ -12,24 +13,26 @@ export function FeatureCashout({ feature }: FeatureCashoutProps) {
 
   return (
     <section className="relative overflow-hidden py-16 pb-32" aria-label={feature.title}>
-      <div className="mx-auto mb-12 max-w-[640px] px-6 text-center">
+      <Reveal className="mx-auto mb-12 max-w-[640px] px-6 text-center">
         <Eyebrow tone="success">{feature.eyebrow}</Eyebrow>
         <h2 className="mt-4 font-display text-[clamp(32px,3.6vw,46px)] leading-tight font-black tracking-tight text-ink">
           {feature.title}
         </h2>
-      </div>
+      </Reveal>
 
       <div className="relative mx-auto flex w-full max-w-[760px] justify-center px-6">
         {/* Floating card: top-start */}
-        <FloatingCard
-          className="start-0 top-5 lg:absolute"
-          icon={<Coins width={15} height={15} className="text-primary" />}
-          iconBg="bg-primary-soft"
-          title={feature.cards.threshold.title}
-          text={feature.cards.threshold.text}
-        />
+        <Reveal variant="left" delay={0.25} className="start-0 top-5 z-[3] lg:absolute">
+          <FloatingCard
+            icon={<Coins width={15} height={15} className="text-primary" />}
+            iconBg="bg-primary-soft"
+            title={feature.cards.threshold.title}
+            text={feature.cards.threshold.text}
+          />
+        </Reveal>
 
-        <PhoneFrame className="relative z-[2]">
+        <Reveal variant="zoom" className="relative z-[2]">
+          <PhoneFrame>
           <div className="px-4 pt-11 pb-4">
             <div className="font-display text-lg font-extrabold">{p.heading}</div>
             <div className="mb-4 text-[12.5px] text-muted">
@@ -45,38 +48,36 @@ export function FeatureCashout({ feature }: FeatureCashoutProps) {
               {p.withdraw}
             </div>
           </div>
-        </PhoneFrame>
+          </PhoneFrame>
+        </Reveal>
 
         {/* Floating card: bottom-end */}
-        <FloatingCard
-          className="bottom-8 end-0 lg:absolute"
-          icon={<Shield width={15} height={15} className="text-success-dark" />}
-          iconBg="bg-success-soft"
-          title={feature.cards.noFees.title}
-          text={feature.cards.noFees.text}
-        />
+        <Reveal variant="right" delay={0.4} className="bottom-8 end-0 z-[3] lg:absolute">
+          <FloatingCard
+            icon={<Shield width={15} height={15} className="text-success-dark" />}
+            iconBg="bg-success-soft"
+            title={feature.cards.noFees.title}
+            text={feature.cards.noFees.text}
+          />
+        </Reveal>
       </div>
     </section>
   );
 }
 
 function FloatingCard({
-  className,
   icon,
   iconBg,
   title,
   text,
 }: {
-  className: string;
   icon: React.ReactNode;
   iconBg: string;
   title: string;
   text: string;
 }) {
   return (
-    <div
-      className={`z-[3] hidden max-w-[250px] rounded-3xl border border-line bg-white p-5 shadow-[0_24px_50px_rgba(16,32,90,0.16)] lg:block ${className}`}
-    >
+    <div className="hidden max-w-[250px] rounded-3xl border border-line bg-white p-5 shadow-[0_24px_50px_rgba(16,32,90,0.16)] lg:block">
       <div className="mb-2 flex items-center gap-2 font-display text-base font-extrabold">
         <span className={`flex h-7 w-7 items-center justify-center rounded-[9px] ${iconBg}`}>{icon}</span>
         {title}

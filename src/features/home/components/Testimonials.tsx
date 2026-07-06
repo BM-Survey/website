@@ -1,4 +1,5 @@
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { Reveal } from "@/components/ui/Reveal";
 import type { HomeDictionary } from "@/i18n/dictionaries";
 import { avatarColors } from "../data";
 import { StarRating } from "./StarRating";
@@ -12,16 +13,16 @@ export function Testimonials({ testimonials }: TestimonialsProps) {
 
   return (
     <section className="overflow-hidden bg-bg py-24 sm:py-28" aria-label={testimonials.title}>
-      <div className="mx-auto mb-13 max-w-[640px] px-6 text-center">
+      <Reveal className="mx-auto mb-13 max-w-[640px] px-6 text-center">
         <Eyebrow tone="amber">{testimonials.eyebrow}</Eyebrow>
         <h2 className="mt-4 font-display text-[clamp(32px,3.6vw,46px)] leading-tight font-black tracking-tight text-ink">
           {testimonials.title}
         </h2>
-      </div>
+      </Reveal>
 
-      <div
+      <Reveal
+        delay={0.15}
         className="marquee-group relative [mask-image:linear-gradient(90deg,transparent,#000_5%,#000_95%,transparent)]"
-        aria-hidden="false"
       >
         <ul className="marquee-track flex gap-5 animate-[marqR_46s_linear_infinite]">
           {[0, 1].map((dup) => (
@@ -54,7 +55,7 @@ export function Testimonials({ testimonials }: TestimonialsProps) {
             </li>
           ))}
         </ul>
-      </div>
+      </Reveal>
     </section>
   );
 }

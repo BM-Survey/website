@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { Reveal } from "@/components/ui/Reveal";
 import { Section } from "@/components/ui/Section";
 import type { HomeDictionary } from "@/i18n/dictionaries";
 
@@ -24,7 +25,7 @@ export function Rewards({ rewards }: RewardsProps) {
     <Section id="rewards" className="bg-white" ariaLabel={`${rewards.titleLine1} ${rewards.titleLine2}`}>
       <Container>
         <div className="grid items-center gap-14 lg:grid-cols-[1fr_1.1fr]">
-          <div>
+          <Reveal stagger={0.09}>
             <Eyebrow tone="success">{rewards.eyebrow}</Eyebrow>
             <h2 className="mt-5 mb-4 font-display text-[clamp(32px,3.6vw,46px)] leading-tight font-black tracking-tight text-ink">
               {rewards.titleLine1}
@@ -42,9 +43,9 @@ export function Rewards({ rewards }: RewardsProps) {
                 </div>
               ))}
             </dl>
-          </div>
+          </Reveal>
 
-          <ul className="grid grid-cols-3 gap-3.5">
+          <Reveal as="ul" variant="zoom" stagger={0.07} delay={0.1} className="grid grid-cols-3 gap-3.5">
             {options.map((option) => (
               <li
                 key={option.label}
@@ -60,7 +61,7 @@ export function Rewards({ rewards }: RewardsProps) {
                 <span className="font-display text-[13px] font-bold text-ink">{option.label}</span>
               </li>
             ))}
-          </ul>
+          </Reveal>
         </div>
       </Container>
     </Section>

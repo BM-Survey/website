@@ -53,13 +53,28 @@ export function FaqAccordion({ items }: FaqAccordionProps) {
                 </span>
               </button>
             </h3>
+            {/* Animatable height: grid-template-rows 0fr -> 1fr keeps the
+                panel measurable without JS height math. */}
             <div
               id={panelId}
               role="region"
               aria-labelledby={buttonId}
-              hidden={!isOpen}
+              aria-hidden={!isOpen}
+              className={cn(
+                "grid transition-[grid-template-rows] duration-300 ease-out",
+                isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]",
+              )}
             >
-              <p className="px-6 pb-6 text-[15px] leading-relaxed text-muted-2">{item.answer}</p>
+              <div className="overflow-hidden">
+                <p
+                  className={cn(
+                    "px-6 pb-6 text-[15px] leading-relaxed text-muted-2 transition-opacity duration-300",
+                    isOpen ? "opacity-100" : "opacity-0",
+                  )}
+                >
+                  {item.answer}
+                </p>
+              </div>
             </div>
           </div>
         );
