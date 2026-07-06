@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "title": "FAQ — Foire aux questions | B2B Insight Panel",
+    "description": "Réponses sur votre compte, vos gains, vos paiements et la confidentialité sur InsightPanel — le panel d'insights B2B qui paie de l'argent réel pour de vraies opinions.",
+    "keywords": ["FAQ sondages", "questions sur les sondages rémunérés", "questions sur les paiements", "panel d'insights B2B"],
+    "ogAlt": "Foire aux questions sur InsightPanel"
+  },
+  "hero": {
+    "eyebrow": "FAQ",
+    "titleLead": "Des questions ?",
+    "titleHighlight": "Réponses.",
+    "subtitleText": "Toujours bloqué ?",
+    "subtitleLink": "Contactez notre équipe d'assistance"
+  },
+  "categories": [
+    { "key": "all", "label": "Tout" },
+    { "key": "account", "label": "Compte" },
+    { "key": "earning", "label": "Gains" },
+    { "key": "payouts", "label": "Paiements" },
+    { "key": "privacy", "label": "Confidentialité" }
+  ],
+  "items": [
+    { "cat": "account", "question": "Est-ce vraiment gratuit de s'inscrire ?", "answer": "Oui — 100 % gratuit, pour toujours. Aucuns frais d'inscription, aucun abonnement et aucuns frais de retrait. Vous gardez chaque centime gagné." },
+    { "cat": "account", "question": "Dois-je vérifier mon identité ?", "answer": "Un e-mail vérifié est requis pour s'inscrire. Pour les paiements supérieurs à 50 $, nous pouvons demander une vérification de base afin de prévenir la fraude et de protéger votre solde." },
+    { "cat": "account", "question": "Puis-je utiliser InsightPanel sur plusieurs appareils ?", "answer": "Oui — votre compte et votre solde se synchronisent entre le web et le mobile. Un seul compte par personne, s'il vous plaît ; les comptes en double sont suspendus." },
+    { "cat": "earning", "question": "Combien puis-je gagner ?", "answer": "La plupart des membres gagnent entre 30 $ et 150 $ par mois en répondant à des sondages pendant leur temps libre. Plus votre profil est complet, plus vous avez de correspondances." },
+    { "cat": "earning", "question": "Combien de temps durent les sondages ?", "answer": "La plupart durent moins de cinq minutes. Chaque sondage affiche la récompense exacte et la durée estimée avant que vous ne commenciez." },
+    { "cat": "earning", "question": "Que se passe-t-il si je ne suis pas éligible à un sondage ?", "answer": "Vous le saurez généralement dès les premières questions — nous le concevons pour que vous soyez rapidement exclu et associé à des études mieux adaptées." },
+    { "cat": "payouts", "question": "Comment suis-je payé ?", "answer": "Retirez sur PayPal, par virement bancaire ou via plus de 100 cartes cadeaux dès que vous atteignez un solde de 5 $. La plupart des paiements arrivent en quelques minutes." },
+    { "cat": "payouts", "question": "Y a-t-il des frais de retrait ?", "answer": "Aucun. Quel que soit le solde que vous retirez, c'est le montant que vous recevez, en totalité." },
+    { "cat": "privacy", "question": "Mes données sont-elles en sécurité ?", "answer": "Absolument. Vos réponses sont anonymisées et jamais vendues à des tiers. Nous utilisons un chiffrement de niveau bancaire, sommes entièrement conformes au RGPD, et vous pouvez supprimer vos données à tout moment." },
+    { "cat": "privacy", "question": "Qui voit mes réponses aux sondages ?", "answer": "Seuls des résultats agrégés et anonymisés sont partagés avec les marques de recherche — jamais votre nom, votre e-mail ou vos informations d'identification." }
+  ],
+  "cta": {
+    "title": "Vous n'avez pas trouvé votre réponse ?",
+    "subtitle": "Notre équipe d'assistance répond sous un jour ouvré.",
+    "button": "Contacter le support"
+  }
+}

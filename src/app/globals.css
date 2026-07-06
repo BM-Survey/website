@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+/*
+  Design tokens for the B2B Insight Panel marketing site.
+  Sourced from the approved "Home v1" design.
+*/
+@theme {
+  --color-bg: #f5f7ff;
+  --color-ink: #0b1220;
+  --color-ink-2: #1b2a55;
+
+  --color-primary: #2e5bff;
+  --color-primary-dark: #1e3fcc;
+  --color-primary-soft: #eaf0ff;
+  --color-primary-border: #e4e9ff;
+
+  --color-success: #22c35e;
+  --color-success-dark: #159a47;
+  --color-success-soft: #e7f9ee;
+
+  --color-amber: #ffb020;
+  --color-amber-soft: #fff3df;
+  --color-purple: #7a3ff2;
+  --color-purple-soft: #f1eaff;
+  --color-orange: #e0781a;
+  --color-orange-soft: #fff0df;
+
+  --color-muted: #6b7486;
+  --color-muted-2: #4a5265;
+  --color-muted-3: #9aa2b5;
+  --color-line: #edf1fb;
+
+  --font-display: var(--font-urbanist), system-ui, sans-serif;
+  --font-sans: var(--font-roboto), system-ui, sans-serif;
+
+  --shadow-card: 0 6px 16px rgba(16, 32, 90, 0.06);
+  --shadow-card-lg: 0 10px 30px rgba(16, 32, 90, 0.1);
+  --shadow-float: 0 14px 30px rgba(16, 32, 90, 0.16);
+
+  --animate-floaty: floaty 5s ease-in-out infinite;
+  --animate-floaty2: floaty2 6s ease-in-out infinite;
+  --animate-marquee: marq 30s linear infinite;
+  --animate-marquee-rev: marqR 46s linear infinite;
+  --animate-spin-slow: spin 1s linear infinite;
+  --animate-pulse-ring: pulseRing 1.8s ease-out infinite;
+}
+
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+}
+@keyframes floaty2 {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(-22px) rotate(-4deg);
+  }
+}
+@keyframes marq {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes marqR {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pulseRing {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+  70% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes menuIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.marquee-track {
+  width: max-content;
+}
+
+/* Pause marquee on hover for readability */
+.marquee-group:hover .marquee-track {
+  animation-play-state: paused;
+}

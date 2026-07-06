@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Contact Us — Support & Help | B2B Insight Panel",
+    "description": "Reach InsightPanel support for account, payout, or brand inquiries. We reply within one business day.",
+    "keywords": ["contact insight panel", "survey support", "brand inquiry"],
+    "ogAlt": "Contact the InsightPanel team"
+  },
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Let's talk"
+  },
+  "cards": {
+    "email": { "title": "Email support", "value": "hello@insightpanel.co" },
+    "chat": { "title": "Live chat", "value": "In-app, 9am–9pm daily" },
+    "brands": {
+      "title": "For brands & research teams",
+      "text": "Looking to field a study on our panel?",
+      "link": "See collaboration"
+    }
+  },
+  "form": {
+    "label": "Send us a message",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@email.com",
+    "topicLabel": "Topic",
+    "topics": ["Account & earnings", "Payouts", "Bug report", "Brand / research inquiry", "Other"],
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can we help?",
+    "submit": "Send message",
+    "submitted": "Sent",
+    "sentMessage": "Message received — we'll reply within 24 hours."
+  }
+}

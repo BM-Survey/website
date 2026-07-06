@@ -1,0 +1,70 @@
+{
+  "brand": {
+    "prefix": "B2B",
+    "name": "Insight Panel"
+  },
+  "nav": {
+    "howItWorks": "كيف يعمل",
+    "rewards": "المكافآت",
+    "about": "من نحن",
+    "faq": "الأسئلة الشائعة",
+    "contact": "تواصل معنا",
+    "collaboration": "التعاون",
+    "blog": "المدونة"
+  },
+  "actions": {
+    "login": "تسجيل الدخول",
+    "signupFree": "سجّل مجانًا",
+    "seeHowItWorks": "شاهد كيف يعمل",
+    "startNow": "ابدأ الآن",
+    "cashOut": "اسحب أموالك"
+  },
+  "language": {
+    "label": "اللغة",
+    "select": "اختر اللغة"
+  },
+  "a11y": {
+    "openMenu": "افتح القائمة",
+    "closeMenu": "أغلق القائمة",
+    "primaryNavigation": "الرئيسية",
+    "footerNavigation": "التذييل",
+    "skipToContent": "تخطَّ إلى المحتوى"
+  },
+  "footer": {
+    "tagline": "لوحة رؤى B2B التي تدفع لك أموالًا حقيقية مقابل الآراء التي تحتاجها العلامات التجارية فعلًا.",
+    "product": {
+      "title": "المنتج",
+      "home": "الرئيسية",
+      "howItWorks": "كيف يعمل",
+      "faq": "الأسئلة الشائعة",
+      "blog": "المدونة",
+      "contact": "تواصل معنا",
+      "collaboration": "التعاون"
+    },
+    "legal": {
+      "title": "قانوني",
+      "privacy": "سياسة الخصوصية",
+      "cookie": "سياسة ملفات تعريف الارتباط",
+      "eula": "اتفاقية الترخيص",
+      "terms": "الشروط والأحكام"
+    },
+    "app": {
+      "title": "احصل على التطبيق",
+      "downloadOn": "حمّله من",
+      "appStore": "App Store",
+      "getItOn": "احصل عليه من",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© {year} InsightPanel — B2B Insight Panel. جميع الحقوق محفوظة.",
+    "bottom": {
+      "privacy": "الخصوصية",
+      "cookies": "ملفات الارتباط",
+      "terms": "الشروط"
+    },
+    "social": {
+      "x": "إكس (تويتر)",
+      "instagram": "إنستغرام",
+      "linkedin": "لينكد إن"
+    }
+  }
+}

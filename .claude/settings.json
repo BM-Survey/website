@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"/Users/apple/Desktop/pronttera/b2b-ip-website/src/app/[locale]/how-it-works-and-user-can-earns-money\")",
+      "Bash(mkdir -p \"/Users/apple/Desktop/pronttera/b2b-ip-website/src/app/[locale]/faq-frequently-asked-questions-and-answers\")",
+      "Bash(mkdir -p \"/Users/apple/Desktop/pronttera/b2b-ip-website/src/app/[locale]/contact-us-support-and-help\")",
+      "Bash(mkdir -p \"/Users/apple/Desktop/pronttera/b2b-ip-website/src/app/[locale]/collaboration-why-join-our-survey-panel\")",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/en)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(node -e ' *)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npx playwright *)",
+      "Bash(curl -sL -o /Users/apple/Desktop/pronttera/b2b-ip-website/public/icons/app-store.png \"https://img.icons8.com/color/96/app-store--v1.png\")",
+      "Bash(curl -sL -o /Users/apple/Desktop/pronttera/b2b-ip-website/public/icons/google-play.png \"https://img.icons8.com/color/96/google-play.png\")",
+      "Bash(curl -sL -o /Users/apple/Desktop/pronttera/b2b-ip-website/public/icons/app-store.png \"https://img.icons8.com/color/96/apple-app-store.png\")",
+      "Bash(mkdir -p \"/Users/apple/Desktop/pronttera/b2b-ip-website/src/app/[locale]/blog-stories-tips-and-updates-from-insight-panel/[slug]\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3001/en/blog-stories-tips-and-updates-from-insight-panel)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3001/en/blog-stories-tips-and-updates-from-insight-panel/five-minute-surveys)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3001/en/blog-stories-tips-and-updates-from-insight-panel/cash-out-guide)",
+      "Bash(curl -s http://localhost:3001/en)",
+      "Bash(curl -s http://localhost:3001/en/blog-stories-tips-and-updates-from-insight-panel/five-minute-surveys)",
+      "Bash(pkill -f \"next dev\")"
+    ],
+    "additionalDirectories": [
+      "/Users/apple/Desktop/pronttera/b2b-ip-website/src/app/[locale]",
+      "/Users/apple/Desktop/pronttera/b2b-ip-website/src/app/[locale]/blog-stories-tips-and-updates-from-insight-panel"
+    ]
+  }
+}

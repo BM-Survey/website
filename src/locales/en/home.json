@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "title": "Earn Real Money Sharing Your Opinions | B2B Insight Panel",
+    "description": "Answer quick surveys from brands that value what you think. Cash out to PayPal or gift cards — 100% free to join, no fees, ever.",
+    "keywords": [
+      "paid surveys",
+      "earn money online",
+      "survey rewards",
+      "PayPal payouts",
+      "gift cards",
+      "market research panel",
+      "B2B insight panel"
+    ],
+    "ogAlt": "B2B Insight Panel — earn real money for your opinions"
+  },
+  "hero": {
+    "ratingValue": "4.6",
+    "ratingLabel": "· Rated by 82,000+ members",
+    "titleLead": "Earn real money by",
+    "titleSharing": "sharing your",
+    "titleHighlight": "opinions",
+    "subtitle": "Answer quick surveys from brands that value what you think. Cash out to PayPal or gift cards —",
+    "subtitleBold": "100% free to join,",
+    "subtitleTail": "no fees, ever.",
+    "steps": {
+      "browse": "Browse",
+      "answer": "Answer",
+      "submit": "Submit",
+      "getPaid": "Get Paid"
+    },
+    "phone": {
+      "greeting": "Good evening",
+      "userName": "Alex",
+      "balanceLabel": "Balance",
+      "balanceValue": "$124.50",
+      "surveysForYou": "Surveys for you",
+      "cards": {
+        "shopping": {
+          "tag": "Shopping",
+          "reward": "$2.50",
+          "title": "Your online shopping habits",
+          "time": "4 min",
+          "questions": "8 questions"
+        },
+        "tech": {
+          "tag": "Tech",
+          "reward": "$1.75",
+          "title": "Streaming & entertainment",
+          "time": "3 min",
+          "questions": "6 questions"
+        },
+        "food": {
+          "tag": "Food",
+          "reward": "$3.20",
+          "title": "Weekly grocery choices"
+        }
+      }
+    },
+    "badges": {
+      "paid": {
+        "value": "$8.4M+",
+        "label": "paid to members"
+      },
+      "instant": {
+        "value": "Instant",
+        "label": "PayPal payouts"
+      }
+    },
+    "scroll": "Scroll"
+  },
+  "trust": {
+    "heading": "Trusted by research teams at 120+ brands"
+  },
+  "stats": {
+    "eyebrow": "By the numbers",
+    "title": "Numbers that actually add up",
+    "paid": {
+      "label": "Paid to members",
+      "value": "$8.4M+",
+      "description": "Cashed out to real accounts — the average member earns over $60 a month."
+    },
+    "members": {
+      "label": "Members",
+      "value": "1.9M+"
+    },
+    "brands": {
+      "label": "Partner brands",
+      "value": "120+"
+    },
+    "rating": {
+      "value": "4.6",
+      "reviews": "From 82,000+ reviews"
+    }
+  },
+  "video": {
+    "eyebrow": "Real members, real payouts",
+    "titleLine1": "Press play and see",
+    "titleLine2": "why people love it",
+    "watch": "Watch the 90-second story",
+    "featured": "Featured",
+    "posterAlt": "B2B Insight Panel member story video"
+  },
+  "feature1": {
+    "eyebrow": "Surveys that fit your life",
+    "titleLine1": "Only the surveys",
+    "titleLine2": "you'll actually enjoy",
+    "description": "We match you to studies based on your profile, so you never waste time on surveys you don't qualify for. Every one shows the reward and time up front.",
+    "points": {
+      "matching": {
+        "title": "Smart matching",
+        "text": "Surveys picked for your interests and demographics."
+      },
+      "upfront": {
+        "title": "Upfront rewards",
+        "text": "See exactly what you'll earn before you start."
+      },
+      "biteSized": {
+        "title": "Bite-sized",
+        "text": "Most take under 5 minutes — do them anywhere."
+      }
+    },
+    "phone": {
+      "heading": "Matched for you",
+      "cards": {
+        "travel": {
+          "match": "98% match",
+          "reward": "$4.00",
+          "title": "Travel & holiday planning",
+          "meta": "5 min · 12 questions"
+        },
+        "banking": {
+          "match": "92% match",
+          "reward": "$2.25",
+          "title": "Mobile banking apps"
+        },
+        "coffee": {
+          "match": "88% match",
+          "reward": "$1.90",
+          "title": "Coffee & café habits"
+        }
+      }
+    }
+  },
+  "feature2": {
+    "eyebrow": "Cash out, your way",
+    "title": "Turn opinions into real money — instantly",
+    "cards": {
+      "threshold": {
+        "title": "Low $5 threshold",
+        "text": "Cash out to PayPal or 100+ gift cards the moment you hit five dollars."
+      },
+      "noFees": {
+        "title": "Zero fees",
+        "text": "You keep every cent you earn — no withdrawal fees, no catches."
+      }
+    },
+    "phone": {
+      "heading": "Cash out",
+      "availableLabel": "Available balance",
+      "availableValue": "$127.00",
+      "methods": {
+        "paypal": {
+          "name": "PayPal",
+          "note": "Instant · no fees"
+        },
+        "amazon": {
+          "name": "Amazon gift card",
+          "note": "+5% bonus value"
+        },
+        "bank": {
+          "name": "Bank transfer",
+          "note": "1–2 business days"
+        }
+      },
+      "withdraw": "Withdraw $127.00"
+    }
+  },
+  "rewards": {
+    "eyebrow": "Rewards",
+    "titleLine1": "Spend it however",
+    "titleLine2": "you like",
+    "description": "Cash, gift cards, or charity donations — over 100 ways to redeem, all with zero withdrawal fees.",
+    "stats": {
+      "minCashout": {
+        "value": "$5",
+        "label": "min. cashout"
+      },
+      "fees": {
+        "value": "0%",
+        "label": "fees"
+      },
+      "options": {
+        "value": "100+",
+        "label": "reward options"
+      }
+    },
+    "options": {
+      "paypal": "PayPal",
+      "amazon": "Amazon",
+      "bank": "Bank",
+      "starbucks": "Starbucks",
+      "steam": "Steam",
+      "donate": "Donate"
+    }
+  },
+  "about": {
+    "eyebrow": "Why we exist",
+    "title": "Your opinion has value. We make sure you get paid for it.",
+    "paragraph1": "Brands spend billions understanding what people want. We think the people doing the telling deserve a fair cut — not points that expire or vague \"rewards.\"",
+    "paragraph2": "Real cash, transparent rewards, and privacy you control. That's the whole idea.",
+    "badge": {
+      "title": "GDPR compliant",
+      "text": "Your data, always protected"
+    },
+    "chips": {
+      "neverSold": "Never sold to third parties",
+      "encryption": "Bank-grade encryption",
+      "delete": "Delete anytime"
+    },
+    "photoAlt": "A member completing a survey on their phone"
+  },
+  "testimonials": {
+    "eyebrow": "★ 4.6 · 82,000+ reviews",
+    "title": "Loved by members worldwide",
+    "verified": "Verified member",
+    "items": [
+      {
+        "name": "Maya R.",
+        "headline": "Cashed out $50 in my first month",
+        "text": "I do surveys on my commute. The payouts are real and land in PayPal within the hour. No points nonsense."
+      },
+      {
+        "name": "Devin K.",
+        "headline": "Finally, surveys that respect my time",
+        "text": "Every survey tells you the reward and length upfront. If I don't qualify, I'm out in seconds — not ten minutes."
+      },
+      {
+        "name": "Priya S.",
+        "headline": "The gift card bonuses are unreal",
+        "text": "5% extra on Amazon cards adds up fast. I've basically covered my coffee budget for a year."
+      },
+      {
+        "name": "Tom B.",
+        "headline": "Legit and actually pays",
+        "text": "Was skeptical at first but the $5 minimum cashout and instant PayPal made me a believer. Been using it daily."
+      },
+      {
+        "name": "Ana L.",
+        "headline": "Clean app, zero spam",
+        "text": "The interface feels like a proper iOS app, not some sketchy rewards site. My data stays private too."
+      },
+      {
+        "name": "Jordan M.",
+        "headline": "My favorite downtime earner",
+        "text": "Better than mindless scrolling. I've made over $200 answering questions about stuff I already have opinions on."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions? Answered.",
+    "moreText": "Still have questions? We've got more answers waiting.",
+    "moreLink": "See all FAQs",
+    "items": [
+      {
+        "question": "Is it really free to join?",
+        "answer": "Yes — 100% free, forever. There are no sign-up fees, no subscriptions, and no withdrawal fees. You keep every cent you earn."
+      },
+      {
+        "question": "How much can I earn?",
+        "answer": "It varies by how many surveys you qualify for, but most members earn between $30 and $150 a month doing surveys in their spare time. The more complete your profile, the more surveys you match."
+      },
+      {
+        "question": "How do I get paid?",
+        "answer": "Cash out to PayPal, bank transfer, or over 100 gift card options (Amazon, Starbucks, Steam and more) once you reach a $5 balance. Most payouts arrive within minutes."
+      },
+      {
+        "question": "Is my data safe?",
+        "answer": "Absolutely. Your responses are anonymized and never sold to third parties. We use bank-grade encryption and are fully GDPR compliant — and you can delete your account and data at any time."
+      },
+      {
+        "question": "How long do surveys take?",
+        "answer": "Most take under five minutes. Every survey shows the exact reward and estimated time before you start, so you're never caught out."
+      },
+      {
+        "question": "What if I don't qualify for a survey?",
+        "answer": "You'll usually know within the first few questions, and we design it so you're screened out quickly. We're always working to match you with surveys you'll qualify for."
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "Start earning today.",
+    "titleLine2": "It's completely free.",
+    "subtitle": "Join 1.9M+ members turning their opinions into real cash. No fees, no catch.",
+    "primary": "Sign Up Free",
+    "secondary": "How it works",
+    "assurances": {
+      "noCard": "No credit card",
+      "cashOut": "Cash out from $5",
+      "rated": "4.6★ rated"
+    }
+  }
+}

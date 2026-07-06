@@ -1,0 +1,70 @@
+{
+  "brand": {
+    "prefix": "B2B",
+    "name": "Insight Panel"
+  },
+  "nav": {
+    "howItWorks": "ఇది ఎలా పనిచేస్తుంది",
+    "rewards": "రివార్డులు",
+    "about": "మా గురించి",
+    "faq": "తరచుగా అడిగే ప్రశ్నలు",
+    "contact": "సంప్రదించండి",
+    "collaboration": "సహకారం",
+    "blog": "బ్లాగ్"
+  },
+  "actions": {
+    "login": "లాగిన్",
+    "signupFree": "ఉచితంగా సైన్ అప్ చేయండి",
+    "seeHowItWorks": "ఇది ఎలా పనిచేస్తుందో చూడండి",
+    "startNow": "ఇప్పుడే ప్రారంభించండి",
+    "cashOut": "డబ్బు విత్‌డ్రా చేయండి"
+  },
+  "language": {
+    "label": "భాష",
+    "select": "భాషను ఎంచుకోండి"
+  },
+  "a11y": {
+    "openMenu": "మెనూ తెరవండి",
+    "closeMenu": "మెనూ మూసివేయండి",
+    "primaryNavigation": "ప్రధాన",
+    "footerNavigation": "ఫుటర్",
+    "skipToContent": "కంటెంట్‌కు వెళ్లండి"
+  },
+  "footer": {
+    "tagline": "బ్రాండ్‌లకు నిజంగా అవసరమైన అభిప్రాయాలకు మీకు నిజమైన డబ్బు చెల్లించే B2B ఇన్‌సైట్ ప్యానెల్.",
+    "product": {
+      "title": "ఉత్పత్తి",
+      "home": "హోమ్",
+      "howItWorks": "ఇది ఎలా పనిచేస్తుంది",
+      "faq": "తరచుగా అడిగే ప్రశ్నలు",
+      "blog": "బ్లాగ్",
+      "contact": "సంప్రదించండి",
+      "collaboration": "సహకారం"
+    },
+    "legal": {
+      "title": "చట్టపరమైనవి",
+      "privacy": "గోప్యతా విధానం",
+      "cookie": "కుకీ విధానం",
+      "eula": "EULA",
+      "terms": "నిబంధనలు & షరతులు"
+    },
+    "app": {
+      "title": "యాప్ పొందండి",
+      "downloadOn": "డౌన్‌లోడ్ చేయండి",
+      "appStore": "App Store",
+      "getItOn": "పొందండి",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© {year} InsightPanel — B2B Insight Panel. అన్ని హక్కులు రిజర్వ్ చేయబడ్డాయి.",
+    "bottom": {
+      "privacy": "గోప్యత",
+      "cookies": "కుకీలు",
+      "terms": "నిబంధనలు"
+    },
+    "social": {
+      "x": "ఎక్స్ (ట్విట్టర్)",
+      "instagram": "ఇన్‌స్టాగ్రామ్",
+      "linkedin": "లింక్డ్‌ఇన్"
+    }
+  }
+}

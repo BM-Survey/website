@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "title": "Collaboration — Pourquoi rejoindre notre panel de sondages | B2B Insight Panel",
+    "description": "Menez votre recherche sur InsightPanel : plus de 1,9 M de répondants vérifiés, un déploiement rapide en moins de 48 heures, et une rémunération équitable qui produit des données plus fiables.",
+    "keywords": ["panel de sondages pour les marques", "panel d'études de marché", "mener une étude", "panel d'insights B2B"],
+    "ogAlt": "Pourquoi les marques et chercheurs s'associent à InsightPanel"
+  },
+  "hero": {
+    "eyebrow": "Pour les marques et chercheurs",
+    "titleLead": "Menez votre étude auprès de",
+    "titleHighlight": "vraies personnes",
+    "subtitle": "InsightPanel connecte votre recherche à plus de 1,9 M de répondants engagés et vérifiés — avec un déploiement plus rapide, des données plus fiables et une rémunération équitable intégrée à chaque étude."
+  },
+  "why": {
+    "eyebrow": "Pourquoi s'associer à nous",
+    "title": "Un panel fondé sur la confiance",
+    "panelSize": {
+      "label": "Taille du panel",
+      "value": "1,9 M+",
+      "text": "Répondants vérifiés et profilés dans plus de 120 catégories démographiques et d'intérêts."
+    },
+    "fastFielding": { "label": "Déploiement rapide", "value": "Moins de 48 heures" },
+    "qualityChecks": { "label": "Contrôles qualité", "value": "Détection de fraude intégrée" },
+    "fairPay": {
+      "title": "Rémunération équitable, meilleures données",
+      "text": "Les répondants payés équitablement répondent avec plus de soin. C'est toute la thèse."
+    }
+  },
+  "how": {
+    "eyebrow": "Comment ça marche pour vous",
+    "title": "Du brief à l'insight",
+    "steps": [
+      { "number": "01", "title": "Indiquez-nous votre cible", "text": "Démographie, centres d'intérêt ou critères de sélection personnalisés — nous définissons le périmètre avec vous." },
+      { "number": "02", "title": "Nous déployons l'étude", "text": "Votre étude est diffusée aux panélistes correspondants, avec des contrôles qualité en continu." },
+      { "number": "03", "title": "Vous obtenez des données fiables", "text": "Exportez les résultats ou connectez-vous via API — validées, dédupliquées, prêtes à analyser." }
+    ]
+  },
+  "cta": {
+    "title": "Déployons votre prochaine étude",
+    "subtitle": "Parlez-nous de vos besoins de recherche — notre équipe répond sous un jour ouvré.",
+    "button": "Nous contacter"
+  }
+}

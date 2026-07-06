@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "title": "Gagnez de l'argent en partageant vos opinions | B2B Insight Panel",
+    "description": "Répondez à des sondages rapides de marques qui valorisent votre avis. Retirez sur PayPal ou en cartes cadeaux — inscription 100 % gratuite, sans frais, jamais.",
+    "keywords": [
+      "sondages rémunérés",
+      "gagner de l'argent en ligne",
+      "récompenses de sondage",
+      "paiements PayPal",
+      "cartes cadeaux",
+      "panel d'études de marché",
+      "panel d'insights B2B"
+    ],
+    "ogAlt": "B2B Insight Panel — gagnez de l'argent pour vos opinions"
+  },
+  "hero": {
+    "ratingValue": "4,6",
+    "ratingLabel": "· Noté par plus de 82 000 membres",
+    "titleLead": "Gagnez de l'argent en",
+    "titleSharing": "partageant vos",
+    "titleHighlight": "opinions",
+    "subtitle": "Répondez à des sondages rapides de marques qui valorisent votre avis. Retirez sur PayPal ou en cartes cadeaux —",
+    "subtitleBold": "inscription 100 % gratuite,",
+    "subtitleTail": "sans frais, jamais.",
+    "steps": {
+      "browse": "Parcourir",
+      "answer": "Répondre",
+      "submit": "Envoyer",
+      "getPaid": "Être payé"
+    },
+    "phone": {
+      "greeting": "Bonsoir",
+      "userName": "Alex",
+      "balanceLabel": "Solde",
+      "balanceValue": "124,50 $",
+      "surveysForYou": "Sondages pour vous",
+      "cards": {
+        "shopping": {
+          "tag": "Shopping",
+          "reward": "2,50 $",
+          "title": "Vos habitudes d'achat en ligne",
+          "time": "4 min",
+          "questions": "8 questions"
+        },
+        "tech": {
+          "tag": "Tech",
+          "reward": "1,75 $",
+          "title": "Streaming et divertissement",
+          "time": "3 min",
+          "questions": "6 questions"
+        },
+        "food": {
+          "tag": "Alimentation",
+          "reward": "3,20 $",
+          "title": "Choix de courses hebdomadaires"
+        }
+      }
+    },
+    "badges": {
+      "paid": {
+        "value": "8,4 M$+",
+        "label": "versés aux membres"
+      },
+      "instant": {
+        "value": "Instantané",
+        "label": "paiements PayPal"
+      }
+    },
+    "scroll": "Défiler"
+  },
+  "trust": {
+    "heading": "La confiance des équipes de recherche de plus de 120 marques"
+  },
+  "stats": {
+    "eyebrow": "En chiffres",
+    "title": "Des chiffres qui comptent vraiment",
+    "paid": {
+      "label": "Versés aux membres",
+      "value": "8,4 M$+",
+      "description": "Retirés sur de vrais comptes — le membre moyen gagne plus de 60 $ par mois."
+    },
+    "members": {
+      "label": "Membres",
+      "value": "1,9 M+"
+    },
+    "brands": {
+      "label": "Marques partenaires",
+      "value": "120+"
+    },
+    "rating": {
+      "value": "4,6",
+      "reviews": "Sur plus de 82 000 avis"
+    }
+  },
+  "video": {
+    "eyebrow": "De vrais membres, de vrais paiements",
+    "titleLine1": "Appuyez sur lecture et voyez",
+    "titleLine2": "pourquoi on adore",
+    "watch": "Regarder l'histoire de 90 secondes",
+    "featured": "À la une",
+    "posterAlt": "Vidéo témoignage d'un membre de B2B Insight Panel"
+  },
+  "feature1": {
+    "eyebrow": "Des sondages adaptés à votre vie",
+    "titleLine1": "Seulement les sondages",
+    "titleLine2": "que vous aimerez vraiment",
+    "description": "Nous vous associons à des études selon votre profil, pour ne jamais perdre de temps sur des sondages non éligibles. Chacun affiche la récompense et la durée à l'avance.",
+    "points": {
+      "matching": {
+        "title": "Correspondance intelligente",
+        "text": "Des sondages choisis selon vos centres d'intérêt et votre profil."
+      },
+      "upfront": {
+        "title": "Récompenses claires",
+        "text": "Voyez exactement ce que vous gagnerez avant de commencer."
+      },
+      "biteSized": {
+        "title": "Format court",
+        "text": "La plupart durent moins de 5 minutes — faites-les partout."
+      }
+    },
+    "phone": {
+      "heading": "Sélectionné pour vous",
+      "cards": {
+        "travel": {
+          "match": "98 % de match",
+          "reward": "4,00 $",
+          "title": "Voyages et planification de vacances",
+          "meta": "5 min · 12 questions"
+        },
+        "banking": {
+          "match": "92 % de match",
+          "reward": "2,25 $",
+          "title": "Applications bancaires mobiles"
+        },
+        "coffee": {
+          "match": "88 % de match",
+          "reward": "1,90 $",
+          "title": "Habitudes café et cafés"
+        }
+      }
+    }
+  },
+  "feature2": {
+    "eyebrow": "Retirez, à votre façon",
+    "title": "Transformez vos opinions en argent réel — instantanément",
+    "cards": {
+      "threshold": {
+        "title": "Seuil bas de 5 $",
+        "text": "Retirez sur PayPal ou plus de 100 cartes cadeaux dès que vous atteignez cinq dollars."
+      },
+      "noFees": {
+        "title": "Zéro frais",
+        "text": "Vous gardez chaque centime gagné — aucuns frais de retrait, aucun piège."
+      }
+    },
+    "phone": {
+      "heading": "Retrait",
+      "availableLabel": "Solde disponible",
+      "availableValue": "127,00 $",
+      "methods": {
+        "paypal": {
+          "name": "PayPal",
+          "note": "Instantané · sans frais"
+        },
+        "amazon": {
+          "name": "Carte cadeau Amazon",
+          "note": "+5 % de valeur bonus"
+        },
+        "bank": {
+          "name": "Virement bancaire",
+          "note": "1 à 2 jours ouvrés"
+        }
+      },
+      "withdraw": "Retirer 127,00 $"
+    }
+  },
+  "rewards": {
+    "eyebrow": "Récompenses",
+    "titleLine1": "Dépensez-le comme",
+    "titleLine2": "vous le souhaitez",
+    "description": "Espèces, cartes cadeaux ou dons à des associations — plus de 100 façons d'échanger, toutes sans frais de retrait.",
+    "stats": {
+      "minCashout": {
+        "value": "5 $",
+        "label": "retrait min."
+      },
+      "fees": {
+        "value": "0 %",
+        "label": "frais"
+      },
+      "options": {
+        "value": "100+",
+        "label": "options de récompense"
+      }
+    },
+    "options": {
+      "paypal": "PayPal",
+      "amazon": "Amazon",
+      "bank": "Banque",
+      "starbucks": "Starbucks",
+      "steam": "Steam",
+      "donate": "Faire un don"
+    }
+  },
+  "about": {
+    "eyebrow": "Pourquoi nous existons",
+    "title": "Votre opinion a de la valeur. Nous veillons à ce que vous soyez payé pour cela.",
+    "paragraph1": "Les marques dépensent des milliards pour comprendre ce que veulent les gens. Nous pensons que ceux qui donnent leur avis méritent une juste part — pas des points qui expirent ni de vagues « récompenses ».",
+    "paragraph2": "De l'argent réel, des récompenses transparentes et une confidentialité que vous contrôlez. C'est toute l'idée.",
+    "badge": {
+      "title": "Conforme au RGPD",
+      "text": "Vos données, toujours protégées"
+    },
+    "chips": {
+      "neverSold": "Jamais vendues à des tiers",
+      "encryption": "Chiffrement de niveau bancaire",
+      "delete": "Suppression à tout moment"
+    },
+    "photoAlt": "Un membre répondant à un sondage sur son téléphone"
+  },
+  "testimonials": {
+    "eyebrow": "★ 4,6 · plus de 82 000 avis",
+    "title": "Apprécié par les membres du monde entier",
+    "verified": "Membre vérifié",
+    "items": [
+      {
+        "name": "Maya R.",
+        "headline": "50 $ retirés dès mon premier mois",
+        "text": "Je réponds à des sondages dans les transports. Les paiements sont réels et arrivent sur PayPal en moins d'une heure. Pas de bêtises de points."
+      },
+      {
+        "name": "Devin K.",
+        "headline": "Enfin des sondages qui respectent mon temps",
+        "text": "Chaque sondage indique la récompense et la durée à l'avance. Si je ne suis pas éligible, j'en sors en quelques secondes — pas dix minutes."
+      },
+      {
+        "name": "Priya S.",
+        "headline": "Les bonus de cartes cadeaux sont incroyables",
+        "text": "5 % de plus sur les cartes Amazon, ça s'accumule vite. J'ai pratiquement couvert mon budget café pour un an."
+      },
+      {
+        "name": "Tom B.",
+        "headline": "Légitime et paie vraiment",
+        "text": "J'étais sceptique au début, mais le retrait minimum de 5 $ et PayPal instantané m'ont convaincu. Je l'utilise au quotidien."
+      },
+      {
+        "name": "Ana L.",
+        "headline": "Appli soignée, zéro spam",
+        "text": "L'interface ressemble à une vraie appli iOS, pas à un site de récompenses douteux. Mes données restent privées aussi."
+      },
+      {
+        "name": "Jordan M.",
+        "headline": "Mon activité préférée pour les temps morts",
+        "text": "Mieux que de scroller sans but. J'ai gagné plus de 200 $ en répondant à des questions sur des sujets que je connais déjà."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Des questions ? Réponses.",
+    "moreText": "Encore des questions ? D'autres réponses vous attendent.",
+    "moreLink": "Voir toutes les FAQ",
+    "items": [
+      {
+        "question": "Est-ce vraiment gratuit de s'inscrire ?",
+        "answer": "Oui — 100 % gratuit, pour toujours. Aucuns frais d'inscription, aucun abonnement et aucuns frais de retrait. Vous gardez chaque centime gagné."
+      },
+      {
+        "question": "Combien puis-je gagner ?",
+        "answer": "Cela dépend du nombre de sondages pour lesquels vous êtes éligible, mais la plupart des membres gagnent entre 30 $ et 150 $ par mois pendant leur temps libre. Plus votre profil est complet, plus vous avez de correspondances."
+      },
+      {
+        "question": "Comment suis-je payé ?",
+        "answer": "Retirez sur PayPal, par virement bancaire ou via plus de 100 cartes cadeaux (Amazon, Starbucks, Steam et plus) dès que vous atteignez un solde de 5 $. La plupart des paiements arrivent en quelques minutes."
+      },
+      {
+        "question": "Mes données sont-elles en sécurité ?",
+        "answer": "Absolument. Vos réponses sont anonymisées et jamais vendues à des tiers. Nous utilisons un chiffrement de niveau bancaire et sommes entièrement conformes au RGPD — et vous pouvez supprimer votre compte et vos données à tout moment."
+      },
+      {
+        "question": "Combien de temps durent les sondages ?",
+        "answer": "La plupart durent moins de cinq minutes. Chaque sondage affiche la récompense exacte et la durée estimée avant de commencer, pour ne jamais être pris au dépourvu."
+      },
+      {
+        "question": "Que se passe-t-il si je ne suis pas éligible ?",
+        "answer": "Vous le saurez généralement dès les premières questions, et tout est conçu pour vous filtrer rapidement. Nous travaillons sans cesse à vous proposer des sondages pour lesquels vous serez éligible."
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "Commencez à gagner dès aujourd'hui.",
+    "titleLine2": "C'est totalement gratuit.",
+    "subtitle": "Rejoignez plus de 1,9 M de membres qui transforment leurs opinions en argent réel. Sans frais, sans piège.",
+    "primary": "Inscription gratuite",
+    "secondary": "Comment ça marche",
+    "assurances": {
+      "noCard": "Sans carte bancaire",
+      "cashOut": "Retrait dès 5 $",
+      "rated": "Noté 4,6★"
+    }
+  }
+}

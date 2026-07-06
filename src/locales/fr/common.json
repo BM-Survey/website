@@ -1,0 +1,70 @@
+{
+  "brand": {
+    "prefix": "B2B",
+    "name": "Insight Panel"
+  },
+  "nav": {
+    "howItWorks": "Comment ça marche",
+    "rewards": "Récompenses",
+    "about": "À propos",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "collaboration": "Collaboration",
+    "blog": "Blog"
+  },
+  "actions": {
+    "login": "Connexion",
+    "signupFree": "Inscription gratuite",
+    "seeHowItWorks": "Voir comment ça marche",
+    "startNow": "Commencer",
+    "cashOut": "Retirer"
+  },
+  "language": {
+    "label": "Langue",
+    "select": "Choisir la langue"
+  },
+  "a11y": {
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "primaryNavigation": "Principale",
+    "footerNavigation": "Pied de page",
+    "skipToContent": "Aller au contenu"
+  },
+  "footer": {
+    "tagline": "Le panel d'insights B2B qui vous paie en argent réel pour les opinions dont les marques ont vraiment besoin.",
+    "product": {
+      "title": "Produit",
+      "home": "Accueil",
+      "howItWorks": "Comment ça marche",
+      "faq": "FAQ",
+      "blog": "Blog",
+      "contact": "Contact",
+      "collaboration": "Collaboration"
+    },
+    "legal": {
+      "title": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "cookie": "Politique relative aux cookies",
+      "eula": "CLUF",
+      "terms": "Conditions générales"
+    },
+    "app": {
+      "title": "Télécharger l'app",
+      "downloadOn": "Télécharger sur l'",
+      "appStore": "App Store",
+      "getItOn": "Disponible sur",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© {year} InsightPanel — B2B Insight Panel. Tous droits réservés.",
+    "bottom": {
+      "privacy": "Confidentialité",
+      "cookies": "Cookies",
+      "terms": "Conditions"
+    },
+    "social": {
+      "x": "X (Twitter)",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  }
+}

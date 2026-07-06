@@ -1,0 +1,70 @@
+{
+  "brand": {
+    "prefix": "B2B",
+    "name": "Insight Panel"
+  },
+  "nav": {
+    "howItWorks": "यह कैसे काम करता है",
+    "rewards": "पुरस्कार",
+    "about": "हमारे बारे में",
+    "faq": "सामान्य प्रश्न",
+    "contact": "संपर्क",
+    "collaboration": "सहयोग",
+    "blog": "ब्लॉग"
+  },
+  "actions": {
+    "login": "लॉग इन",
+    "signupFree": "मुफ़्त साइन अप करें",
+    "seeHowItWorks": "देखें यह कैसे काम करता है",
+    "startNow": "अभी शुरू करें",
+    "cashOut": "पैसे निकालें"
+  },
+  "language": {
+    "label": "भाषा",
+    "select": "भाषा चुनें"
+  },
+  "a11y": {
+    "openMenu": "मेन्यू खोलें",
+    "closeMenu": "मेन्यू बंद करें",
+    "primaryNavigation": "मुख्य",
+    "footerNavigation": "फ़ुटर",
+    "skipToContent": "सामग्री पर जाएँ"
+  },
+  "footer": {
+    "tagline": "B2B इनसाइट पैनल जो उन राय के लिए आपको असली पैसे देता है, जिनकी ब्रांड्स को सच में ज़रूरत होती है।",
+    "product": {
+      "title": "उत्पाद",
+      "home": "होम",
+      "howItWorks": "यह कैसे काम करता है",
+      "faq": "सामान्य प्रश्न",
+      "blog": "ब्लॉग",
+      "contact": "संपर्क",
+      "collaboration": "सहयोग"
+    },
+    "legal": {
+      "title": "कानूनी",
+      "privacy": "गोपनीयता नीति",
+      "cookie": "कुकी नीति",
+      "eula": "EULA",
+      "terms": "नियम और शर्तें"
+    },
+    "app": {
+      "title": "ऐप पाएँ",
+      "downloadOn": "डाउनलोड करें",
+      "appStore": "App Store",
+      "getItOn": "पाएँ",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© {year} InsightPanel — B2B Insight Panel. सर्वाधिकार सुरक्षित।",
+    "bottom": {
+      "privacy": "गोपनीयता",
+      "cookies": "कुकीज़",
+      "terms": "शर्तें"
+    },
+    "social": {
+      "x": "एक्स (ट्विटर)",
+      "instagram": "इंस्टाग्राम",
+      "linkedin": "लिंक्डइन"
+    }
+  }
+}

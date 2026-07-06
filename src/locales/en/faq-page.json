@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "title": "FAQ — Frequently Asked Questions | B2B Insight Panel",
+    "description": "Answers about your account, earnings, payouts, and privacy on InsightPanel — the B2B insight panel that pays real money for real opinions.",
+    "keywords": ["survey FAQ", "paid survey questions", "payout questions", "B2B insight panel"],
+    "ogAlt": "Frequently asked questions about InsightPanel"
+  },
+  "hero": {
+    "eyebrow": "FAQ",
+    "titleLead": "Questions?",
+    "titleHighlight": "Answered.",
+    "subtitleText": "Still stuck?",
+    "subtitleLink": "Contact our support team"
+  },
+  "categories": [
+    { "key": "all", "label": "All" },
+    { "key": "account", "label": "Account" },
+    { "key": "earning", "label": "Earning" },
+    { "key": "payouts", "label": "Payouts" },
+    { "key": "privacy", "label": "Privacy" }
+  ],
+  "items": [
+    { "cat": "account", "question": "Is it really free to join?", "answer": "Yes — 100% free, forever. No sign-up fees, no subscriptions, and no withdrawal fees. You keep every cent you earn." },
+    { "cat": "account", "question": "Do I need to verify my identity?", "answer": "A verified email is required to sign up. For payouts over $50 we may ask for basic verification to prevent fraud and protect your balance." },
+    { "cat": "account", "question": "Can I use InsightPanel on multiple devices?", "answer": "Yes — your account and balance sync across web and mobile. One account per person, please; duplicate accounts get suspended." },
+    { "cat": "earning", "question": "How much can I earn?", "answer": "Most members earn between $30 and $150 a month doing surveys in their spare time. The more complete your profile, the more surveys you match." },
+    { "cat": "earning", "question": "How long do surveys take?", "answer": "Most take under five minutes. Every survey shows the exact reward and estimated time before you start." },
+    { "cat": "earning", "question": "What if I don't qualify for a survey?", "answer": "You'll usually know within the first few questions — we design it so you're screened out quickly and matched with better-fitting studies." },
+    { "cat": "payouts", "question": "How do I get paid?", "answer": "Cash out to PayPal, bank transfer, or 100+ gift card options once you reach a $5 balance. Most payouts arrive within minutes." },
+    { "cat": "payouts", "question": "Are there any withdrawal fees?", "answer": "None. Whatever balance you cash out is the amount you receive, in full." },
+    { "cat": "privacy", "question": "Is my data safe?", "answer": "Absolutely. Your responses are anonymized and never sold to third parties. We use bank-grade encryption, are fully GDPR compliant, and you can delete your data anytime." },
+    { "cat": "privacy", "question": "Who sees my survey answers?", "answer": "Only aggregated, anonymized results are shared with the research brands — never your name, email, or identifying details." }
+  ],
+  "cta": {
+    "title": "Didn't find your answer?",
+    "subtitle": "Our support team replies within one business day.",
+    "button": "Contact Support"
+  }
+}

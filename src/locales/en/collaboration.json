@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "title": "Collaboration — Why Join Our Survey Panel | B2B Insight Panel",
+    "description": "Field your research on InsightPanel: 1.9M+ verified respondents, fast fielding under 48 hours, and fair pay that produces cleaner data.",
+    "keywords": ["survey panel for brands", "market research panel", "field a study", "B2B insight panel"],
+    "ogAlt": "Why brands and researchers partner with InsightPanel"
+  },
+  "hero": {
+    "eyebrow": "For Brands & Researchers",
+    "titleLead": "Field your study on",
+    "titleHighlight": "real people",
+    "subtitle": "InsightPanel connects your research to 1.9M+ engaged, verified respondents — with faster fielding, cleaner data, and fair pay built into every study."
+  },
+  "why": {
+    "eyebrow": "Why partner with us",
+    "title": "A panel built on trust",
+    "panelSize": {
+      "label": "Panel size",
+      "value": "1.9M+",
+      "text": "Verified, profiled respondents across 120+ demographics and interest categories."
+    },
+    "fastFielding": { "label": "Fast fielding", "value": "Under 48 hours" },
+    "qualityChecks": { "label": "Quality checks", "value": "Fraud detection built in" },
+    "fairPay": {
+      "title": "Fair pay, better data",
+      "text": "Respondents who are paid fairly answer more carefully. That's the whole thesis."
+    }
+  },
+  "how": {
+    "eyebrow": "How it works for you",
+    "title": "From brief to insight",
+    "steps": [
+      { "number": "01", "title": "Tell us your target", "text": "Demographics, interests, or custom screening criteria — we scope it with you." },
+      { "number": "02", "title": "We field it", "text": "Your study goes live to matched panelists with quality controls running throughout." },
+      { "number": "03", "title": "You get clean data", "text": "Export results or connect via API — validated, deduplicated, ready to analyze." }
+    ]
+  },
+  "cta": {
+    "title": "Let's field your next study",
+    "subtitle": "Tell us about your research needs — our team replies within one business day.",
+    "button": "Get in touch"
+  }
+}
