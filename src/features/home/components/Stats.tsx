@@ -29,8 +29,8 @@ export function Stats({ stats }: StatsProps) {
               src="/illustrations/gold-coins.svg"
               alt=""
               aria-hidden
-              width={360}
-              height={300}
+              width={400}
+              height={320}
               className="pointer-events-none absolute -inset-e-6 -top-6 w-60 select-none opacity-95 drop-shadow-[0_12px_30px_rgba(0,0,0,0.25)] sm:w-75"
             />
             <p className="relative font-display text-[13px] font-bold tracking-wide text-white/75 uppercase">

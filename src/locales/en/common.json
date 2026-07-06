@@ -15,6 +15,7 @@
   "actions": {
     "login": "Log in",
     "signupFree": "Sign Up Free",
+    "earnMoney": "Earn Money Now",
     "seeHowItWorks": "See how it works",
     "startNow": "Start Now",
     "cashOut": "Cash out"

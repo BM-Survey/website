@@ -28,6 +28,12 @@ export const routes = {
 
 export type RouteKey = keyof typeof routes;
 
+/** External auth app URLs — registration and sign-in live outside this marketing site. */
+export const authUrls = {
+  register: "https://b2binsightpanel.com/register",
+  login: "https://b2binsightpanel.com/login",
+} as const;
+
 /**
  * Prefixes an internal path with the active locale.
  * Hash anchors and external/protocol links are returned unchanged.

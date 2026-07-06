@@ -26,6 +26,20 @@ export function ArrowRight(props: IconProps) {
   );
 }
 
+export function DollarSign(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <path
+        d="M12 2v20M17 6.5c0-1.9-2.2-3-5-3s-5 1.1-5 3 2 2.8 5 3.5 5 1.6 5 3.5-2.2 3-5 3-5-1.1-5-3"
+        stroke="currentColor"
+        strokeWidth="2.2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 export function Star(props: IconProps) {
   return (
     <svg {...svgDefaults({ fill: "currentColor", ...props })}>

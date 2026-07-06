@@ -3,16 +3,14 @@
 import { useEffect, useRef, useState } from "react";
 
 import { Button } from "@/components/ui/Button";
-import { ArrowRight, Coins, Bolt, Clock, Play, Check, ChevronDown } from "@/components/ui/icons";
+import { ArrowRight, Coins, Bolt, Clock, Play, Check, ChevronDown, DollarSign } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
-import type { Locale } from "@/i18n/config";
 import type { CommonDictionary, HomeDictionary } from "@/i18n/dictionaries";
-import { anchors, localizedHref } from "@/lib/navigation";
+import { anchors, authUrls } from "@/lib/navigation";
 import { StarRating } from "./StarRating";
 import { PhoneFrame } from "./PhoneFrame";
 
 type HeroProps = {
-  locale: Locale;
   hero: HomeDictionary["hero"];
   actions: CommonDictionary["actions"];
 };
@@ -57,7 +55,7 @@ function useScrollStep(trackRef: React.RefObject<HTMLDivElement | null>) {
   return step;
 }
 
-export function Hero({ locale, hero, actions }: HeroProps) {
+export function Hero({ hero, actions }: HeroProps) {
   const p = hero.phone;
   const steps = [hero.steps.browse, hero.steps.answer, hero.steps.submit, hero.steps.getPaid];
   const trackRef = useRef<HTMLDivElement>(null);
@@ -113,8 +111,11 @@ export function Hero({ locale, hero, actions }: HeroProps) {
           </p>
 
           <div className="mb-7 flex flex-wrap gap-3">
-            <Button href={localizedHref(locale, "/")} variant="primary">
-              {actions.signupFree}
+            <Button href={authUrls.register} target="_blank" rel="noopener noreferrer" variant="primary">
+              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white/25">
+                <DollarSign width={14} height={14} />
+              </span>
+              {actions.earnMoney}
               <ArrowRight width={18} height={18} className="rtl:rotate-180" />
             </Button>
             <Button href={anchors.howItWorks} variant="secondary">

@@ -5,17 +5,15 @@ import { ArrowRight, Check, Lock, Shield } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Section } from "@/components/ui/Section";
-import type { Locale } from "@/i18n/config";
 import type { CommonDictionary, HomeDictionary } from "@/i18n/dictionaries";
-import { localizedHref } from "@/lib/navigation";
+import { authUrls } from "@/lib/navigation";
 
 type AboutProps = {
-  locale: Locale;
   about: HomeDictionary["about"];
   actions: CommonDictionary["actions"];
 };
 
-export function About({ locale, about, actions }: AboutProps) {
+export function About({ about, actions }: AboutProps) {
   const chips = [
     { label: about.chips.neverSold, icon: <Lock width={13} height={13} /> },
     { label: about.chips.encryption, icon: <Shield width={13} height={13} /> },
@@ -72,7 +70,7 @@ export function About({ locale, about, actions }: AboutProps) {
               ))}
             </ul>
             <div className="mt-7">
-              <Button href={localizedHref(locale, "/")}>
+              <Button href={authUrls.register} target="_blank" rel="noopener noreferrer">
                 {actions.startNow}
                 <ArrowRight width={18} height={18} className="rtl:rotate-180" />
               </Button>

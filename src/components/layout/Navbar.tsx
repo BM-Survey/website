@@ -8,7 +8,7 @@ import { LocaleSwitcher } from "@/components/layout/LocaleSwitcher";
 import { MobileNav } from "@/components/layout/MobileNav";
 import type { Locale } from "@/i18n/config";
 import type { CommonDictionary } from "@/i18n/dictionaries";
-import { pageHref } from "@/lib/navigation";
+import { authUrls, pageHref } from "@/lib/navigation";
 
 type NavbarProps = {
   locale: Locale;
@@ -60,13 +60,17 @@ export function Navbar({ locale, common }: NavbarProps) {
             selectLabel={common.language.select}
           />
           <Link
-            href={home}
+            href={authUrls.login}
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden rounded-xl px-4 py-2.5 font-display text-[14.5px] font-bold text-primary hover:bg-primary-soft md:inline-block"
           >
             {common.actions.login}
           </Link>
           <Link
-            href={home}
+            href={authUrls.register}
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden rounded-xl bg-gradient-to-br from-primary to-primary-dark px-5 py-2.5 font-display text-[14.5px] font-bold text-white shadow-[0_8px_20px_rgba(46,91,255,0.35)] transition-transform hover:-translate-y-0.5 sm:inline-block"
           >
             {common.actions.signupFree}
@@ -76,9 +80,9 @@ export function Navbar({ locale, common }: NavbarProps) {
             home={home}
             items={items}
             loginLabel={common.actions.login}
-            loginHref={home}
+            loginHref={authUrls.login}
             signupLabel={common.actions.signupFree}
-            signupHref={home}
+            signupHref={authUrls.register}
             openLabel={common.a11y.openMenu}
             closeLabel={common.a11y.closeMenu}
           />

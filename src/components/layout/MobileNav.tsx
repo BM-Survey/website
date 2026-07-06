@@ -121,6 +121,8 @@ export function MobileNav({
               <div className="flex flex-col gap-2.5 border-t border-line p-4">
                 <Link
                   href={signupHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={close}
                   className="rounded-2xl bg-gradient-to-br from-primary to-primary-dark px-4 py-3.5 text-center font-display text-[15px] font-extrabold text-white shadow-[0_8px_20px_rgba(46,91,255,0.35)] transition-transform hover:-translate-y-0.5"
                 >
@@ -128,6 +130,8 @@ export function MobileNav({
                 </Link>
                 <Link
                   href={loginHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={close}
                   className="rounded-2xl border border-primary-border px-4 py-3 text-center font-display text-[15px] font-bold text-primary transition-colors hover:bg-primary-soft"
                 >

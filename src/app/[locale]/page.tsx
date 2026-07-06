@@ -81,17 +81,17 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
-      <Hero locale={locale} hero={home.hero} actions={common.actions} />
+      <Hero hero={home.hero} actions={common.actions} />
       {/* <TrustStrip trust={home.trust} /> */}
       <Stats stats={home.stats} />
       <VideoReveal video={home.video} />
       <FeatureSurveys feature={home.feature1} />
       <FeatureCashout feature={home.feature2} />
       <Rewards rewards={home.rewards} />
-      <About locale={locale} about={home.about} actions={common.actions} />
+      <About about={home.about} actions={common.actions} />
       <Testimonials testimonials={home.testimonials} />
       <Faq faq={home.faq} />
-      <FinalCta locale={locale} cta={home.cta} />
+      <FinalCta cta={home.cta} />
     </>
   );
 }

@@ -30,7 +30,13 @@
       "Bash(curl -s -o /tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/home.html -w \"%{http_code}\" http://localhost:3001/en)",
       "Bash(kill 55234)",
       "Bash(pkill -f \"next dev -p 3005\")",
-      "Bash(curl -s -o /private/tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/h.html -w \"%{http_code}\" http://localhost:3001/en)"
+      "Bash(curl -s -o /private/tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/h.html -w \"%{http_code}\" http://localhost:3001/en)",
+      "Bash(curl -s -o /private/tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/h2.html -w \"%{http_code}\" http://localhost:3001/en)",
+      "Bash(grep -rn 'localizedHref\\(locale, \"/\"\\)\\\\|href={home}\\\\|signupHref\\\\|loginHref' src/features src/components/layout)",
+      "Bash(echo \"TSC EXIT $?\")",
+      "Bash(curl -s http://localhost:3001/en -o /private/tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/h3.html -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(curl -s http://localhost:3001/en -o /private/tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/h4.html -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(python3 -)"
     ],
     "additionalDirectories": [
       "/Users/apple/Desktop/pronttera/b2b-ip-website/src/app/[locale]",

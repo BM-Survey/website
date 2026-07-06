@@ -3,16 +3,14 @@ import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Check } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
-import type { Locale } from "@/i18n/config";
 import type { HomeDictionary } from "@/i18n/dictionaries";
-import { anchors, localizedHref } from "@/lib/navigation";
+import { anchors, authUrls } from "@/lib/navigation";
 
 type FinalCtaProps = {
-  locale: Locale;
   cta: HomeDictionary["cta"];
 };
 
-export function FinalCta({ locale, cta }: FinalCtaProps) {
+export function FinalCta({ cta }: FinalCtaProps) {
   const assurances = [cta.assurances.noCard, cta.assurances.cashOut, cta.assurances.rated];
 
   return (
@@ -30,16 +28,16 @@ export function FinalCta({ locale, cta }: FinalCtaProps) {
           src="/illustrations/gold-coins.svg"
           alt=""
           aria-hidden
-          width={360}
-          height={300}
+          width={400}
+          height={320}
           className="pointer-events-none absolute bottom-0 -inset-s-6 hidden w-44 select-none opacity-90 drop-shadow-[0_12px_30px_rgba(0,0,0,0.25)] md:block lg:w-56"
         />
         <Image
           src="/illustrations/gold-coins.svg"
           alt=""
           aria-hidden
-          width={360}
-          height={300}
+          width={400}
+          height={320}
           className="pointer-events-none absolute bottom-0 -inset-e-6 hidden w-44 -scale-x-100 select-none opacity-90 drop-shadow-[0_12px_30px_rgba(0,0,0,0.25)] md:block lg:w-56"
         />
         <div className="relative">
@@ -52,7 +50,7 @@ export function FinalCta({ locale, cta }: FinalCtaProps) {
             {cta.subtitle}
           </p>
           <div className="flex flex-wrap justify-center gap-3.5">
-            <Button href={localizedHref(locale, "/")} variant="white">
+            <Button href={authUrls.register} target="_blank" rel="noopener noreferrer" variant="white">
               {cta.primary}
             </Button>
             <Button href={anchors.howItWorks} variant="ghost" className="border border-white/40 bg-white/15 text-white hover:bg-white/25">

@@ -3,6 +3,7 @@ import Script from "next/script";
 
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
+import { StickyFooter } from "@/components/layout/StickyFooter";
 import { getDirection, isLocale, locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { roboto, urbanist } from "@/lib/fonts";
@@ -38,8 +39,15 @@ export default async function LocaleLayout({
           {common.a11y.skipToContent}
         </a>
         <Navbar locale={locale} common={common} />
-        <main id="main">{children}</main>
-        <Footer locale={locale} common={common} />
+        <main
+          id="main"
+          className="relative z-1 bg-bg md:mb-(--footer-height)"
+        >
+          {children}
+        </main>
+        <StickyFooter>
+          <Footer locale={locale} common={common} />
+        </StickyFooter>
         <div
           className="elfsight-app-10561567-b2fa-4e17-8710-936fcc5e8b64"
           data-elfsight-app-lazy

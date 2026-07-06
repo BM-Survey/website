@@ -15,6 +15,7 @@
   "actions": {
     "login": "Connexion",
     "signupFree": "Inscription gratuite",
+    "earnMoney": "Gagnez de l'argent maintenant",
     "seeHowItWorks": "Voir comment ça marche",
     "startNow": "Commencer",
     "cashOut": "Retirer"
