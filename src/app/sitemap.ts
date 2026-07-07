@@ -7,6 +7,8 @@ import { siteUrl } from "@/lib/site";
 
 const pagePaths = [...Object.values(routes), ...posts.map((post) => `${routes.blog}/${post.slug}`)];
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 

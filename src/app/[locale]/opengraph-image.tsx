@@ -1,22 +1,27 @@
 import { ImageResponse } from "next/og";
 
-import { isLocale } from "@/i18n/config";
+import { defaultLocale, locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const alt = "B2B Insight Panel";
+export const dynamic = "force-static";
 
-/** Dynamically rendered Open Graph image per locale. */
-export default async function OpengraphImage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-  const dict = isLocale(locale) ? await getDictionary(locale) : null;
-  const title = dict?.home.hero.titleLead ?? "Earn real money";
-  const subtitle = dict?.home.meta.description ?? "";
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+/**
+ * Rendered per locale route, but always uses the default-locale copy: the
+ * satori renderer used by `ImageResponse` doesn't support complex script
+ * shaping (Arabic, Devanagari, Telugu), so localized text would fail to
+ * prerender for those locales under `output: export`.
+ */
+export default async function OpengraphImage() {
+  const dict = await getDictionary(defaultLocale);
+  const title = dict.home.hero.titleLead;
+  const subtitle = dict.home.meta.description;
 
   return new ImageResponse(
     (
