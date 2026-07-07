@@ -1,24 +1,73 @@
 <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="ribbon" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="rRibbonL" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#FFD34D"/>
       <stop offset="1" stop-color="#F5A623"/>
     </linearGradient>
-    <linearGradient id="medalFace" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFE9A3"/>
-      <stop offset="1" stop-color="#FFC94D"/>
+    <linearGradient id="rRibbonR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0A62E"/>
+      <stop offset="1" stop-color="#D97F0E"/>
     </linearGradient>
+    <radialGradient id="rDisc" cx="38%" cy="30%" r="85%">
+      <stop offset="0" stop-color="#FFF3C4"/>
+      <stop offset="55%" stop-color="#FFD34D"/>
+      <stop offset="100%" stop-color="#EE9E1B"/>
+    </radialGradient>
+    <radialGradient id="rFace" cx="40%" cy="32%" r="80%">
+      <stop offset="0" stop-color="#FFF0B3"/>
+      <stop offset="100%" stop-color="#FFC43C"/>
+    </radialGradient>
+    <linearGradient id="rStar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFEFC2"/>
+    </linearGradient>
+    <filter id="rSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#8A5A00" flood-opacity="0.3"/>
+    </filter>
   </defs>
 
+  <!-- Sparkles -->
+  <g fill="#F5B93C">
+    <path d="M44 96l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" opacity="0.8"/>
+    <path d="M252 66l3 7.6 7.6 3-7.6 3-3 7.6-3-7.6-7.6-3 7.6-3z" opacity="0.7"/>
+    <circle cx="262" cy="176" r="5" opacity="0.6"/>
+    <circle cx="34" cy="180" r="4" opacity="0.55"/>
+  </g>
+
   <!-- Ribbons -->
-  <path d="M120 150 L100 250 L138 226 L150 260 L150 150 Z" fill="url(#ribbon)"/>
-  <path d="M180 150 L200 250 L162 226 L150 260 L150 150 Z" fill="#E8961B"/>
+  <g filter="url(#rSoft)">
+    <path d="M116 172 L92 258 L128 236 L142 268 L150 172 Z" fill="url(#rRibbonL)"/>
+    <path d="M184 172 L208 258 L172 236 L158 268 L150 172 Z" fill="url(#rRibbonR)"/>
+    <path d="M116 172l10 36 24-8v-28z" fill="#C97C0C" opacity="0.35"/>
+    <path d="M184 172l-10 36-24-8v-28z" fill="#B26A08" opacity="0.35"/>
+  </g>
 
-  <!-- Medal disc -->
-  <circle cx="150" cy="120" r="86" fill="url(#ribbon)"/>
-  <circle cx="150" cy="120" r="68" fill="url(#medalFace)"/>
-  <circle cx="150" cy="120" r="68" fill="none" stroke="#E39A1F" stroke-width="3" stroke-dasharray="3 6"/>
+  <!-- Medal -->
+  <g filter="url(#rSoft)">
+    <circle cx="150" cy="122" r="86" fill="url(#rDisc)"/>
+    <!-- scalloped edge -->
+    <circle cx="150" cy="122" r="79" fill="none" stroke="#E39A1F" stroke-width="6" stroke-dasharray="1 12" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="150" cy="122" r="66" fill="url(#rFace)"/>
+    <circle cx="150" cy="122" r="66" fill="none" stroke="#E39A1F" stroke-width="2.5" stroke-dasharray="3 7" opacity="0.8"/>
+    <!-- gloss -->
+    <path d="M96 92a76 76 0 0 1 64-32 66 66 0 0 0-62 48 6 6 0 0 1-2-16z" fill="#FFFFFF" opacity="0.4"/>
 
-  <!-- Star -->
-  <path d="M150 74 L165 108 L202 112 L174 137 L182 174 L150 154 L118 174 L126 137 L98 112 L135 108 Z" fill="#FFFFFF"/>
+    <!-- Laurel branches -->
+    <g stroke="#DE9418" stroke-width="4" stroke-linecap="round" fill="none">
+      <path d="M104 158c-10-12-14-26-12-42"/>
+      <path d="M196 158c10-12 14-26 12-42"/>
+    </g>
+    <g fill="#DE9418">
+      <ellipse cx="94" cy="112" rx="9" ry="4.5" transform="rotate(-58 94 112)"/>
+      <ellipse cx="96" cy="132" rx="9" ry="4.5" transform="rotate(-38 96 132)"/>
+      <ellipse cx="103" cy="150" rx="9" ry="4.5" transform="rotate(-18 103 150)"/>
+      <ellipse cx="206" cy="112" rx="9" ry="4.5" transform="rotate(58 206 112)"/>
+      <ellipse cx="204" cy="132" rx="9" ry="4.5" transform="rotate(38 204 132)"/>
+      <ellipse cx="197" cy="150" rx="9" ry="4.5" transform="rotate(18 197 150)"/>
+    </g>
+
+    <!-- Star -->
+    <path d="M150 76 L165 109 L201 113 L174 137 L182 173 L150 154 L118 173 L126 137 L99 113 L135 109 Z" fill="url(#rStar)"/>
+    <path d="M150 76 L165 109 L201 113 L174 137 L182 173 L150 154 L118 173 L126 137 L99 113 L135 109 Z" fill="none" stroke="#E8AE2C" stroke-width="2" opacity="0.6"/>
+  </g>
 </svg>

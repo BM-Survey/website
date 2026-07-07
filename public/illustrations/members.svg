@@ -1,37 +1,84 @@
 <svg width="360" height="300" viewBox="0 0 360 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="mAvatarA" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#A9BCFF"/>
-      <stop offset="1" stop-color="#6E8BFF"/>
+    <!-- Front avatar bubble -->
+    <radialGradient id="mBubA" cx="35%" cy="25%" r="90%">
+      <stop offset="0" stop-color="#BCCBFF"/>
+      <stop offset="55%" stop-color="#7D97FF"/>
+      <stop offset="100%" stop-color="#4A66E8"/>
+    </radialGradient>
+    <!-- Right avatar bubble -->
+    <radialGradient id="mBubB" cx="35%" cy="25%" r="90%">
+      <stop offset="0" stop-color="#9DB2FF"/>
+      <stop offset="60%" stop-color="#6B87F5"/>
+      <stop offset="100%" stop-color="#3D55C9"/>
+    </radialGradient>
+    <!-- Left avatar bubble -->
+    <radialGradient id="mBubC" cx="35%" cy="25%" r="90%">
+      <stop offset="0" stop-color="#D6DFFF"/>
+      <stop offset="60%" stop-color="#A3B6FF"/>
+      <stop offset="100%" stop-color="#7189E8"/>
+    </radialGradient>
+    <linearGradient id="mBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D9E2FF"/>
     </linearGradient>
-    <linearGradient id="mAvatarB" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#8AA5FF"/>
-      <stop offset="1" stop-color="#4E6FE8"/>
+    <linearGradient id="mBadge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5CE08A"/>
+      <stop offset="1" stop-color="#28B85C"/>
     </linearGradient>
-    <linearGradient id="mAvatarC" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#C7D3FF"/>
-      <stop offset="1" stop-color="#9FB4FF"/>
-    </linearGradient>
+    <filter id="mSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0A1440" flood-opacity="0.45"/>
+    </filter>
+    <radialGradient id="mGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7D97FF" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#7D97FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#7D97FF" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <!-- Back avatar (left) -->
-  <g opacity="0.75">
-    <circle cx="96" cy="150" r="52" fill="url(#mAvatarC)"/>
-    <circle cx="96" cy="132" r="19" fill="#EAF0FF"/>
-    <path d="M62 186a34 30 0 0 1 68 0z" fill="#EAF0FF"/>
+  <!-- Ambient glow + orbit ring -->
+  <circle cx="180" cy="156" r="140" fill="url(#mGlow)"/>
+  <circle cx="180" cy="156" r="126" fill="none" stroke="#8AA5FF" stroke-width="1.5" stroke-dasharray="2 10" opacity="0.45"/>
+
+  <!-- Sparkles -->
+  <g fill="#AFC2FF">
+    <path d="M62 84l3.4 8.6 8.6 3.4-8.6 3.4-3.4 8.6-3.4-8.6-8.6-3.4 8.6-3.4z" opacity="0.9"/>
+    <path d="M304 70l2.6 6.6 6.6 2.6-6.6 2.6-2.6 6.6-2.6-6.6-6.6-2.6 6.6-2.6z" opacity="0.7"/>
+    <circle cx="318" cy="188" r="4" opacity="0.6"/>
+    <circle cx="46" cy="182" r="3" opacity="0.5"/>
   </g>
 
-  <!-- Back avatar (right) -->
-  <g opacity="0.85">
-    <circle cx="264" cy="150" r="52" fill="url(#mAvatarB)"/>
-    <circle cx="264" cy="132" r="19" fill="#F2F6FF"/>
-    <path d="M230 186a34 30 0 0 1 68 0z" fill="#F2F6FF"/>
+  <!-- Left avatar -->
+  <g filter="url(#mSoft)" opacity="0.9">
+    <circle cx="94" cy="152" r="50" fill="url(#mBubC)"/>
+    <path d="M58 122a50 50 0 0 1 44-19 40 40 0 0 0-40 32 4 4 0 0 1-4-13z" fill="#FFFFFF" opacity="0.4"/>
+    <circle cx="94" cy="136" r="17" fill="url(#mBody)"/>
+    <path d="M63 189a32 27 0 0 1 62 0 50 50 0 0 1-62 0z" fill="url(#mBody)"/>
   </g>
 
-  <!-- Front avatar (center) -->
-  <g>
-    <circle cx="180" cy="158" r="64" fill="url(#mAvatarA)"/>
-    <circle cx="180" cy="136" r="23" fill="#FFFFFF"/>
-    <path d="M138 200a42 36 0 0 1 84 0z" fill="#FFFFFF"/>
+  <!-- Right avatar -->
+  <g filter="url(#mSoft)" opacity="0.95">
+    <circle cx="266" cy="152" r="50" fill="url(#mBubB)"/>
+    <path d="M230 122a50 50 0 0 1 44-19 40 40 0 0 0-40 32 4 4 0 0 1-4-13z" fill="#FFFFFF" opacity="0.4"/>
+    <circle cx="266" cy="136" r="17" fill="url(#mBody)"/>
+    <path d="M235 189a32 27 0 0 1 62 0 50 50 0 0 1-62 0z" fill="url(#mBody)"/>
+  </g>
+
+  <!-- Front / center avatar -->
+  <g filter="url(#mSoft)">
+    <circle cx="180" cy="162" r="64" fill="url(#mBubA)"/>
+    <circle cx="180" cy="162" r="64" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="3"/>
+    <path d="M134 124a64 64 0 0 1 56-24 52 52 0 0 0-51 41 5 5 0 0 1-5-17z" fill="#FFFFFF" opacity="0.45"/>
+    <circle cx="180" cy="142" r="22" fill="url(#mBody)"/>
+    <path d="M140 209a40 34 0 0 1 80 0 64 64 0 0 1-80 0z" fill="url(#mBody)"/>
+    <!-- online badge -->
+    <circle cx="226" cy="206" r="15" fill="url(#mBadge)" stroke="#0E1B3D" stroke-width="4"/>
+    <path d="M219 206l5 5 9-10" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Floating "+1" chip -->
+  <g filter="url(#mSoft)">
+    <rect x="272" y="82" width="52" height="30" rx="15" fill="#FFFFFF"/>
+    <text x="298" y="103" font-family="Arial, sans-serif" font-size="17" font-weight="900" fill="#4A66E8" text-anchor="middle">+1</text>
   </g>
 </svg>
