@@ -102,7 +102,7 @@ export function LegalLayout({ locale, badge, nav, active, doc, contactLinkLabel 
                 {section.table && (
                   <div className="mt-2.5 overflow-x-auto">
                     <table className="w-full border-collapse">
-                      <thead>
+                      <thead className="max-sm:sr-only">
                         <tr>
                           {section.table.headers.map((h) => (
                             <th
@@ -116,9 +116,16 @@ export function LegalLayout({ locale, badge, nav, active, doc, contactLinkLabel 
                       </thead>
                       <tbody>
                         {section.table.rows.map((row, i) => (
-                          <tr key={i}>
+                          <tr
+                            key={i}
+                            className="block border-b border-line py-2 last:border-b-0 sm:table-row sm:border-b-0 sm:py-0"
+                          >
                             {row.map((cell, j) => (
-                              <td key={j} className="border-b border-line px-3 py-2.5 text-sm text-muted-2">
+                              <td
+                                key={j}
+                                data-label={section.table!.headers[j]}
+                                className="block px-3 py-1 text-sm text-muted-2 before:block before:font-display before:text-[11px] before:font-bold before:tracking-wide before:text-muted before:uppercase before:content-[attr(data-label)] sm:table-cell sm:border-b sm:border-line sm:py-2.5 sm:before:hidden"
+                              >
                                 {cell}
                               </td>
                             ))}
