@@ -2,7 +2,12 @@
   "meta": {
     "title": "How It Works — Earn Money With Surveys | B2B Insight Panel",
     "description": "From sign-up to payout: see exactly how InsightPanel matches you with surveys, pays fair rewards, and cashes you out in minutes.",
-    "keywords": ["how paid surveys work", "survey rewards process", "instant payouts", "B2B insight panel"],
+    "keywords": [
+      "how paid surveys work",
+      "survey rewards process",
+      "instant payouts",
+      "B2B insight panel"
+    ],
     "ogAlt": "How InsightPanel works, from opinion to payout"
   },
   "hero": {
@@ -37,24 +42,106 @@
     "eyebrow": "Transparent, always",
     "title": "What a survey actually looks like",
     "cards": [
-      { "tag": "Shopping", "tone": "primary", "title": "Online shopping habits", "time": "4 min", "reward": "$2.50" },
-      { "tag": "Tech", "tone": "purple", "title": "Streaming & entertainment", "time": "3 min", "reward": "$1.75" },
-      { "tag": "Food", "tone": "orange", "title": "Weekly grocery choices", "time": "5 min", "reward": "$3.20" },
-      { "tag": "Travel", "tone": "success", "title": "Holiday & travel planning", "time": "5 min", "reward": "$4.00" }
+      {
+        "tag": "Shopping",
+        "tone": "primary",
+        "title": "Online shopping habits",
+        "time": "4 min",
+        "reward": "$2.50"
+      },
+      {
+        "tag": "Tech",
+        "tone": "purple",
+        "title": "Streaming & entertainment",
+        "time": "3 min",
+        "reward": "$1.75"
+      },
+      {
+        "tag": "Food",
+        "tone": "orange",
+        "title": "Weekly grocery choices",
+        "time": "5 min",
+        "reward": "$3.20"
+      },
+      {
+        "tag": "Travel",
+        "tone": "success",
+        "title": "Holiday & travel planning",
+        "time": "5 min",
+        "reward": "$4.00"
+      }
     ]
   },
   "payoutSpeed": {
     "eyebrow": "Payout speed",
     "title": "How fast you get paid",
     "items": [
-      { "title": "PayPal — Instant", "text": "Lands within minutes" },
-      { "title": "Gift cards — Same day", "text": "100+ brands, +5% bonus on select cards" },
-      { "title": "Bank transfer — 1–2 days", "text": "Direct to your account, zero fees" }
+      {
+        "title": "PayPal — Instant",
+        "text": "Lands within minutes"
+      },
+      {
+        "title": "Gift cards — Same day",
+        "text": "100+ brands, +5% bonus on select cards"
+      },
+      {
+        "title": "Bank transfer — 1–2 days",
+        "text": "Direct to your account, zero fees"
+      }
     ]
   },
   "cta": {
     "title": "Ready to get started?",
     "subtitle": "It's free, it takes a minute, and your first payout could be today.",
     "button": "Sign Up Free"
+  },
+  "phoneScreens": {
+    "nav": {
+      "surveys": "Surveys",
+      "history": "History",
+      "wallet": "Wallet",
+      "analytics": "Analytics",
+      "profile": "Profile"
+    },
+    "profile": {
+      "title": "Your profile",
+      "subtitle": "Takes about 2 minutes",
+      "nameLabel": "Full name",
+      "nameValue": "Alex Carter",
+      "emailLabel": "Email",
+      "emailValue": "alex@email.com",
+      "interestsLabel": "Interests",
+      "interests": [
+        "Shopping",
+        "Tech",
+        "Travel"
+      ],
+      "progressLabel": "Profile complete",
+      "progressValue": "80%",
+      "cta": "Continue"
+    },
+    "matched": {
+      "heading": "Matched for you",
+      "subtitle": "Based on your profile",
+      "search": "Search surveys...",
+      "allChip": "All"
+    },
+    "answer": {
+      "progressLabel": "Question 5 of 6",
+      "question": "How often do you shop online?",
+      "options": [
+        "A few times a week",
+        "About once a week",
+        "Once a month",
+        "Rarely"
+      ],
+      "submitCta": "Submit answers"
+    },
+    "paid": {
+      "title": "You've been paid!",
+      "via": "Sent to your PayPal",
+      "balanceLabel": "New balance",
+      "balanceValue": "$129.50"
+    }
   }
 }

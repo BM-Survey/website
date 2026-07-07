@@ -4,12 +4,26 @@ import { useEffect, useRef, useState } from "react";
 
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/ui/Reveal";
-import { ArrowRight, Bolt, Check, Clock, Coins, Users } from "@/components/ui/icons";
+import {
+  ArrowRight,
+  Bolt,
+  ChartBars,
+  Check,
+  Clock,
+  Funnel,
+  Gift,
+  Home,
+  Search,
+  User,
+  Wallet,
+} from "@/components/ui/icons";
 import type { HowItWorksDictionary } from "@/i18n/dictionaries";
+import { PhoneFrame } from "@/features/home/components/PhoneFrame";
 
 type StoryJourneyProps = {
   steps: HowItWorksDictionary["steps"];
   preview: HowItWorksDictionary["surveyPreview"];
+  phoneScreens: HowItWorksDictionary["phoneScreens"];
   /** Accessible name for the sticky chapter-chip rail. */
   navLabel: string;
 };
@@ -52,11 +66,12 @@ function useJourneyProgress(ref: React.RefObject<HTMLElement | null>) {
   return reached;
 }
 
-const panelTones = [
-  "bg-gradient-to-br from-primary to-primary-dark shadow-[0_20px_44px_rgba(46,91,255,0.22)]",
-  "bg-gradient-to-b from-ink to-ink-2 shadow-[0_20px_44px_rgba(11,18,32,0.22)]",
-  "bg-white border border-primary-border shadow-[var(--shadow-card-lg)]",
-  "bg-gradient-to-br from-success to-success-dark shadow-[0_20px_44px_rgba(34,195,94,0.22)]",
+/** Ambient glow behind each chapter's phone, tinted to match that chapter. */
+const stepGlows = [
+  "radial-gradient(circle, rgba(46,91,255,0.22), transparent 65%)",
+  "radial-gradient(circle, rgba(122,63,242,0.2), transparent 65%)",
+  "radial-gradient(circle, rgba(255,176,32,0.2), transparent 65%)",
+  "radial-gradient(circle, rgba(34,195,94,0.22), transparent 65%)",
 ];
 
 const tagTones = {
@@ -71,7 +86,7 @@ const tagTones = {
  * a spine that fills as you read, numbered milestones that light up, and a
  * visual vignette for every chapter — profile, matching, answering, payout.
  */
-export function StoryJourney({ steps, preview, navLabel }: StoryJourneyProps) {
+export function StoryJourney({ steps, preview, phoneScreens, navLabel }: StoryJourneyProps) {
   const sectionRef = useRef<HTMLElement>(null);
   const chipsRef = useRef<HTMLElement>(null);
   const reached = useJourneyProgress(sectionRef);
@@ -86,11 +101,14 @@ export function StoryJourney({ steps, preview, navLabel }: StoryJourneyProps) {
     chip?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
   }, [active]);
 
+  // Each chapter is illustrated with the same phone-screen chrome used on
+  // the homepage hero's status steps, so "how it works" shows the actual
+  // app rather than an abstract mockup.
   const vignettes = [
-    <ProfileVignette key="profile" />,
-    <MatchVignette key="match" cards={preview.cards.slice(0, 2)} />,
-    <AnswerVignette key="answer" />,
-    <PaidVignette key="paid" reward={preview.cards[0].reward} />,
+    <ProfileScreen key="profile" p={phoneScreens.profile} />,
+    <MatchedScreen key="matched" nav={phoneScreens.nav} p={phoneScreens.matched} cards={preview.cards} />,
+    <AnswerScreen key="answer" p={phoneScreens.answer} card={preview.cards[0]} />,
+    <PaidScreen key="paid" p={phoneScreens.paid} reward={preview.cards[0].reward} />,
   ];
 
   return (
@@ -195,14 +213,14 @@ export function StoryJourney({ steps, preview, navLabel }: StoryJourneyProps) {
                     </div>
                   </Reveal>
 
-                  {/* Chapter vignette */}
+                  {/* Chapter vignette — the app itself, in a phone frame */}
                   <Reveal variant="zoom" delay={0.12} className={flip ? "md:order-1" : ""}>
-                    <div
-                      className={`relative flex min-h-[280px] items-center justify-center overflow-hidden rounded-[26px] p-8 ${panelTones[i]}`}
-                      aria-hidden
-                    >
-                      <div className="absolute -top-1/3 -end-1/4 h-64 w-64 rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.14),transparent_60%)]" />
-                      {vignettes[i]}
+                    <div className="relative flex min-h-[280px] items-center justify-center" aria-hidden>
+                      <div
+                        className="absolute h-[420px] w-[420px] rounded-full blur-2xl"
+                        style={{ background: stepGlows[i] }}
+                      />
+                      <PhoneFrame className="relative">{vignettes[i]}</PhoneFrame>
                     </div>
                   </Reveal>
                 </div>
@@ -217,123 +235,316 @@ export function StoryJourney({ steps, preview, navLabel }: StoryJourneyProps) {
 }
 
 /* ------------------------------------------------------------------ */
-/* Vignettes — purely visual chapter illustrations, no copy needed     */
+/* Phone screens — the same app chrome used on the homepage hero's     */
+/* Browse / Answer / Submit / Get Paid steps, reused per chapter here. */
 /* ------------------------------------------------------------------ */
 
-/** Chapter 1: a profile card assembling itself. */
-function ProfileVignette() {
+type NavDict = HowItWorksDictionary["phoneScreens"]["nav"];
+
+/** Small bottom tab bar shared by the chapters that show it. */
+function PhoneNav({ nav, active }: { nav: NavDict; active: "surveys" | "profile" }) {
+  const items = [
+    { key: "surveys", label: nav.surveys, Icon: Home },
+    { key: "history", label: nav.history, Icon: Clock },
+    { key: "wallet", label: nav.wallet, Icon: Wallet },
+    { key: "analytics", label: nav.analytics, Icon: ChartBars },
+    { key: "profile", label: nav.profile, Icon: User },
+  ] as const;
+
   return (
-    <div className="relative w-full max-w-[260px]">
-      <div className="rounded-2xl bg-white p-5 shadow-[var(--shadow-float)]">
-        <div className="mb-4 flex items-center gap-3">
-          <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary-soft text-primary">
-            <Users width={22} height={22} />
-          </span>
-          <div className="flex-1">
-            <div className="mb-1.5 h-2.5 w-3/4 rounded-full bg-[#dfe4f5]" />
-            <div className="h-2 w-1/2 rounded-full bg-[#edf1fb]" />
-          </div>
-        </div>
-        <div className="mb-4 flex flex-wrap gap-1.5">
-          <span className="h-6 w-16 rounded-full bg-primary-soft" />
-          <span className="h-6 w-20 rounded-full bg-purple-soft" />
-          <span className="h-6 w-14 rounded-full bg-orange-soft" />
-        </div>
-        <div className="h-1.5 w-full overflow-hidden rounded-full bg-[#edf1fb]">
-          <div className="h-full w-full rounded-full bg-gradient-to-r from-primary to-success" />
-        </div>
-      </div>
-      <span className="absolute -top-3 -end-3 flex h-9 w-9 animate-[floaty_5s_ease-in-out_infinite] items-center justify-center rounded-full bg-success text-white shadow-[0_10px_22px_rgba(34,195,94,0.45)]">
-        <Check width={16} height={16} />
-      </span>
+    <div className="flex items-start justify-between border-t border-primary-border bg-white px-4 pt-2 pb-3.5">
+      {items.map(({ key, label, Icon }) => (
+        <span
+          key={key}
+          className={"flex w-11 flex-col items-center gap-0.5 " + (key === active ? "text-primary" : "text-muted-3")}
+        >
+          <Icon width={15} height={15} />
+          <span className="max-w-full truncate text-[8px] font-semibold">{label}</span>
+        </span>
+      ))}
     </div>
   );
 }
 
-/** Chapter 2: surveys radar-matching to the profile. */
-function MatchVignette({ cards }: { cards: HowItWorksDictionary["surveyPreview"]["cards"] }) {
+/** Chapter 1: create your profile — same white shadow-card chrome as the
+ *  other chapters, with interest chips styled like the Browse category chips.
+ *  Onboarding, so a sticky CTA replaces the tab bar (matches the hero's
+ *  Answer screen, which does the same while mid-flow). */
+function ProfileScreen({ p }: { p: HowItWorksDictionary["phoneScreens"]["profile"] }) {
   return (
-    <div className="relative w-full max-w-[270px]">
-      <span className="absolute start-1/2 top-1/2 h-40 w-40 -translate-x-1/2 -translate-y-1/2 animate-[pulseRing_2.4s_ease-out_infinite] rounded-full border-2 border-white/25 rtl:translate-x-1/2" />
-      <div className="relative flex flex-col gap-3">
-        {cards.map((card, i) => (
+    <div className="flex h-full flex-col pt-10">
+      <div className="flex-1 overflow-hidden px-3.5">
+        <div className="mb-0.5 flex items-center justify-between">
+          <div className="font-display text-[17px] font-extrabold text-ink">{p.title}</div>
+          <span className="flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark font-display text-[11px] font-extrabold text-white">
+            {p.nameValue.charAt(0)}
+          </span>
+        </div>
+        <div className="mb-2.5 text-[10.5px] leading-snug text-muted">{p.subtitle}</div>
+
+        <div className="mb-2.5 rounded-2xl bg-white p-2.5 shadow-[var(--shadow-card)]">
+          <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">{p.nameLabel}</div>
+          <div className="mt-0.5 font-display text-[11.5px] font-extrabold text-ink">{p.nameValue}</div>
+        </div>
+        <div className="mb-2.5 rounded-2xl bg-white p-2.5 shadow-[var(--shadow-card)]">
+          <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">{p.emailLabel}</div>
+          <div className="mt-0.5 font-display text-[11.5px] font-extrabold text-ink">{p.emailValue}</div>
+        </div>
+
+        <div className="mb-1.5 text-[9.5px] font-bold text-muted">{p.interestsLabel}</div>
+        <div className="mb-2.5 flex flex-wrap gap-1.5">
+          {p.interests.map((interest, i) => (
+            <span
+              key={interest}
+              className={
+                "rounded-full px-3 py-1 text-[10.5px] font-bold " +
+                (i < 2 ? "bg-primary-dark text-white" : "bg-white text-ink shadow-[var(--shadow-card)]")
+              }
+            >
+              {interest}
+            </span>
+          ))}
+        </div>
+
+        <div className="mb-2.5 rounded-2xl bg-white p-2.5 shadow-[var(--shadow-card)]">
+          <div className="mb-1.5 flex items-center justify-between text-[9.5px] font-bold">
+            <span className="text-muted">{p.progressLabel}</span>
+            <span className="text-primary">{p.progressValue}</span>
+          </div>
+          <div className="h-1.5 w-full overflow-hidden rounded-full bg-line">
+            <div className="h-full w-4/5 rounded-full bg-gradient-to-r from-primary to-[#22C35E]" />
+          </div>
+        </div>
+      </div>
+
+      <div className="border-t border-primary-border bg-white px-4 pt-2.5 pb-3.5">
+        <button
+          type="button"
+          className="flex w-full items-center justify-center gap-1.5 rounded-2xl bg-primary py-2.5 font-display text-[11px] font-bold text-white"
+          tabIndex={-1}
+        >
+          {p.cta}
+          <ArrowRight width={13} height={13} className="rtl:rotate-180" />
+        </button>
+      </div>
+    </div>
+  );
+}
+
+/** Chapter 2: get matched — the hero's Browse screen, unfiltered so every
+ *  matched category shows at once. */
+function MatchedScreen({
+  nav,
+  p,
+  cards,
+}: {
+  nav: NavDict;
+  p: HowItWorksDictionary["phoneScreens"]["matched"];
+  cards: HowItWorksDictionary["surveyPreview"]["cards"];
+}) {
+  return (
+    <div className="flex h-full flex-col pt-10">
+      <div className="px-3.5">
+        <div className="mb-0.5 font-display text-[17px] font-extrabold text-ink">{p.heading}</div>
+        <div className="mb-2.5 text-[10.5px] leading-snug text-muted">{p.subtitle}</div>
+
+        <div className="mb-2.5 flex items-center gap-2">
+          <div className="flex h-9 flex-1 items-center gap-2 rounded-full bg-white px-3 text-muted-3 shadow-[var(--shadow-card)]">
+            <Search width={14} height={14} />
+            <span className="text-[11px]">{p.search}</span>
+          </div>
+          <span className="flex h-9 w-9 items-center justify-center rounded-2xl bg-white text-ink shadow-[var(--shadow-card)]">
+            <Funnel width={14} height={14} />
+          </span>
+        </div>
+
+        <div className="mb-2.5 flex gap-1.5">
+          <span className="rounded-full bg-primary-dark px-3 py-1 text-[10.5px] font-bold text-white">
+            {p.allChip}
+          </span>
+          {cards.map((card) => (
+            <span
+              key={card.tag}
+              className="rounded-full bg-white px-3 py-1 text-[10.5px] font-bold text-ink shadow-[var(--shadow-card)]"
+            >
+              {card.tag}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div className="flex-1 overflow-hidden px-3.5" data-stagger>
+        {cards.map((card) => (
           <div
             key={card.title}
-            className={
-              "rounded-2xl bg-white p-4 shadow-[var(--shadow-float)] " +
-              (i === 0
-                ? "animate-[floaty_5s_ease-in-out_infinite] rotate-[-2deg]"
-                : "ms-8 animate-[floaty2_6s_ease-in-out_infinite]")
-            }
+            className="relative mb-2 overflow-hidden rounded-2xl bg-white p-2.5 ps-3.5 shadow-[var(--shadow-card)]"
           >
-            <div className="mb-2 flex items-center justify-between gap-3">
+            <span
+              className={`absolute inset-y-0 start-0 w-1 ${tagTones[card.tone as keyof typeof tagTones].split(" ")[0].replace("text-", "bg-")}`}
+              aria-hidden
+            />
+            <div className="mb-1">
               <span
-                className={`rounded-lg px-2 py-0.5 text-[11px] font-bold ${tagTones[card.tone as keyof typeof tagTones]}`}
+                className={`rounded-lg px-2 py-0.5 text-[9.5px] font-bold uppercase tracking-wide ${tagTones[card.tone as keyof typeof tagTones]}`}
               >
                 {card.tag}
               </span>
-              <span className="font-display text-sm font-extrabold text-success-dark">
+            </div>
+            <div className="mb-1.5 font-display text-[12px] font-extrabold leading-tight text-ink">
+              {card.title}
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="flex items-center gap-1 rounded-full bg-primary-dark px-2 py-1 font-display text-[10.5px] font-extrabold text-white">
+                <Gift width={11} height={11} />
                 {card.reward}
               </span>
-            </div>
-            <div className="font-display text-[13px] font-bold text-ink">{card.title}</div>
-            <div className="mt-1.5 inline-flex items-center gap-1 text-[11px] text-muted">
-              <Clock width={11} height={11} /> {card.time}
+              <span className="flex items-center gap-1 text-[9px] text-muted">
+                <Clock width={10} height={10} />
+                {card.time}
+              </span>
+              <span className="ms-auto flex h-6 w-6 items-center justify-center rounded-full bg-line text-muted-2">
+                <ArrowRight width={11} height={11} className="rtl:rotate-180" />
+              </span>
             </div>
           </div>
         ))}
       </div>
+
+      <PhoneNav nav={nav} active="surveys" />
     </div>
   );
 }
 
-/** Chapter 3: a question mid-answer. */
-function AnswerVignette() {
+/** Chapter 3: answer & submit — the hero's Answer screen, progressed near
+ *  the end and labeled with the submit CTA instead of "Next". */
+function AnswerScreen({
+  p,
+  card,
+}: {
+  p: HowItWorksDictionary["phoneScreens"]["answer"];
+  card: HowItWorksDictionary["surveyPreview"]["cards"][number];
+}) {
+  const progressPct = 83;
+
   return (
-    <div className="relative w-full max-w-[250px]">
-      <div className="rounded-2xl bg-bg p-5 shadow-[var(--shadow-card-lg)]">
-        <div className="mb-1.5 h-1.5 w-full overflow-hidden rounded-full bg-[#dfe4f5]">
-          <div className="h-full w-[62%] rounded-full bg-primary" />
+    <div className="flex h-full flex-col pt-10">
+      <div className="px-3.5">
+        <div className="mb-0.5 flex items-center justify-between">
+          <div className="font-display text-[17px] font-extrabold text-ink">{card.title}</div>
         </div>
-        <div className="mb-4 h-2 w-1/3 rounded-full bg-[#dfe4f5]" />
-        <div className="mb-3 h-3 w-5/6 rounded-full bg-ink/15" />
-        <div className="flex flex-col gap-2">
-          <span className="h-9 rounded-xl border border-primary-border bg-white" />
-          <span className="flex h-9 items-center justify-end rounded-xl border border-primary bg-primary-soft px-3">
-            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-primary text-white">
-              <Check width={11} height={11} />
-            </span>
+        <div className="mb-2.5 flex items-center gap-1.5">
+          <span
+            className={`rounded-lg px-2 py-0.5 text-[9.5px] font-bold uppercase tracking-wide ${tagTones[card.tone as keyof typeof tagTones]}`}
+          >
+            {card.tag}
           </span>
-          <span className="h-9 rounded-xl border border-primary-border bg-white" />
+          <span className="flex items-center gap-1 rounded-full bg-primary-dark px-2 py-0.5 font-display text-[9.5px] font-extrabold text-white">
+            <Gift width={10} height={10} />
+            {card.reward}
+          </span>
+        </div>
+
+        <div className="mb-2.5 rounded-2xl bg-white p-2.5 shadow-[var(--shadow-card)]">
+          <div className="mb-1.5 flex items-center justify-between text-[9.5px] font-bold">
+            <span className="text-muted">{p.progressLabel}</span>
+            <span className="text-primary">{progressPct}%</span>
+          </div>
+          <div className="h-1.5 w-full overflow-hidden rounded-full bg-line">
+            <div
+              className="h-full rounded-full bg-gradient-to-r from-primary to-[#22C35E]"
+              style={{ width: `${progressPct}%` }}
+            />
+          </div>
         </div>
       </div>
-      <span className="absolute -bottom-3 -start-3 flex h-9 w-9 animate-[floaty_5s_ease-in-out_infinite] items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark text-white shadow-[0_10px_22px_rgba(46,91,255,0.45)]">
-        <ArrowRight width={15} height={15} className="rtl:rotate-180" />
-      </span>
+
+      <div className="flex-1 overflow-hidden px-3.5" data-stagger>
+        <div className="mb-2.5 font-display text-[13px] font-extrabold leading-snug text-ink">{p.question}</div>
+
+        <div className="flex flex-col gap-1.5">
+          {p.options.map((opt, i) => {
+            const selected = i === 1;
+            return (
+              <div
+                key={opt}
+                className={
+                  "flex items-center justify-between rounded-2xl bg-white px-3 py-2.5 text-[11px] font-semibold shadow-[var(--shadow-card)] " +
+                  (selected ? "text-primary ring-2 ring-primary" : "text-ink")
+                }
+              >
+                {opt}
+                <span
+                  className={
+                    "flex h-4 w-4 shrink-0 items-center justify-center rounded-full border-2 " +
+                    (selected ? "border-primary bg-primary text-white" : "border-primary-border bg-white")
+                  }
+                >
+                  {selected && <Check width={9} height={9} />}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="border-t border-primary-border bg-white px-4 pt-2.5 pb-3.5">
+        <button
+          type="button"
+          className="flex w-full items-center justify-center gap-1.5 rounded-2xl bg-primary py-2.5 font-display text-[11px] font-bold text-white"
+          tabIndex={-1}
+        >
+          {p.submitCta}
+          <ArrowRight width={13} height={13} className="rtl:rotate-180" />
+        </button>
+      </div>
     </div>
   );
 }
 
-/** Chapter 4: the payout landing. */
-function PaidVignette({ reward }: { reward: string }) {
+/** Deterministic confetti layout, reused from the hero's Get Paid screen. */
+const confettiPieces = [
+  { x: "6%", delay: "0s", color: "#2e5bff", duration: "1.5s" },
+  { x: "18%", delay: "0.25s", color: "#22c35e", duration: "1.8s" },
+  { x: "30%", delay: "0.1s", color: "#ffb020", duration: "1.4s" },
+  { x: "44%", delay: "0.35s", color: "#7a3ff2", duration: "1.7s" },
+  { x: "56%", delay: "0.05s", color: "#22c35e", duration: "1.5s" },
+  { x: "68%", delay: "0.3s", color: "#2e5bff", duration: "1.9s" },
+  { x: "80%", delay: "0.15s", color: "#ffb020", duration: "1.4s" },
+  { x: "92%", delay: "0.4s", color: "#7a3ff2", duration: "1.6s" },
+];
+
+/** Chapter 4: get paid — the hero's payout celebration screen. */
+function PaidScreen({ p, reward }: { p: HowItWorksDictionary["phoneScreens"]["paid"]; reward: string }) {
   return (
-    <div className="relative flex w-full max-w-[250px] flex-col items-center">
-      <span className="relative mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-white text-success shadow-[0_16px_34px_rgba(11,18,32,0.25)]">
-        <span className="absolute inset-0 animate-[pulseRing_2s_ease-out_infinite] rounded-full bg-white/40" />
-        <Coins width={34} height={34} className="relative" />
+    <div className="relative flex h-full flex-col items-center justify-center overflow-hidden px-6 pt-11 pb-6 text-center">
+      <div className="pointer-events-none absolute inset-0" aria-hidden>
+        {confettiPieces.map((piece) => (
+          <span
+            key={piece.x}
+            className="absolute top-0 h-2.5 w-1.5 rounded-[2px]"
+            style={{
+              insetInlineStart: piece.x,
+              background: piece.color,
+              animation: `confettiFall ${piece.duration} ease-in ${piece.delay} both`,
+            }}
+          />
+        ))}
+      </div>
+
+      <span className="mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-success text-white shadow-[0_16px_30px_rgba(34,195,94,0.35)]">
+        <Check width={40} height={40} />
       </span>
-      <span className="mb-4 flex animate-[floaty_5s_ease-in-out_infinite] items-center gap-1.5 rounded-full bg-white px-4 py-2 font-display text-lg font-black text-success-dark shadow-[var(--shadow-float)]">
-        +{reward}
-        <Bolt width={15} height={15} className="text-amber" />
-      </span>
-      <div className="w-full rounded-2xl bg-white/95 p-4 shadow-[var(--shadow-card-lg)]">
-        <div className="mb-1.5 h-2 w-1/3 rounded-full bg-[#dfe4f5]" />
-        <div className="flex items-center justify-between">
-          <div className="h-3.5 w-1/2 rounded-full bg-ink/15" />
-          <span className="flex h-6 w-6 items-center justify-center rounded-full bg-success text-white">
-            <Check width={12} height={12} />
-          </span>
-        </div>
+      <div className="mb-1 font-display text-[19px] font-extrabold text-ink">{p.title}</div>
+      <div className="mb-5 font-display text-[34px] font-black text-success">+{reward}</div>
+
+      <div className="mb-3 flex items-center gap-2 rounded-full bg-primary-soft px-3.5 py-1.5 text-[12.5px] font-bold text-primary">
+        <Bolt width={13} height={13} />
+        {p.via}
+      </div>
+
+      <div className="w-full rounded-2xl bg-white p-4 shadow-[var(--shadow-card)]">
+        <div className="text-[11px] text-muted">{p.balanceLabel}</div>
+        <div className="font-display text-2xl font-extrabold text-ink">{p.balanceValue}</div>
       </div>
     </div>
   );

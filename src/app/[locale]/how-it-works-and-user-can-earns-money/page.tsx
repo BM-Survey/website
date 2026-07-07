@@ -50,6 +50,7 @@ export default async function HowItWorksPage({
       <StoryJourney
         steps={howItWorks.steps}
         preview={howItWorks.surveyPreview}
+        phoneScreens={howItWorks.phoneScreens}
         navLabel={howItWorks.hero.eyebrow}
       />
       <SurveyPreview data={howItWorks.surveyPreview} />

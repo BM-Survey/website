@@ -1,6 +1,4 @@
-import type { ReactNode } from "react";
-
-import { Bolt, Clock, Star } from "@/components/ui/icons";
+import { ArrowRight, Bolt, Clock, Funnel, Gift, Search, Star } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
@@ -10,6 +8,10 @@ import { PhoneFrame } from "./PhoneFrame";
 type FeatureSurveysProps = {
   feature: HomeDictionary["feature1"];
 };
+
+/** Index of the chip shown as selected — the phone demonstrates filtering
+ *  the matched feed down to a single chosen category. */
+const ACTIVE_CHIP_INDEX = 1;
 
 export function FeatureSurveys({ feature }: FeatureSurveysProps) {
   const p = feature.phone;
@@ -64,26 +66,51 @@ export function FeatureSurveys({ feature }: FeatureSurveysProps) {
 
         <Reveal variant="right" delay={0.15} className="flex justify-center">
           <PhoneFrame>
-            <div className="px-4 pt-11 pb-4">
-              <div className="mb-3.5 font-display text-lg font-extrabold">{p.heading}</div>
-
-              <div className="mb-3 rounded-2xl bg-gradient-to-br from-primary to-primary-dark p-4 text-white">
-                <div className="mb-2.5 flex items-center justify-between">
-                  <span className="rounded-lg bg-white/20 px-2.5 py-0.5 text-[11px] font-bold">
-                    {p.cards.travel.match}
+            {/* Same app chrome as the hero's Browse step — header, search,
+                category chips — but only one chip is active, so the list
+                below shows just that category's matched surveys. */}
+            <div className="flex h-full flex-col pt-10">
+              <div className="px-3.5">
+                <div className="mb-0.5 flex items-center justify-between">
+                  <div className="font-display text-[17px] font-extrabold text-ink">{p.heading}</div>
+                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-primary-soft text-primary">
+                    <Star width={13} height={13} />
                   </span>
-                  <span className="font-display text-lg font-extrabold">{p.cards.travel.reward}</span>
                 </div>
-                <div className="mb-2.5 font-display text-[15.5px] font-bold leading-snug">
-                  {p.cards.travel.title}
+                <div className="mb-2.5 text-[10.5px] leading-snug text-muted">{p.subtitle}</div>
+
+                <div className="mb-2.5 flex items-center gap-2">
+                  <div className="flex h-9 flex-1 items-center gap-2 rounded-full bg-white px-3 text-muted-3 shadow-[var(--shadow-card)]">
+                    <Search width={14} height={14} />
+                    <span className="text-[11px]">{p.search}</span>
+                  </div>
+                  <span className="flex h-9 w-9 items-center justify-center rounded-2xl bg-white text-ink shadow-[var(--shadow-card)]">
+                    <Funnel width={14} height={14} />
+                  </span>
                 </div>
-                <div className="flex items-center gap-1 text-[11.5px] opacity-85">
-                  <Clock width={11} height={11} /> {p.cards.travel.meta}
+
+                <div className="mb-2.5 flex gap-1.5">
+                  {p.chips.map((chip, i) => (
+                    <span
+                      key={chip}
+                      className={
+                        "rounded-full px-3 py-1 text-[10.5px] font-bold " +
+                        (i === ACTIVE_CHIP_INDEX
+                          ? "bg-primary-dark text-white"
+                          : "bg-white text-ink shadow-[var(--shadow-card)]")
+                      }
+                    >
+                      {chip}
+                    </span>
+                  ))}
                 </div>
               </div>
 
-              <MatchCard match={p.cards.banking.match} reward={p.cards.banking.reward} title={p.cards.banking.title} tone="purple" />
-              <MatchCard match={p.cards.coffee.match} reward={p.cards.coffee.reward} title={p.cards.coffee.title} tone="orange" />
+              <div className="flex-1 overflow-hidden px-3.5 pb-4" data-stagger>
+                {p.cards.map((card, i) => (
+                  <MatchCard key={card.title} card={card} highlight={i === 0} />
+                ))}
+              </div>
             </div>
           </PhoneFrame>
         </Reveal>
@@ -92,25 +119,50 @@ export function FeatureSurveys({ feature }: FeatureSurveysProps) {
   );
 }
 
-function MatchCard({
-  match,
-  reward,
-  title,
-  tone,
-}: {
-  match: string;
-  reward: string;
-  title: string;
-  tone: "purple" | "orange";
-}): ReactNode {
-  const toneClass = tone === "purple" ? "text-purple bg-purple-soft" : "text-orange bg-orange-soft";
-  return (
-    <div className="mb-3 rounded-2xl bg-white p-3.5 shadow-[0_4px_12px_rgba(16,32,90,0.05)]">
-      <div className="mb-1.5 flex justify-between">
-        <span className={`rounded-lg px-2 py-0.5 text-[11px] font-bold ${toneClass}`}>{match}</span>
-        <span className="font-display font-extrabold text-success">{reward}</span>
+type MatchCardData = HomeDictionary["feature1"]["phone"]["cards"][number];
+
+function MatchCard({ card, highlight }: { card: MatchCardData; highlight: boolean }) {
+  if (highlight) {
+    return (
+      <div className="mb-2.5 rounded-2xl bg-gradient-to-br from-primary to-primary-dark p-3 text-white">
+        <div className="mb-1.5 flex items-center justify-between">
+          <span className="rounded-lg bg-white/20 px-2 py-0.5 text-[9.5px] font-bold">{card.match}</span>
+          <span className="flex items-center gap-1 rounded-full bg-white/20 px-2 py-0.5 font-display text-[10.5px] font-extrabold">
+            <Gift width={10} height={10} />
+            {card.reward}
+          </span>
+        </div>
+        <div className="mb-1.5 font-display text-[12.5px] font-extrabold leading-tight">{card.title}</div>
+        <div className="flex items-center gap-1 text-[9.5px] opacity-85">
+          <Clock width={10} height={10} />
+          {card.time} · {card.questions}
+        </div>
       </div>
-      <div className="text-[13.5px] font-bold">{title}</div>
+    );
+  }
+
+  return (
+    <div className="relative mb-2 overflow-hidden rounded-2xl bg-white p-2.5 ps-3.5 shadow-[var(--shadow-card)]">
+      <span className="absolute inset-y-0 start-0 w-1 bg-primary" aria-hidden />
+      <div className="mb-1">
+        <span className="rounded-lg bg-primary-soft px-2 py-0.5 text-[9.5px] font-bold text-primary-dark">
+          {card.match}
+        </span>
+      </div>
+      <div className="mb-1.5 font-display text-[12px] font-extrabold leading-tight text-ink">{card.title}</div>
+      <div className="flex items-center gap-2">
+        <span className="flex items-center gap-1 rounded-full bg-primary-dark px-2 py-1 font-display text-[10.5px] font-extrabold text-white">
+          <Gift width={11} height={11} />
+          {card.reward}
+        </span>
+        <span className="flex items-center gap-1 text-[9px] text-muted">
+          <Clock width={10} height={10} />
+          {card.time} · {card.questions}
+        </span>
+        <span className="ms-auto flex h-6 w-6 items-center justify-center rounded-full bg-line text-muted-2">
+          <ArrowRight width={11} height={11} className="rtl:rotate-180" />
+        </span>
+      </div>
     </div>
   );
 }

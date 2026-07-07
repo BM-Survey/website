@@ -40,19 +40,25 @@
           "reward": "$2.50",
           "title": "आपकी ऑनलाइन शॉपिंग की आदतें",
           "time": "4 मिनट",
-          "questions": "8 प्रश्न"
+          "questions": "8 प्रश्न",
+          "spots": "8 सीटें बाकी",
+          "date": "08 जुलाई"
         },
         "tech": {
           "tag": "टेक",
           "reward": "$1.75",
           "title": "स्ट्रीमिंग और मनोरंजन",
           "time": "3 मिनट",
-          "questions": "6 प्रश्न"
+          "questions": "6 प्रश्न",
+          "spots": "3 सीटें बाकी",
+          "date": "15 जुलाई"
         },
         "food": {
           "tag": "फ़ूड",
           "reward": "$3.20",
-          "title": "साप्ताहिक किराना विकल्प"
+          "title": "साप्ताहिक किराना विकल्प",
+          "spots": "12 सीटें बाकी",
+          "date": "21 जुलाई"
         }
       },
       "flow": {
@@ -64,6 +70,7 @@
           "कभी-कभार"
         ],
         "answerProgress": "प्रश्न 3 / 8",
+        "answerNext": "अगला",
         "submitTitle": "समीक्षा करें और भेजें",
         "submitDone": "सभी 8 प्रश्नों के उत्तर दिए गए",
         "submitCta": "उत्तर भेजें",
@@ -72,6 +79,43 @@
         "paidVia": "आपके PayPal पर भेजा गया",
         "paidBalanceLabel": "नया बैलेंस",
         "paidBalanceValue": "$127.00"
+      },
+      "browse": {
+        "title": "सर्वे खोजें",
+        "subtitle": "सर्वे पूरे करें, इनाम पाएँ",
+        "search": "सर्वे खोजें...",
+        "chips": [
+          "सभी",
+          "शॉपिंग",
+          "टेक"
+        ],
+        "statusNew": "नया",
+        "statusEndsSoon": "जल्द समाप्त",
+        "nav": {
+          "surveys": "सर्वे",
+          "history": "इतिहास",
+          "wallet": "वॉलेट",
+          "analytics": "विश्लेषण",
+          "profile": "प्रोफ़ाइल"
+        }
+      },
+      "submit": {
+        "detailsTitle": "सर्वे विवरण",
+        "tag": "टेक",
+        "statusLabel": "पूर्ण",
+        "title": "प्रोड टेस्ट 11",
+        "alert": "आपने पहले ही यह सर्वे पूरा करने का प्रयास किया है।",
+        "reward": "$200",
+        "rewardLabel": "प्रति पूर्णता इनाम",
+        "expiresLabel": "समाप्ति",
+        "expiresDate": "21 जुलाई 2026",
+        "spotsLabel": "बची हुई सीटें",
+        "spotsValue": "1",
+        "spotsTotal": "2",
+        "postedByLabel": "द्वारा पोस्ट किया गया",
+        "creatorName": "B2B इनसाइट पैनल",
+        "orgName": "Beacon martech",
+        "ctaUnavailable": "अनुपलब्ध"
       }
     },
     "badges": {
@@ -138,25 +182,38 @@
       }
     },
     "phone": {
-      "heading": "आपके लिए चुना गया",
-      "cards": {
-        "travel": {
+      "heading": "आपके लिए मैच किया गया",
+      "subtitle": "आपकी यात्रा रुचियों के आधार पर",
+      "search": "मैच किए गए सर्वे खोजें...",
+      "chips": [
+        "सभी",
+        "यात्रा",
+        "बैंकिंग",
+        "कॉफ़ी"
+      ],
+      "cards": [
+        {
           "match": "98% मैच",
           "reward": "$4.00",
-          "title": "यात्रा और छुट्टी की योजना",
-          "meta": "5 मिनट · 12 प्रश्न"
+          "title": "यात्रा और छुट्टी योजना",
+          "time": "5 मिनट",
+          "questions": "12 प्रश्न"
         },
-        "banking": {
-          "match": "92% मैच",
-          "reward": "$2.25",
-          "title": "मोबाइल बैंकिंग ऐप्स"
+        {
+          "match": "91% मैच",
+          "reward": "$3.10",
+          "title": "वीकेंड गेटअवे आदतें",
+          "time": "4 मिनट",
+          "questions": "9 प्रश्न"
         },
-        "coffee": {
-          "match": "88% मैच",
-          "reward": "$1.90",
-          "title": "कॉफ़ी और कैफ़े की आदतें"
+        {
+          "match": "87% मैच",
+          "reward": "$2.75",
+          "title": "एयरपोर्ट और फ़्लाइट अनुभव",
+          "time": "6 मिनट",
+          "questions": "14 प्रश्न"
         }
-      }
+      ]
     }
   },
   "feature2": {
@@ -173,24 +230,28 @@
       }
     },
     "phone": {
-      "heading": "पैसे निकालें",
-      "availableLabel": "उपलब्ध बैलेंस",
-      "availableValue": "$127.00",
-      "methods": {
-        "paypal": {
-          "name": "PayPal",
-          "note": "तुरंत · कोई शुल्क नहीं"
-        },
-        "amazon": {
-          "name": "Amazon गिफ्ट कार्ड",
-          "note": "+5% बोनस मूल्य"
-        },
-        "bank": {
-          "name": "बैंक ट्रांसफ़र",
-          "note": "1–2 कार्यदिवस"
-        }
-      },
-      "withdraw": "$127.00 निकालें"
+      "appName": "B2B Insight Panel",
+      "pageTitle": "बैलेंस निकालें",
+      "modalTitle": "निकासी का अनुरोध करें",
+      "fromLabel": "से",
+      "orgName": "Beacon martech",
+      "availableValue": "$140",
+      "availableSuffix": "उपलब्ध",
+      "fullBalance": "पूरा बैलेंस",
+      "customAmount": "कस्टम राशि",
+      "amountLabel": "राशि",
+      "amountValue": "$140",
+      "receiveLabel": "आपको मिलेगा",
+      "receiveValue": "$140",
+      "requestCta": "अनुरोध करें",
+      "disclaimer": "आपका अनुरोध समीक्षा के लिए Beacon martech को भेजा जाता है। स्वीकृत होने पर, राशि आपके पंजीकृत PayPal खाते में भेज दी जाती है।",
+      "nav": {
+        "surveys": "सर्वे",
+        "history": "इतिहास",
+        "wallet": "वॉलेट",
+        "analytics": "विश्लेषण",
+        "profile": "प्रोफ़ाइल"
+      }
     }
   },
   "rewards": {

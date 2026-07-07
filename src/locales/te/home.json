@@ -40,19 +40,25 @@
           "reward": "$2.50",
           "title": "మీ ఆన్‌లైన్ షాపింగ్ అలవాట్లు",
           "time": "4 నిమి",
-          "questions": "8 ప్రశ్నలు"
+          "questions": "8 ప్రశ్నలు",
+          "spots": "8 స్థానాలు మిగిలాయి",
+          "date": "08 జులై"
         },
         "tech": {
           "tag": "టెక్",
           "reward": "$1.75",
           "title": "స్ట్రీమింగ్ & వినోదం",
           "time": "3 నిమి",
-          "questions": "6 ప్రశ్నలు"
+          "questions": "6 ప్రశ్నలు",
+          "spots": "3 స్థానాలు మిగిలాయి",
+          "date": "15 జులై"
         },
         "food": {
           "tag": "ఫుడ్",
           "reward": "$3.20",
-          "title": "వారపు కిరాణా ఎంపికలు"
+          "title": "వారపు కిరాణా ఎంపికలు",
+          "spots": "12 స్థానాలు మిగిలాయి",
+          "date": "21 జులై"
         }
       },
       "flow": {
@@ -64,6 +70,7 @@
           "అరుదుగా"
         ],
         "answerProgress": "ప్రశ్న 3 / 8",
+        "answerNext": "తదుపరి",
         "submitTitle": "సమీక్షించి సమర్పించండి",
         "submitDone": "మొత్తం 8 ప్రశ్నలకు సమాధానం ఇచ్చారు",
         "submitCta": "సమాధానాలు సమర్పించండి",
@@ -72,6 +79,43 @@
         "paidVia": "మీ PayPal కి పంపబడింది",
         "paidBalanceLabel": "కొత్త బ్యాలెన్స్",
         "paidBalanceValue": "$127.00"
+      },
+      "browse": {
+        "title": "సర్వేలను కనుగొనండి",
+        "subtitle": "సర్వేలు పూర్తి చేసి రివార్డులు పొందండి",
+        "search": "సర్వేల కోసం వెతకండి...",
+        "chips": [
+          "అన్నీ",
+          "షాపింగ్",
+          "టెక్"
+        ],
+        "statusNew": "కొత్తది",
+        "statusEndsSoon": "త్వరలో ముగింపు",
+        "nav": {
+          "surveys": "సర్వేలు",
+          "history": "చరిత్ర",
+          "wallet": "వాలెట్",
+          "analytics": "విశ్లేషణ",
+          "profile": "ప్రొఫైల్"
+        }
+      },
+      "submit": {
+        "detailsTitle": "సర్వే వివరాలు",
+        "tag": "టెక్",
+        "statusLabel": "పూర్తయింది",
+        "title": "ప్రొడ్ టెస్ట్ 11",
+        "alert": "మీరు ఇప్పటికే ఈ సర్వేను ప్రయత్నించారు.",
+        "reward": "$200",
+        "rewardLabel": "పూర్తి చేసినందుకు రివార్డు",
+        "expiresLabel": "గడువు",
+        "expiresDate": "21 జులై 2026",
+        "spotsLabel": "మిగిలిన స్థానాలు",
+        "spotsValue": "1",
+        "spotsTotal": "2",
+        "postedByLabel": "పోస్ట్ చేసినవారు",
+        "creatorName": "B2B ఇన్‌సైట్ ప్యానెల్",
+        "orgName": "Beacon martech",
+        "ctaUnavailable": "అందుబాటులో లేదు"
       }
     },
     "badges": {
@@ -138,25 +182,38 @@
       }
     },
     "phone": {
-      "heading": "మీ కోసం ఎంపిక చేయబడింది",
-      "cards": {
-        "travel": {
+      "heading": "మీ కోసం మ్యాచ్ చేయబడింది",
+      "subtitle": "మీ ప్రయాణ ఆసక్తుల ఆధారంగా",
+      "search": "మ్యాచ్ అయిన సర్వేలను వెతకండి...",
+      "chips": [
+        "అన్నీ",
+        "ప్రయాణం",
+        "బ్యాంకింగ్",
+        "కాఫీ"
+      ],
+      "cards": [
+        {
           "match": "98% మ్యాచ్",
           "reward": "$4.00",
-          "title": "ప్రయాణం & సెలవుల ప్రణాళిక",
-          "meta": "5 నిమి · 12 ప్రశ్నలు"
+          "title": "ప్రయాణం & సెలవు ప్రణాళిక",
+          "time": "5 నిమి",
+          "questions": "12 ప్రశ్నలు"
         },
-        "banking": {
-          "match": "92% మ్యాచ్",
-          "reward": "$2.25",
-          "title": "మొబైల్ బ్యాంకింగ్ యాప్‌లు"
+        {
+          "match": "91% మ్యాచ్",
+          "reward": "$3.10",
+          "title": "వారాంతపు యాత్రల అలవాట్లు",
+          "time": "4 నిమి",
+          "questions": "9 ప్రశ్నలు"
         },
-        "coffee": {
-          "match": "88% మ్యాచ్",
-          "reward": "$1.90",
-          "title": "కాఫీ & కేఫ్ అలవాట్లు"
+        {
+          "match": "87% మ్యాచ్",
+          "reward": "$2.75",
+          "title": "విమానాశ్రయం & విమాన అనుభవం",
+          "time": "6 నిమి",
+          "questions": "14 ప్రశ్నలు"
         }
-      }
+      ]
     }
   },
   "feature2": {
@@ -173,24 +230,28 @@
       }
     },
     "phone": {
-      "heading": "విత్‌డ్రా",
-      "availableLabel": "అందుబాటులో ఉన్న బ్యాలెన్స్",
-      "availableValue": "$127.00",
-      "methods": {
-        "paypal": {
-          "name": "PayPal",
-          "note": "తక్షణం · ఫీజులు లేవు"
-        },
-        "amazon": {
-          "name": "Amazon గిఫ్ట్ కార్డ్",
-          "note": "+5% బోనస్ విలువ"
-        },
-        "bank": {
-          "name": "బ్యాంక్ బదిలీ",
-          "note": "1–2 పని దినాలు"
-        }
-      },
-      "withdraw": "$127.00 విత్‌డ్రా చేయండి"
+      "appName": "B2B Insight Panel",
+      "pageTitle": "బ్యాలెన్స్ విత్‌డ్రా చేయండి",
+      "modalTitle": "విత్‌డ్రావల్ కోసం అభ్యర్థించండి",
+      "fromLabel": "నుండి",
+      "orgName": "Beacon martech",
+      "availableValue": "$140",
+      "availableSuffix": "అందుబాటులో ఉంది",
+      "fullBalance": "పూర్తి బ్యాలెన్స్",
+      "customAmount": "అనుకూల మొత్తం",
+      "amountLabel": "మొత్తం",
+      "amountValue": "$140",
+      "receiveLabel": "మీరు అందుకుంటారు",
+      "receiveValue": "$140",
+      "requestCta": "అభ్యర్థించండి",
+      "disclaimer": "మీ అభ్యర్థన సమీక్ష కోసం Beacon martechకి వెళుతుంది. ఆమోదించిన తర్వాత, మొత్తం మీ నమోదిత PayPal ఖాతాకు పంపబడుతుంది.",
+      "nav": {
+        "surveys": "సర్వేలు",
+        "history": "చరిత్ర",
+        "wallet": "వాలెట్",
+        "analytics": "విశ్లేషణ",
+        "profile": "ప్రొఫైల్"
+      }
     }
   },
   "rewards": {

@@ -3,7 +3,27 @@
 import { Fragment, useEffect, useRef, useState } from "react";
 
 import { Button } from "@/components/ui/Button";
-import { ArrowRight, Coins, Bolt, Clock, Play, Check, ChevronDown, DollarSign } from "@/components/ui/icons";
+import {
+  ArrowRight,
+  Coins,
+  Bolt,
+  Clock,
+  Play,
+  Check,
+  ChevronDown,
+  DollarSign,
+  Search,
+  Funnel,
+  Gift,
+  Users,
+  Home,
+  Wallet,
+  ChartBars,
+  User,
+  Close,
+  Warning,
+  Building,
+} from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
 import type { Locale } from "@/i18n/config";
 import type { CommonDictionary, HomeDictionary } from "@/i18n/dictionaries";
@@ -317,7 +337,7 @@ export function Hero({ locale, hero, actions }: HeroProps) {
                     <AnswerScreen p={p} />
                   </PhoneScreen>
                   <PhoneScreen active={step === 2}>
-                    <SubmitScreen p={p} cta={actions.signupFree} />
+                    <SubmitScreen p={p} />
                   </PhoneScreen>
                   <PhoneScreen active={step === 3}>
                     <PaidScreen p={p} active={step === 3} />
@@ -461,139 +481,335 @@ function PhoneScreen({ active, children }: { active: boolean; children: React.Re
   );
 }
 
-function PhoneHeader({ p, balanceValue }: { p: PhoneData; balanceValue?: string }) {
-  return (
-    <div className="mb-4 flex items-start justify-between">
-      <div>
-        <div className="text-xs text-muted">{p.greeting}</div>
-        <div className="font-display text-[19px] font-extrabold">{p.userName}</div>
-      </div>
-      <div className="rounded-2xl bg-gradient-to-br from-primary to-primary-dark px-3 py-2 text-end text-white">
-        <div className="text-[9.5px] opacity-80">{p.balanceLabel}</div>
-        <div className="font-display text-base font-extrabold">{balanceValue ?? p.balanceValue}</div>
-      </div>
-    </div>
-  );
-}
-
+/**
+ * "Browse" step — a miniature of the real app's Discover Surveys feed:
+ * header + avatar, search bar with filter button, category chips, status
+ * cards with a colored side rail, and the bottom tab bar.
+ */
 function BrowseScreen({ p }: { p: PhoneData }) {
+  const b = p.browse;
+  const cards = [
+    { ...p.cards.shopping, status: b.statusNew, endsSoon: false },
+    { ...p.cards.tech, status: b.statusEndsSoon, endsSoon: true },
+    { ...p.cards.food, status: b.statusNew, endsSoon: false },
+  ];
+  const navItems = [
+    { label: b.nav.surveys, Icon: Home, active: true },
+    { label: b.nav.history, Icon: Clock, active: false },
+    { label: b.nav.wallet, Icon: Wallet, active: false },
+    { label: b.nav.analytics, Icon: ChartBars, active: false },
+    { label: b.nav.profile, Icon: User, active: false },
+  ];
+
   return (
-    <div className="px-4 pt-11 pb-4">
-      <PhoneHeader p={p} />
-      <div data-stagger>
-        <div className="mb-2.5 font-display text-[13px] font-bold">{p.surveysForYou}</div>
-        <SurveyCard
-          tag={p.cards.shopping.tag}
-          tagTone="primary"
-          reward={p.cards.shopping.reward}
-          title={p.cards.shopping.title}
-          time={p.cards.shopping.time}
-          questions={p.cards.shopping.questions}
-        />
-        <SurveyCard
-          tag={p.cards.tech.tag}
-          tagTone="purple"
-          reward={p.cards.tech.reward}
-          title={p.cards.tech.title}
-          time={p.cards.tech.time}
-          questions={p.cards.tech.questions}
-        />
-        <SurveyCard
-          tag={p.cards.food.tag}
-          tagTone="orange"
-          reward={p.cards.food.reward}
-          title={p.cards.food.title}
-        />
-      </div>
-    </div>
-  );
-}
+    <div className="flex h-full flex-col pt-10">
+      <div className="px-3.5">
+        {/* Title + avatar */}
+        <div className="mb-0.5 flex items-center justify-between">
+          <div className="font-display text-[17px] font-extrabold text-ink">{b.title}</div>
+          <span className="flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark font-display text-[11px] font-extrabold text-white">
+            {p.userName.charAt(0)}
+          </span>
+        </div>
+        <div className="mb-2.5 text-[10.5px] leading-snug text-muted">{b.subtitle}</div>
 
-function AnswerScreen({ p }: { p: PhoneData }) {
-  const f = p.flow;
-  return (
-    <div className="flex h-full flex-col px-4 pt-11 pb-4">
-      <div className="mb-1 flex items-center justify-between">
-        <span className="rounded-lg bg-primary-soft px-2 py-0.5 text-[11px] font-bold text-primary">
-          {p.cards.shopping.tag}
-        </span>
-        <span className="font-display text-base font-extrabold text-success">
-          {p.cards.shopping.reward}
-        </span>
-      </div>
-      <div className="mb-2 font-display text-[13px] font-bold">{p.cards.shopping.title}</div>
+        {/* Search + filter */}
+        <div className="mb-2.5 flex items-center gap-2">
+          <div className="flex h-9 flex-1 items-center gap-2 rounded-full bg-white px-3 text-muted-3 shadow-[var(--shadow-card)]">
+            <Search width={14} height={14} />
+            <span className="text-[11px]">{b.search}</span>
+          </div>
+          <span className="flex h-9 w-9 items-center justify-center rounded-2xl bg-white text-ink shadow-[var(--shadow-card)]">
+            <Funnel width={14} height={14} />
+          </span>
+        </div>
 
-      {/* Progress */}
-      <div className="mb-1 h-1.5 w-full overflow-hidden rounded-full bg-[#dfe4f5]">
-        <div className="h-full w-[38%] rounded-full bg-primary" />
-      </div>
-      <div className="mb-4 text-[11px] text-muted">{f.answerProgress}</div>
-
-      <div className="mb-3 font-display text-[17px] font-extrabold leading-snug">
-        {f.answerQuestion}
-      </div>
-
-      <div className="flex flex-col gap-2.5" data-stagger>
-        {f.answerOptions.map((opt, i) => {
-          const selected = i === 1;
-          return (
-            <div
-              key={opt}
+        {/* Category chips */}
+        <div className="mb-2.5 flex gap-1.5">
+          {b.chips.map((chip, i) => (
+            <span
+              key={chip}
               className={
-                "flex items-center justify-between rounded-2xl border px-3.5 py-3 text-sm font-semibold " +
-                (selected
-                  ? "border-primary bg-primary-soft text-primary"
-                  : "border-primary-border bg-white text-ink")
+                "rounded-full px-3 py-1 text-[10.5px] font-bold " +
+                (i === 0 ? "bg-primary-dark text-white" : "bg-white text-ink shadow-[var(--shadow-card)]")
               }
             >
-              {opt}
-              {selected && (
-                <span className="flex h-5 w-5 items-center justify-center rounded-full bg-primary text-white">
-                  <Check width={12} height={12} />
-                </span>
-              )}
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
-
-function SubmitScreen({ p, cta }: { p: PhoneData; cta: string }) {
-  const f = p.flow;
-  return (
-    <div className="flex h-full flex-col px-4 pt-11 pb-4">
-      <div data-stagger>
-        <div className="mb-3 font-display text-[17px] font-extrabold">{f.submitTitle}</div>
-
-        <SurveyCard
-          tag={p.cards.shopping.tag}
-          tagTone="primary"
-          reward={p.cards.shopping.reward}
-          title={p.cards.shopping.title}
-          time={p.cards.shopping.time}
-          questions={p.cards.shopping.questions}
-        />
-
-        <div className="mb-2.5 flex items-center gap-2.5 rounded-2xl bg-success-soft px-3.5 py-3">
-          <span className="flex h-7 w-7 items-center justify-center rounded-full bg-success text-white">
-            <Check width={14} height={14} />
-          </span>
-          <span className="font-display text-sm font-bold text-ink">{f.submitDone}</span>
+              {chip}
+            </span>
+          ))}
         </div>
       </div>
 
-      <div className="mt-auto">
+      {/* Survey cards */}
+      <div className="flex-1 overflow-hidden px-3.5" data-stagger>
+        {cards.map((card) => (
+          <BrowseCard key={card.title} card={card} />
+        ))}
+      </div>
+
+      {/* Bottom tab bar */}
+      <div className="mt-auto flex items-start justify-between border-t border-primary-border bg-white px-4 pt-2 pb-3.5">
+        {navItems.map(({ label, Icon, active }) => (
+          <span
+            key={label}
+            className={
+              "flex w-11 flex-col items-center gap-0.5 " + (active ? "text-primary" : "text-muted-3")
+            }
+          >
+            <Icon width={15} height={15} />
+            <span className="max-w-full truncate text-[8px] font-semibold">{label}</span>
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+type BrowseCardData = Pick<
+  PhoneData["cards"]["shopping"],
+  "tag" | "reward" | "title" | "spots" | "date"
+> & { status: string; endsSoon: boolean };
+
+function BrowseCard({ card }: { card: BrowseCardData }) {
+  return (
+    <div className="relative mb-2 overflow-hidden rounded-2xl bg-white p-2.5 ps-3.5 shadow-[var(--shadow-card)]">
+      {/* Status-colored side rail */}
+      <span
+        className={"absolute inset-y-0 start-0 w-1 " + (card.endsSoon ? "bg-orange" : "bg-success")}
+        aria-hidden
+      />
+      <div className="mb-1 flex items-center justify-between">
+        <span className="rounded-lg bg-primary-soft px-2 py-0.5 text-[9.5px] font-bold uppercase tracking-wide text-primary-dark">
+          {card.tag}
+        </span>
+        <span
+          className={
+            "flex items-center gap-1 rounded-full px-2 py-0.5 text-[9.5px] font-bold " +
+            (card.endsSoon ? "bg-orange-soft text-orange" : "bg-success-soft text-success")
+          }
+        >
+          <span
+            className={"h-1 w-1 rounded-full " + (card.endsSoon ? "bg-orange" : "bg-success")}
+            aria-hidden
+          />
+          {card.status}
+        </span>
+      </div>
+
+      <div className="mb-1.5 font-display text-[12px] font-extrabold leading-tight text-ink">
+        {card.title}
+      </div>
+
+      <div className="flex items-center gap-2">
+        <span className="flex items-center gap-1 rounded-full bg-primary-dark px-2 py-1 font-display text-[10.5px] font-extrabold text-white">
+          <Gift width={11} height={11} />
+          {card.reward}
+        </span>
+        <span className="flex items-center gap-1 text-[9px] text-muted">
+          <Users width={10} height={10} />
+          {card.spots}
+        </span>
+        <span className="flex items-center gap-1 text-[9px] text-muted">
+          <Clock width={10} height={10} />
+          {card.date}
+        </span>
+        <span className="ms-auto flex h-6 w-6 items-center justify-center rounded-full bg-line text-muted-2">
+          <ArrowRight width={11} height={11} className="rtl:rotate-180" />
+        </span>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * "Answer" step — styled to match BrowseScreen's app chrome: same header
+ * (title + avatar chip), same white shadow-card surfaces, same compact type
+ * scale. A progress card replaces the search bar, radio-style option cards
+ * replace the survey list, and a sticky "Next" button replaces the tab bar.
+ */
+function AnswerScreen({ p }: { p: PhoneData }) {
+  const f = p.flow;
+  const progressPct = 38;
+
+  return (
+    <div className="flex h-full flex-col pt-10">
+      <div className="px-3.5">
+        {/* Title + avatar */}
+        <div className="mb-0.5 flex items-center justify-between">
+          <div className="font-display text-[17px] font-extrabold text-ink">
+            {p.cards.shopping.title}
+          </div>
+          <span className="flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark font-display text-[11px] font-extrabold text-white">
+            {p.userName.charAt(0)}
+          </span>
+        </div>
+        <div className="mb-2.5 flex items-center gap-1.5">
+          <span className="rounded-lg bg-primary-soft px-2 py-0.5 text-[9.5px] font-bold uppercase tracking-wide text-primary-dark">
+            {p.cards.shopping.tag}
+          </span>
+          <span className="flex items-center gap-1 rounded-full bg-primary-dark px-2 py-0.5 font-display text-[9.5px] font-extrabold text-white">
+            <Gift width={10} height={10} />
+            {p.cards.shopping.reward}
+          </span>
+        </div>
+
+        {/* Progress card */}
+        <div className="mb-2.5 rounded-2xl bg-white p-2.5 shadow-[var(--shadow-card)]">
+          <div className="mb-1.5 flex items-center justify-between text-[9.5px] font-bold">
+            <span className="text-muted">{f.answerProgress}</span>
+            <span className="text-primary">{progressPct}%</span>
+          </div>
+          <div className="h-1.5 w-full overflow-hidden rounded-full bg-line">
+            <div
+              className="h-full rounded-full bg-gradient-to-r from-primary to-[#22C35E]"
+              style={{ width: `${progressPct}%` }}
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Question + options */}
+      <div className="flex-1 overflow-hidden px-3.5" data-stagger>
+        <div className="mb-2.5 font-display text-[13px] font-extrabold leading-snug text-ink">
+          {f.answerQuestion}
+        </div>
+
+        <div className="flex flex-col gap-1.5">
+          {f.answerOptions.map((opt, i) => {
+            const selected = i === 1;
+            return (
+              <div
+                key={opt}
+                className={
+                  "flex items-center justify-between rounded-2xl bg-white px-3 py-2.5 text-[11px] font-semibold shadow-[var(--shadow-card)] " +
+                  (selected ? "text-primary ring-2 ring-primary" : "text-ink")
+                }
+              >
+                {opt}
+                <span
+                  className={
+                    "flex h-4 w-4 shrink-0 items-center justify-center rounded-full border-2 " +
+                    (selected ? "border-primary bg-primary text-white" : "border-primary-border bg-white")
+                  }
+                >
+                  {selected && <Check width={9} height={9} />}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Sticky footer, mirrors BrowseScreen's bottom tab bar */}
+      <div className="mt-auto border-t border-primary-border bg-white px-4 pt-2.5 pb-3.5">
         <button
           type="button"
-          className="flex w-full items-center justify-center gap-2 rounded-2xl bg-primary py-3.5 font-display text-sm font-bold text-white"
+          className="flex w-full items-center justify-center gap-1.5 rounded-2xl bg-primary py-2.5 font-display text-[11px] font-bold text-white"
           tabIndex={-1}
         >
-          {f.submitCta}
-          <ArrowRight width={16} height={16} className="rtl:rotate-180" />
+          {f.answerNext}
+          <ArrowRight width={13} height={13} className="rtl:rotate-180" />
         </button>
-        <div className="mt-2 text-center text-[11px] text-muted">{cta}</div>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * "Submit" step — mimics the real app's Survey Details drawer: a close icon
+ * + title bar, a status band (dept tag, status pill, title, org line), an
+ * attempt-notice banner, the reward pill, an Expires/Spots-left stat grid,
+ * a Posted-by row, and a disabled bottom CTA.
+ */
+function SubmitScreen({ p }: { p: PhoneData }) {
+  const s = p.submit;
+  return (
+    <div className="flex h-full flex-col bg-white">
+      {/* Drawer title bar */}
+      <div className="flex items-center gap-2.5 border-b border-primary-border px-3.5 pt-9 pb-2.5">
+        <Close width={13} height={13} className="text-muted-2" />
+        <span className="font-display text-[12.5px] font-extrabold text-ink">{s.detailsTitle}</span>
+      </div>
+
+      <div className="flex-1 overflow-hidden">
+        {/* Status band */}
+        <div className="border-b-2 border-success bg-line px-3.5 py-3">
+          <div className="mb-1.5 flex items-center justify-between">
+            <span className="rounded-lg bg-white px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide text-ink">
+              {s.tag}
+            </span>
+            <span className="flex items-center gap-1 rounded-full bg-success-soft px-2 py-0.5 text-[9px] font-bold text-success">
+              <span className="h-1 w-1 rounded-full bg-success" aria-hidden />
+              {s.statusLabel}
+            </span>
+          </div>
+          <div className="font-display text-[14px] font-extrabold leading-tight text-ink">{s.title}</div>
+        </div>
+
+        <div className="px-3.5 pt-3" data-stagger>
+          {/* Alert */}
+          <div className="mb-3 flex items-center gap-1.5 rounded-xl border border-amber/40 bg-amber/10 px-2.5 py-2">
+            <Warning width={12} height={12} className="shrink-0 text-amber" />
+            <span className="text-[9.5px] leading-snug text-ink">{s.alert}</span>
+          </div>
+
+          {/* Reward */}
+          <div className="mb-3 flex items-center gap-2">
+            <span className="flex items-center gap-1.5 rounded-xl bg-primary-dark px-2.5 py-1.5 font-display text-[13px] font-extrabold text-white">
+              <Gift width={12} height={12} />
+              {s.reward}
+            </span>
+            <span className="text-[9px] text-muted">{s.rewardLabel}</span>
+          </div>
+
+          <div className="mb-3 border-t border-primary-border" />
+
+          {/* Stats grid */}
+          <div className="mb-3 grid grid-cols-2 gap-2">
+            <div className="rounded-xl bg-line p-2">
+              <Clock width={12} height={12} className="mb-1 text-muted-2" />
+              <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">{s.expiresLabel}</div>
+              <div className="font-display text-[10.5px] font-extrabold text-ink">{s.expiresDate}</div>
+            </div>
+            <div className="rounded-xl bg-line p-2">
+              <Users width={12} height={12} className="mb-1 text-muted-2" />
+              <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">{s.spotsLabel}</div>
+              <div className="font-display text-[10.5px] font-extrabold text-ink">
+                {s.spotsValue}
+                <span className="text-muted-3"> / {s.spotsTotal}</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="mb-3 border-t border-primary-border" />
+
+          {/* Posted by */}
+          <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">{s.postedByLabel}</div>
+          <div className="mt-1.5 flex items-center gap-2 rounded-xl bg-line p-2">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white text-muted-2">
+              <User width={12} height={12} />
+            </span>
+            <div className="min-w-0">
+              <div className="truncate font-display text-[10px] font-extrabold text-ink">{s.creatorName}</div>
+              <div className="flex items-center gap-1 truncate text-[9px] text-muted">
+                <Building width={9} height={9} />
+                {s.orgName}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Sticky footer */}
+      <div className="mt-auto border-t border-primary-border bg-white px-4 pt-2.5 pb-3.5">
+        <button
+          type="button"
+          disabled
+          className="w-full rounded-2xl bg-line py-2.5 font-display text-[11px] font-bold text-muted-3"
+          tabIndex={-1}
+        >
+          {s.ctaUnavailable}
+        </button>
       </div>
     </div>
   );
@@ -663,45 +879,3 @@ function PaidScreen({ p, active }: { p: PhoneData; active: boolean }) {
   );
 }
 
-type TagTone = "primary" | "purple" | "orange";
-const tagTones: Record<TagTone, string> = {
-  primary: "text-primary bg-primary-soft",
-  purple: "text-purple bg-purple-soft",
-  orange: "text-orange bg-orange-soft",
-};
-
-function SurveyCard({
-  tag,
-  tagTone,
-  reward,
-  title,
-  time,
-  questions,
-}: {
-  tag: string;
-  tagTone: TagTone;
-  reward: string;
-  title: string;
-  time?: string;
-  questions?: string;
-}) {
-  return (
-    <div className="mb-2.5 rounded-2xl bg-white p-3.5 shadow-[var(--shadow-card)]">
-      <div className="mb-2 flex items-center justify-between">
-        <span className={`rounded-lg px-2 py-0.5 text-[11px] font-bold ${tagTones[tagTone]}`}>
-          {tag}
-        </span>
-        <span className="font-display text-base font-extrabold text-success">{reward}</span>
-      </div>
-      <div className="font-display text-sm font-bold leading-tight">{title}</div>
-      {time && questions && (
-        <div className="mt-2 flex gap-2.5 text-[11px] text-muted">
-          <span className="inline-flex items-center gap-1">
-            <Clock width={11} height={11} /> {time}
-          </span>
-          <span>{questions}</span>
-        </div>
-      )}
-    </div>
-  );
-}

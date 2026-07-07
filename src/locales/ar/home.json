@@ -40,19 +40,25 @@
           "reward": "2.50$",
           "title": "عاداتك في التسوّق عبر الإنترنت",
           "time": "4 دقائق",
-          "questions": "8 أسئلة"
+          "questions": "8 أسئلة",
+          "spots": "8 أماكن متبقية",
+          "date": "08 يوليو"
         },
         "tech": {
           "tag": "تقنية",
           "reward": "1.75$",
           "title": "البث والترفيه",
           "time": "3 دقائق",
-          "questions": "6 أسئلة"
+          "questions": "6 أسئلة",
+          "spots": "3 أماكن متبقية",
+          "date": "15 يوليو"
         },
         "food": {
           "tag": "طعام",
           "reward": "3.20$",
-          "title": "خيارات التسوّق الأسبوعية"
+          "title": "خيارات التسوّق الأسبوعية",
+          "spots": "12 مكاناً متبقياً",
+          "date": "21 يوليو"
         }
       },
       "flow": {
@@ -64,6 +70,7 @@
           "نادرًا"
         ],
         "answerProgress": "السؤال 3 من 8",
+        "answerNext": "التالي",
         "submitTitle": "المراجعة والإرسال",
         "submitDone": "تمت الإجابة على جميع الأسئلة الثمانية",
         "submitCta": "إرسال الإجابات",
@@ -72,6 +79,43 @@
         "paidVia": "أُرسلت إلى حساب PayPal الخاص بك",
         "paidBalanceLabel": "الرصيد الجديد",
         "paidBalanceValue": "$127.00"
+      },
+      "browse": {
+        "title": "اكتشف الاستطلاعات",
+        "subtitle": "أكمل الاستطلاعات واكسب المكافآت",
+        "search": "ابحث عن استطلاع...",
+        "chips": [
+          "الكل",
+          "تسوّق",
+          "تقنية"
+        ],
+        "statusNew": "جديد",
+        "statusEndsSoon": "ينتهي قريباً",
+        "nav": {
+          "surveys": "الاستطلاعات",
+          "history": "السجل",
+          "wallet": "المحفظة",
+          "analytics": "التحليلات",
+          "profile": "الملف"
+        }
+      },
+      "submit": {
+        "detailsTitle": "تفاصيل الاستطلاع",
+        "tag": "تقنية",
+        "statusLabel": "مكتمل",
+        "title": "اختبار الإنتاج 11",
+        "alert": "لقد حاولت بالفعل إكمال هذا الاستطلاع.",
+        "reward": "200 دولار",
+        "rewardLabel": "المكافأة لكل إكمال",
+        "expiresLabel": "تنتهي في",
+        "expiresDate": "21 يوليو 2026",
+        "spotsLabel": "الأماكن المتبقية",
+        "spotsValue": "1",
+        "spotsTotal": "2",
+        "postedByLabel": "نُشر بواسطة",
+        "creatorName": "لوحة B2B Insight",
+        "orgName": "Beacon martech",
+        "ctaUnavailable": "غير متاح"
       }
     },
     "badges": {
@@ -138,25 +182,38 @@
       }
     },
     "phone": {
-      "heading": "مختارة لك",
-      "cards": {
-        "travel": {
-          "match": "تطابق 98٪",
-          "reward": "4.00$",
-          "title": "السفر وتخطيط العطلات",
-          "meta": "5 دقائق · 12 سؤالًا"
+      "heading": "مطابقة لك",
+      "subtitle": "بناءً على اهتمامك بالسفر",
+      "search": "ابحث عن استطلاع مطابق...",
+      "chips": [
+        "الكل",
+        "السفر",
+        "البنوك",
+        "القهوة"
+      ],
+      "cards": [
+        {
+          "match": "تطابق 98%",
+          "reward": "4.00 دولار",
+          "title": "تخطيط السفر والعطلات",
+          "time": "5 دقائق",
+          "questions": "12 سؤالاً"
         },
-        "banking": {
-          "match": "تطابق 92٪",
-          "reward": "2.25$",
-          "title": "تطبيقات الخدمات المصرفية"
+        {
+          "match": "تطابق 91%",
+          "reward": "3.10 دولار",
+          "title": "عادات الرحلات القصيرة في نهاية الأسبوع",
+          "time": "4 دقائق",
+          "questions": "9 أسئلة"
         },
-        "coffee": {
-          "match": "تطابق 88٪",
-          "reward": "1.90$",
-          "title": "عادات القهوة والمقاهي"
+        {
+          "match": "تطابق 87%",
+          "reward": "2.75 دولار",
+          "title": "تجربة المطار والطيران",
+          "time": "6 دقائق",
+          "questions": "14 سؤالاً"
         }
-      }
+      ]
     }
   },
   "feature2": {
@@ -173,24 +230,28 @@
       }
     },
     "phone": {
-      "heading": "اسحب أموالك",
-      "availableLabel": "الرصيد المتاح",
-      "availableValue": "127.00$",
-      "methods": {
-        "paypal": {
-          "name": "باي بال",
-          "note": "فوري · بدون رسوم"
-        },
-        "amazon": {
-          "name": "بطاقة هدايا أمازون",
-          "note": "+5٪ قيمة إضافية"
-        },
-        "bank": {
-          "name": "تحويل بنكي",
-          "note": "1–2 يوم عمل"
-        }
-      },
-      "withdraw": "اسحب 127.00$"
+      "appName": "B2B Insight Panel",
+      "pageTitle": "سحب الرصيد",
+      "modalTitle": "طلب سحب",
+      "fromLabel": "من",
+      "orgName": "Beacon martech",
+      "availableValue": "$140",
+      "availableSuffix": "متاح",
+      "fullBalance": "الرصيد الكامل",
+      "customAmount": "مبلغ مخصص",
+      "amountLabel": "المبلغ",
+      "amountValue": "$140",
+      "receiveLabel": "ستستلم",
+      "receiveValue": "$140",
+      "requestCta": "طلب",
+      "disclaimer": "يُرسل طلبك إلى Beacon martech للمراجعة. بعد الموافقة، يُرسل المبلغ إلى حساب PayPal المسجل لديك.",
+      "nav": {
+        "surveys": "الاستطلاعات",
+        "history": "السجل",
+        "wallet": "المحفظة",
+        "analytics": "التحليلات",
+        "profile": "الملف"
+      }
     }
   },
   "rewards": {

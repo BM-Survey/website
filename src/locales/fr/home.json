@@ -40,19 +40,25 @@
           "reward": "2,50 $",
           "title": "Vos habitudes d'achat en ligne",
           "time": "4 min",
-          "questions": "8 questions"
+          "questions": "8 questions",
+          "spots": "8 places restantes",
+          "date": "08 juil."
         },
         "tech": {
           "tag": "Tech",
           "reward": "1,75 $",
           "title": "Streaming et divertissement",
           "time": "3 min",
-          "questions": "6 questions"
+          "questions": "6 questions",
+          "spots": "3 places restantes",
+          "date": "15 juil."
         },
         "food": {
           "tag": "Alimentation",
           "reward": "3,20 $",
-          "title": "Choix de courses hebdomadaires"
+          "title": "Choix de courses hebdomadaires",
+          "spots": "12 places restantes",
+          "date": "21 juil."
         }
       },
       "flow": {
@@ -64,6 +70,7 @@
           "Rarement"
         ],
         "answerProgress": "Question 3 sur 8",
+        "answerNext": "Suivant",
         "submitTitle": "Vérifier et envoyer",
         "submitDone": "Les 8 questions ont été répondues",
         "submitCta": "Envoyer les réponses",
@@ -72,6 +79,43 @@
         "paidVia": "Envoyé sur votre PayPal",
         "paidBalanceLabel": "Nouveau solde",
         "paidBalanceValue": "127,00 $"
+      },
+      "browse": {
+        "title": "Découvrir les sondages",
+        "subtitle": "Répondez aux sondages, gagnez des récompenses",
+        "search": "Rechercher un sondage...",
+        "chips": [
+          "Tous",
+          "Shopping",
+          "Tech"
+        ],
+        "statusNew": "Nouveau",
+        "statusEndsSoon": "Expire bientôt",
+        "nav": {
+          "surveys": "Sondages",
+          "history": "Historique",
+          "wallet": "Portefeuille",
+          "analytics": "Statistiques",
+          "profile": "Profil"
+        }
+      },
+      "submit": {
+        "detailsTitle": "Détails du sondage",
+        "tag": "Tech",
+        "statusLabel": "Terminé",
+        "title": "Test Prod 11",
+        "alert": "Vous avez déjà tenté ce sondage.",
+        "reward": "200 $",
+        "rewardLabel": "récompense par réalisation",
+        "expiresLabel": "EXPIRE",
+        "expiresDate": "21 juil. 2026",
+        "spotsLabel": "PLACES RESTANTES",
+        "spotsValue": "1",
+        "spotsTotal": "2",
+        "postedByLabel": "PUBLIÉ PAR",
+        "creatorName": "Panel B2B Insight",
+        "orgName": "Beacon martech",
+        "ctaUnavailable": "Indisponible"
       }
     },
     "badges": {
@@ -138,25 +182,38 @@
       }
     },
     "phone": {
-      "heading": "Sélectionné pour vous",
-      "cards": {
-        "travel": {
-          "match": "98 % de match",
+      "heading": "Sélectionnés pour vous",
+      "subtitle": "D'après votre intérêt pour le Voyage",
+      "search": "Rechercher un sondage assorti...",
+      "chips": [
+        "Tous",
+        "Voyage",
+        "Banque",
+        "Café"
+      ],
+      "cards": [
+        {
+          "match": "98 % de correspondance",
           "reward": "4,00 $",
-          "title": "Voyages et planification de vacances",
-          "meta": "5 min · 12 questions"
+          "title": "Planification de voyages et vacances",
+          "time": "5 min",
+          "questions": "12 questions"
         },
-        "banking": {
-          "match": "92 % de match",
-          "reward": "2,25 $",
-          "title": "Applications bancaires mobiles"
+        {
+          "match": "91 % de correspondance",
+          "reward": "3,10 $",
+          "title": "Habitudes d'escapades le week-end",
+          "time": "4 min",
+          "questions": "9 questions"
         },
-        "coffee": {
-          "match": "88 % de match",
-          "reward": "1,90 $",
-          "title": "Habitudes café et cafés"
+        {
+          "match": "87 % de correspondance",
+          "reward": "2,75 $",
+          "title": "Expérience à l'aéroport et en vol",
+          "time": "6 min",
+          "questions": "14 questions"
         }
-      }
+      ]
     }
   },
   "feature2": {
@@ -173,24 +230,28 @@
       }
     },
     "phone": {
-      "heading": "Retrait",
-      "availableLabel": "Solde disponible",
-      "availableValue": "127,00 $",
-      "methods": {
-        "paypal": {
-          "name": "PayPal",
-          "note": "Instantané · sans frais"
-        },
-        "amazon": {
-          "name": "Carte cadeau Amazon",
-          "note": "+5 % de valeur bonus"
-        },
-        "bank": {
-          "name": "Virement bancaire",
-          "note": "1 à 2 jours ouvrés"
-        }
-      },
-      "withdraw": "Retirer 127,00 $"
+      "appName": "B2B Insight Panel",
+      "pageTitle": "Retirer le solde",
+      "modalTitle": "Demander un retrait",
+      "fromLabel": "DE",
+      "orgName": "Beacon martech",
+      "availableValue": "$140",
+      "availableSuffix": "disponible",
+      "fullBalance": "Solde complet",
+      "customAmount": "Montant personnalisé",
+      "amountLabel": "Montant",
+      "amountValue": "$140",
+      "receiveLabel": "Vous recevrez",
+      "receiveValue": "$140",
+      "requestCta": "Demander",
+      "disclaimer": "Votre demande est envoyée à Beacon martech pour examen. Une fois approuvé, le montant est envoyé sur votre compte PayPal enregistré.",
+      "nav": {
+        "surveys": "Sondages",
+        "history": "Historique",
+        "wallet": "Portefeuille",
+        "analytics": "Statistiques",
+        "profile": "Profil"
+      }
     }
   },
   "rewards": {

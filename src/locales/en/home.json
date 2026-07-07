@@ -40,19 +40,25 @@
           "reward": "$2.50",
           "title": "Your online shopping habits",
           "time": "4 min",
-          "questions": "8 questions"
+          "questions": "8 questions",
+          "spots": "8 spots left",
+          "date": "08 Jul"
         },
         "tech": {
           "tag": "Tech",
           "reward": "$1.75",
           "title": "Streaming & entertainment",
           "time": "3 min",
-          "questions": "6 questions"
+          "questions": "6 questions",
+          "spots": "3 spots left",
+          "date": "15 Jul"
         },
         "food": {
           "tag": "Food",
           "reward": "$3.20",
-          "title": "Weekly grocery choices"
+          "title": "Weekly grocery choices",
+          "spots": "12 spots left",
+          "date": "21 Jul"
         }
       },
       "flow": {
@@ -64,6 +70,7 @@
           "Rarely"
         ],
         "answerProgress": "Question 3 of 8",
+        "answerNext": "Next",
         "submitTitle": "Review & submit",
         "submitDone": "All 8 questions answered",
         "submitCta": "Submit answers",
@@ -72,6 +79,43 @@
         "paidVia": "Sent to your PayPal",
         "paidBalanceLabel": "New balance",
         "paidBalanceValue": "$127.00"
+      },
+      "browse": {
+        "title": "Discover Surveys",
+        "subtitle": "Complete surveys, earn rewards",
+        "search": "Search surveys...",
+        "chips": [
+          "All",
+          "Shopping",
+          "Tech"
+        ],
+        "statusNew": "New",
+        "statusEndsSoon": "Ends soon",
+        "nav": {
+          "surveys": "Surveys",
+          "history": "History",
+          "wallet": "Wallet",
+          "analytics": "Analytics",
+          "profile": "Profile"
+        }
+      },
+      "submit": {
+        "detailsTitle": "Survey Details",
+        "tag": "Tech",
+        "statusLabel": "Completed",
+        "title": "Prod Test 11",
+        "alert": "You have already attempted this survey.",
+        "reward": "$200",
+        "rewardLabel": "reward per completion",
+        "expiresLabel": "EXPIRES",
+        "expiresDate": "21 Jul 2026",
+        "spotsLabel": "SPOTS LEFT",
+        "spotsValue": "1",
+        "spotsTotal": "2",
+        "postedByLabel": "POSTED BY",
+        "creatorName": "B2B Insight Panel",
+        "orgName": "Beacon martech",
+        "ctaUnavailable": "Unavailable"
       }
     },
     "badges": {
@@ -139,24 +183,37 @@
     },
     "phone": {
       "heading": "Matched for you",
-      "cards": {
-        "travel": {
+      "subtitle": "Curated from your Travel interests",
+      "search": "Search matched surveys...",
+      "chips": [
+        "All",
+        "Travel",
+        "Banking",
+        "Coffee"
+      ],
+      "cards": [
+        {
           "match": "98% match",
           "reward": "$4.00",
           "title": "Travel & holiday planning",
-          "meta": "5 min · 12 questions"
+          "time": "5 min",
+          "questions": "12 questions"
         },
-        "banking": {
-          "match": "92% match",
-          "reward": "$2.25",
-          "title": "Mobile banking apps"
+        {
+          "match": "91% match",
+          "reward": "$3.10",
+          "title": "Weekend getaway habits",
+          "time": "4 min",
+          "questions": "9 questions"
         },
-        "coffee": {
-          "match": "88% match",
-          "reward": "$1.90",
-          "title": "Coffee & café habits"
+        {
+          "match": "87% match",
+          "reward": "$2.75",
+          "title": "Airport & flight experience",
+          "time": "6 min",
+          "questions": "14 questions"
         }
-      }
+      ]
     }
   },
   "feature2": {
@@ -173,24 +230,28 @@
       }
     },
     "phone": {
-      "heading": "Cash out",
-      "availableLabel": "Available balance",
-      "availableValue": "$127.00",
-      "methods": {
-        "paypal": {
-          "name": "PayPal",
-          "note": "Instant · no fees"
-        },
-        "amazon": {
-          "name": "Amazon gift card",
-          "note": "+5% bonus value"
-        },
-        "bank": {
-          "name": "Bank transfer",
-          "note": "1–2 business days"
-        }
-      },
-      "withdraw": "Withdraw $127.00"
+      "appName": "B2B Insight Panel",
+      "pageTitle": "Withdraw Balance",
+      "modalTitle": "Request a withdrawal",
+      "fromLabel": "FROM",
+      "orgName": "Beacon martech",
+      "availableValue": "$140",
+      "availableSuffix": "available",
+      "fullBalance": "Full balance",
+      "customAmount": "Custom amount",
+      "amountLabel": "Amount",
+      "amountValue": "$140",
+      "receiveLabel": "You'll receive",
+      "receiveValue": "$140",
+      "requestCta": "Request",
+      "disclaimer": "Your request goes to Beacon martech for review. Once approved, the amount is sent to your registered PayPal account.",
+      "nav": {
+        "surveys": "Surveys",
+        "history": "History",
+        "wallet": "Wallet",
+        "analytics": "Analytics",
+        "profile": "Profile"
+      }
     }
   },
   "rewards": {

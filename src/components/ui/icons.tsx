@@ -304,3 +304,120 @@ export function GooglePlay(props: IconProps) {
     </svg>
   );
 }
+
+export function Search(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="2" />
+      <path d="M20.5 20.5L16.2 16.2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function Funnel(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <path
+        d="M4 5h16l-6.2 7.2V18l-3.6 2.2v-8L4 5z"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function Gift(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <rect x="3.5" y="8" width="17" height="4" rx="1" stroke="currentColor" strokeWidth="1.8" />
+      <path
+        d="M5.5 12v7a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5v-7M12 8v12.5M12 8s-1.5-4.5-4-4.5a2.25 2.25 0 0 0 0 4.5H12zm0 0s1.5-4.5 4-4.5a2.25 2.25 0 0 1 0 4.5H12z"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function Home(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <path
+        d="M3.5 10.5L12 3.5l8.5 7M5.5 9v10A1.5 1.5 0 0 0 7 20.5h3v-5.25a2 2 0 0 1 4 0v5.25h3a1.5 1.5 0 0 0 1.5-1.5V9"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function Wallet(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <rect x="3" y="6" width="18" height="13" rx="2.5" stroke="currentColor" strokeWidth="1.8" />
+      <path
+        d="M15 12.5h3"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function ChartBars(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <path
+        d="M5 20v-7M12 20V5M19 20v-10"
+        stroke="currentColor"
+        strokeWidth="2.2"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function User(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <circle cx="12" cy="7.5" r="4" stroke="currentColor" strokeWidth="1.8" />
+      <path
+        d="M4.5 20.5v-.8a6 6 0 0 1 6-6h3a6 6 0 0 1 6 6v.8"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function Warning(props: IconProps) {
+  return (
+    <svg {...svgDefaults({ fill: "currentColor", ...props })}>
+      <circle cx="12" cy="12" r="9" />
+      <rect x="11" y="6.5" width="2" height="6.5" rx="1" fill="white" />
+      <circle cx="12" cy="16.3" r="1.15" fill="white" />
+    </svg>
+  );
+}
+
+export function Building(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <path
+        d="M4 21V9.5L12 4l8 5.5V21M4 21h16M9 21v-5h6v5"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
