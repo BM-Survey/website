@@ -17,9 +17,13 @@ const EMAIL_STORAGE_KEY = "contact-email";
  * write the message, drop an email — done. The email is remembered locally so
  * returning visitors never retype it, and success replaces the form entirely.
  */
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
 export function ContactForm({ form }: ContactFormProps) {
   const [sent, setSent] = useState(false);
   const [topic, setTopic] = useState(0);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const messageRef = useRef<HTMLTextAreaElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
 
@@ -39,9 +43,9 @@ export function ContactForm({ form }: ContactFormProps) {
 
   if (sent) {
     return (
-      <div className="flex min-h-[420px] flex-col items-center justify-center rounded-[26px] border border-primary-border bg-white p-8 text-center shadow-[var(--shadow-card-lg)] sm:p-10">
-        <span className="mb-5 flex h-16 w-16 animate-[popSpring_0.6s_cubic-bezier(0.22,1,0.36,1)_both] items-center justify-center rounded-full bg-success text-white shadow-[0_16px_30px_rgba(34,195,94,0.35)]">
-          <Check width={30} height={30} />
+      <div className="flex min-h-[420px] flex-col items-center justify-center rounded-[26px] border border-primary-border bg-white p-8 text-center shadow-(--shadow-card) sm:p-10">
+        <span className="mb-5 flex h-14 w-14 animate-[popSpring_0.6s_cubic-bezier(0.22,1,0.36,1)_both] items-center justify-center rounded-full bg-success-soft text-success-dark">
+          <Check width={26} height={26} />
         </span>
         <div className="mb-2 font-display text-2xl font-black tracking-tight text-ink">
           {form.submitted}
@@ -52,19 +56,42 @@ export function ContactForm({ form }: ContactFormProps) {
   }
 
   return (
-    <div className="rounded-[26px] border border-primary-border bg-white p-6 shadow-[var(--shadow-card-lg)] sm:p-10">
+    <div className="rounded-[26px] border border-primary-border bg-white p-6 shadow-(--shadow-card) sm:p-10">
       <div className="mb-1.5 font-display text-lg font-extrabold text-ink">{form.label}</div>
       <p className="mb-6 text-[13.5px] text-muted">{form.reassure}</p>
 
       <form
-        onSubmit={(e) => {
+        onSubmit={async (e) => {
           e.preventDefault();
+          if (submitting) return;
+
+          const email = emailRef.current?.value.trim() ?? "";
+          const message = messageRef.current?.value.trim() ?? "";
+          if (!email || !message) return;
+
+          setSubmitting(true);
+          setError(null);
           try {
-            window.localStorage.setItem(EMAIL_STORAGE_KEY, emailRef.current?.value ?? "");
+            const res = await fetch(`${API_URL}/contact-queries`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ topic: form.topics[topic], message, email }),
+            });
+            if (!res.ok) {
+              throw new Error(`Request failed (${res.status})`);
+            }
+
+            try {
+              window.localStorage.setItem(EMAIL_STORAGE_KEY, email);
+            } catch {
+              /* storage unavailable — nothing to remember */
+            }
+            setSent(true);
           } catch {
-            /* storage unavailable — nothing to remember */
+            setError(form.errorMessage);
+          } finally {
+            setSubmitting(false);
           }
-          setSent(true);
         }}
       >
         {/* Topic: one tap instead of a dropdown; first chip pre-selected */}
@@ -83,10 +110,10 @@ export function ContactForm({ form }: ContactFormProps) {
                 }}
                 aria-pressed={i === topic}
                 className={cn(
-                  "rounded-full border px-3.5 py-2 font-display text-[13px] font-bold transition-all duration-200",
+                  "rounded-full border px-3.5 py-2 font-display text-[13px] font-bold transition-colors duration-150",
                   i === topic
-                    ? "border-primary bg-primary text-white shadow-[0_6px_16px_rgba(46,91,255,0.3)]"
-                    : "border-primary-border bg-bg text-muted-2 hover:border-primary hover:text-primary",
+                    ? "border-primary bg-primary-soft text-primary"
+                    : "border-line bg-white text-muted-2 hover:border-primary-border hover:text-ink",
                 )}
               >
                 {label}
@@ -123,19 +150,26 @@ export function ContactForm({ form }: ContactFormProps) {
           </div>
           <button
             type="submit"
-            className="hero-shine flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-br from-primary to-primary-dark px-7 py-3.5 font-display text-[15px] font-extrabold text-white shadow-[0_12px_28px_rgba(46,91,255,0.35)] transition-transform hover:-translate-y-0.5"
+            disabled={submitting}
+            className="flex items-center justify-center gap-2 rounded-2xl bg-primary px-7 py-3.5 font-display text-[15px] font-extrabold text-white transition-colors duration-150 hover:bg-primary-dark disabled:cursor-not-allowed disabled:opacity-60"
           >
-            {form.submit}
+            {submitting ? form.submitting : form.submit}
             <ArrowRight width={16} height={16} className="rtl:rotate-180" />
           </button>
         </div>
+
+        {error && (
+          <p role="alert" className="mt-3 text-[13.5px] font-semibold text-[#e5484d]">
+            {error}
+          </p>
+        )}
       </form>
     </div>
   );
 }
 
 const inputClasses =
-  "w-full rounded-2xl border border-primary-border bg-bg px-4 py-3.5 text-[14.5px] text-ink outline-none focus-visible:border-primary";
+  "w-full rounded-2xl border border-line bg-bg px-4 py-3.5 text-[14.5px] text-ink outline-none transition-colors duration-150 placeholder:text-muted-3 focus-visible:border-primary focus-visible:bg-white";
 
 function Field({
   label,

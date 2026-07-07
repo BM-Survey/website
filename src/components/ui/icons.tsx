@@ -148,6 +148,34 @@ export function Users(props: IconProps) {
   );
 }
 
+export function Mail(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <rect x="3" y="5" width="18" height="14" rx="2.5" stroke="currentColor" strokeWidth="1.8" />
+      <path
+        d="M4 7.5l7.2 5.3a1.4 1.4 0 0 0 1.6 0L20 7.5"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function ChatBubble(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <path
+        d="M12 3.5c4.97 0 9 3.36 9 7.5s-4.03 7.5-9 7.5c-1.02 0-2-.14-2.91-.4L4.5 20l1.06-3.5C4.27 15.2 3 13.22 3 11c0-4.14 4.03-7.5 9-7.5z"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 export function Briefcase(props: IconProps) {
   return (
     <svg {...svgDefaults(props)}>

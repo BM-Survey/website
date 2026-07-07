@@ -1,7 +1,8 @@
 "use client";
 
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "nextjs-toploader/app";
 
 import { ChevronDown, Globe } from "@/components/ui/icons";
 import { type Locale, localeMeta, locales } from "@/i18n/config";

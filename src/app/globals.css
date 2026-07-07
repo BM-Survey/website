@@ -401,13 +401,21 @@
   }
 }
 
+html {
+  /* Clip any horizontal overflow at the true viewport (the scroll container),
+     killing stray x-axis scroll on mobile. `clip` — not `hidden` — so html
+     does not become a scroll container and `position: sticky` stays intact. */
+  overflow-x: clip;
+}
+
 body {
   margin: 0;
   background: var(--color-bg);
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 ::selection {

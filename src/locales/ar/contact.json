@@ -46,6 +46,8 @@
     "messageLabel": "الرسالة",
     "messagePlaceholder": "كيف يمكننا المساعدة؟",
     "submit": "إرسال الرسالة",
+    "submitting": "جارٍ الإرسال…",
+    "errorMessage": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
     "submitted": "تم الإرسال",
     "sentMessage": "تم استلام الرسالة — سنرد خلال 24 ساعة."
   }

@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Script from "next/script";
+import NextTopLoader from "nextjs-toploader";
 
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
@@ -41,6 +42,7 @@ export default async function LocaleLayout({
       className={cn(urbanist.variable, roboto.variable)}
     >
       <body className="min-h-screen">
+        <NextTopLoader color="var(--color-primary)" showSpinner={false} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationStructuredData) }}
@@ -61,10 +63,15 @@ export default async function LocaleLayout({
         <StickyFooter>
           <Footer locale={locale} common={common} />
         </StickyFooter>
-        <div
-          className="elfsight-app-10561567-b2fa-4e17-8710-936fcc5e8b64"
-          data-elfsight-app-lazy
-        />
+        {/* Elfsight floating widget. Kept out of normal flow (fixed, zero-size)
+            so its lazy mount point can't reserve empty vertical space after the
+            footer — the floating button positions itself against the viewport. */}
+        <div className="fixed bottom-0 end-0 z-[90] h-0 w-0">
+          <div
+            className="elfsight-app-10561567-b2fa-4e17-8710-936fcc5e8b64"
+            data-elfsight-app-lazy
+          />
+        </div>
       </body>
       <Script
         src="https://elfsightcdn.com/platform.js"

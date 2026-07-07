@@ -46,6 +46,8 @@
     "messageLabel": "Message",
     "messagePlaceholder": "How can we help?",
     "submit": "Send message",
+    "submitting": "Sending…",
+    "errorMessage": "Something went wrong. Please try again.",
     "submitted": "Sent",
     "sentMessage": "Message received — we'll reply within 24 hours."
   }
