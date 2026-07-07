@@ -13,13 +13,19 @@ type ContactCardsProps = {
 export function ContactCards({ locale, cards }: ContactCardsProps) {
   return (
     <div className="flex flex-col gap-4">
-      <div className="rounded-[26px] bg-gradient-to-b from-ink to-ink-2 p-7 text-white">
+      {/* One tap opens the mail client — no form needed at all */}
+      <a
+        href={`mailto:${cards.email.value}`}
+        className="group rounded-[26px] bg-gradient-to-b from-ink to-ink-2 p-7 text-white transition-transform duration-300 hover:-translate-y-1"
+      >
         <span className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-white/10">
           <Check width={18} height={18} />
         </span>
         <div className="mb-1.5 font-display text-lg font-extrabold">{cards.email.title}</div>
-        <div className="text-[14.5px] text-[#aeb4c2]">{cards.email.value}</div>
-      </div>
+        <div className="text-[14.5px] text-[#aeb4c2] underline-offset-4 group-hover:underline">
+          {cards.email.value}
+        </div>
+      </a>
 
       <div className="rounded-[26px] border border-primary-border bg-white p-7 shadow-[var(--shadow-card-lg)]">
         <span className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-success-soft text-success-dark">

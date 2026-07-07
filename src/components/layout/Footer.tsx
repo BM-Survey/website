@@ -85,21 +85,10 @@ export function Footer({ locale, common }: FooterProps) {
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center justify-between gap-4 py-7">
+        <div className="py-7">
           <p className="text-[13.5px] text-[#6e7ba6]">
             {interpolate(f.copyright, { year: new Date().getFullYear() })}
           </p>
-          <div className="flex gap-5 text-[13.5px] text-[#6e7ba6]">
-            <Link href={pageHref(locale, "privacyPolicy")} className="hover:text-white">
-              {f.bottom.privacy}
-            </Link>
-            <Link href={pageHref(locale, "cookiePolicy")} className="hover:text-white">
-              {f.bottom.cookies}
-            </Link>
-            <Link href={pageHref(locale, "termsConditions")} className="hover:text-white">
-              {f.bottom.terms}
-            </Link>
-          </div>
         </div>
       </Container>
     </footer>

@@ -50,7 +50,7 @@ export function Stats({ stats }: StatsProps) {
 
           {/* Right cluster */}
           <div className="flex flex-col gap-4">
-            <div className="flex flex-1 gap-4">
+            <div className="flex flex-1 flex-col gap-4 sm:flex-row">
               <article className="relative flex min-h-[200px] flex-1 flex-col justify-between overflow-hidden rounded-[26px] bg-gradient-to-b from-ink to-ink-2 p-8">
                 <Image
                   src="/illustrations/members.svg"

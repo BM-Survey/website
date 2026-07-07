@@ -9,7 +9,7 @@
     "about": "हमारे बारे में",
     "faq": "सामान्य प्रश्न",
     "contact": "संपर्क",
-    "collaboration": "सहयोग",
+    "collaboration": "संगठनों के लिए",
     "blog": "ब्लॉग"
   },
   "actions": {
@@ -40,7 +40,7 @@
       "faq": "सामान्य प्रश्न",
       "blog": "ब्लॉग",
       "contact": "संपर्क",
-      "collaboration": "सहयोग"
+      "collaboration": "संगठनों के लिए"
     },
     "legal": {
       "title": "कानूनी",

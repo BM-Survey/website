@@ -1,0 +1,103 @@
+<svg width="440" height="380" viewBox="0 0 440 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Glossy coin face -->
+    <radialGradient id="cbFace" cx="35%" cy="26%" r="90%">
+      <stop offset="0" stop-color="#FFF9E0"/>
+      <stop offset="38%" stop-color="#FFDC64"/>
+      <stop offset="78%" stop-color="#FBB424"/>
+      <stop offset="100%" stop-color="#EF9709"/>
+    </radialGradient>
+    <!-- Coin edge / thickness -->
+    <linearGradient id="cbRim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0A81F"/>
+      <stop offset="55%" stop-color="#D68812"/>
+      <stop offset="100%" stop-color="#A5610A"/>
+    </linearGradient>
+    <!-- Lying coin face (seen at an angle) -->
+    <linearGradient id="cbFlat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFEFAE"/>
+      <stop offset="55%" stop-color="#FFCE45"/>
+      <stop offset="100%" stop-color="#F4A417"/>
+    </linearGradient>
+    <!-- Emerald accent coin -->
+    <radialGradient id="cbMint" cx="35%" cy="28%" r="90%">
+      <stop offset="0" stop-color="#D9FBE8"/>
+      <stop offset="45%" stop-color="#4ADE80"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </radialGradient>
+    <linearGradient id="cbMintRim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#15803D"/>
+    </linearGradient>
+    <!-- Soft glow -->
+    <radialGradient id="cbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFD86B" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FFD86B" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Curvy four-point sparkle -->
+    <path id="cbSpark" d="M0 -12C2 -4 4 -2 12 0C4 2 2 4 0 12C-2 4 -4 2 -12 0C-4 -2 -2 -4 0 -12Z"/>
+  </defs>
+
+  <!-- Ambient glow -->
+  <ellipse cx="185" cy="245" rx="200" ry="140" fill="url(#cbGlow)"/>
+
+  <!-- Dotted motion arc -->
+  <path d="M96 150C140 74 250 52 330 96" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 14"/>
+
+  <!-- Stack of coins (left) -->
+  <g>
+    <path d="M42 322v16a58 20 0 0 0 116 0v-16z" fill="url(#cbRim)"/>
+    <ellipse cx="100" cy="322" rx="58" ry="20" fill="url(#cbFlat)"/>
+    <path d="M50 296v16a58 20 0 0 0 116 0v-16z" fill="url(#cbRim)" transform="translate(-8 0)"/>
+    <ellipse cx="92" cy="296" rx="58" ry="20" fill="url(#cbFlat)"/>
+    <path d="M46 270v16a58 20 0 0 0 116 0v-16z" fill="url(#cbRim)" transform="translate(-4 0)"/>
+    <ellipse cx="96" cy="270" rx="58" ry="20" fill="url(#cbFlat)"/>
+    <ellipse cx="96" cy="270" rx="42" ry="13.5" fill="none" stroke="#E09415" stroke-width="2" stroke-opacity="0.55"/>
+    <ellipse cx="76" cy="264" rx="20" ry="6" fill="#FFFFFF" fill-opacity="0.5"/>
+  </g>
+
+  <!-- Hero standing coin -->
+  <g transform="rotate(-8 218 252)">
+    <circle cx="222" cy="260" r="92" fill="url(#cbRim)"/>
+    <circle cx="216" cy="252" r="92" fill="url(#cbFace)"/>
+    <circle cx="216" cy="252" r="72" fill="none" stroke="#DE9414" stroke-width="3" stroke-opacity="0.6"/>
+    <circle cx="216" cy="252" r="72" fill="none" stroke="#FFF3C2" stroke-width="1.5" stroke-opacity="0.7" stroke-dasharray="3 7"/>
+    <path d="M148 206a86 88 0 0 1 62-38 74 76 0 0 0-52 52 6 6 0 0 1-10-14z" fill="#FFFFFF" fill-opacity="0.45"/>
+    <text x="216" y="290" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="900" fill="#C57C10" text-anchor="middle">$</text>
+    <text x="216" y="287" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="900" fill="#8F5A08" fill-opacity="0.35" text-anchor="middle">$</text>
+  </g>
+
+  <!-- Flipping coin, mid-air -->
+  <g transform="rotate(16 330 96)">
+    <ellipse cx="330" cy="103" rx="48" ry="36" fill="url(#cbRim)"/>
+    <ellipse cx="330" cy="96" rx="48" ry="36" fill="url(#cbFace)"/>
+    <ellipse cx="330" cy="96" rx="35" ry="25" fill="none" stroke="#DE9414" stroke-width="2.5" stroke-opacity="0.6"/>
+    <text x="330" y="112" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="900" fill="#C57C10" text-anchor="middle" transform="scale(1 0.94)" transform-origin="330 96">$</text>
+    <ellipse cx="312" cy="82" rx="14" ry="7" fill="#FFFFFF" fill-opacity="0.55" transform="rotate(-24 312 82)"/>
+  </g>
+
+  <!-- Small emerald coin -->
+  <g transform="rotate(-14 66 128)">
+    <circle cx="68" cy="133" r="30" fill="url(#cbMintRim)"/>
+    <circle cx="66" cy="128" r="30" fill="url(#cbMint)"/>
+    <text x="66" y="141" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="900" fill="#0E7A38" text-anchor="middle">$</text>
+    <ellipse cx="56" cy="116" rx="9" ry="4.5" fill="#FFFFFF" fill-opacity="0.55" transform="rotate(-28 56 116)"/>
+  </g>
+
+  <!-- Tiny edge-on coin -->
+  <g transform="rotate(24 392 210)">
+    <ellipse cx="392" cy="210" rx="9" ry="26" fill="url(#cbRim)"/>
+    <ellipse cx="388" cy="210" rx="9" ry="26" fill="url(#cbFlat)"/>
+  </g>
+
+  <!-- Sparkles -->
+  <use href="#cbSpark" transform="translate(160 96) scale(1.15)" fill="#FFFFFF" fill-opacity="0.95"/>
+  <use href="#cbSpark" transform="translate(268 34) scale(0.8)" fill="#FFE9A8" fill-opacity="0.9"/>
+  <use href="#cbSpark" transform="translate(390 140) scale(0.65)" fill="#FFFFFF" fill-opacity="0.8"/>
+  <use href="#cbSpark" transform="translate(34 210) scale(0.7)" fill="#FFE9A8" fill-opacity="0.85"/>
+  <use href="#cbSpark" transform="translate(330 300) scale(0.9)" fill="#86EFAC" fill-opacity="0.75"/>
+  <circle cx="220" cy="64" r="4" fill="#FFFFFF" fill-opacity="0.8"/>
+  <circle cx="52" cy="66" r="3" fill="#FFE9A8" fill-opacity="0.8"/>
+  <circle cx="408" cy="86" r="3.5" fill="#FFFFFF" fill-opacity="0.7"/>
+  <circle cx="368" cy="330" r="3" fill="#FFE9A8" fill-opacity="0.7"/>
+</svg>

@@ -43,8 +43,25 @@ export default async function FaqPage({
 
   const { faqPage } = await getDictionary(locale);
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqPage.items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <FaqPageHero locale={locale} hero={faqPage.hero} />
       <Container size="sm" className="pb-20">
         <FaqPageAccordion categories={faqPage.categories} items={faqPage.items} />

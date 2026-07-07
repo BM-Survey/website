@@ -9,7 +9,7 @@
     "about": "À propos",
     "faq": "FAQ",
     "contact": "Contact",
-    "collaboration": "Collaboration",
+    "collaboration": "Pour les organisations",
     "blog": "Blog"
   },
   "actions": {
@@ -40,7 +40,7 @@
       "faq": "FAQ",
       "blog": "Blog",
       "contact": "Contact",
-      "collaboration": "Collaboration"
+      "collaboration": "Pour les organisations"
     },
     "legal": {
       "title": "Mentions légales",

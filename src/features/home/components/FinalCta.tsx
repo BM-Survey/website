@@ -4,14 +4,16 @@ import { Button } from "@/components/ui/Button";
 import { Check } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/ui/Reveal";
+import type { Locale } from "@/i18n/config";
 import type { HomeDictionary } from "@/i18n/dictionaries";
-import { anchors, authUrls } from "@/lib/navigation";
+import { authUrls, pageHref } from "@/lib/navigation";
 
 type FinalCtaProps = {
+  locale: Locale;
   cta: HomeDictionary["cta"];
 };
 
-export function FinalCta({ cta }: FinalCtaProps) {
+export function FinalCta({ locale, cta }: FinalCtaProps) {
   const assurances = [cta.assurances.noCard, cta.assurances.cashOut, cta.assurances.rated];
 
   return (
@@ -55,7 +57,7 @@ export function FinalCta({ cta }: FinalCtaProps) {
             <Button href={authUrls.register} target="_blank" rel="noopener noreferrer" variant="white">
               {cta.primary}
             </Button>
-            <Button href={anchors.howItWorks} variant="ghost" className="border border-white/40 bg-white/15 text-white hover:bg-white/25">
+            <Button href={pageHref(locale, "howItWorks")} variant="ghost" className="border border-white/40 bg-white/15 text-white hover:bg-white/25">
               {cta.secondary}
             </Button>
           </div>

@@ -9,7 +9,7 @@
     "about": "من نحن",
     "faq": "الأسئلة الشائعة",
     "contact": "تواصل معنا",
-    "collaboration": "التعاون",
+    "collaboration": "للمؤسسات",
     "blog": "المدونة"
   },
   "actions": {
@@ -40,7 +40,7 @@
       "faq": "الأسئلة الشائعة",
       "blog": "المدونة",
       "contact": "تواصل معنا",
-      "collaboration": "التعاون"
+      "collaboration": "للمؤسسات"
     },
     "legal": {
       "title": "قانوني",

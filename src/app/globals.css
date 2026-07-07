@@ -152,6 +152,196 @@
     transform: translateY(0);
   }
 }
+@keyframes heroWord {
+  from {
+    opacity: 0;
+    transform: translateY(0.6em) rotate(2deg);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(0);
+    filter: blur(0);
+  }
+}
+@keyframes underlineDraw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes shimmerText {
+  0%,
+  60% {
+    background-position: 120% 0;
+  }
+  100% {
+    background-position: -20% 0;
+  }
+}
+@keyframes shineSweep {
+  from {
+    transform: translateX(-160%) skewX(-18deg);
+  }
+  to {
+    transform: translateX(260%) skewX(-18deg);
+  }
+}
+@keyframes auroraDrift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(4%, 3%, 0) scale(1.08);
+  }
+}
+@keyframes auroraDrift2 {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1.05);
+  }
+  50% {
+    transform: translate3d(-4%, -2%, 0) scale(0.96);
+  }
+}
+@keyframes heroRing {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes popSpring {
+  0% {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.12);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes confettiFall {
+  0% {
+    transform: translateY(-10px) rotate(0deg);
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(300px) rotate(320deg);
+    opacity: 0;
+  }
+}
+
+/* Hero: word-by-word headline reveal */
+.hero-word {
+  display: inline-block;
+  animation: heroWord 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--word-delay, 0s);
+}
+
+/* Hero: shimmering highlight word */
+.hero-shimmer {
+  background: linear-gradient(
+    100deg,
+    var(--color-primary) 42%,
+    #7aa0ff 50%,
+    var(--color-primary) 58%
+  );
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmerText 4.5s ease-in-out 1.4s infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-shimmer {
+    background: none;
+    -webkit-text-fill-color: currentColor;
+  }
+}
+
+/* Hero: CTA shine sweep on hover/focus */
+.hero-shine {
+  position: relative;
+  overflow: hidden;
+}
+.hero-shine::after {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  width: 40%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.45),
+    transparent
+  );
+  transform: translateX(-160%) skewX(-18deg);
+  pointer-events: none;
+}
+.hero-shine:hover::after,
+.hero-shine:focus-visible::after {
+  animation: shineSweep 0.9s ease forwards;
+}
+
+/* Hero: fractional scroll-scrubbed step bars (driven by --hp on the track) */
+.hero-bar-fill {
+  width: calc(clamp(0, var(--hp, 0) * 4 - var(--bar-index, 0), 1) * 100%);
+}
+
+/* How-it-works: journey spine fills as the visitor scrolls the story
+   (driven by --jp set on the section) */
+.hiw-spine-fill {
+  height: calc(var(--jp, 0) * 100%);
+}
+
+/* How-it-works: sticky chapter rail — scrolls horizontally with no visible
+   scrollbar, like native app tabs */
+.hiw-chips {
+  scrollbar-width: none;
+}
+.hiw-chips::-webkit-scrollbar {
+  display: none;
+}
+
+/* How-it-works: payout speed bars race to their width once revealed */
+.hiw-speed-fill {
+  width: 0;
+  transition: width 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--speed-delay, 0s);
+}
+.is-inview .hiw-speed-fill {
+  width: var(--speed-w, 100%);
+}
+
+/* Hero: staggered card entrance each time a phone screen becomes active */
+[data-phone-active="true"] [data-stagger] > * {
+  animation: riseIn 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+[data-phone-active="true"] [data-stagger] > *:nth-child(2) {
+  animation-delay: 90ms;
+}
+[data-phone-active="true"] [data-stagger] > *:nth-child(3) {
+  animation-delay: 180ms;
+}
+[data-phone-active="true"] [data-stagger] > *:nth-child(4) {
+  animation-delay: 270ms;
+}
+[data-phone-active="true"] [data-stagger] > *:nth-child(5) {
+  animation-delay: 360ms;
+}
+[data-phone-active="true"] [data-stagger] > *:nth-child(6) {
+  animation-delay: 450ms;
+}
 
 /*
   Scroll-into-view reveals (see components/ui/Reveal.tsx). The hidden initial
@@ -209,10 +399,6 @@
     clip-path: inset(0 0 round 0);
     transform: none;
   }
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {

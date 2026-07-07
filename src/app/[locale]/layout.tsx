@@ -8,6 +8,7 @@ import { getDirection, isLocale, locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { roboto, urbanist } from "@/lib/fonts";
 import { cn } from "@/lib/cn";
+import { siteUrl } from "@/lib/site";
 
 import "../globals.css";
 
@@ -25,6 +26,14 @@ export default async function LocaleLayout({
   const { common } = await getDictionary(locale);
   const dir = getDirection(locale);
 
+  const organizationStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "B2B Insight Panel",
+    url: siteUrl,
+    logo: `${siteUrl}/icon.svg`,
+  };
+
   return (
     <html
       lang={locale}
@@ -32,6 +41,10 @@ export default async function LocaleLayout({
       className={cn(urbanist.variable, roboto.variable)}
     >
       <body className="min-h-screen">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationStructuredData) }}
+        />
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:absolute focus:start-4 focus:top-4 focus:z-[300] focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:font-display focus:text-ink focus:shadow-[var(--shadow-card-lg)]"

@@ -2,7 +2,11 @@
   "meta": {
     "title": "Nous contacter — Assistance et aide | B2B Insight Panel",
     "description": "Contactez l'assistance InsightPanel pour toute question de compte, de paiement ou de partenariat de marque. Nous répondons sous un jour ouvré.",
-    "keywords": ["contacter insight panel", "assistance sondages", "demande de marque"],
+    "keywords": [
+      "contacter insight panel",
+      "assistance sondages",
+      "demande de marque"
+    ],
     "ogAlt": "Contactez l'équipe InsightPanel"
   },
   "hero": {
@@ -10,8 +14,14 @@
     "title": "Parlons-en"
   },
   "cards": {
-    "email": { "title": "Assistance par e-mail", "value": "hello@insightpanel.co" },
-    "chat": { "title": "Chat en direct", "value": "Dans l'app, de 9h à 21h tous les jours" },
+    "email": {
+      "title": "Assistance par e-mail",
+      "value": "hello@insightpanel.co"
+    },
+    "chat": {
+      "title": "Chat en direct",
+      "value": "Dans l'app, de 9h à 21h tous les jours"
+    },
     "brands": {
       "title": "Pour les marques et équipes de recherche",
       "text": "Vous souhaitez mener une étude sur notre panel ?",
@@ -20,12 +30,19 @@
   },
   "form": {
     "label": "Envoyez-nous un message",
+    "reassure": "Moins d'une minute — nous répondons sous 24 h.",
     "nameLabel": "Nom",
     "namePlaceholder": "Votre nom",
     "emailLabel": "E-mail",
     "emailPlaceholder": "vous@email.com",
     "topicLabel": "Sujet",
-    "topics": ["Compte et gains", "Paiements", "Signaler un bug", "Demande de marque / recherche", "Autre"],
+    "topics": [
+      "Compte et gains",
+      "Paiements",
+      "Signaler un bug",
+      "Demande de marque / recherche",
+      "Autre"
+    ],
     "messageLabel": "Message",
     "messagePlaceholder": "Comment pouvons-nous vous aider ?",
     "submit": "Envoyer le message",

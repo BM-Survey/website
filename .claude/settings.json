@@ -40,7 +40,20 @@
       "Bash(python3 -c \"import json;print\\(json.dumps\\(json.load\\(open\\('src/locales/en/home.json'\\)\\)['video'],indent=1\\)\\)\")",
       "Bash(curl -s http://localhost:3001/en -o /private/tmp/claude-501/-Users-apple-Desktop-pronttera-b2b-ip-website/b968d63c-4a37-405c-bf02-2af68896d0d4/scratchpad/h5.html -w \"HTTP %{http_code}\\\\n\")",
       "Bash(xargs -I{} echo {})",
-      "Bash(git -C /Users/apple/Desktop/pronttera/b2b-ip-website diff --stat)"
+      "Bash(git -C /Users/apple/Desktop/pronttera/b2b-ip-website diff --stat)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import json;print\\(list\\(json.load\\(open\\('src/locales/en/contact.json'\\)\\).keys\\(\\)\\)\\);print\\(list\\(json.load\\(open\\('src/locales/en/legal.json'\\)\\).keys\\(\\)\\)\\)\")",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('src/features/blog/posts.ts','rb'\\)\\)\")",
+      "Bash(sips -s format png coin-burst.svg.png --out coin-burst-onblue.png)",
+      "Bash(curl -s http://localhost:3411/robots.txt)",
+      "Bash(curl -s http://localhost:3411/sitemap.xml)",
+      "Bash(curl -s http://localhost:3000/en)",
+      "Bash(curl -sI http://localhost:3000/en)",
+      "Bash(curl -s -L http://localhost:3000/)",
+      "Bash(xargs cat -n)",
+      "Bash(curl -s http://localhost:3001/robots.txt)",
+      "Bash(curl -s http://localhost:3001/en/faq-frequently-asked-questions-and-answers)",
+      "Bash(git check-ignore *)"
     ],
     "additionalDirectories": [
       "/Users/apple/Desktop/pronttera/b2b-ip-website/src/app/[locale]",

@@ -1,43 +1,81 @@
 {
   "meta": {
-    "title": "Collaboration — Pourquoi rejoindre notre panel de sondages | B2B Insight Panel",
-    "description": "Menez votre recherche sur InsightPanel : plus de 1,9 M de répondants vérifiés, un déploiement rapide en moins de 48 heures, et une rémunération équitable qui produit des données plus fiables.",
-    "keywords": ["panel de sondages pour les marques", "panel d'études de marché", "mener une étude", "panel d'insights B2B"],
-    "ogAlt": "Pourquoi les marques et chercheurs s'associent à InsightPanel"
+    "title": "Pour les organisations — Lancez vos enquêtes sur InsightPanel | B2B Insight Panel",
+    "description": "Confiez vos enquêtes à InsightPanel : lancement en quelques minutes, professionnels vérifiés ciblés par département, résultats en temps réel et récompenses gérées automatiquement.",
+    "keywords": ["plateforme de gestion d'enquêtes", "enquêtes pour entreprises", "panel d'enquêtes B2B", "études de marché pour organisations"],
+    "ogAlt": "Pourquoi les organisations mènent leurs enquêtes sur InsightPanel"
   },
   "hero": {
-    "eyebrow": "Pour les marques et chercheurs",
-    "titleLead": "Menez votre étude auprès de",
-    "titleHighlight": "vraies personnes",
-    "subtitle": "InsightPanel connecte votre recherche à plus de 1,9 M de répondants engagés et vérifiés — avec un déploiement plus rapide, des données plus fiables et une rémunération équitable intégrée à chaque étude."
+    "eyebrow": "Pour les organisations",
+    "titleLead": "Vos questions, les réponses de",
+    "titleHighlight": "vrais professionnels",
+    "subtitle": "InsightPanel est la plateforme de gestion d'enquêtes où les organisations lancent leurs études, ciblent des professionnels vérifiés par département et voient arriver des données propres en temps réel — récompenses et paiements inclus."
   },
-  "why": {
-    "eyebrow": "Pourquoi s'associer à nous",
-    "title": "Un panel fondé sur la confiance",
-    "panelSize": {
-      "label": "Taille du panel",
-      "value": "1,9 M+",
-      "text": "Répondants vérifiés et profilés dans plus de 120 catégories démographiques et d'intérêts."
-    },
-    "fastFielding": { "label": "Déploiement rapide", "value": "Moins de 48 heures" },
-    "qualityChecks": { "label": "Contrôles qualité", "value": "Détection de fraude intégrée" },
-    "fairPay": {
-      "title": "Rémunération équitable, meilleures données",
-      "text": "Les répondants payés équitablement répondent avec plus de soin. C'est toute la thèse."
-    }
-  },
-  "how": {
-    "eyebrow": "Comment ça marche pour vous",
-    "title": "Du brief à l'insight",
-    "steps": [
-      { "number": "01", "title": "Indiquez-nous votre cible", "text": "Démographie, centres d'intérêt ou critères de sélection personnalisés — nous définissons le périmètre avec vous." },
-      { "number": "02", "title": "Nous déployons l'étude", "text": "Votre étude est diffusée aux panélistes correspondants, avec des contrôles qualité en continu." },
-      { "number": "03", "title": "Vous obtenez des données fiables", "text": "Exportez les résultats ou connectez-vous via API — validées, dédupliquées, prêtes à analyser." }
+  "story": {
+    "eyebrow": "Votre parcours avec nous",
+    "title": "Cinq chapitres, de la question à l'insight",
+    "subtitle": "Voici ce que donne concrètement une étude menée sur InsightPanel — du premier contact jusqu'à l'arrivée des réponses.",
+    "chapters": [
+      {
+        "number": "01",
+        "label": "Chapitre 01",
+        "title": "Tout commence par une question",
+        "text": "Votre équipe a besoin de vraies réponses, pas de suppositions. Vous nous contactez, nous intégrons votre organisation, et en quelques jours vous disposez de votre propre portail d'administration, prêt à l'emploi.",
+        "points": [
+          "Tableau de bord d'administration dédié",
+          "Intégration accompagnée par notre équipe",
+          "Aucune intégration technique pour démarrer"
+        ]
+      },
+      {
+        "number": "02",
+        "label": "Chapitre 02",
+        "title": "Lancez une enquête en quelques minutes",
+        "text": "Donnez un titre à votre étude, ciblez les départements qui vous intéressent, définissez la récompense et le quota de réponses, puis publiez. Les brouillons restent modifiables jusqu'au lancement.",
+        "points": [
+          "Ciblage par département professionnel",
+          "Vous fixez récompenses, quota et échéance",
+          "Brouillon modifiable, publication quand vous voulez"
+        ]
+      },
+      {
+        "number": "03",
+        "label": "Chapitre 03",
+        "title": "Les bonnes personnes répondent",
+        "text": "Votre enquête n'apparaît qu'aux professionnels vérifiés des départements choisis. Des questions de sélection écartent les profils inadaptés, chaque répondant n'a qu'une seule tentative, et des contrôles anti-fraude tournent en continu.",
+        "points": [
+          "Répondants vérifiés et profilés",
+          "Une seule tentative par répondant",
+          "Détection VPN et anti-fraude intégrée"
+        ]
+      },
+      {
+        "number": "04",
+        "label": "Chapitre 04",
+        "title": "Les insights arrivent en temps réel",
+        "text": "Suivez les réponses en direct sur votre tableau de bord : taux de complétion, géographie des répondants et classements. Une fois terminé, exportez tout en CSV.",
+        "points": [
+          "Tableau de bord analytique en direct",
+          "Répartition par région et par département",
+          "Export CSV en un clic"
+        ]
+      },
+      {
+        "number": "05",
+        "label": "Chapitre 05",
+        "title": "Les récompenses se gèrent toutes seules",
+        "text": "Une rémunération juste, c'est la clé de données propres. Vous financez les récompenses depuis votre propre compte de paiement ; les répondants retirent à la demande et chaque paiement est tracé — zéro charge pour vous.",
+        "points": [
+          "Vous maîtrisez le budget",
+          "Répondants payés à la demande",
+          "Chaque transaction est tracée"
+        ]
+      }
     ]
   },
   "cta": {
-    "title": "Déployons votre prochaine étude",
-    "subtitle": "Parlez-nous de vos besoins de recherche — notre équipe répond sous un jour ouvré.",
-    "button": "Nous contacter"
+    "title": "Confiez vos enquêtes à InsightPanel",
+    "subtitle": "Dites-nous ce que vous voulez apprendre — notre équipe répond sous un jour ouvré.",
+    "button": "Parler à notre équipe"
   }
 }

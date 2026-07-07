@@ -3,8 +3,7 @@ import { notFound } from "next/navigation";
 
 import { CtaBanner } from "@/components/marketing/CtaBanner";
 import { PageHero } from "@/components/marketing/PageHero";
-import { HowSteps } from "@/features/collaboration/components/HowSteps";
-import { WhyBento } from "@/features/collaboration/components/WhyBento";
+import { PartnerStory } from "@/features/collaboration/components/PartnerStory";
 import { isLocale, localeMeta } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { pageHref } from "@/lib/navigation";
@@ -51,8 +50,7 @@ export default async function CollaborationPage({
         titleHighlight={collaboration.hero.titleHighlight}
         subtitle={collaboration.hero.subtitle}
       />
-      <WhyBento data={collaboration.why} />
-      <HowSteps data={collaboration.how} />
+      <PartnerStory data={collaboration.story} />
       <CtaBanner
         title={collaboration.cta.title}
         subtitle={collaboration.cta.subtitle}

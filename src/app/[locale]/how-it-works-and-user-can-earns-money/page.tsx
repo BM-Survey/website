@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { CtaBanner } from "@/components/marketing/CtaBanner";
-import { PageHero } from "@/components/marketing/PageHero";
+import { JourneyHero } from "@/features/how-it-works/components/JourneyHero";
 import { PayoutSpeed } from "@/features/how-it-works/components/PayoutSpeed";
-import { StepsGrid } from "@/features/how-it-works/components/StepsGrid";
+import { StoryJourney } from "@/features/how-it-works/components/StoryJourney";
 import { SurveyPreview } from "@/features/how-it-works/components/SurveyPreview";
 import { isLocale, localeMeta } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
@@ -46,13 +46,12 @@ export default async function HowItWorksPage({
 
   return (
     <>
-      <PageHero
-        eyebrow={howItWorks.hero.eyebrow}
-        titleLead={howItWorks.hero.titleLead}
-        titleHighlight={howItWorks.hero.titleHighlight}
-        subtitle={howItWorks.hero.subtitle}
+      <JourneyHero hero={howItWorks.hero} />
+      <StoryJourney
+        steps={howItWorks.steps}
+        preview={howItWorks.surveyPreview}
+        navLabel={howItWorks.hero.eyebrow}
       />
-      <StepsGrid steps={howItWorks.steps} />
       <SurveyPreview data={howItWorks.surveyPreview} />
       <PayoutSpeed data={howItWorks.payoutSpeed} />
       <CtaBanner

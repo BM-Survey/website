@@ -25,7 +25,7 @@ export function VideoReveal({ video }: VideoRevealProps) {
 
       <Reveal
         variant="frame"
-        className="relative h-screen w-full overflow-hidden bg-ink shadow-[0_40px_100px_rgba(16,32,90,0.28)]"
+        className="relative aspect-video w-full overflow-hidden bg-ink shadow-[0_40px_100px_rgba(16,32,90,0.28)] sm:aspect-auto sm:h-screen"
       >
         <iframe
           className="absolute inset-0 h-full w-full"

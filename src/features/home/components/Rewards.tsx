@@ -35,7 +35,7 @@ export function Rewards({ rewards }: RewardsProps) {
             <p className="mb-6 max-w-[420px] text-[17px] leading-relaxed text-muted">
               {rewards.description}
             </p>
-            <dl className="flex gap-7">
+            <dl className="flex flex-wrap gap-x-7 gap-y-4">
               {stats.map((stat) => (
                 <div key={stat.label}>
                   <dd className="font-display text-3xl font-black text-primary">{stat.value}</dd>
@@ -45,7 +45,7 @@ export function Rewards({ rewards }: RewardsProps) {
             </dl>
           </Reveal>
 
-          <Reveal as="ul" variant="zoom" stagger={0.07} delay={0.1} className="grid grid-cols-3 gap-3.5">
+          <Reveal as="ul" variant="zoom" stagger={0.07} delay={0.1} className="grid grid-cols-2 gap-3.5 sm:grid-cols-3">
             {options.map((option) => (
               <li
                 key={option.label}

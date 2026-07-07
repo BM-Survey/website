@@ -1,43 +1,81 @@
 {
   "meta": {
-    "title": "Collaboration — Why Join Our Survey Panel | B2B Insight Panel",
-    "description": "Field your research on InsightPanel: 1.9M+ verified respondents, fast fielding under 48 hours, and fair pay that produces cleaner data.",
-    "keywords": ["survey panel for brands", "market research panel", "field a study", "B2B insight panel"],
-    "ogAlt": "Why brands and researchers partner with InsightPanel"
+    "title": "For Organisations — Run Your Surveys on InsightPanel | B2B Insight Panel",
+    "description": "Bring your surveys to InsightPanel: launch in minutes, target verified professionals by department, watch insights arrive in real time, and let rewards run themselves.",
+    "keywords": ["survey management platform", "run surveys for business", "B2B survey panel", "market research for organisations"],
+    "ogAlt": "Why organisations run their surveys on InsightPanel"
   },
   "hero": {
-    "eyebrow": "For Brands & Researchers",
-    "titleLead": "Field your study on",
-    "titleHighlight": "real people",
-    "subtitle": "InsightPanel connects your research to 1.9M+ engaged, verified respondents — with faster fielding, cleaner data, and fair pay built into every study."
+    "eyebrow": "For Organisations",
+    "titleLead": "Your questions, answered by",
+    "titleHighlight": "real professionals",
+    "subtitle": "InsightPanel is the survey management platform where organisations launch studies, target verified professionals by department, and watch clean insights arrive in real time — rewards and payouts included."
   },
-  "why": {
-    "eyebrow": "Why partner with us",
-    "title": "A panel built on trust",
-    "panelSize": {
-      "label": "Panel size",
-      "value": "1.9M+",
-      "text": "Verified, profiled respondents across 120+ demographics and interest categories."
-    },
-    "fastFielding": { "label": "Fast fielding", "value": "Under 48 hours" },
-    "qualityChecks": { "label": "Quality checks", "value": "Fraud detection built in" },
-    "fairPay": {
-      "title": "Fair pay, better data",
-      "text": "Respondents who are paid fairly answer more carefully. That's the whole thesis."
-    }
-  },
-  "how": {
-    "eyebrow": "How it works for you",
-    "title": "From brief to insight",
-    "steps": [
-      { "number": "01", "title": "Tell us your target", "text": "Demographics, interests, or custom screening criteria — we scope it with you." },
-      { "number": "02", "title": "We field it", "text": "Your study goes live to matched panelists with quality controls running throughout." },
-      { "number": "03", "title": "You get clean data", "text": "Export results or connect via API — validated, deduplicated, ready to analyze." }
+  "story": {
+    "eyebrow": "Your journey with us",
+    "title": "Five chapters from question to insight",
+    "subtitle": "Here's what running research on InsightPanel actually feels like — from the day you reach out to the day the answers land.",
+    "chapters": [
+      {
+        "number": "01",
+        "label": "Chapter 01",
+        "title": "It starts with a question",
+        "text": "Your team needs real answers — not guesses. You reach out, we onboard your organisation, and within days you have your own admin portal with everything ready to go.",
+        "points": [
+          "Dedicated admin dashboard",
+          "Guided onboarding by our team",
+          "No technical integration needed to start"
+        ]
+      },
+      {
+        "number": "02",
+        "label": "Chapter 02",
+        "title": "Launch a survey in minutes",
+        "text": "Give your study a title, point it at the departments you care about, set the reward and response quota, and hit publish. Drafts stay editable until you're ready.",
+        "points": [
+          "Target by professional department",
+          "You set rewards, quota and expiry",
+          "Save as draft, publish when ready"
+        ]
+      },
+      {
+        "number": "03",
+        "label": "Chapter 03",
+        "title": "The right people answer",
+        "text": "Your survey appears only to verified professionals in the departments you chose. Screening questions filter out poor fits, every respondent gets exactly one attempt, and fraud checks run throughout.",
+        "points": [
+          "Verified, profiled respondents",
+          "One attempt per respondent",
+          "VPN and fraud detection built in"
+        ]
+      },
+      {
+        "number": "04",
+        "label": "Chapter 04",
+        "title": "Insights arrive in real time",
+        "text": "Watch responses land live on your dashboard — completion breakdowns, respondent geography and leaderboards. When you're done, export everything as CSV.",
+        "points": [
+          "Live analytics dashboard",
+          "Region and department breakdowns",
+          "One-click CSV export"
+        ]
+      },
+      {
+        "number": "05",
+        "label": "Chapter 05",
+        "title": "Rewards run themselves",
+        "text": "Fair pay is why our data is clean. You fund rewards from your own payment account; respondents withdraw on demand and every payout is logged — no admin work on your side.",
+        "points": [
+          "You control the budget",
+          "Respondents paid on demand",
+          "Every transaction logged"
+        ]
+      }
     ]
   },
   "cta": {
-    "title": "Let's field your next study",
-    "subtitle": "Tell us about your research needs — our team replies within one business day.",
-    "button": "Get in touch"
+    "title": "Bring your surveys to InsightPanel",
+    "subtitle": "Tell us what you want to learn — our team replies within one business day.",
+    "button": "Talk to our team"
   }
 }
