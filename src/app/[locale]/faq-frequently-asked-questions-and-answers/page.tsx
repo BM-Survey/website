@@ -30,7 +30,14 @@ export async function generateMetadata({
       locale: localeMeta[locale].htmlLang,
       title: meta.title,
       description: meta.description,
-      images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: meta.ogAlt }],
+      images: [
+        {
+          url: "/opengraph-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.ogAlt,
+        },
+      ],
     },
   };
 }
@@ -64,13 +71,16 @@ export default async function FaqPage({
       />
       <FaqPageHero locale={locale} hero={faqPage.hero} />
       <Container size="sm" className="pb-20">
-        <FaqPageAccordion categories={faqPage.categories} items={faqPage.items} />
+        <FaqPageAccordion
+          categories={faqPage.categories}
+          items={faqPage.items}
+        />
       </Container>
       <CtaBanner
         title={faqPage.cta.title}
         subtitle={faqPage.cta.subtitle}
         buttonLabel={faqPage.cta.button}
-        buttonHref={pageHref(locale, "contact")}
+        buttonHref={"mailto:support@b2b2insightpanel.com"}
         size="md"
       />
     </>

@@ -29,7 +29,14 @@ export async function generateMetadata({
       locale: localeMeta[locale].htmlLang,
       title: meta.title,
       description: meta.description,
-      images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: meta.ogAlt }],
+      images: [
+        {
+          url: "/opengraph-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.ogAlt,
+        },
+      ],
     },
   };
 }
@@ -55,7 +62,7 @@ export default async function CollaborationPage({
         title={collaboration.cta.title}
         subtitle={collaboration.cta.subtitle}
         buttonLabel={collaboration.cta.button}
-        buttonHref={pageHref(locale, "contact")}
+        buttonHref={"mailto:support@b2b2insightpanel.com"}
       />
     </>
   );

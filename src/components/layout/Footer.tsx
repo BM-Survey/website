@@ -34,7 +34,7 @@ export function Footer({ locale, common }: FooterProps) {
     { label: f.legal.terms, href: pageHref(locale, "termsConditions") },
   ];
   const socials = [
-    { label: f.social.linkedin, Icon: LinkedIn, href: "#" },
+    { label: f.social.linkedin, Icon: LinkedIn, href: "https://www.linkedin.com/company/b2b-insight-panel/" },
   ];
 
   return (

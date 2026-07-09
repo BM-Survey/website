@@ -30,8 +30,8 @@ export type RouteKey = keyof typeof routes;
 
 /** External auth app URLs — registration and sign-in live outside this marketing site. */
 export const authUrls = {
-  register: "https://b2binsightpanel.com/register",
-  login: "https://b2binsightpanel.com/login",
+  register: "https://app.b2binsightpanel.com/register",
+  login: "https://app.b2binsightpanel.com/login",
 } as const;
 
 /**
@@ -39,7 +39,11 @@ export const authUrls = {
  * Hash anchors and external/protocol links are returned unchanged.
  */
 export function localizedHref(locale: Locale, path: string): string {
-  if (path.startsWith("#") || /^https?:\/\//.test(path) || path.startsWith("mailto:")) {
+  if (
+    path.startsWith("#") ||
+    /^https?:\/\//.test(path) ||
+    path.startsWith("mailto:")
+  ) {
     return path;
   }
   const clean = path.startsWith("/") ? path : `/${path}`;

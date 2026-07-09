@@ -10,9 +10,18 @@ type CtaBannerProps = {
 };
 
 /** Gradient CTA banner shared by the standalone marketing pages. */
-export function CtaBanner({ title, subtitle, buttonLabel, buttonHref, size = "lg" }: CtaBannerProps) {
+export function CtaBanner({
+  title,
+  subtitle,
+  buttonLabel,
+  buttonHref,
+  size = "lg",
+}: CtaBannerProps) {
   return (
-    <section className={size === "lg" ? "px-6 pt-5 pb-32" : "px-6 pb-24"} aria-label={title}>
+    <section
+      className={size === "lg" ? "px-6 pt-5 pb-32" : "px-6 pb-24"}
+      aria-label={title}
+    >
       <Container
         size="md"
         className={
@@ -34,7 +43,9 @@ export function CtaBanner({ title, subtitle, buttonLabel, buttonHref, size = "lg
           <h2
             className={
               "mb-4 font-display leading-[1.08] font-black tracking-tight text-white " +
-              (size === "lg" ? "text-[clamp(32px,4.2vw,54px)]" : "text-[clamp(26px,3.6vw,42px)]")
+              (size === "lg"
+                ? "text-[clamp(32px,4.2vw,54px)]"
+                : "text-[clamp(26px,3.6vw,42px)]")
             }
           >
             {title}
@@ -42,7 +53,7 @@ export function CtaBanner({ title, subtitle, buttonLabel, buttonHref, size = "lg
           <p className="mx-auto mb-7 max-w-[440px] text-[17px] leading-relaxed text-[#d8e1ff]">
             {subtitle}
           </p>
-          <Button href={buttonHref} variant="white">
+          <Button href={buttonHref} variant="white" target="_blank">
             {buttonLabel}
           </Button>
         </div>

@@ -9,7 +9,7 @@ import { SurveyPreview } from "@/features/how-it-works/components/SurveyPreview"
 import { isLocale, localeMeta } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { buildAlternates, siteUrl } from "@/lib/site";
-import { pageHref } from "@/lib/navigation";
+import { authUrls, pageHref } from "@/lib/navigation";
 
 export async function generateMetadata({
   params,
@@ -31,7 +31,14 @@ export async function generateMetadata({
       locale: localeMeta[locale].htmlLang,
       title: meta.title,
       description: meta.description,
-      images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: meta.ogAlt }],
+      images: [
+        {
+          url: "/opengraph-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.ogAlt,
+        },
+      ],
     },
   };
 }
@@ -59,7 +66,7 @@ export default async function HowItWorksPage({
         title={howItWorks.cta.title}
         subtitle={howItWorks.cta.subtitle}
         buttonLabel={howItWorks.cta.button}
-        buttonHref={pageHref(locale, "home")}
+        buttonHref={authUrls.register}
       />
     </>
   );

@@ -8,7 +8,7 @@ import { posts } from "@/features/blog/data";
 import { FeaturedPost } from "@/features/blog/components/FeaturedPost";
 import { PostCard } from "@/features/blog/components/PostCard";
 import { isLocale } from "@/i18n/config";
-import { pageHref } from "@/lib/navigation";
+import { authUrls, pageHref } from "@/lib/navigation";
 import { siteUrl } from "@/lib/site";
 
 const meta = {
@@ -31,7 +31,14 @@ export async function generateMetadata({
       type: "website",
       title: meta.title,
       description: meta.description,
-      images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: meta.title }],
+      images: [
+        {
+          url: "/opengraph-image.png",
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
     },
   };
 }
@@ -60,7 +67,10 @@ export default async function BlogPage({
       </section>
 
       <section className="px-6 pb-24">
-        <Container size="lg" className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <Container
+          size="lg"
+          className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3"
+        >
           {rest.map((post) => (
             <PostCard key={post.slug} locale={locale} post={post} />
           ))}
@@ -71,7 +81,7 @@ export default async function BlogPage({
         title="Ready to get started?"
         subtitle="It's free, it takes a minute, and your first payout could be today."
         buttonLabel="Sign Up Free"
-        buttonHref={pageHref(locale, "home")}
+        buttonHref={authUrls.register}
       />
     </>
   );
