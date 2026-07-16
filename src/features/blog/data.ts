@@ -22,106 +22,108 @@ export type BlogPost = {
 /** English-only editorial content — the blog is not translated across locales. */
 export const posts: BlogPost[] = [
   {
-    slug: "five-minute-surveys",
-    title: "Why the best surveys take five minutes or less",
-    dek: "The data behind bite-sized surveys — and why we screen out anything longer.",
-    author: "Maya Chen",
+    slug: "b2b-research-importance",
+    title: "The Growing Importance of B2B Research in Business Decision-Making",
+    dek: "How organizations use professional expertise and industry insights to shape products, services, and strategic decisions.",
+    author: "Hanzala Shaikh",
     authorRole: "Research Lead",
-    authorInitial: "M",
+    authorInitial: "H",
     color: "#2E5BFF",
-    date: "Jun 18, 2026",
+    date: "April 2026",
+    readTime: "5 min read",
+    authorBio:
+      "Hanzala leads research initiatives at B2B Insight Panel, connecting professionals with studies that shape real business decisions.",
+    intro:
+      "In today's fast-changing business environment, companies can no longer rely solely on assumptions when making important decisions. Organizations increasingly depend on B2B research to understand market trends, customer needs, and emerging technologies.",
+    subhead1: "Making decisions without guesswork",
+    body1:
+      "Professional insights from decision-makers, managers, and industry experts help businesses answer critical questions: which technologies are gaining adoption, what challenges organizations are currently facing, which products or services need improvement, and where companies should invest next.",
+    body2:
+      "B2B research enables organizations to make data-driven decisions rather than relying on guesswork. At B2B Insight Panel, professionals from different industries share their expertise through research studies, surveys, and interviews, and their opinions directly contribute to shaping products, services, and future business strategies.",
+    quote:
+      "B2B research enables organizations to make data-driven decisions rather than relying on guesswork.",
+    subhead2: "Where this is headed",
+    body3:
+      "As industries continue to evolve, the demand for high-quality professional insights will only continue to grow.",
+    closing:
+      "The more professionals share their expertise, the sharper the decisions those insights go on to shape.",
+  },
+  {
+    slug: "professional-insights-organizations",
+    title: "How Professional Insights Help Organizations Make Better Decisions",
+    dek: "Explore how businesses use expert opinions and industry knowledge to shape products, services, and long-term strategies.",
+    author: "B2B Insight Panel Team",
+    authorRole: "Editorial Team",
+    authorInitial: "B",
+    color: "#22C35E",
+    date: "July 2026",
+    readTime: "5 min read",
+    authorBio:
+      "Written by the B2B Insight Panel editorial team, covering how research shapes real business decisions.",
+    intro: "Every major business decision starts with understanding the market.",
+    subhead1: "Why organizations turn to research participants",
+    body1:
+      "Whether launching a new software platform, improving cybersecurity solutions, or expanding into new regions, organizations seek insights from professionals who work in these areas every day.",
+    body2:
+      "Research participants help organizations by sharing industry challenges, technology adoption trends, purchasing behaviours, and future priorities and investments. These insights help companies reduce risks and make smarter strategic decisions.",
+    quote:
+      "Businesses receive valuable data, while participants are compensated for sharing their expertise and experience.",
+    subhead2: "A win-win relationship",
+    body3:
+      "Professional research participation creates a win-win relationship: businesses receive valuable data, while participants are compensated for sharing their expertise and experience.",
+    closing:
+      "The growing reliance on expert-driven research has made professional communities and insight panels an important part of modern business strategy.",
+  },
+  {
+    slug: "research-matching-behind-the-scenes",
+    title: "How Research Matching Works Behind the Scenes",
+    dek: "Learn how professional profiles, industries, and areas of expertise help connect members with relevant research opportunities.",
+    author: "Esha Shah",
+    authorRole: "Research Matching",
+    authorInitial: "E",
+    color: "#7A3FF2",
+    date: "March 2026",
+    readTime: "6 min read",
+    authorBio:
+      "Esha works on the matching systems that connect professionals with the research studies most relevant to them.",
+    intro: "Not every study is relevant to every professional.",
+    subhead1: "Matching on more than just interest",
+    body1:
+      "This is why research platforms use profile information to match participants with studies that fit their background and expertise. Matching typically considers factors such as industry, job function, seniority level, company size, geographic region, and technology responsibilities.",
+    body2:
+      "This process benefits both participants and research sponsors. Participants receive invitations to studies that are meaningful and relevant to their experience, while organizations gain insights from the right audience.",
+    quote: "The goal is simple: connect the right professionals with the right opportunities.",
+    subhead2: "Why a complete profile matters",
+    body3:
+      "Accurate profile information also improves qualification rates and ensures a better research experience for everyone involved.",
+    closing: "The goal is simple: connect the right professionals with the right opportunities.",
+  },
+  {
+    slug: "future-of-b2b-research-trends",
+    title: "The Future of B2B Research: Trends to Watch",
+    dek: "Discover how AI, digital transformation, and changing business priorities are reshaping market research.",
+    author: "B2B Insight Panel Team",
+    authorRole: "Editorial Team",
+    authorInitial: "B",
+    color: "#E0781A",
+    date: "July 2026",
     readTime: "4 min read",
     authorBio:
-      "Maya leads survey design and works directly with partner brands to keep studies short and relevant.",
+      "Written by the B2B Insight Panel editorial team, tracking the trends shaping the future of professional research.",
     intro:
-      "Ask most people why they abandon a survey halfway through, and the answer is almost never the topic — it's the length. We've spent two years tuning our platform around a simple rule: if a survey can't make its point in five minutes, it probably shouldn't exist.",
-    subhead1: "Short surveys aren't a compromise",
+      "B2B research is rapidly evolving. Several trends are changing how organizations collect and use professional insights.",
+    subhead1: "AI and the demand for expert opinion",
     body1:
-      "Brands often assume more questions means more insight. In practice, response quality drops sharply after the eight-minute mark — people start rushing, picking the first answer, or dropping out entirely. A tightly scoped five-minute survey with sharp questions gives cleaner data than a rambling twenty-minute one.",
+      "Artificial intelligence is helping researchers identify patterns and generate insights more quickly than ever before, while organizations increasingly seek feedback directly from professionals with hands-on experience.",
     body2:
-      "That's why every survey on the platform is capped and time-estimated before you ever open it. If a brand wants to ask more, we split it into a shorter series instead of one long form.",
-    quote: "The best signal we get from a survey is a member who finishes it in the time we promised.",
-    subhead2: "What this means for your earnings",
-    body3:
-      "Shorter surveys mean you can fit more into a coffee break, and the per-minute reward stays honest because we're not padding studies with filler questions to justify a bigger prize. On average, members complete 40% more surveys per week since we introduced the five-minute cap.",
-    closing:
-      "If you ever open a survey and it runs long, that's a bug, not a feature — let us know and we'll flag it to the brand.",
-  },
-  {
-    slug: "cash-out-guide",
-    title: "PayPal, gift cards, or bank transfer: which cash-out is right for you",
-    dek: "A side-by-side look at speed, bonus value, and fees for every payout method.",
-    author: "Devin Ruiz",
-    authorRole: "Payments Lead",
-    authorInitial: "D",
-    color: "#22C35E",
-    date: "Jun 10, 2026",
-    readTime: "5 min read",
-    authorBio: "Devin runs the payments team and obsesses over getting money into members' hands faster.",
-    intro:
-      "Every member eventually hits the same question: what should I actually cash out to? The honest answer is it depends on how fast you want the money and whether you're fine spending it at one particular store.",
-    subhead1: "Speed: PayPal wins, almost every time",
-    body1:
-      "PayPal cash-outs are processed instantly on our end and typically land in your account within minutes. There's no minimum hold, no verification delay — it's the closest thing to a straight cash withdrawal we offer.",
-    body2:
-      "Bank transfers, by comparison, take one to two business days because they route through the standard ACH network. Still fee-free, just slower — a reasonable choice if you don't use PayPal.",
-    quote: "Gift cards are the only option where cashing out can actually net you more than your balance.",
-    subhead2: "Value: gift cards can beat face value",
-    body3:
-      "Select partners — Amazon chief among them — add a 5% bonus when you redeem in gift card form instead of cash. If you were going to spend that money there anyway, it's free money on top of free money.",
-    closing:
-      "Our advice: default to PayPal for flexibility, but keep an eye on the gift card bonus rotation if you shop somewhere on the list regularly.",
-  },
-  {
-    slug: "profile-matching",
-    title: "How survey matching actually works behind the scenes",
-    dek: "A peek at the matching engine that keeps you from wasting time on surveys you won't qualify for.",
-    author: "Priya Shah",
-    authorRole: "Engineering",
-    authorInitial: "P",
-    color: "#7A3FF2",
-    date: "May 29, 2026",
-    readTime: "6 min read",
-    authorBio: "Priya builds the matching systems that decide which surveys show up in your feed.",
-    intro:
-      "Nothing kills trust faster than opening a survey, answering five screening questions, and getting bounced with no reward. So matching is the single feature we invest in more than any other.",
-    subhead1: "It starts with your profile, not the survey",
-    body1:
-      "When you first sign up, the profile survey isn't busywork — it builds the baseline the matching engine uses for every study after. The more complete it is, the fewer screen-outs you'll hit later.",
-    body2:
-      "From there, each incoming study gets scored against your profile for a rough qualification likelihood before it's ever shown to you. Anything under our confidence threshold doesn't make it into your feed at all.",
-    quote: "A good match isn't a survey you might qualify for — it's one you almost certainly will.",
-    subhead2: "Why you'll still see the occasional miss",
-    body3:
-      "Some studies target a narrow slice of a broader group we've matched you to, so screen-outs aren't fully eliminated. But since rolling out the current engine, screen-out rates have dropped by more than half.",
-    closing:
-      "Keep your profile answers current, especially around big life changes — job, location, household — since those quietly drive most of your matches.",
-  },
-  {
-    slug: "member-earnings",
-    title: "What members really earn: a look at the numbers",
-    dek: "We pulled anonymized payout data to show what typical earnings actually look like.",
-    author: "Tom Blake",
-    authorRole: "Data & Insights",
-    authorInitial: "T",
-    color: "#E0781A",
-    date: "May 14, 2026",
-    readTime: "4 min read",
-    authorBio: "Tom analyzes platform-wide trends and publishes the occasional deep dive like this one.",
-    intro:
-      "Earnings claims online range from wildly optimistic to outright fake, so we pulled our own anonymized numbers to give a straight answer: what does a typical member actually make?",
-    subhead1: "The median vs. the headline number",
-    body1:
-      "Our most-quoted stat — an average of over $60 a month — is real, but averages get pulled up by a smaller group of highly active members. The median member, doing a handful of surveys a week, earns closer to $28 a month.",
-    body2:
-      "Activity is the biggest lever by far. Members who check in most days of the week earn roughly three times what occasional users do, simply from catching more relevant matches before they expire.",
+      "Research is also becoming more international, allowing companies to compare perspectives across regions and industries. At the same time, businesses now require real-time insights to keep pace with changing markets.",
     quote:
-      "Consistency beats any single high-paying survey — small and often adds up faster than most people expect.",
-    subhead2: "What actually moves the needle",
+      "Organizations are investing heavily in verification and fraud prevention to ensure reliable research outcomes.",
+    subhead2: "Quality is the throughline",
     body3:
-      "Beyond frequency, a complete profile and quick response times to new matches both correlate strongly with higher earnings, since better-matched members qualify for more of what they're shown.",
+      "Organizations are investing heavily in verification and fraud prevention to ensure reliable research outcomes, even as the pace and scale of research grows.",
     closing:
-      "None of this replaces a paycheck, and we don't pretend otherwise — but as a way to turn spare minutes into real cash, the numbers hold up.",
+      "As businesses become increasingly data-driven, professional research communities will play an even greater role in shaping the future of industries worldwide.",
   },
 ];
 

@@ -47,7 +47,7 @@ export function Testimonials({ testimonials }: TestimonialsProps) {
                     </span>
                     <div>
                       <div className="font-display text-[14.5px] font-bold">{item.name}</div>
-                      <div className="text-[12.5px] text-muted-3">{testimonials.verified}</div>
+                      <div className="text-[12.5px] text-muted-3">{item.role}</div>
                     </div>
                   </div>
                 </figure>

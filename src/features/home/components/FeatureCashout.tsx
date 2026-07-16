@@ -104,7 +104,7 @@ export function FeatureCashout({ feature }: FeatureCashoutProps) {
                   tabIndex={-1}
                 >
                   <DollarSign width={13} height={13} />
-                  {p.requestCta} {p.receiveValue}
+                  {p.requestCta} 
                   <ArrowRight width={13} height={13} className="rtl:rotate-180" />
                 </button>
 

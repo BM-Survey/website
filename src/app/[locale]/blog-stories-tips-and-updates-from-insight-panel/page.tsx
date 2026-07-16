@@ -12,9 +12,9 @@ import { authUrls, pageHref } from "@/lib/navigation";
 import { siteUrl } from "@/lib/site";
 
 const meta = {
-  title: "Blog — Stories, Tips & Updates | B2B Insight Panel",
+  title: "Blog — Insights, Research & Updates | B2B Insight Panel",
   description:
-    "Straight talk on earning more from your opinions, getting paid faster, and what's new on the platform.",
+    "Explore research trends, industry perspectives, participation best practices, and updates from the B2B Insight Panel community.",
 };
 
 export async function generateMetadata({

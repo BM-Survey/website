@@ -15,13 +15,13 @@
   },
   "hero": {
     "ratingValue": "4.6",
-    "ratingLabel": "· Rated by 82,000+ members",
-    "titleLead": "Earn real money by",
-    "titleSharing": "sharing your",
-    "titleHighlight": "opinions",
-    "subtitle": "Answer quick surveys from brands that value what you think. Cash out to PayPal or gift cards —",
-    "subtitleBold": "100% free to join,",
-    "subtitleTail": "no fees, ever.",
+    "ratingLabel": "· Trusted by professionals and decision-makers worldwide",
+    "titleLead": "Influence the",
+    "titleSharing": "world with your",
+    "titleHighlight": "insights",
+    "subtitle": "Participate in exclusive B2B research studies, ",
+    "subtitleBold": "share your professional expertise, influence business decisions and receive rewards,",
+    "subtitleTail": " for your valuable insights.",
     "steps": {
       "browse": "Browse",
       "answer": "Answer",
@@ -37,8 +37,8 @@
       "cards": {
         "shopping": {
           "tag": "Shopping",
-          "reward": "$2.50",
-          "title": "Your online shopping habits",
+          "reward": "$15",
+          "title": "Cloud Infrastructure Adoption",
           "time": "4 min",
           "questions": "8 questions",
           "spots": "8 spots left",
@@ -47,7 +47,7 @@
         "tech": {
           "tag": "Tech",
           "reward": "$1.75",
-          "title": "Streaming & entertainment",
+          "title": "Cybersecurity Priorities ",
           "time": "3 min",
           "questions": "6 questions",
           "spots": "3 spots left",
@@ -56,28 +56,28 @@
         "food": {
           "tag": "Food",
           "reward": "$3.20",
-          "title": "Weekly grocery choices",
+          "title": "Procurement Software Evaluation",
           "spots": "12 spots left",
           "date": "21 Jul"
         }
       },
       "flow": {
-        "answerQuestion": "How often do you shop online?",
+        "answerQuestion": "Which cloud platforms does your organization currently use?",
         "answerOptions": [
-          "A few times a week",
-          "About once a week",
-          "Once a month",
-          "Rarely"
+          "AWS",
+          "Microsoft Azure",
+          "Google Cloud Platform",
+          "Other"
         ],
-        "answerProgress": "Question 3 of 8",
+        "answerProgress": "Question 3 of 15",
         "answerNext": "Next",
         "submitTitle": "Review & submit",
         "submitDone": "All 8 questions answered",
         "submitCta": "Submit answers",
-        "paidTitle": "You've been paid!",
-        "paidAmount": "+$2.50",
+        "paidTitle": "Your reward has been processed",
+        "paidAmount": "$15",
         "paidVia": "Sent to your PayPal",
-        "paidBalanceLabel": "New balance",
+        "paidBalanceLabel": "Wallet balance",
         "paidBalanceValue": "$127.00"
       },
       "browse": {
@@ -105,23 +105,23 @@
         "statusLabel": "Completed",
         "title": "Prod Test 11",
         "alert": "You have already attempted this survey.",
-        "reward": "$200",
-        "rewardLabel": "reward per completion",
-        "expiresLabel": "EXPIRES",
+        "reward": "$15 ",
+        "rewardLabel": "upon successful completion",
+        "expiresLabel": "Study closes on",
         "expiresDate": "21 Jul 2026",
-        "spotsLabel": "SPOTS LEFT",
+        "spotsLabel": "Remaining Participants:",
         "spotsValue": "1",
-        "spotsTotal": "2",
+        "spotsTotal": "",
         "postedByLabel": "POSTED BY",
         "creatorName": "B2B Insight Panel",
-        "orgName": "Beacon martech",
-        "ctaUnavailable": "Unavailable"
+        "orgName": "Powered by Beacon Martech",
+        "ctaUnavailable": "Already Participated"
       }
     },
     "badges": {
       "paid": {
-        "value": "$8.4M+",
-        "label": "paid to members"
+        "value": "Trusted by thousands ",
+        "label": "of Industry Experts"
       },
       "instant": {
         "value": "Instant",
@@ -135,81 +135,81 @@
   },
   "stats": {
     "eyebrow": "By the numbers",
-    "title": "Numbers that actually add up",
+    "title": "Our Impact in Numbers Insights at Scale",
     "paid": {
-      "label": "Paid to members",
-      "value": "$8.4M+",
-      "description": "Cashed out to real accounts — the average member earns over $60 a month."
+      "label": " ",
+      "value": "7 0 0 +",
+      "description": "Successfully delivered B2B research projects across industries."
     },
     "members": {
-      "label": "Members",
-      "value": "1.9M+"
+      "label": "Countries Represented",
+      "value": "30+"
     },
     "brands": {
-      "label": "Partner brands",
-      "value": "120+"
+      "label": "Research Partners",
+      "value": "20+"
     },
     "rating": {
-      "value": "4.6",
-      "reviews": "From 82,000+ reviews"
+      "value": "25K +",
+      "reviews": "Verified professionals and decision-makers in our community."
     }
   },
   "video": {
     "eyebrow": "Real members, real payouts",
-    "titleLine1": "Press play and see",
-    "titleLine2": "why people love it",
+    "titleLine1": "Discover how",
+    "titleLine2": " B2B Insight Panel works",
     "watch": "Watch the 90-second story",
     "featured": "Featured",
     "posterAlt": "B2B Insight Panel member story video"
   },
   "feature1": {
-    "eyebrow": "Surveys that fit your life",
-    "titleLine1": "Only the surveys",
-    "titleLine2": "you'll actually enjoy",
-    "description": "We match you to studies based on your profile, so you never waste time on surveys you don't qualify for. Every one shows the reward and time up front.",
+    "eyebrow": "RESEARCH MATCHED TO YOUR EXPERTISE",
+    "titleLine1": "Only the studies relevant ",
+    "titleLine2": "to your professional expertise",
+    "description": "Receive invitations to research studies that align with your experience, ensuring your time and expertise are valued.",
     "points": {
       "matching": {
         "title": "Smart matching",
-        "text": "Surveys picked for your interests and demographics."
+        "text": "Studies matched to your professional profile and industry expertise."
       },
       "upfront": {
         "title": "Upfront rewards",
-        "text": "See exactly what you'll earn before you start."
+        "text": "Transparent Rewards displayed before participation."
       },
       "biteSized": {
-        "title": "Bite-sized",
-        "text": "Most take under 5 minutes — do them anywhere."
+        "title": "Flexible participation",
+        "text": ": Most studies are designed to respect your valuable time."
       }
     },
     "phone": {
-      "heading": "Matched for you",
-      "subtitle": "Curated from your Travel interests",
+      "heading": "Studies For You",
+      "subtitle": "Curated based on your professional profile.",
       "search": "Search matched surveys...",
       "chips": [
         "All",
-        "Travel",
-        "Banking",
-        "Coffee"
+        "Technology",
+        "Healthcare",
+        "Finance"
       ],
       "cards": [
         {
           "match": "98% match",
-          "reward": "$4.00",
-          "title": "Travel & holiday planning",
-          "time": "5 min",
-          "questions": "12 questions"
+          "reward": "$15",
+          "title": "Enterprise AI Adoption",
+          "time": "15 min",
+          "questions": "Research Survey"
         },
         {
           "match": "91% match",
           "reward": "$3.10",
-          "title": "Weekend getaway habits",
+          "title": "Cloud Infrastructure Strategy",
           "time": "4 min",
           "questions": "9 questions"
         },
         {
           "match": "87% match",
           "reward": "$2.75",
-          "title": "Airport & flight experience",
+          "title": "Cybersecurity Investment Priorities",
           "time": "6 min",
           "questions": "14 questions"
         }
@@ -217,22 +217,22 @@
     }
   },
   "feature2": {
-    "eyebrow": "Cash out, your way",
-    "title": "Turn opinions into real money — instantly",
+    "eyebrow": "REWARDS FOR YOUR INSIGHTS",
+    "title": "Be rewarded for sharing valuable insights",
     "cards": {
       "threshold": {
-        "title": "Low $5 threshold",
-        "text": "Cash out to PayPal or 100+ gift cards the moment you hit five dollars."
+        "title": "Flexible Reward Options",
+        "text": "Rewards are processed securely after successful participation."
       },
       "noFees": {
-        "title": "Zero fees",
-        "text": "You keep every cent you earn — no withdrawal fees, no catches."
+        "title": "Secure Payments",
+        "text": "Rewards are processed through trusted payment methods."
       }
     },
     "phone": {
       "appName": "B2B Insight Panel",
-      "pageTitle": "Withdraw Balance",
-      "modalTitle": "Request a withdrawal",
+      "pageTitle": "Rewards Center",
+      "modalTitle": "Redeem available rewards",
       "fromLabel": "FROM",
       "orgName": "Beacon martech",
       "availableValue": "$140",
@@ -241,10 +241,10 @@
       "customAmount": "Custom amount",
       "amountLabel": "Amount",
       "amountValue": "$140",
-      "receiveLabel": "You'll receive",
+      "receiveLabel": "Reward amount",
       "receiveValue": "$140",
-      "requestCta": "Request",
-      "disclaimer": "Your request goes to Beacon martech for review. Once approved, the amount is sent to your registered PayPal account.",
+      "requestCta": "Redeem Rewards",
+      "disclaimer": "Your request goes to Beacon martech for review. The Rewards are securely processed after verification.",
       "nav": {
         "surveys": "Surveys",
         "history": "History",
@@ -256,82 +256,98 @@
   },
   "rewards": {
     "eyebrow": "Rewards",
-    "titleLine1": "Spend it however",
-    "titleLine2": "you like",
-    "description": "Cash, gift cards, or charity donations — over 100 ways to redeem, all with zero withdrawal fees.",
+    "titleLine1": "Flexible reward options ",
+    "titleLine2": "for your participation",
+    "description": "Choose from multiple secure reward options, including PayPal, bank transfer, and gift cards, based on your preferences and location.",
     "stats": {
       "minCashout": {
-        "value": "$5",
-        "label": "min. cashout"
+        "value": "🔒 ",
+        "label": "Secure Payments"
       },
       "fees": {
-        "value": "0%",
-        "label": "fees"
+        "value": "🌍",
+        "label": "Global Reward Options"
       },
       "options": {
-        "value": "100+",
-        "label": "reward options"
+        "value": "⚡",
+        "label": "Fast Processing"
       }
     },
     "options": {
       "paypal": "PayPal",
-      "amazon": "Amazon",
       "bank": "Bank",
-      "starbucks": "Starbucks",
-      "steam": "Steam",
-      "donate": "Donate"
+      "upi": "UPI"
     }
   },
   "about": {
     "eyebrow": "Why we exist",
-    "title": "Your opinion has value. We make sure you get paid for it.",
-    "paragraph1": "Brands spend billions understanding what people want. We think the people doing the telling deserve a fair cut — not points that expire or vague \"rewards.\"",
-    "paragraph2": "Real cash, transparent rewards, and privacy you control. That's the whole idea.",
+    "title": "We value your expertise and protect your trust.",
+    "paragraph1": "Organizations rely on expert insights to make better business decisions. We believe professionals should be recognized and rewarded for sharing their expertise.",
+    "paragraph2": "We are committed to transparency, secure participation, and protecting your data while ensuring fair rewards for your valuable contributions.",
     "badge": {
       "title": "GDPR compliant",
-      "text": "Your data, always protected"
+      "text": "Your privacy and data security come first."
     },
     "chips": {
       "neverSold": "Never sold to third parties",
       "encryption": "Bank-grade encryption",
-      "delete": "Delete anytime"
+      "delete": "Delete anytime",
+      "confidential": "Confidential participation",
+      "privacyProtected": "Data privacy protected"
     },
     "photoAlt": "A member completing a survey on their phone"
   },
   "testimonials": {
-    "eyebrow": "★ 4.6 · 82,000+ reviews",
-    "title": "Loved by members worldwide",
-    "verified": "Verified member",
+    "eyebrow": "★ 4.6 · reviews",
+    "title": "What our members say",
     "items": [
       {
-        "name": "Maya R.",
-        "headline": "Cashed out $50 in my first month",
-        "text": "I do surveys on my commute. The payouts are real and land in PayPal within the hour. No points nonsense."
+        "name": "Sarah M.",
+        "role": "Technology Director",
+        "headline": "Relevant opportunities every time",
+        "text": "The studies I receive are highly aligned with my professional background, making participation both valuable and rewarding."
       },
       {
-        "name": "Devin K.",
-        "headline": "Finally, surveys that respect my time",
-        "text": "Every survey tells you the reward and length upfront. If I don't qualify, I'm out in seconds — not ten minutes."
+        "name": "Michael T.",
+        "role": "Procurement Manager",
+        "headline": "Professional and transparent",
+        "text": "I appreciate the clear communication around study requirements and honorariums. The experience has been smooth and professional."
       },
       {
-        "name": "Priya S.",
-        "headline": "The gift card bonuses are unreal",
-        "text": "5% extra on Amazon cards adds up fast. I've basically covered my coffee budget for a year."
+        "name": "David R.",
+        "role": "Operations Executive",
+        "headline": "Respectful of my time",
+        "text": "Unlike many research platforms, the opportunities shared with me are relevant and worth the time investment."
       },
       {
-        "name": "Tom B.",
-        "headline": "Legit and actually pays",
-        "text": "Was skeptical at first but the $5 minimum cashout and instant PayPal made me a believer. Been using it daily."
+        "name": "Emily K.",
+        "role": "Finance Professional",
+        "headline": "Secure and trustworthy",
+        "text": "Data privacy is extremely important to me, and B2B Insight Panel provides confidence through its transparent and secure processes."
       },
       {
-        "name": "Ana L.",
-        "headline": "Clean app, zero spam",
-        "text": "The interface feels like a proper iOS app, not some sketchy rewards site. My data stays private too."
+        "name": "James L.",
+        "role": "IT Decision Maker",
+        "headline": "Meaningful industry participation",
+        "text": "It's rewarding to contribute my expertise and know that my insights help organizations make better decisions."
       },
       {
-        "name": "Jordan M.",
-        "headline": "My favorite downtime earner",
-        "text": "Better than mindless scrolling. I've made over $200 answering questions about stuff I already have opinions on."
+        "name": "Jennifer P.",
+        "role": "Healthcare Executive",
+        "headline": "High-quality research studies",
+        "text": "The studies are well structured, professionally managed, and focused on real business challenges."
+      },
+      {
+        "name": "Robert S.",
+        "role": "Manufacturing Leader",
+        "headline": "Valuable professional network",
+        "text": "The platform provides opportunities to share knowledge on topics that genuinely matter within my industry."
+      },
+      {
+        "name": "Linda W.",
+        "role": "Marketing Director",
+        "headline": "Fair recognition for expertise",
+        "text": "The honorariums are transparent, and the studies respect the value of professional experience."
       }
     ]
   },
@@ -342,41 +358,81 @@
     "moreLink": "See all FAQs",
     "items": [
       {
-        "question": "Is it really free to join?",
-        "answer": "Yes — 100% free, forever. There are no sign-up fees, no subscriptions, and no withdrawal fees. You keep every cent you earn."
+        "question": "Is it free to join?",
+        "answer": "Yes. Joining B2B Insight Panel is completely free. There are no registration fees, subscription charges, or hidden costs."
       },
       {
-        "question": "How much can I earn?",
-        "answer": "It varies by how many surveys you qualify for, but most members earn between $30 and $150 a month doing surveys in their spare time. The more complete your profile, the more surveys you match."
+        "question": "What is B2B Insight Panel?",
+        "answer": "B2B Insight Panel is a global community of business professionals and decision-makers who participate in research studies, surveys, interviews, and discussions to help organizations make better business decisions."
       },
       {
-        "question": "How do I get paid?",
-        "answer": "Cash out to PayPal, bank transfer, or over 100 gift card options (Amazon, Starbucks, Steam and more) once you reach a $5 balance. Most payouts arrive within minutes."
+        "question": "Who can join the community?",
+        "answer": "Professionals from various industries and functions are welcome to join, including executives, managers, IT professionals, procurement leaders, finance experts, healthcare professionals, and other business decision-makers."
       },
       {
-        "question": "Is my data safe?",
-        "answer": "Absolutely. Your responses are anonymized and never sold to third parties. We use bank-grade encryption and are fully GDPR compliant — and you can delete your account and data at any time."
+        "question": "How are members selected for research opportunities?",
+        "answer": "Research invitations are matched based on your professional profile, including factors such as industry, job role, seniority, expertise, and decision-making responsibilities. Keeping your profile updated helps us provide more relevant opportunities."
       },
       {
-        "question": "How long do surveys take?",
-        "answer": "Most take under five minutes. Every survey shows the exact reward and estimated time before you start, so you're never caught out."
+        "question": "What types of research opportunities are available?",
+        "answer": "Members may be invited to participate in online surveys, one-on-one interviews, focus groups, discussion boards, product evaluations, and industry research studies."
       },
       {
-        "question": "What if I don't qualify for a survey?",
-        "answer": "You'll usually know within the first few questions, and we design it so you're screened out quickly. We're always working to match you with surveys you'll qualify for."
+        "question": "How long do studies typically take?",
+        "answer": "Study durations vary depending on the research type: online surveys typically take 10–30 minutes, interviews take 30–60 minutes, and discussion boards or specialized studies may vary. Estimated participation time is always communicated beforehand."
+      },
+      {
+        "question": "Will I be compensated for participating?",
+        "answer": "Yes. Members receive rewards or honorariums for successfully completing qualified research opportunities. Compensation varies depending on the study complexity, duration, and expertise required."
+      },
+      {
+        "question": "How are rewards processed?",
+        "answer": "Rewards are processed securely through available payment methods, which may include PayPal, bank transfer, gift cards, UPI, or other local redemption options. Available methods may vary by country."
+      },
+      {
+        "question": "How are reward amounts determined?",
+        "answer": "Reward amounts depend on factors such as study duration, level of expertise required, seniority of participants, and complexity of the research. Reward details are communicated before participation."
+      },
+      {
+        "question": "What happens if I do not qualify for a study?",
+        "answer": "Some studies have specific screening requirements. If you do not qualify for a particular study, you may still receive invitations for future opportunities that better match your professional background."
+      },
+      {
+        "question": "Is my information kept confidential?",
+        "answer": "Absolutely. Your personal information is protected and handled in accordance with applicable privacy regulations. Individual responses are typically analyzed in aggregate and are not shared without appropriate consent."
+      },
+      {
+        "question": "Is my data secure?",
+        "answer": "Yes. We employ industry-standard security measures and privacy practices to protect member information and maintain a secure research environment."
+      },
+      {
+        "question": "Will my employer know that I participate?",
+        "answer": "No. Participation is entirely voluntary and confidential. We do not notify employers regarding your participation unless explicitly required and agreed upon for a specific study."
+      },
+      {
+        "question": "Can I update my profile information?",
+        "answer": "Yes. You can update your professional details, industry information, and areas of expertise at any time. Maintaining an accurate profile helps us provide more relevant research opportunities."
+      },
+      {
+        "question": "How often will I receive invitations?",
+        "answer": "Invitation frequency depends on your professional background and the needs of ongoing research projects. Some professionals may receive opportunities more frequently than others based on market demand."
+      },
+      {
+        "question": "Can I leave the community at any time?",
+        "answer": "Yes. You may request account deletion or unsubscribe from communications at any time."
       }
     ]
   },
   "cta": {
-    "titleLine1": "Start earning today.",
-    "titleLine2": "It's completely free.",
-    "subtitle": "Join 1.9M+ members turning their opinions into real cash. No fees, no catch.",
-    "primary": "Sign Up Free",
+    "titleLine1": "Become part of a",
+    "titleLine2": "trusted research community.",
+    "subtitle": "Join thousands of professionals contributing valuable insights through exclusive B2B research opportunities. No fees, no catch.",
+    "primary": "Join Our Community",
     "secondary": "How it works",
     "assurances": {
-      "noCard": "No credit card",
-      "cashOut": "Cash out from $5",
-      "rated": "4.6★ rated"
+      "noCard": " Free to Join",
+      "cashOut": " Secure & Confidential",
+      "rated": "Flexible Rewards"
     }
   }
 }

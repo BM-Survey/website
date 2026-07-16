@@ -7,75 +7,130 @@
   },
   "hero": {
     "eyebrow": "For Organisations",
-    "titleLead": "Your questions, answered by",
-    "titleHighlight": "real professionals",
-    "subtitle": "InsightPanel is the survey management platform where organisations launch studies, target verified professionals by department, and watch clean insights arrive in real time — rewards and payouts included."
+    "titleLead": "Connect with verified professionals and ",
+    "titleHighlight": "turn expertise into actionable insights",
+    "subtitle": "Access high-quality responses from business professionals across industries. Launch studies, reach your target audience, and from actionable insights to make informed business decisions."
   },
   "story": {
     "eyebrow": "Your journey with us",
-    "title": "Five chapters from question to insight",
-    "subtitle": "Here's what running research on InsightPanel actually feels like — from the day you reach out to the day the answers land.",
+    "title": "From business questions to actionable insights",
+    "subtitle": "We support every stage of the research journey, from defining objectives and identifying the right respondents to delivering actionable insights and final reports.",
     "chapters": [
       {
         "number": "01",
-        "label": "Chapter 01",
-        "title": "It starts with a question",
-        "text": "Your team needs real answers — not guesses. You reach out, we onboard your organisation, and within days you have your own admin portal with everything ready to go.",
+        "label": "Step 01",
+        "title": "Understanding your business objectives",
+        "text": "We begin by understanding your product, service, research goals, and business challenges.",
         "points": [
-          "Dedicated admin dashboard",
-          "Guided onboarding by our team",
-          "No technical integration needed to start"
+          "Research consultation",
+          "Business objective alignment",
+          "Success metrics definition",
+          "Target audience planning"
         ]
       },
       {
         "number": "02",
-        "label": "Chapter 02",
-        "title": "Launch a survey in minutes",
-        "text": "Give your study a title, point it at the departments you care about, set the reward and response quota, and hit publish. Drafts stay editable until you're ready.",
+        "label": "Step 02",
+        "title": "Defining the right audience",
+        "text": "Identify and build respondent profiles based on industry, job titles, department, geography, company size, and product usage patterns.",
         "points": [
-          "Target by professional department",
-          "You set rewards, quota and expiry",
-          "Save as draft, publish when ready"
+          "Custom respondent profiling",
+          "Audience qualification criteria",
+          "Verified professional targeting"
         ]
       },
       {
         "number": "03",
-        "label": "Chapter 03",
-        "title": "The right people answer",
-        "text": "Your survey appears only to verified professionals in the departments you chose. Screening questions filter out poor fits, every respondent gets exactly one attempt, and fraud checks run throughout.",
+        "label": "Step 03",
+        "title": "Survey design & programming",
+        "text": "Our team develops screeners and questionnaires that align with your research objectives.",
         "points": [
-          "Verified, profiled respondents",
-          "One attempt per respondent",
-          "VPN and fraud detection built in"
+          "Screener development",
+          "Questionnaire design",
+          "Survey programming",
+          "Logic and routing setup"
         ]
       },
       {
         "number": "04",
-        "label": "Chapter 04",
-        "title": "Insights arrive in real time",
-        "text": "Watch responses land live on your dashboard — completion breakdowns, respondent geography and leaderboards. When you're done, export everything as CSV.",
+        "label": "Step 04",
+        "title": "Testing & quality assurance",
+        "text": "Every study undergoes extensive internal and client-side testing before launch.",
         "points": [
-          "Live analytics dashboard",
-          "Region and department breakdowns",
-          "One-click CSV export"
+          "Internal QA testing",
+          "Client review and feedback",
+          "Revisions and approvals",
+          "Final launch readiness checks"
         ]
       },
       {
         "number": "05",
-        "label": "Chapter 05",
-        "title": "Rewards run themselves",
-        "text": "Fair pay is why our data is clean. You fund rewards from your own payment account; respondents withdraw on demand and every payout is logged — no admin work on your side.",
+        "label": "Step 05",
+        "title": "Soft launch & respondent outreach",
+        "text": "Studies are initially launched to a smaller audience to validate performance and respondent quality.",
         "points": [
-          "You control the budget",
-          "Respondents paid on demand",
-          "Every transaction logged"
+          "Soft launch monitoring",
+          "Email outreach campaigns",
+          "Panel recruitment management",
+          "Early response validation"
+        ]
+      },
+      {
+        "number": "06",
+        "label": "Step 06",
+        "title": "Full launch execution",
+        "text": "Once validated, studies are launched at full scale.",
+        "points": [
+          "Real-time response monitoring",
+          "Sample management",
+          "Continuous optimisation",
+          "Target completion management"
+        ]
+      },
+      {
+        "number": "07",
+        "label": "Step 07",
+        "title": "Data quality management",
+        "text": "Every response is reviewed to ensure data reliability.",
+        "points": [
+          "Fraud detection",
+          "Speeding checks",
+          "Logic validation",
+          "Incomplete response removal",
+          "Duplicate detection"
+        ]
+      },
+      {
+        "number": "08",
+        "label": "Step 08",
+        "title": "Data processing & analysis",
+        "text": "Collected data is prepared for reporting and strategic decision-making.",
+        "points": [
+          "Data extraction",
+          "Benchmark analysis",
+          "Trend identification",
+          "Insight generation"
+        ]
+      },
+      {
+        "number": "09",
+        "label": "Step 09",
+        "title": "Reporting & delivery",
+        "text": "Receive clear, actionable insights that support business decisions.",
+        "points": [
+          "Clean datasets",
+          "Executive summaries",
+          "Charts and visualisations",
+          "Strategic recommendations",
+          "Final reporting package"
         ]
       }
     ]
   },
   "cta": {
-    "title": "Bring your surveys to InsightPanel",
-    "subtitle": "Tell us what you want to learn — our team replies within one business day.",
-    "button": "Talk to our team"
+    "title": "Ready to launch your next research project?",
+    "subtitle": "Partner with B2B Insight Panel to connect with verified professionals and generate high-quality business insights.",
+    "button": "Contact Our Team →"
+    
   }
 }

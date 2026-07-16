@@ -11,190 +11,120 @@
     "title": "Privacy Policy",
     "meta": {
       "title": "Privacy Policy | B2B Insight Panel",
-      "description": "How InsightPanel collects, uses, and protects your personal data.",
-      "ogAlt": "InsightPanel Privacy Policy"
+      "description": "How B2B Insight Panel collects, uses, and protects your personal data.",
+      "ogAlt": "B2B Insight Panel Privacy Policy"
     },
-    "intro": "InsightPanel (\"we,\" \"us,\" \"our\") operates a B2B insight panel connecting survey respondents with research brands. This Privacy Policy explains what data we collect, how we use it, and the choices you have.",
+    "intro": "B2B Insight Panel (\"we,\" \"us,\" or \"our\"), powered by Beacon Martech, operates a global community of business professionals and decision-makers participating in research activities, including surveys, interviews, focus groups, and other market research initiatives. This Privacy Policy explains how we collect, use, disclose, and protect your information.",
     "sections": [
-      {
-        "heading": "1. Information we collect",
-        "paragraphs": ["We collect information you provide directly (name, email, demographic profile answers) and information generated through your use of the service (survey responses, device data, IP address, and usage analytics)."]
-      },
-      {
-        "heading": "2. How we use your information",
-        "paragraphs": [],
-        "list": [
-          "To match you with relevant, qualifying surveys",
-          "To calculate and process your rewards and payouts",
-          "To detect fraud and protect the integrity of the panel",
-          "To improve our matching algorithms and product experience"
-        ]
-      },
-      {
-        "heading": "3. How we share information",
-        "paragraphs": ["Survey responses are shared with research partners only in aggregated, anonymized form. We never sell your personal data, and we never share your name, email, or identifying details with survey sponsors without your explicit consent."]
-      },
-      {
-        "heading": "4. Data retention",
-        "paragraphs": ["We retain account and response data for as long as your account is active, or as needed to comply with legal obligations. You may request deletion at any time via account settings or by contacting support."]
-      },
-      {
-        "heading": "5. Your rights",
-        "paragraphs": ["Depending on your jurisdiction, you may have the right to access, correct, export, or delete your personal data, and to object to certain processing. We are fully GDPR and CCPA compliant."]
-      },
-      {
-        "heading": "6. Security",
-        "paragraphs": ["We use industry-standard, bank-grade encryption both in transit and at rest, alongside regular security audits, to protect your information."]
-      },
-      {
-        "heading": "7. Contact us",
-        "paragraphs": ["Questions about this policy? Reach us at support@b2b2insightpanel.com or via our"],
-        "contactLink": true
-      }
-    ]
+  { "heading": "2. Information we collect", "paragraphs": [
+    "Personal information: name, email address, country and region, professional details (job title, industry, company size, seniority), areas of expertise, and payment information required for honorariums.",
+    "Research information: survey responses, participation history, profile information, and study qualification responses.",
+    "Technical information: IP address, device identifiers, browser information, operating system, usage analytics, and cookie information."
+  ]},
+  { "heading": "3. How we use your information", "paragraphs": [], "list": [
+    "Match participants with relevant research opportunities",
+    "Process participation rewards and honorariums",
+    "Verify eligibility and prevent fraud",
+    "Improve our platform and respondent experience",
+    "Communicate study invitations and account updates",
+    "Share relevant industry content, research opportunities, and solutions related to challenges and interests identified in your profile, subject to your consent",
+    "Comply with legal obligations"
+  ]},
+  { "heading": "4. How we share information", "paragraphs": ["We do not sell or rent personal information. Your name, email address, or identifiable information will not be shared with research sponsors without your explicit consent."], "list": [
+    "Research clients, in aggregated and anonymized form",
+    "Service providers supporting platform operations",
+    "Payment processors",
+    "Legal authorities where required by law"
+  ]},
+  { "heading": "5. International data transfers", "paragraphs": ["As a global platform, your information may be processed in countries outside your residence. We implement appropriate safeguards to protect your information."] },
+  { "heading": "6. Data retention", "paragraphs": ["We retain information while your account remains active and as necessary for:"], "list": [
+    "Legal obligations", "Fraud prevention", "Dispute resolution", "Contract enforcement"
+  ]},
+  { "heading": "7. Your rights", "paragraphs": ["Depending on applicable laws, you may have the right to:"], "list": [
+    "Access your information", "Correct inaccurate information", "Request deletion", "Restrict processing", "Withdraw consent", "Object to certain communications", "Request data portability"
+  ]},
+  { "heading": "8. Security", "paragraphs": ["We implement reasonable technical and organizational measures to protect your information, including encryption, access controls, and security monitoring."] },
+  { "heading": "9. Children's privacy", "paragraphs": ["Our services are intended only for individuals aged 18 years or older."] },
+  { "heading": "10. Contact us", "paragraphs": ["Questions about this policy? Reach us at support@b2binsightpanel.com or via our"], "contactLink": true }
+]
   },
   "cookie": {
     "title": "Cookie Policy",
     "meta": {
       "title": "Cookie Policy | B2B Insight Panel",
-      "description": "How InsightPanel uses cookies and similar technologies.",
-      "ogAlt": "InsightPanel Cookie Policy"
+      "description": "How B2B Insight Panel uses cookies and similar technologies.",
+      "ogAlt": "B2B Insight Panel Cookie Policy"
     },
-    "intro": "This Cookie Policy explains how InsightPanel uses cookies and similar technologies when you visit our website or use our app.",
+    "intro": "Cookies are small text files stored on your device that help improve website functionality and user experience. This Cookie Policy explains how B2B Insight Panel uses cookies and similar technologies when you visit our website or use our app.",
     "sections": [
-      {
-        "heading": "1. What are cookies",
-        "paragraphs": ["Cookies are small text files placed on your device that help us recognize you, remember preferences, and understand how you use our service."]
-      },
-      {
-        "heading": "2. Types of cookies we use",
-        "paragraphs": [],
-        "table": {
-          "headers": ["Category", "Purpose", "Duration"],
-          "rows": [
-            ["Essential", "Sign-in sessions, security, load balancing", "Session"],
-            ["Preferences", "Remember language, currency, and display settings", "1 year"],
-            ["Analytics", "Understand usage patterns to improve the product", "1 year"],
-            ["Fraud prevention", "Detect duplicate accounts and suspicious activity", "2 years"]
-          ]
-        }
-      },
-      {
-        "heading": "3. Managing your preferences",
-        "paragraphs": ["You can manage non-essential cookies at any time via our cookie banner or your browser settings. Disabling essential cookies may prevent core features (like staying signed in) from working properly."]
-      },
-      {
-        "heading": "4. Third-party cookies",
-        "paragraphs": ["Some analytics and fraud-prevention partners may set their own cookies on our behalf. We only work with partners bound by strict data protection agreements."]
-      },
-      {
-        "heading": "5. Changes to this policy",
-        "paragraphs": ["We'll update this page whenever our cookie practices change materially, and note the date at the top."]
-      },
-      {
-        "heading": "6. Contact us",
-        "paragraphs": ["Questions? Reach us at support@b2b2insightpanel.com or via our"],
-        "contactLink": true
-      }
+      { "heading": "1. What are cookies", "paragraphs": ["Cookies are small text files stored on your device that help improve website functionality and user experience."] },
+      { "heading": "2. Types of cookies we use", "paragraphs": [], "table": {
+        "headers": ["Category", "Purpose"],
+        "rows": [
+          ["Essential", "Necessary for account login and platform functionality"],
+          ["Analytics", "Help us understand platform usage and improve services"],
+          ["Preference", "Remember your settings and preferences"],
+          ["Marketing", "Used, where consent is provided, to deliver relevant communications and content"]
+        ]
+      }},
+      { "heading": "3. Managing cookies", "paragraphs": ["You may disable cookies through your browser settings. Certain features may not function properly without cookies."] },
+      { "heading": "4. Contact us", "paragraphs": ["Questions? Reach us at support@b2binsightpanel.com or via our"], "contactLink": true }
     ]
   },
   "eula": {
     "title": "End User License Agreement",
     "meta": {
       "title": "EULA — End User License Agreement | B2B Insight Panel",
-      "description": "The license terms governing your use of the InsightPanel app and website.",
-      "ogAlt": "InsightPanel End User License Agreement"
+      "description": "The license terms governing your use of the B2B Insight Panel app and website.",
+      "ogAlt": "B2B Insight Panel End User License Agreement"
     },
-    "intro": "This End User License Agreement (\"EULA\") governs your use of the InsightPanel mobile application and website (the \"App\"). By installing or using the App, you agree to be bound by this EULA.",
+    "intro": "This End User License Agreement (\"EULA\") governs your use of the B2B Insight Panel mobile application and website (the \"App\"). By installing or using the App, you agree to be bound by this EULA.",
     "sections": [
-      {
-        "heading": "1. License grant",
-        "paragraphs": ["We grant you a limited, non-exclusive, non-transferable, revocable license to install and use the App on your personal devices, solely for participating in surveys and managing your account."]
-      },
-      {
-        "heading": "2. Restrictions",
-        "paragraphs": [],
-        "list": [
-          "You may not reverse-engineer, decompile, or disassemble the App",
-          "You may not use bots, scripts, or automation to complete surveys",
-          "You may not create multiple accounts to farm rewards",
-          "You may not resell, sublicense, or transfer your account"
-        ]
-      },
-      {
-        "heading": "3. Ownership",
-        "paragraphs": ["The App, including all code, design, and trademarks, remains the exclusive property of InsightPanel. This EULA does not transfer any ownership rights to you."]
-      },
-      {
-        "heading": "4. Updates",
-        "paragraphs": ["We may release updates to the App periodically. Continued use after an update constitutes acceptance of any changes to functionality."]
-      },
-      {
-        "heading": "5. Termination",
-        "paragraphs": ["We may suspend or terminate your license immediately if you violate this EULA, including fraudulent survey activity or duplicate accounts. Any unpaid balance obtained through fraud will be forfeited."]
-      },
-      {
-        "heading": "6. Disclaimer & liability",
-        "paragraphs": ["The App is provided \"as is\" without warranties of any kind. To the maximum extent permitted by law, InsightPanel is not liable for indirect or consequential damages arising from your use of the App."]
-      },
-      {
-        "heading": "7. Contact us",
-        "paragraphs": ["Questions about this agreement? Reach us via our"],
-        "contactLink": true
-      }
+      { "heading": "1. License grant", "paragraphs": ["B2B Insight Panel grants you a limited, non-exclusive, non-transferable license to access and use our website and mobile applications."] },
+      { "heading": "2. Restrictions", "paragraphs": [], "list": [
+        "Reverse engineer the software", "Copy, modify, or distribute platform components", "Use bots or automated systems", "Interfere with platform security"
+      ]},
+      { "heading": "3. User content", "paragraphs": ["Survey responses and profile information remain subject to our Privacy Policy."] },
+      { "heading": "4. Updates", "paragraphs": ["We may provide software updates and modifications at our discretion."] },
+      { "heading": "5. Account suspension", "paragraphs": ["We may suspend access for:"], "list": [
+        "Fraudulent activities", "Misrepresentation", "Abuse of platform services", "Violations of applicable laws"
+      ]},
+      { "heading": "6. Intellectual property", "paragraphs": ["All software, trademarks, logos, and content are owned by B2B Insight Panel and/or Beacon Martech."] },
+      { "heading": "7. Disclaimer", "paragraphs": ["The platform is provided on an \"as is\" and \"as available\" basis."] },
+      { "heading": "8. Limitation of liability", "paragraphs": ["To the extent permitted by law, B2B Insight Panel shall not be liable for indirect, incidental, or consequential damages arising from platform use."] },
+      { "heading": "9. Governing law", "paragraphs": ["These terms shall be governed by the laws of India unless otherwise required by applicable local regulations."] },
+      { "heading": "10. Contact us", "paragraphs": ["Questions about this agreement? Reach us via our"], "contactLink": true }
     ]
   },
   "terms": {
     "title": "Terms & Conditions",
     "meta": {
       "title": "Terms & Conditions | B2B Insight Panel",
-      "description": "The terms governing your access to and use of InsightPanel.",
-      "ogAlt": "InsightPanel Terms & Conditions"
+      "description": "The terms governing your access to and use of B2B Insight Panel.",
+      "ogAlt": "B2B Insight Panel Terms & Conditions"
     },
-    "intro": "These Terms & Conditions (\"Terms\") govern your access to and use of InsightPanel. By creating an account, you agree to these Terms in full.",
+    "intro": "By accessing or using B2B Insight Panel, you agree to these Terms.",
     "sections": [
-      {
-        "heading": "1. Eligibility",
-        "paragraphs": ["You must be at least 18 years old (or the age of majority in your jurisdiction) and able to form a binding contract to use InsightPanel. One account per person is permitted."]
-      },
-      {
-        "heading": "2. Account & conduct",
-        "paragraphs": [],
-        "list": [
-          "You are responsible for keeping your login credentials secure",
-          "You must provide accurate profile information for survey matching",
-          "Fraudulent responses, bots, or duplicate accounts will result in suspension"
-        ]
-      },
-      {
-        "heading": "3. Rewards & payouts",
-        "paragraphs": ["Rewards are credited to your balance upon successful survey completion, as verified by our quality checks. Balances can be cashed out once you reach the $5 minimum threshold, to PayPal, bank transfer, or supported gift cards, at zero fee."]
-      },
-      {
-        "heading": "4. Membership is free",
-        "paragraphs": ["Creating and maintaining an InsightPanel account is always free. We never charge subscription or membership fees, and we never take a cut of your rewards."]
-      },
-      {
-        "heading": "5. Survey participation",
-        "paragraphs": ["Surveys are provided by third-party research brands via our platform. We do our best to ensure accurate reward and time estimates, but exact qualification is determined by each survey's screening logic."]
-      },
-      {
-        "heading": "6. Termination",
-        "paragraphs": ["We may suspend or close accounts that violate these Terms, including fraud, abuse, or multiple accounts. You may close your account at any time from account settings."]
-      },
-      {
-        "heading": "7. Limitation of liability",
-        "paragraphs": ["InsightPanel is provided \"as is.\" We are not liable for indirect, incidental, or consequential damages arising from your use of the service, to the maximum extent permitted by law."]
-      },
-      {
-        "heading": "8. Changes to these terms",
-        "paragraphs": ["We may update these Terms from time to time. Material changes will be communicated via email or in-app notice before taking effect."]
-      },
-      {
-        "heading": "9. Contact us",
-        "paragraphs": ["Questions about these Terms? Reach us via our"],
-        "contactLink": true
-      }
+      { "heading": "1. Eligibility", "paragraphs": ["You must:"], "list": [
+        "Be at least 18 years old", "Provide accurate information", "Maintain only one account unless otherwise approved"
+      ]},
+      { "heading": "2. Participant consent", "paragraphs": ["By creating an account and completing your profile, you consent to:"], "list": [
+        "Participation in research activities", "Receiving invitations to relevant studies", "Receiving communications related to studies, industry insights, and solutions that may be relevant to professional challenges and interests identified in your profile", "Processing of your information as described in our Privacy Policy"
+      ]},
+      { "heading": "3. Research participation", "paragraphs": ["Participation opportunities are not guaranteed. Eligibility may vary based on study requirements. Providing false information may result in account suspension. You may withdraw consent at any time by updating communication preferences or contacting support."] },
+      { "heading": "4. Rewards and honorariums", "paragraphs": ["Honorariums vary by study. Rewards may be withheld in cases of:"], "list": [
+        "Fraudulent participation", "Duplicate accounts", "False information", "Automated participation methods"
+      ]},
+      { "heading": "5. Fraud prevention", "paragraphs": ["Users must not:"], "list": [
+        "Use VPNs, proxies, bots, or automation tools", "Create multiple accounts", "Misrepresent professional information"
+      ]},
+      { "heading": "6. Communications", "paragraphs": ["You agree that we may send:"], "list": [
+        "Study invitations", "Platform updates", "Honorarium notifications", "Relevant industry content and professional solutions related to topics and challenges identified in your profile, where consent has been provided"
+      ]},
+      { "heading": "7. Intellectual property", "paragraphs": ["All platform content, software, logos, and materials remain the property of B2B Insight Panel and Beacon Martech."] },
+      { "heading": "8. Limitation of liability", "paragraphs": ["We make reasonable efforts to maintain service availability but do not guarantee uninterrupted access."] },
+      { "heading": "9. Termination", "paragraphs": ["We reserve the right to suspend or terminate accounts for violations of these Terms."] },
+      { "heading": "10. Contact us", "paragraphs": ["Questions about these Terms? Reach us via our"], "contactLink": true }
     ]
   }
 }

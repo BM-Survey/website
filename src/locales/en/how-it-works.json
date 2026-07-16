@@ -12,68 +12,68 @@
   },
   "hero": {
     "eyebrow": "How It Works",
-    "titleLead": "From opinion to",
-    "titleHighlight": "payout",
-    "subtitle": "Every step respects your time: transparent rewards up front, quick surveys, and payouts that land fast. Here's exactly how it works."
+    "titleLead": "From expertise to ",
+    "titleHighlight": "impact",
+    "subtitle": "Participate in exclusive B2B research opportunities tailored to your professional experience. Share valuable insights, influence business decisions, and receive rewards for your contribution. Here's exactly how it works."
   },
   "steps": [
     {
       "number": "01",
-      "title": "Create your profile",
-      "text": "Sign up free with an email. Answer a short profile survey once — it powers every match after."
+      "title": " Build Your Professional Profile",
+      "text": "Complete your professional profile so we can connect you with research studies that match your expertise."
     },
     {
       "number": "02",
-      "title": "Get matched",
-      "text": "We surface surveys you're likely to qualify for, each showing exact time and reward before you tap in."
+      "title": " Get Matched with Studies",
+      "text": "Receive invitations to research studies that align with your industry experience and professional background."
     },
     {
       "number": "03",
-      "title": "Answer & submit",
-      "text": "Most surveys run 3–8 minutes. Screened out early? You're never penalized — just try the next one."
+      "title": " Share Your Expertise",
+      "text": "Participate in relevant research opportunities and share your professional insights through surveys, interviews, and other research activities."
     },
     {
       "number": "04",
-      "title": "Get paid",
+      "title": "Receive Reward",
       "text": "Reward lands in your balance instantly. Cash out to PayPal or gift cards from just $5."
     }
   ],
   "surveyPreview": {
     "eyebrow": "Transparent, always",
-    "title": "What a survey actually looks like",
+    "title": "Examples of research opportunities",
     "cards": [
       {
-        "tag": "Shopping",
+        "tag": "Technology",
         "tone": "primary",
-        "title": "Online shopping habits",
-        "time": "4 min",
-        "reward": "$2.50"
+        "title": "Cloud Infrastructure Adoption",
+        "time": "15 min",
+        "reward": "$12.50"
       },
       {
-        "tag": "Tech",
+        "tag": "Cybersecurity",
         "tone": "purple",
-        "title": "Streaming & entertainment",
-        "time": "3 min",
-        "reward": "$1.75"
+        "title": "Enterprise Cybersecurity Trends",
+        "time": "20 min",
+        "reward": "$11"
       },
       {
-        "tag": "Food",
+        "tag": "Finance",
         "tone": "orange",
-        "title": "Weekly grocery choices",
-        "time": "5 min",
-        "reward": "$3.20"
+        "title": "AI Adoption in Financial Services",
+        "time": "15 min",
+        "reward": "$10.50"
       },
       {
-        "tag": "Travel",
+        "tag": "Procurement",
         "tone": "success",
-        "title": "Holiday & travel planning",
-        "time": "5 min",
-        "reward": "$4.00"
+        "title": "Procurement Software Evaluation",
+        "time": "20 min",
+        "reward": "$12.50"
       }
     ]
   },
   "payoutSpeed": {
-    "eyebrow": "Payout speed",
+    "eyebrow": "REWARD OPTIONS",
     "title": "How fast you get paid",
     "items": [
       {
@@ -91,9 +91,9 @@
     ]
   },
   "cta": {
-    "title": "Ready to get started?",
-    "subtitle": "It's free, it takes a minute, and your first payout could be today.",
-    "button": "Sign Up Free"
+    "title": "Ready to share your expertise?",
+    "subtitle": "Join a trusted community of professionals participating in exclusive research opportunities and helping shape business decisions.",
+    "button": "Join Our Community"
   },
   "phoneScreens": {
     "nav": {
@@ -112,35 +112,35 @@
       "emailValue": "alex@email.com",
       "interestsLabel": "Interests",
       "interests": [
-        "Shopping",
-        "Tech",
-        "Travel"
+        "Tecnology",
+        "Healthcare",
+        "Financial Services"
       ],
       "progressLabel": "Profile complete",
       "progressValue": "80%",
       "cta": "Continue"
     },
     "matched": {
-      "heading": "Matched for you",
+      "heading": "Studies for You",
       "subtitle": "Based on your profile",
       "search": "Search surveys...",
       "allChip": "All"
     },
     "answer": {
-      "progressLabel": "Question 5 of 6",
-      "question": "How often do you shop online?",
+      "progressLabel": "Question 5 of 18",
+      "question": "Which cloud platforms does your organization currently use?",
       "options": [
-        "A few times a week",
-        "About once a week",
-        "Once a month",
-        "Rarely"
+        "AWS",
+        "Microsoft Azure ",
+        "Google Cloud Platform",
+        "Other"
       ],
       "submitCta": "Submit answers"
     },
     "paid": {
-      "title": "You've been paid!",
+      "title": "Reward Received",
       "via": "Sent to your PayPal",
-      "balanceLabel": "New balance",
+      "balanceLabel": "Available Reward",
       "balanceValue": "$129.50"
     }
   }

@@ -15,9 +15,9 @@
   "actions": {
     "login": "Log in",
     "signupFree": "Sign Up Free",
-    "earnMoney": "Earn Money Now",
+    "earnMoney": "Start Sharing Insights",
     "seeHowItWorks": "See how it works",
-    "startNow": "Start Now",
+    "startNow": "Join Our Community",
     "cashOut": "Cash out"
   },
   "language": {
@@ -32,7 +32,7 @@
     "skipToContent": "Skip to content"
   },
   "footer": {
-    "tagline": "The B2B insight panel that pays you real money for the opinions brands actually need.",
+    "tagline": "A global community of business professionals and decision-makers participating in exclusive research opportunities.",
     "product": {
       "title": "Product",
       "home": "Home",
@@ -56,7 +56,7 @@
       "getItOn": "Get it on",
       "googlePlay": "Google Play"
     },
-    "copyright": "© {year} InsightPanel — B2B Insight Panel. All rights reserved.",
+    "copyright": "© {year} B2B Insight Panel. Powered by Beacon Martech. All rights reserved.",
     "bottom": {
       "privacy": "Privacy",
       "cookies": "Cookies",

@@ -776,7 +776,7 @@ function SubmitScreen({ p }: { p: PhoneData }) {
               <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">{s.spotsLabel}</div>
               <div className="font-display text-[10.5px] font-extrabold text-ink">
                 {s.spotsValue}
-                <span className="text-muted-3"> / {s.spotsTotal}</span>
+                {/* <span className="text-muted-3"> / {s.spotsTotal}</span> */}
               </div>
             </div>
           </div>
