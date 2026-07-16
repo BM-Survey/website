@@ -84,11 +84,7 @@
         "title": "Découvrir les sondages",
         "subtitle": "Répondez aux sondages, gagnez des récompenses",
         "search": "Rechercher un sondage...",
-        "chips": [
-          "Tous",
-          "Shopping",
-          "Tech"
-        ],
+        "chips": ["Tous", "Shopping", "Tech"],
         "statusNew": "Nouveau",
         "statusEndsSoon": "Expire bientôt",
         "nav": {
@@ -185,12 +181,7 @@
       "heading": "Sélectionnés pour vous",
       "subtitle": "D'après votre intérêt pour le Voyage",
       "search": "Rechercher un sondage assorti...",
-      "chips": [
-        "Tous",
-        "Voyage",
-        "Banque",
-        "Café"
-      ],
+      "chips": ["Tous", "Voyage", "Banque", "Café"],
       "cards": [
         {
           "match": "98 % de correspondance",
@@ -277,6 +268,7 @@
       "paypal": "PayPal",
       "amazon": "Amazon",
       "bank": "Banque",
+      "upi": "UPI",
       "starbucks": "Starbucks",
       "steam": "Steam",
       "donate": "Faire un don"
@@ -294,7 +286,9 @@
     "chips": {
       "neverSold": "Jamais vendues à des tiers",
       "encryption": "Chiffrement de niveau bancaire",
-      "delete": "Suppression à tout moment"
+      "delete": "Suppression à tout moment",
+      "confidential": "Participation confidentielle",
+      "privacyProtected": "Confidentialité des données protégée"
     },
     "photoAlt": "Un membre répondant à un sondage sur son téléphone"
   },
@@ -305,31 +299,37 @@
     "items": [
       {
         "name": "Maya R.",
+        "role": "Responsable IT",
         "headline": "50 $ retirés dès mon premier mois",
         "text": "Je réponds à des sondages dans les transports. Les paiements sont réels et arrivent sur PayPal en moins d'une heure. Pas de bêtises de points."
       },
       {
         "name": "Devin K.",
+        "role": "Dirigeant du secteur de la santé",
         "headline": "Enfin des sondages qui respectent mon temps",
         "text": "Chaque sondage indique la récompense et la durée à l'avance. Si je ne suis pas éligible, j'en sors en quelques secondes — pas dix minutes."
       },
       {
         "name": "Priya S.",
+        "role": "Consultante marketing",
         "headline": "Les bonus de cartes cadeaux sont incroyables",
         "text": "5 % de plus sur les cartes Amazon, ça s'accumule vite. J'ai pratiquement couvert mon budget café pour un an."
       },
       {
         "name": "Tom B.",
+        "role": "Leader industriel",
         "headline": "Légitime et paie vraiment",
         "text": "J'étais sceptique au début, mais le retrait minimum de 5 $ et PayPal instantané m'ont convaincu. Je l'utilise au quotidien."
       },
       {
         "name": "Ana L.",
+        "role": "Product manager",
         "headline": "Appli soignée, zéro spam",
         "text": "L'interface ressemble à une vraie appli iOS, pas à un site de récompenses douteux. Mes données restent privées aussi."
       },
       {
         "name": "Jordan M.",
+        "role": "Manager de croissance",
         "headline": "Mon activité préférée pour les temps morts",
         "text": "Mieux que de scroller sans but. J'ai gagné plus de 200 $ en répondant à des questions sur des sujets que je connais déjà."
       }

@@ -11,6 +11,37 @@
     "titleHighlight": "turn expertise into actionable insights",
     "subtitle": "Access high-quality responses from business professionals across industries. Launch studies, reach your target audience, and from actionable insights to make informed business decisions."
   },
+  "whyWorkWithUs": {
+    "eyebrow": "Why organisations work with us",
+    "title": "End-to-end research support",
+    "subtitle": "From project setup to final reporting, our team manages the entire research lifecycle.",
+    "cards": [
+      {
+        "title": "Verified Professional Respondents",
+        "text": "Access decision-makers and industry experts."
+      },
+      {
+        "title": "Quality Assured Data",
+        "text": "Multiple validation layers ensure reliable insights."
+      },
+      {
+        "title": "Flexible Research Solutions",
+        "text": "Custom studies designed around your objectives."
+      },
+      {
+        "title": "Dedicated Project Management",
+        "text": "A single team supporting you throughout the project."
+      },
+      {
+        "title": "Fast Turnaround Times",
+        "text": "Efficient execution without compromising quality."
+      },
+      {
+        "title": "Secure Data Handling",
+        "text": "Confidentiality and data security at every stage."
+      }
+    ]
+  },
   "story": {
     "eyebrow": "Your journey with us",
     "title": "From business questions to actionable insights",

@@ -4,7 +4,9 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "nextjs-toploader/app";
 
-import { ChevronDown, Globe } from "@/components/ui/icons";
+import Image from "next/image";
+
+import { ChevronDown } from "@/components/ui/icons";
 import { type Locale, localeMeta, locales } from "@/i18n/config";
 import { cn } from "@/lib/cn";
 
@@ -58,7 +60,14 @@ export function LocaleSwitcher({ current, label, selectLabel }: LocaleSwitcherPr
         aria-label={selectLabel}
         className="inline-flex items-center gap-1.5 rounded-xl border border-primary-border bg-white/70 px-3 py-2 font-display text-[14px] font-bold text-ink transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
       >
-        <Globe width={16} height={16} className="text-primary" />
+        <Image
+          src="/illustrations/globe.svg"
+          alt=""
+          aria-hidden
+          width={48}
+          height={48}
+          className="h-4.5 w-4.5 select-none"
+        />
         <span>{localeMeta[current].label}</span>
         <ChevronDown
           width={14}

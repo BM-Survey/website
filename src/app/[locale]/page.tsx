@@ -84,7 +84,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       <Hero locale={locale} hero={home.hero} actions={common.actions} />
       {/* <TrustStrip trust={home.trust} /> */}
       <Stats stats={home.stats} />
-      <VideoReveal video={home.video} />
+      {/* <VideoReveal video={home.video} /> */}
       <FeatureSurveys feature={home.feature1} />
       <FeatureCashout feature={home.feature2} />
       <Rewards rewards={home.rewards} />

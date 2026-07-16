@@ -5,7 +5,7 @@ import { Fragment, useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import {
   ArrowRight,
-  Coins,
+  Shield,
   Bolt,
   Clock,
   Play,
@@ -88,7 +88,10 @@ function useScrollStep(trackRef: React.RefObject<HTMLDivElement | null>) {
       let current = 0;
       const apply = () => {
         setStep(current);
-        trackRef.current?.style.setProperty("--hp", ((current + 1) / STEP_COUNT).toFixed(4));
+        trackRef.current?.style.setProperty(
+          "--hp",
+          ((current + 1) / STEP_COUNT).toFixed(4),
+        );
       };
       apply();
       const id = window.setInterval(() => {
@@ -164,14 +167,24 @@ const stepGlows = [
  * and trailing whitespace inside an inline-block collapses away, which would
  * fuse the words together.
  */
-function HeadlineWords({ text, startDelay }: { text: string; startDelay: number }) {
+function HeadlineWords({
+  text,
+  startDelay,
+}: {
+  text: string;
+  startDelay: number;
+}) {
   return (
     <>
       {text.split(" ").map((word, i) => (
         <Fragment key={`${word}-${i}`}>
           <span
             className="hero-word"
-            style={{ "--word-delay": `${startDelay + i * 80}ms` } as React.CSSProperties}
+            style={
+              {
+                "--word-delay": `${startDelay + i * 80}ms`,
+              } as React.CSSProperties
+            }
           >
             {word}
           </span>{" "}
@@ -183,7 +196,12 @@ function HeadlineWords({ text, startDelay }: { text: string; startDelay: number 
 
 export function Hero({ locale, hero, actions }: HeroProps) {
   const p = hero.phone;
-  const steps = [hero.steps.browse, hero.steps.answer, hero.steps.submit, hero.steps.getPaid];
+  const steps = [
+    hero.steps.browse,
+    hero.steps.answer,
+    hero.steps.submit,
+    hero.steps.getPaid,
+  ];
   const trackRef = useRef<HTMLDivElement>(null);
   const step = useScrollStep(trackRef);
   const tiltRef = useTilt();
@@ -197,16 +215,21 @@ export function Hero({ locale, hero, actions }: HeroProps) {
       <div ref={trackRef} className="relative lg:h-[320vh]">
         <div className="flex items-center overflow-hidden pt-28 pb-12 sm:pt-32 lg:sticky lg:top-0 lg:min-h-screen">
           {/* Ambient background: drifting aurora blobs + faded dot grid */}
-          <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
+          <div
+            className="pointer-events-none absolute inset-0 overflow-hidden"
+            aria-hidden
+          >
             <div className="absolute -top-[10%] -start-[8%] h-[620px] w-[620px] animate-[auroraDrift_14s_ease-in-out_infinite] rounded-full bg-[radial-gradient(circle_at_30%_30%,rgba(46,91,255,0.28),transparent_60%)] blur-xl" />
             <div className="absolute -bottom-[15%] -end-[10%] h-[680px] w-[680px] animate-[auroraDrift2_18s_ease-in-out_infinite] rounded-full bg-[radial-gradient(circle_at_60%_40%,rgba(34,195,94,0.18),transparent_62%)] blur-xl" />
             <div className="absolute top-[30%] start-[38%] h-[420px] w-[420px] animate-[auroraDrift_22s_ease-in-out_2s_infinite] rounded-full bg-[radial-gradient(circle_at_50%_50%,rgba(122,63,242,0.12),transparent_62%)] blur-xl" />
             <div
               className="absolute inset-0"
               style={{
-                backgroundImage: "radial-gradient(rgba(27,42,85,0.10) 1px, transparent 1px)",
+                backgroundImage:
+                  "radial-gradient(rgba(27,42,85,0.10) 1px, transparent 1px)",
                 backgroundSize: "26px 26px",
-                maskImage: "radial-gradient(ellipse 70% 60% at 50% 42%, black 25%, transparent 75%)",
+                maskImage:
+                  "radial-gradient(ellipse 70% 60% at 50% 42%, black 25%, transparent 75%)",
                 WebkitMaskImage:
                   "radial-gradient(ellipse 70% 60% at 50% 42%, black 25%, transparent 75%)",
               }}
@@ -214,184 +237,209 @@ export function Hero({ locale, hero, actions }: HeroProps) {
           </div>
 
           <Container className="relative grid w-full items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
-        {/* LEFT — centered on mobile, start-aligned from lg */}
-        <div className="mx-auto max-w-[560px] text-center lg:mx-0 lg:text-start [&>*]:animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_both] [&>*:nth-child(2)]:[animation-delay:90ms] [&>*:nth-child(3)]:[animation-delay:180ms] [&>*:nth-child(4)]:[animation-delay:270ms] [&>*:nth-child(5)]:[animation-delay:360ms]">
-          <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary-border bg-white px-3.5 py-1.5 shadow-[0_4px_14px_rgba(16,32,90,0.06)]">
-            <StarRating size={14} label={`${hero.ratingValue} / 5`} />
-            <span className="font-display text-[13px] font-bold text-ink">{hero.ratingValue}</span>
-            <span className="text-[12.5px] text-muted">{hero.ratingLabel}</span>
-          </div>
+            {/* LEFT — centered on mobile, start-aligned from lg */}
+            <div className="mx-auto max-w-[560px] text-center lg:mx-0 lg:text-start [&>*]:animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_both] [&>*:nth-child(2)]:[animation-delay:90ms] [&>*:nth-child(3)]:[animation-delay:180ms] [&>*:nth-child(4)]:[animation-delay:270ms] [&>*:nth-child(5)]:[animation-delay:360ms]">
+              <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary-border bg-white px-3.5 py-1.5 shadow-[0_4px_14px_rgba(16,32,90,0.06)]">
+                {/* <StarRating size={14} label={`${hero.ratingValue} / 5`} /> */}
+                {/* <span className="font-display text-[13px] font-bold text-ink">
+                  {hero.ratingValue}
+                </span> */}
+                <span className="text-[12.5px] text-muted">
+                  {hero.ratingLabel}
+                </span>
+              </div>
 
-          <h1 className="mb-5 font-display text-[clamp(35px,5vw,66px)] leading-[1.05] font-black tracking-tight text-ink lg:leading-[1.02]">
-            <HeadlineWords text={hero.titleLead} startDelay={150} />
-            <br />
-            <HeadlineWords text={hero.titleSharing} startDelay={150 + leadWordCount * 80} />
-            <span className="relative whitespace-nowrap text-primary">
-              <span
-                className="hero-word hero-shimmer"
-                style={
-                  {
-                    "--word-delay": `${150 + (leadWordCount + hero.titleSharing.split(" ").length) * 80}ms`,
-                  } as React.CSSProperties
-                }
-              >
-                {hero.titleHighlight}
-              </span>
-              <svg
-                className="absolute start-0 -bottom-2 w-full"
-                height="14"
-                viewBox="0 0 300 14"
-                fill="none"
-                preserveAspectRatio="none"
+              <h1 className="mb-5 font-display text-[clamp(35px,5vw,66px)] leading-[1.05] font-black tracking-tight text-ink lg:leading-[1.02]">
+                <HeadlineWords text={hero.titleLead} startDelay={150} />
+                <br />
+                <HeadlineWords
+                  text={hero.titleSharing}
+                  startDelay={150 + leadWordCount * 80}
+                />
+                <span className="relative whitespace-nowrap text-primary">
+                  <span
+                    className="hero-word hero-shimmer"
+                    style={
+                      {
+                        "--word-delay": `${150 + (leadWordCount + hero.titleSharing.split(" ").length) * 80}ms`,
+                      } as React.CSSProperties
+                    }
+                  >
+                    {hero.titleHighlight}
+                  </span>
+                  <svg
+                    className="absolute start-0 -bottom-2 w-full"
+                    height="14"
+                    viewBox="0 0 300 14"
+                    fill="none"
+                    preserveAspectRatio="none"
+                    aria-hidden
+                  >
+                    <path
+                      d="M3 9C60 3 240 3 297 8"
+                      stroke="#22C35E"
+                      strokeWidth="5"
+                      strokeLinecap="round"
+                      pathLength={1}
+                      strokeDasharray={1}
+                      className="animate-[underlineDraw_0.9s_cubic-bezier(0.22,1,0.36,1)_1s_both]"
+                    />
+                  </svg>
+                </span>
+              </h1>
+
+              <p className="mx-auto mb-7 max-w-[480px] text-[16.5px] leading-relaxed text-muted-2 sm:text-[18.5px] lg:mx-0">
+                {hero.subtitle} <b className="text-ink">{hero.subtitleBold}</b>{" "}
+                {hero.subtitleTail}
+              </p>
+
+              <div className="mb-2 flex flex-wrap justify-center gap-3 lg:mb-7 lg:justify-start">
+                <Button
+                  href={authUrls.register}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  variant="primary"
+                  className="hero-shine hover:shadow-[0_16px_36px_rgba(46,91,255,0.48)]"
+                >
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white/25">
+                    <DollarSign width={14} height={14} />
+                  </span>
+                  {actions.earnMoney}
+                  <ArrowRight
+                    width={18}
+                    height={18}
+                    className="rtl:rotate-180"
+                  />
+                </Button>
+                <Button
+                  href={pageHref(locale, "howItWorks")}
+                  variant="secondary"
+                >
+                  <span className="relative flex h-6 w-6 items-center justify-center rounded-full bg-primary-soft">
+                    <span className="absolute inset-0 animate-[pulseRing_1.8s_ease-out_infinite] rounded-full bg-primary/25" />
+                    <Play
+                      width={11}
+                      height={11}
+                      className="relative text-primary"
+                    />
+                  </span>
+                  {actions.seeHowItWorks}
+                </Button>
+              </div>
+
+              {/* Step tracker — desktop position (mobile renders it below the phone) */}
+              <StepTracker
+                steps={steps}
+                step={step}
+                label={hero.scroll}
+                className="hidden max-w-[440px] lg:flex"
+              />
+            </div>
+
+            {/* RIGHT: phone mockup + floating badges */}
+            <div className="relative flex animate-[riseIn_0.9s_cubic-bezier(0.22,1,0.36,1)_0.25s_both] flex-col items-center justify-center">
+              {/* Step-tinted glow + slow conic ring behind the device */}
+              <div
+                className="pointer-events-none absolute inset-0 flex items-center justify-center"
                 aria-hidden
               >
-                <path
-                  d="M3 9C60 3 240 3 297 8"
-                  stroke="#22C35E"
-                  strokeWidth="5"
-                  strokeLinecap="round"
-                  pathLength={1}
-                  strokeDasharray={1}
-                  className="animate-[underlineDraw_0.9s_cubic-bezier(0.22,1,0.36,1)_1s_both]"
+                {stepGlows.map((glow, i) => (
+                  <div
+                    key={glow}
+                    className={
+                      "absolute h-[560px] w-[560px] rounded-full blur-2xl transition-opacity duration-700 " +
+                      (i === step ? "opacity-100" : "opacity-0")
+                    }
+                    style={{ background: glow }}
+                  />
+                ))}
+                <div
+                  className="absolute h-[540px] w-[540px] animate-[heroRing_26s_linear_infinite] rounded-full"
+                  style={{
+                    background:
+                      "conic-gradient(from 0deg, rgba(46,91,255,0.35), transparent 30%, rgba(34,195,94,0.28) 55%, transparent 78%, rgba(46,91,255,0.35))",
+                    maskImage:
+                      "radial-gradient(circle, transparent 61%, black 62%, black 66%, transparent 67%)",
+                    WebkitMaskImage:
+                      "radial-gradient(circle, transparent 61%, black 62%, black 66%, transparent 67%)",
+                  }}
                 />
-              </svg>
-            </span>
-          </h1>
+              </div>
 
-          <p className="mx-auto mb-7 max-w-[480px] text-[16.5px] leading-relaxed text-muted-2 sm:text-[18.5px] lg:mx-0">
-            {hero.subtitle} <b className="text-ink">{hero.subtitleBold}</b> {hero.subtitleTail}
-          </p>
-
-          <div className="mb-2 flex flex-wrap justify-center gap-3 lg:mb-7 lg:justify-start">
-            <Button
-              href={authUrls.register}
-              target="_blank"
-              rel="noopener noreferrer"
-              variant="primary"
-              className="hero-shine hover:shadow-[0_16px_36px_rgba(46,91,255,0.48)]"
-            >
-              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white/25">
-                <DollarSign width={14} height={14} />
-              </span>
-              {actions.earnMoney}
-              <ArrowRight width={18} height={18} className="rtl:rotate-180" />
-            </Button>
-            <Button href={pageHref(locale, "howItWorks")} variant="secondary">
-              <span className="relative flex h-6 w-6 items-center justify-center rounded-full bg-primary-soft">
-                <span className="absolute inset-0 animate-[pulseRing_1.8s_ease-out_infinite] rounded-full bg-primary/25" />
-                <Play width={11} height={11} className="relative text-primary" />
-              </span>
-              {actions.seeHowItWorks}
-            </Button>
-          </div>
-
-          {/* Step tracker — desktop position (mobile renders it below the phone) */}
-          <StepTracker
-            steps={steps}
-            step={step}
-            label={hero.scroll}
-            className="hidden max-w-[440px] lg:flex"
-          />
-        </div>
-
-        {/* RIGHT: phone mockup + floating badges */}
-        <div className="relative flex animate-[riseIn_0.9s_cubic-bezier(0.22,1,0.36,1)_0.25s_both] flex-col items-center justify-center">
-          {/* Step-tinted glow + slow conic ring behind the device */}
-          <div className="pointer-events-none absolute inset-0 flex items-center justify-center" aria-hidden>
-            {stepGlows.map((glow, i) => (
-              <div
-                key={glow}
-                className={
-                  "absolute h-[560px] w-[560px] rounded-full blur-2xl transition-opacity duration-700 " +
-                  (i === step ? "opacity-100" : "opacity-0")
-                }
-                style={{ background: glow }}
-              />
-            ))}
-            <div
-              className="absolute h-[540px] w-[540px] animate-[heroRing_26s_linear_infinite] rounded-full"
-              style={{
-                background:
-                  "conic-gradient(from 0deg, rgba(46,91,255,0.35), transparent 30%, rgba(34,195,94,0.28) 55%, transparent 78%, rgba(46,91,255,0.35))",
-                maskImage: "radial-gradient(circle, transparent 61%, black 62%, black 66%, transparent 67%)",
-                WebkitMaskImage:
-                  "radial-gradient(circle, transparent 61%, black 62%, black 66%, transparent 67%)",
-              }}
-            />
-          </div>
-
-          {/* Phone + badges share one anchor so the badges hug the device on
+              {/* Phone + badges share one anchor so the badges hug the device on
               every screen size */}
-          <div className="relative">
-          {/* Pointer-follow tilt wrapper (desktop only) */}
-          <div ref={tiltRef} className="relative [perspective:1200px]">
-            <div
-              className="transition-transform duration-300 ease-out will-change-transform [transform:rotateX(var(--tilt-x,0deg))_rotateY(var(--tilt-y,0deg))]"
-            >
-              <PhoneFrame>
-                <div className="relative h-full">
-                  <PhoneScreen active={step === 0}>
-                    <BrowseScreen p={p} />
-                  </PhoneScreen>
-                  <PhoneScreen active={step === 1}>
-                    <AnswerScreen p={p} />
-                  </PhoneScreen>
-                  <PhoneScreen active={step === 2}>
-                    <SubmitScreen p={p} />
-                  </PhoneScreen>
-                  <PhoneScreen active={step === 3}>
-                    <PaidScreen p={p} active={step === 3} />
-                  </PhoneScreen>
+              <div className="relative">
+                {/* Pointer-follow tilt wrapper (desktop only) */}
+                <div ref={tiltRef} className="relative [perspective:1200px]">
+                  <div className="transition-transform duration-300 ease-out will-change-transform [transform:rotateX(var(--tilt-x,0deg))_rotateY(var(--tilt-y,0deg))]">
+                    <PhoneFrame>
+                      <div className="relative h-full">
+                        <PhoneScreen active={step === 0}>
+                          <BrowseScreen p={p} />
+                        </PhoneScreen>
+                        <PhoneScreen active={step === 1}>
+                          <AnswerScreen p={p} />
+                        </PhoneScreen>
+                        <PhoneScreen active={step === 2}>
+                          <SubmitScreen p={p} />
+                        </PhoneScreen>
+                        <PhoneScreen active={step === 3}>
+                          <PaidScreen p={p} active={step === 3} />
+                        </PhoneScreen>
+                      </div>
+                    </PhoneFrame>
+                  </div>
                 </div>
-              </PhoneFrame>
-            </div>
-          </div>
 
-          {/* Floating badge: paid — entrance runs on the outer wrapper so it
+                {/* Floating badge: paid — entrance runs on the outer wrapper so it
               doesn't fight the infinite floaty transform on the inner one */}
-          <div className="absolute top-14 -start-6 animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_0.55s_both] sm:-start-16 lg:-start-24">
-            <div
-              className={
-                "flex animate-[floaty_5s_ease-in-out_infinite] items-center gap-2.5 rounded-2xl bg-white px-3.5 py-2.5 shadow-[var(--shadow-float)] transition-transform duration-500 " +
-                (step === 3 ? "scale-110" : "")
-              }
-            >
-              <span className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-[#ffd25a] to-amber text-white">
-                <Coins width={17} height={17} />
-              </span>
-              <span>
-                <span className="block font-display text-sm font-extrabold leading-none">
-                  {hero.badges.paid.value}
-                </span>
-                <span className="block text-[10.5px] text-muted">{hero.badges.paid.label}</span>
-              </span>
-            </div>
-          </div>
+                <div className="absolute top-14 -start-6 animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_0.55s_both] sm:-start-16 lg:-start-24">
+                  <div
+                    className={
+                      "flex animate-[floaty_5s_ease-in-out_infinite] items-center gap-2.5 rounded-2xl bg-white px-3.5 py-2.5 shadow-[var(--shadow-float)] transition-transform duration-500 " +
+                      (step === 3 ? "scale-110" : "")
+                    }
+                  >
+                    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-[#5ce08a] to-success text-white">
+                      <Shield width={17} height={17} />
+                    </span>
+                    <span>
+                      <span className="block font-display text-sm font-extrabold leading-none">
+                        {hero.badges.paid.value}
+                      </span>
+                      <span className="block text-[10.5px] text-muted">
+                        {hero.badges.paid.label}
+                      </span>
+                    </span>
+                  </div>
+                </div>
 
-          {/* Floating badge: instant */}
-          <div className="absolute bottom-16 -end-6 animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_0.7s_both] sm:-end-16 lg:-end-24">
-            <div className="flex animate-[floaty2_6s_ease-in-out_infinite] items-center gap-2.5 rounded-2xl bg-white px-3.5 py-2.5 shadow-[var(--shadow-float)]">
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft text-primary">
-              <Bolt width={16} height={16} />
-            </span>
-            <span>
-              <span className="block font-display text-sm font-extrabold leading-none">
-                {hero.badges.instant.value}
-              </span>
-              <span className="block text-[10.5px] text-muted">{hero.badges.instant.label}</span>
-              </span>
-            </div>
-          </div>
-          </div>
+                {/* Floating badge: instant */}
+                <div className="absolute bottom-16 -end-6 animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_0.7s_both] sm:-end-16 lg:-end-24">
+                  <div className="flex animate-[floaty2_6s_ease-in-out_infinite] items-center gap-2.5 rounded-2xl bg-white px-3.5 py-2.5 shadow-[var(--shadow-float)]">
+                    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft text-primary">
+                      <Bolt width={16} height={16} />
+                    </span>
+                    <span>
+                      <span className="block font-display text-sm font-extrabold leading-none">
+                        {hero.badges.instant.value}
+                      </span>
+                      <span className="block text-[10.5px] text-muted">
+                        {hero.badges.instant.label}
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
 
-          {/* Step tracker — mobile position, right under the story it tracks */}
-          <StepTracker
-            steps={steps}
-            step={step}
-            label={hero.scroll}
-            className="mt-8 flex w-full max-w-[380px] lg:hidden"
-          />
-        </div>
+              {/* Step tracker — mobile position, right under the story it tracks */}
+              <StepTracker
+                steps={steps}
+                step={step}
+                label={hero.scroll}
+                className="mt-8 flex w-full max-w-[380px] lg:hidden"
+              />
+            </div>
           </Container>
 
           {/* Scroll cue — desktop only (mobile steps auto-advance), fades away
@@ -436,8 +484,15 @@ function StepTracker({
   return (
     <ol className={"gap-2 " + (className ?? "flex")} aria-label={label}>
       {steps.map((stepLabel, i) => (
-        <li key={stepLabel} className="flex-1 text-center" aria-current={i === step ? "step" : undefined}>
-          <span className="block h-1 overflow-hidden rounded-full bg-[#dfe4f5]" aria-hidden>
+        <li
+          key={stepLabel}
+          className="flex-1 text-center"
+          aria-current={i === step ? "step" : undefined}
+        >
+          <span
+            className="block h-1 overflow-hidden rounded-full bg-[#dfe4f5]"
+            aria-hidden
+          >
             <span
               className="hero-bar-fill block h-full rounded-full bg-gradient-to-r from-primary to-[#22C35E]"
               style={{ "--bar-index": i } as React.CSSProperties}
@@ -446,7 +501,11 @@ function StepTracker({
           <span
             className={
               "mt-2 block font-display text-xs font-bold transition-all duration-300 " +
-              (i === step ? "translate-y-0 scale-105 text-primary" : i < step ? "text-ink" : "text-muted-3")
+              (i === step
+                ? "translate-y-0 scale-105 text-primary"
+                : i < step
+                  ? "text-ink"
+                  : "text-muted-3")
             }
           >
             {stepLabel}
@@ -464,7 +523,13 @@ type PhoneData = HomeDictionary["hero"]["phone"];
  * deeper (scaled down + blurred) so switching reads as a depth change, and the
  * data attribute re-triggers the staggered card entrances on activation.
  */
-function PhoneScreen({ active, children }: { active: boolean; children: React.ReactNode }) {
+function PhoneScreen({
+  active,
+  children,
+}: {
+  active: boolean;
+  children: React.ReactNode;
+}) {
   return (
     <div
       data-phone-active={active}
@@ -506,12 +571,16 @@ function BrowseScreen({ p }: { p: PhoneData }) {
       <div className="px-3.5">
         {/* Title + avatar */}
         <div className="mb-0.5 flex items-center justify-between">
-          <div className="font-display text-[17px] font-extrabold text-ink">{b.title}</div>
+          <div className="font-display text-[17px] font-extrabold text-ink">
+            {b.title}
+          </div>
           <span className="flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark font-display text-[11px] font-extrabold text-white">
             {p.userName.charAt(0)}
           </span>
         </div>
-        <div className="mb-2.5 text-[10.5px] leading-snug text-muted">{b.subtitle}</div>
+        <div className="mb-2.5 text-[10.5px] leading-snug text-muted">
+          {b.subtitle}
+        </div>
 
         {/* Search + filter */}
         <div className="mb-2.5 flex items-center gap-2">
@@ -531,7 +600,9 @@ function BrowseScreen({ p }: { p: PhoneData }) {
               key={chip}
               className={
                 "rounded-full px-3 py-1 text-[10.5px] font-bold " +
-                (i === 0 ? "bg-primary-dark text-white" : "bg-white text-ink shadow-[var(--shadow-card)]")
+                (i === 0
+                  ? "bg-primary-dark text-white"
+                  : "bg-white text-ink shadow-[var(--shadow-card)]")
               }
             >
               {chip}
@@ -553,11 +624,14 @@ function BrowseScreen({ p }: { p: PhoneData }) {
           <span
             key={label}
             className={
-              "flex w-11 flex-col items-center gap-0.5 " + (active ? "text-primary" : "text-muted-3")
+              "flex w-11 flex-col items-center gap-0.5 " +
+              (active ? "text-primary" : "text-muted-3")
             }
           >
             <Icon width={15} height={15} />
-            <span className="max-w-full truncate text-[8px] font-semibold">{label}</span>
+            <span className="max-w-full truncate text-[8px] font-semibold">
+              {label}
+            </span>
           </span>
         ))}
       </div>
@@ -575,7 +649,10 @@ function BrowseCard({ card }: { card: BrowseCardData }) {
     <div className="relative mb-2 overflow-hidden rounded-2xl bg-white p-2.5 ps-3.5 shadow-[var(--shadow-card)]">
       {/* Status-colored side rail */}
       <span
-        className={"absolute inset-y-0 start-0 w-1 " + (card.endsSoon ? "bg-orange" : "bg-success")}
+        className={
+          "absolute inset-y-0 start-0 w-1 " +
+          (card.endsSoon ? "bg-orange" : "bg-success")
+        }
         aria-hidden
       />
       <div className="mb-1 flex items-center justify-between">
@@ -585,11 +662,16 @@ function BrowseCard({ card }: { card: BrowseCardData }) {
         <span
           className={
             "flex items-center gap-1 rounded-full px-2 py-0.5 text-[9.5px] font-bold " +
-            (card.endsSoon ? "bg-orange-soft text-orange" : "bg-success-soft text-success")
+            (card.endsSoon
+              ? "bg-orange-soft text-orange"
+              : "bg-success-soft text-success")
           }
         >
           <span
-            className={"h-1 w-1 rounded-full " + (card.endsSoon ? "bg-orange" : "bg-success")}
+            className={
+              "h-1 w-1 rounded-full " +
+              (card.endsSoon ? "bg-orange" : "bg-success")
+            }
             aria-hidden
           />
           {card.status}
@@ -689,7 +771,9 @@ function AnswerScreen({ p }: { p: PhoneData }) {
                 <span
                   className={
                     "flex h-4 w-4 shrink-0 items-center justify-center rounded-full border-2 " +
-                    (selected ? "border-primary bg-primary text-white" : "border-primary-border bg-white")
+                    (selected
+                      ? "border-primary bg-primary text-white"
+                      : "border-primary-border bg-white")
                   }
                 >
                   {selected && <Check width={9} height={9} />}
@@ -728,7 +812,9 @@ function SubmitScreen({ p }: { p: PhoneData }) {
       {/* Drawer title bar */}
       <div className="flex items-center gap-2.5 border-b border-primary-border px-3.5 pt-9 pb-2.5">
         <Close width={13} height={13} className="text-muted-2" />
-        <span className="font-display text-[12.5px] font-extrabold text-ink">{s.detailsTitle}</span>
+        <span className="font-display text-[12.5px] font-extrabold text-ink">
+          {s.detailsTitle}
+        </span>
       </div>
 
       <div className="flex-1 overflow-hidden">
@@ -743,14 +829,18 @@ function SubmitScreen({ p }: { p: PhoneData }) {
               {s.statusLabel}
             </span>
           </div>
-          <div className="font-display text-[14px] font-extrabold leading-tight text-ink">{s.title}</div>
+          <div className="font-display text-[14px] font-extrabold leading-tight text-ink">
+            {s.title}
+          </div>
         </div>
 
         <div className="px-3.5 pt-3" data-stagger>
           {/* Alert */}
           <div className="mb-3 flex items-center gap-1.5 rounded-xl border border-amber/40 bg-amber/10 px-2.5 py-2">
             <Warning width={12} height={12} className="shrink-0 text-amber" />
-            <span className="text-[9.5px] leading-snug text-ink">{s.alert}</span>
+            <span className="text-[9.5px] leading-snug text-ink">
+              {s.alert}
+            </span>
           </div>
 
           {/* Reward */}
@@ -768,12 +858,18 @@ function SubmitScreen({ p }: { p: PhoneData }) {
           <div className="mb-3 grid grid-cols-2 gap-2">
             <div className="rounded-xl bg-line p-2">
               <Clock width={12} height={12} className="mb-1 text-muted-2" />
-              <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">{s.expiresLabel}</div>
-              <div className="font-display text-[10.5px] font-extrabold text-ink">{s.expiresDate}</div>
+              <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">
+                {s.expiresLabel}
+              </div>
+              <div className="font-display text-[10.5px] font-extrabold text-ink">
+                {s.expiresDate}
+              </div>
             </div>
             <div className="rounded-xl bg-line p-2">
               <Users width={12} height={12} className="mb-1 text-muted-2" />
-              <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">{s.spotsLabel}</div>
+              <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">
+                {s.spotsLabel}
+              </div>
               <div className="font-display text-[10.5px] font-extrabold text-ink">
                 {s.spotsValue}
                 {/* <span className="text-muted-3"> / {s.spotsTotal}</span> */}
@@ -784,13 +880,17 @@ function SubmitScreen({ p }: { p: PhoneData }) {
           <div className="mb-3 border-t border-primary-border" />
 
           {/* Posted by */}
-          <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">{s.postedByLabel}</div>
+          <div className="text-[7.5px] font-bold uppercase tracking-wide text-muted">
+            {s.postedByLabel}
+          </div>
           <div className="mt-1.5 flex items-center gap-2 rounded-xl bg-line p-2">
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white text-muted-2">
               <User width={12} height={12} />
             </span>
             <div className="min-w-0">
-              <div className="truncate font-display text-[10px] font-extrabold text-ink">{s.creatorName}</div>
+              <div className="truncate font-display text-[10px] font-extrabold text-ink">
+                {s.creatorName}
+              </div>
               <div className="flex items-center gap-1 truncate text-[9px] text-muted">
                 <Building width={9} height={9} />
                 {s.orgName}
@@ -851,16 +951,22 @@ function PaidScreen({ p, active }: { p: PhoneData; active: boolean }) {
       <span
         className={
           "mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-success text-white shadow-[0_16px_30px_rgba(34,195,94,0.35)] " +
-          (active ? "animate-[popSpring_0.6s_cubic-bezier(0.22,1,0.36,1)_0.15s_both]" : "")
+          (active
+            ? "animate-[popSpring_0.6s_cubic-bezier(0.22,1,0.36,1)_0.15s_both]"
+            : "")
         }
       >
         <Check width={40} height={40} />
       </span>
-      <div className="mb-1 font-display text-[19px] font-extrabold text-ink">{f.paidTitle}</div>
+      <div className="mb-1 font-display text-[19px] font-extrabold text-ink">
+        {f.paidTitle}
+      </div>
       <div
         className={
           "mb-5 font-display text-[34px] font-black text-success " +
-          (active ? "animate-[popSpring_0.6s_cubic-bezier(0.22,1,0.36,1)_0.3s_both]" : "")
+          (active
+            ? "animate-[popSpring_0.6s_cubic-bezier(0.22,1,0.36,1)_0.3s_both]"
+            : "")
         }
       >
         {f.paidAmount}
@@ -873,9 +979,10 @@ function PaidScreen({ p, active }: { p: PhoneData; active: boolean }) {
 
       <div className="w-full rounded-2xl bg-white p-4 shadow-[var(--shadow-card)]">
         <div className="text-[11px] text-muted">{f.paidBalanceLabel}</div>
-        <div className="font-display text-2xl font-extrabold text-ink">{f.paidBalanceValue}</div>
+        <div className="font-display text-2xl font-extrabold text-ink">
+          {f.paidBalanceValue}
+        </div>
       </div>
     </div>
   );
 }
-

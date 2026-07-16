@@ -28,7 +28,7 @@ export function Stats({ stats }: StatsProps) {
           {/* Big blue card */}
           <article className="relative flex min-h-[420px] flex-col overflow-hidden rounded-[26px] bg-gradient-to-br from-primary to-primary-dark p-9 shadow-[0_20px_44px_rgba(46,91,255,0.22)]">
             <Image
-              src="/illustrations/gold-coins.svg"
+              src="/illustrations/research-projects.svg"
               alt=""
               aria-hidden
               width={400}
@@ -53,7 +53,7 @@ export function Stats({ stats }: StatsProps) {
             <div className="flex flex-1 flex-col gap-4 sm:flex-row">
               <article className="relative flex min-h-[200px] flex-1 flex-col justify-between overflow-hidden rounded-[26px] bg-gradient-to-b from-ink to-ink-2 p-8">
                 <Image
-                  src="/illustrations/members.svg"
+                  src="/illustrations/countries-globe.svg"
                   alt=""
                   aria-hidden
                   width={360}

@@ -1,0 +1,32 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pmCircle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DCE5FF"/>
+      <stop offset="1" stop-color="#BCCBFF"/>
+    </linearGradient>
+    <radialGradient id="pmAvatarA" cx="35%" cy="25%" r="90%">
+      <stop offset="0" stop-color="#8AA5FF"/>
+      <stop offset="100%" stop-color="#4A66E8"/>
+    </radialGradient>
+    <radialGradient id="pmAvatarB" cx="35%" cy="25%" r="90%">
+      <stop offset="0" stop-color="#D6DFFF"/>
+      <stop offset="100%" stop-color="#A3B6FF"/>
+    </radialGradient>
+    <linearGradient id="pmBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D9E2FF"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="52" fill="url(#pmCircle)"/>
+  <g opacity="0.9">
+    <circle cx="42" cy="58" r="20" fill="url(#pmAvatarB)"/>
+    <circle cx="42" cy="50" r="7" fill="url(#pmBody)"/>
+    <path d="M27 74a15 12 0 0 1 30 0 20 20 0 0 1-30 0z" fill="url(#pmBody)"/>
+  </g>
+  <g>
+    <circle cx="76" cy="52" r="26" fill="url(#pmAvatarA)" stroke="#FFFFFF" stroke-width="3"/>
+    <circle cx="76" cy="43" r="9" fill="url(#pmBody)"/>
+    <path d="M56 72a20 16 0 0 1 40 0 26 26 0 0 1-40 0z" fill="url(#pmBody)"/>
+  </g>
+  <rect x="30" y="86" width="60" height="10" rx="5" fill="#4A66E8" opacity="0.65"/>
+</svg>

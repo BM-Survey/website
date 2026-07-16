@@ -15,7 +15,7 @@
   },
   "hero": {
     "ratingValue": "4.6",
-    "ratingLabel": "· Trusted by professionals and decision-makers worldwide",
+    "ratingLabel": "Trusted by professionals and decision-makers worldwide",
     "titleLead": "Influence the",
     "titleSharing": "world with your",
     "titleHighlight": "insights",
@@ -46,7 +46,7 @@
         },
         "tech": {
           "tag": "Tech",
-          "reward": "$1.75",
+          "reward": "$15",
           "title": "Cybersecurity Priorities ",
           "time": "3 min",
           "questions": "6 questions",
@@ -55,7 +55,7 @@
         },
         "food": {
           "tag": "Food",
-          "reward": "$3.20",
+          "reward": "$15",
           "title": "Procurement Software Evaluation",
           "spots": "12 spots left",
           "date": "21 Jul"
@@ -84,11 +84,7 @@
         "title": "Discover Surveys",
         "subtitle": "Complete surveys, earn rewards",
         "search": "Search surveys...",
-        "chips": [
-          "All",
-          "Shopping",
-          "Tech"
-        ],
+        "chips": ["All", "Shopping", "Tech"],
         "statusNew": "New",
         "statusEndsSoon": "Ends soon",
         "nav": {
@@ -138,7 +134,7 @@
     "title": "Our Impact in Numbers Insights at Scale",
     "paid": {
       "label": " ",
-      "value": "7 0 0 +",
+      "value": "700+",
       "description": "Successfully delivered B2B research projects across industries."
     },
     "members": {
@@ -185,12 +181,7 @@
       "heading": "Studies For You",
       "subtitle": "Curated based on your professional profile.",
       "search": "Search matched surveys...",
-      "chips": [
-        "All",
-        "Technology",
-        "Healthcare",
-        "Finance"
-      ],
+      "chips": ["All", "Technology", "Healthcare", "Finance"],
       "cards": [
         {
           "match": "98% match",
@@ -201,14 +192,14 @@
         },
         {
           "match": "91% match",
-          "reward": "$3.10",
+          "reward": "$15",
           "title": "Cloud Infrastructure Strategy",
           "time": "4 min",
           "questions": "9 questions"
         },
         {
           "match": "87% match",
-          "reward": "$2.75",
+          "reward": "$15",
           "title": "Cybersecurity Investment Priorities",
           "time": "6 min",
           "questions": "14 questions"

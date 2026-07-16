@@ -1,0 +1,93 @@
+<svg width="360" height="300" viewBox="0 0 360 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Globe sphere -->
+    <radialGradient id="cgGlobe" cx="35%" cy="28%" r="90%">
+      <stop offset="0" stop-color="#BCCBFF"/>
+      <stop offset="55%" stop-color="#7D97FF"/>
+      <stop offset="100%" stop-color="#3D55C9"/>
+    </radialGradient>
+    <!-- Landmasses -->
+    <linearGradient id="cgLand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D9E2FF"/>
+    </linearGradient>
+    <!-- Pins -->
+    <linearGradient id="cgPinA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5CE08A"/>
+      <stop offset="1" stop-color="#28B85C"/>
+    </linearGradient>
+    <linearGradient id="cgPinB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD968"/>
+      <stop offset="1" stop-color="#F2A31D"/>
+    </linearGradient>
+    <linearGradient id="cgPinC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#C9D6FF"/>
+    </linearGradient>
+    <filter id="cgSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0A1440" flood-opacity="0.45"/>
+    </filter>
+    <radialGradient id="cgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7D97FF" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#7D97FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#7D97FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Ambient glow + orbit ring -->
+  <circle cx="180" cy="156" r="140" fill="url(#cgGlow)"/>
+  <circle cx="180" cy="156" r="122" fill="none" stroke="#8AA5FF" stroke-width="1.5" stroke-dasharray="2 10" opacity="0.45"/>
+
+  <!-- Sparkles -->
+  <g fill="#AFC2FF">
+    <path d="M60 88l3.4 8.6 8.6 3.4-8.6 3.4-3.4 8.6-3.4-8.6-8.6-3.4 8.6-3.4z" opacity="0.9"/>
+    <path d="M306 74l2.6 6.6 6.6 2.6-6.6 2.6-2.6 6.6-2.6-6.6-6.6-2.6 6.6-2.6z" opacity="0.7"/>
+    <circle cx="318" cy="192" r="4" opacity="0.6"/>
+    <circle cx="44" cy="180" r="3" opacity="0.5"/>
+  </g>
+
+  <!-- Globe -->
+  <g filter="url(#cgSoft)">
+    <circle cx="180" cy="162" r="78" fill="url(#cgGlobe)"/>
+    <circle cx="180" cy="162" r="78" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="3"/>
+
+    <!-- landmasses (abstract) -->
+    <g fill="url(#cgLand)" opacity="0.9">
+      <path d="M132 128c10-12 26-16 38-10 8 4 8 14 2 20-5 5-14 4-20 9-6 5-5 13-13 14-9 1-15-9-13-17 1-6 2-11 6-16z"/>
+      <path d="M206 112c10-3 22 1 26 10 3 8-3 14-11 16-7 2-15 0-19-6-5-7-3-17 4-20z"/>
+      <path d="M218 158c12-2 24 5 27 16 3 12-5 24-17 26-11 2-21-6-24-16-3-11 3-24 14-26z"/>
+      <path d="M148 186c9-4 20-1 24 7 4 9-1 19-10 22-9 3-19-2-22-11-3-8 1-15 8-18z"/>
+    </g>
+
+    <!-- meridians / equator -->
+    <g fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2">
+      <ellipse cx="180" cy="162" rx="78" ry="30"/>
+      <ellipse cx="180" cy="162" rx="34" ry="78"/>
+    </g>
+
+    <!-- glossy highlight -->
+    <path d="M124 122a78 78 0 0 1 66-30 62 62 0 0 0-60 48 6 6 0 0 1-6-18z" fill="#FFFFFF" opacity="0.4"/>
+  </g>
+
+  <!-- Location pins -->
+  <g filter="url(#cgSoft)">
+    <!-- big front pin -->
+    <path d="M180 66c-16 0-28 12-28 27 0 19 28 43 28 43s28-24 28-43c0-15-12-27-28-27z" fill="url(#cgPinA)" stroke="#FFFFFF" stroke-width="4"/>
+    <circle cx="180" cy="94" r="10" fill="#FFFFFF"/>
+  </g>
+  <g filter="url(#cgSoft)">
+    <path d="M258 138c-11 0-19 8-19 18 0 13 19 30 19 30s19-17 19-30c0-10-8-18-19-18z" fill="url(#cgPinB)" stroke="#FFFFFF" stroke-width="3.5"/>
+    <circle cx="258" cy="157" r="7" fill="#FFFFFF"/>
+  </g>
+  <g filter="url(#cgSoft)">
+    <path d="M112 158c-10 0-17 7-17 16 0 12 17 27 17 27s17-15 17-27c0-9-7-16-17-16z" fill="url(#cgPinC)" stroke="#4A66E8" stroke-width="3"/>
+    <circle cx="112" cy="175" r="6" fill="#4A66E8"/>
+  </g>
+
+  <!-- Floating flag chip -->
+  <g filter="url(#cgSoft)">
+    <rect x="272" y="82" width="52" height="34" rx="17" fill="#FFFFFF"/>
+    <rect x="288" y="90" width="3" height="19" rx="1.5" fill="#4A66E8"/>
+    <path d="M291 91h17l-5 5 5 5h-17z" fill="url(#cgPinB)"/>
+  </g>
+</svg>

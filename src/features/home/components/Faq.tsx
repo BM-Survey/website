@@ -43,7 +43,7 @@ export function Faq({ locale, faq }: FaqProps) {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <FaqAccordion items={faq.items} />
+          <FaqAccordion items={faq.items.slice(0, 5)} />
         </Reveal>
 
         <Reveal delay={0.2} className="mt-9 text-center">

@@ -1,0 +1,91 @@
+<svg width="400" height="320" viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Report paper -->
+    <linearGradient id="rpPaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DCE5FF"/>
+    </linearGradient>
+    <linearGradient id="rpPaperBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EDF1FF"/>
+      <stop offset="1" stop-color="#C3D0FA"/>
+    </linearGradient>
+    <!-- Chart bars -->
+    <linearGradient id="rpBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7D97FF"/>
+      <stop offset="1" stop-color="#4A66E8"/>
+    </linearGradient>
+    <linearGradient id="rpBarLite" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BCCBFF"/>
+      <stop offset="1" stop-color="#8AA5FF"/>
+    </linearGradient>
+    <!-- Check badge -->
+    <linearGradient id="rpBadge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5CE08A"/>
+      <stop offset="1" stop-color="#28B85C"/>
+    </linearGradient>
+    <!-- Magnifier glass -->
+    <radialGradient id="rpLens" cx="35%" cy="30%" r="90%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#BCCBFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7D97FF" stop-opacity="0.5"/>
+    </radialGradient>
+    <filter id="rpSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#0A1F66" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Sparkles -->
+  <g fill="#EAF0FF">
+    <path d="M78 78l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" opacity="0.9"/>
+    <path d="M330 64l3 7.6 7.6 3-7.6 3-3 7.6-3-7.6-7.6-3 7.6-3z" opacity="0.75"/>
+    <circle cx="58" cy="170" r="4" opacity="0.6"/>
+    <circle cx="352" cy="150" r="3.5" opacity="0.55"/>
+  </g>
+
+  <!-- Back sheet (tilted) -->
+  <g filter="url(#rpSoft)" opacity="0.9">
+    <rect x="96" y="74" width="180" height="216" rx="16" fill="url(#rpPaperBack)" transform="rotate(-9 186 182)"/>
+  </g>
+
+  <!-- Front report -->
+  <g filter="url(#rpSoft)">
+    <rect x="140" y="66" width="188" height="228" rx="16" fill="url(#rpPaper)"/>
+    <!-- glossy corner highlight -->
+    <path d="M156 66h60a76 76 0 0 0-70 62 8 8 0 0 1-6-8v-38a16 16 0 0 1 16-16z" fill="#FFFFFF" opacity="0.55"/>
+    <!-- clip tab -->
+    <rect x="204" y="54" width="60" height="24" rx="12" fill="url(#rpBar)"/>
+    <rect x="222" y="60" width="24" height="6" rx="3" fill="#FFFFFF" opacity="0.7"/>
+
+    <!-- title lines -->
+    <rect x="162" y="96" width="92" height="10" rx="5" fill="#4A66E8" opacity="0.85"/>
+    <rect x="162" y="114" width="132" height="8" rx="4" fill="#8AA5FF" opacity="0.55"/>
+
+    <!-- bar chart -->
+    <g>
+      <rect x="164" y="212" width="26" height="52" rx="6" fill="url(#rpBarLite)"/>
+      <rect x="200" y="188" width="26" height="76" rx="6" fill="url(#rpBar)"/>
+      <rect x="236" y="200" width="26" height="64" rx="6" fill="url(#rpBarLite)"/>
+      <rect x="272" y="164" width="26" height="100" rx="6" fill="url(#rpBar)"/>
+      <!-- baseline -->
+      <rect x="160" y="270" width="148" height="4" rx="2" fill="#8AA5FF" opacity="0.4"/>
+    </g>
+
+    <!-- rising trend line -->
+    <path d="M170 196 L210 172 L244 182 L292 142" stroke="#28B85C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M276 138l20-2-6 19z" fill="#28B85C"/>
+    <circle cx="170" cy="196" r="6" fill="#FFFFFF" stroke="#28B85C" stroke-width="4"/>
+  </g>
+
+  <!-- Check badge -->
+  <g filter="url(#rpSoft)">
+    <circle cx="326" cy="256" r="30" fill="url(#rpBadge)" stroke="#FFFFFF" stroke-width="5"/>
+    <path d="M312 256l10 10 18-20" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Magnifier -->
+  <g filter="url(#rpSoft)">
+    <circle cx="112" cy="216" r="34" fill="url(#rpLens)" stroke="#FFFFFF" stroke-width="7"/>
+    <path d="M92 200a26 26 0 0 1 22-9 20 20 0 0 0-18 16 4 4 0 0 1-4-7z" fill="#FFFFFF" opacity="0.6"/>
+    <rect x="128" y="242" width="14" height="42" rx="7" fill="#FFFFFF" transform="rotate(-45 135 263)"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fsCircle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DCE5FF"/>
+      <stop offset="1" stop-color="#BCCBFF"/>
+    </linearGradient>
+    <linearGradient id="fsPiece" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8AA5FF"/>
+      <stop offset="1" stop-color="#4A66E8"/>
+    </linearGradient>
+    <linearGradient id="fsPieceLite" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D9E2FF"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="52" fill="url(#fsCircle)"/>
+  <g transform="rotate(-8 60 60)">
+    <rect x="32" y="32" width="24" height="24" rx="6" fill="url(#fsPieceLite)"/>
+    <rect x="60" y="32" width="24" height="24" rx="6" fill="url(#fsPiece)"/>
+    <rect x="32" y="60" width="24" height="24" rx="6" fill="url(#fsPiece)"/>
+    <path d="M60 60h24v24a12 12 0 0 1-12-12 12 12 0 0 1-12-12z" fill="url(#fsPieceLite)"/>
+  </g>
+</svg>

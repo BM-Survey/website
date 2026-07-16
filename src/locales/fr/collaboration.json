@@ -11,6 +11,37 @@
     "titleHighlight": "vrais professionnels",
     "subtitle": "InsightPanel est la plateforme de gestion d'enquêtes où les organisations lancent leurs études, ciblent des professionnels vérifiés par département et voient arriver des données propres en temps réel — récompenses et paiements inclus."
   },
+  "whyWorkWithUs": {
+    "eyebrow": "Pourquoi les organisations travaillent avec nous",
+    "title": "Un accompagnement de bout en bout",
+    "subtitle": "De la mise en place du projet au rapport final, notre équipe gère l'ensemble du cycle de recherche.",
+    "cards": [
+      {
+        "title": "Répondants professionnels vérifiés",
+        "text": "Accédez à des décideurs et experts sectoriels."
+      },
+      {
+        "title": "Données de qualité garantie",
+        "text": "Plusieurs niveaux de validation assurent des résultats fiables."
+      },
+      {
+        "title": "Solutions de recherche flexibles",
+        "text": "Des études sur mesure conçues autour de vos objectifs."
+      },
+      {
+        "title": "Gestion de projet dédiée",
+        "text": "Une seule équipe vous accompagne tout au long du projet."
+      },
+      {
+        "title": "Délais d'exécution rapides",
+        "text": "Une exécution efficace sans compromis sur la qualité."
+      },
+      {
+        "title": "Traitement sécurisé des données",
+        "text": "Confidentialité et sécurité des données à chaque étape."
+      }
+    ]
+  },
   "story": {
     "eyebrow": "Votre parcours avec nous",
     "title": "Cinq chapitres, de la question à l'insight",

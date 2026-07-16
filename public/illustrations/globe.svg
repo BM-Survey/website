@@ -1,0 +1,24 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glSphere" cx="35%" cy="28%" r="90%">
+      <stop offset="0" stop-color="#8AA5FF"/>
+      <stop offset="60%" stop-color="#5C7CFA"/>
+      <stop offset="100%" stop-color="#3D55C9"/>
+    </radialGradient>
+    <linearGradient id="glLand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DFF7E8"/>
+      <stop offset="1" stop-color="#8FE6B0"/>
+    </linearGradient>
+  </defs>
+  <circle cx="24" cy="24" r="21" fill="url(#glSphere)"/>
+  <!-- land masses -->
+  <path d="M13 14c3-3 8-3 10 0 1.6 2.4-1 4-3.4 4.4-2.8.5-4 3-6.6 2.2-2.4-.8-1.8-4.6 0-6.6z" fill="url(#glLand)" opacity="0.9"/>
+  <path d="M29 20c3-1.4 7 .4 7.6 3.4.6 3-2.2 5.4-5 5-2.8-.5-5.6-2.4-5.2-5 .3-1.8 1.2-2.7 2.6-3.4z" fill="url(#glLand)" opacity="0.85"/>
+  <path d="M17 30c2.4-.8 5.4.4 5.8 2.6.4 2.4-1.8 4.4-4.2 4-2.4-.5-4.4-2-4-4 .3-1.4 1.2-2.2 2.4-2.6z" fill="url(#glLand)" opacity="0.8"/>
+  <!-- meridian + equator lines -->
+  <ellipse cx="24" cy="24" rx="10" ry="21" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.6" fill="none"/>
+  <ellipse cx="24" cy="24" rx="21" ry="8.5" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.6" fill="none"/>
+  <!-- top-left glossy highlight -->
+  <path d="M9.5 17A21 21 0 0 1 22 4.1 16 16 0 0 0 12 17a2.4 2.4 0 0 1-2.5 0z" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="24" cy="24" r="21" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1.6" fill="none"/>
+</svg>

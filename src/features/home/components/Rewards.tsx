@@ -11,18 +11,56 @@ type RewardsProps = {
 };
 
 export function Rewards({ rewards }: RewardsProps) {
-  const stats = [rewards.stats.minCashout, rewards.stats.fees, rewards.stats.options];
+  const stats = [
+    rewards.stats.minCashout,
+    rewards.stats.fees,
+    rewards.stats.options,
+  ];
   const options = [
-    { label: rewards.options.paypal, icon: "/icons/paypal.png", bg: "bg-primary-soft" },
-    { label: rewards.options.amazon, icon: "/icons/amazon.png", bg: "bg-amber-soft" },
-    { label: rewards.options.bank, icon: "/icons/bank.png", bg: "bg-success-soft" },
-    { label: rewards.options.starbucks, icon: "/icons/starbucks.png", bg: "bg-purple-soft" },
-    { label: rewards.options.steam, icon: "/icons/steam.png", bg: "bg-white border border-primary-border" },
-    { label: rewards.options.donate, icon: "/icons/donate.png", bg: "bg-white border border-primary-border" },
+    {
+      label: rewards.options.paypal,
+      icon: "/icons/paypal.png",
+      bg: "bg-primary-soft",
+    },
+    // {
+    //   label: rewards.options.amazon,
+    //   icon: "/icons/amazon.png",
+    //   bg: "bg-amber-soft",
+    // },
+    {
+      label: rewards.options.upi,
+      icon: "/icons/upi.png",
+      bg: "bg-primary-soft",
+    },
+    {
+      label: rewards.options.bank,
+      icon: "/icons/bank.png",
+      bg: "bg-success-soft",
+    },
+
+    // {
+    //   label: rewards.options.starbucks,
+    //   icon: "/icons/starbucks.png",
+    //   bg: "bg-purple-soft",
+    // },
+    // {
+    //   label: rewards.options.steam,
+    //   icon: "/icons/steam.png",
+    //   bg: "bg-white border border-primary-border",
+    // },
+    // {
+    //   label: rewards.options.donate,
+    //   icon: "/icons/donate.png",
+    //   bg: "bg-white border border-primary-border",
+    // },
   ];
 
   return (
-    <Section id="rewards" className="bg-white" ariaLabel={`${rewards.titleLine1} ${rewards.titleLine2}`}>
+    <Section
+      id="rewards"
+      className="bg-white"
+      ariaLabel={`${rewards.titleLine1} ${rewards.titleLine2}`}
+    >
       <Container>
         <div className="grid items-center gap-14 lg:grid-cols-[1fr_1.1fr]">
           <Reveal stagger={0.09}>
@@ -35,17 +73,25 @@ export function Rewards({ rewards }: RewardsProps) {
             <p className="mb-6 max-w-[420px] text-[17px] leading-relaxed text-muted">
               {rewards.description}
             </p>
-            <dl className="flex flex-wrap gap-x-7 gap-y-4">
+            <dl className="flex flex-wrap gap-x-2 gap-y-4">
               {stats.map((stat) => (
                 <div key={stat.label}>
-                  <dd className="font-display text-3xl font-black text-primary">{stat.value}</dd>
-                  <dt className="text-[13.5px] text-muted">{stat.label}</dt>
+                  {/* <dd className="font-display text-3xl font-black text-primary">{stat.value}</dd> */}
+                  <dt className="text-[13.5px] px-3 py-2 rounded-2xl bg-slate-100 text-slate-700">
+                    {stat.label}
+                  </dt>
                 </div>
               ))}
             </dl>
           </Reveal>
 
-          <Reveal as="ul" variant="zoom" stagger={0.07} delay={0.1} className="grid grid-cols-2 gap-3.5 sm:grid-cols-3">
+          <Reveal
+            as="ul"
+            variant="zoom"
+            stagger={0.07}
+            delay={0.1}
+            className="grid grid-cols-2 gap-3.5 sm:grid-cols-3"
+          >
             {options.map((option) => (
               <li
                 key={option.label}
@@ -56,9 +102,11 @@ export function Rewards({ rewards }: RewardsProps) {
                   alt=""
                   width={28}
                   height={28}
-                  className="h-7 w-7 object-contain"
+                  className="h-12 w-12 object-contain"
                 />
-                <span className="font-display text-[13px] font-bold text-ink">{option.label}</span>
+                <span className="font-display text-[13px] font-bold text-ink">
+                  {option.label}
+                </span>
               </li>
             ))}
           </Reveal>

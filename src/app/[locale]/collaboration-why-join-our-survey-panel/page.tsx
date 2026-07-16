@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { CtaBanner } from "@/components/marketing/CtaBanner";
 import { PageHero } from "@/components/marketing/PageHero";
 import { PartnerStory } from "@/features/collaboration/components/PartnerStory";
+import { WhyWorkWithUs } from "@/features/collaboration/components/WhyWorkWithUs";
 import { isLocale, localeMeta } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { pageHref } from "@/lib/navigation";
@@ -57,6 +58,7 @@ export default async function CollaborationPage({
         titleHighlight={collaboration.hero.titleHighlight}
         subtitle={collaboration.hero.subtitle}
       />
+      <WhyWorkWithUs data={collaboration.whyWorkWithUs} />
       <PartnerStory data={collaboration.story} />
       <CtaBanner
         title={collaboration.cta.title}

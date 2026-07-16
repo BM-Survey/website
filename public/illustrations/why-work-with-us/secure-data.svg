@@ -1,0 +1,21 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sdCircle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DCE5FF"/>
+      <stop offset="1" stop-color="#BCCBFF"/>
+    </linearGradient>
+    <linearGradient id="sdShield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8AA5FF"/>
+      <stop offset="1" stop-color="#4A66E8"/>
+    </linearGradient>
+    <linearGradient id="sdLock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D9E2FF"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="52" fill="url(#sdCircle)"/>
+  <path d="M60 28l26 10v20c0 20-11 32-26 38-15-6-26-18-26-38V38z" fill="url(#sdShield)" stroke="#FFFFFF" stroke-width="3"/>
+  <rect x="48" y="58" width="24" height="18" rx="5" fill="url(#sdLock)"/>
+  <path d="M52 58v-6a8 8 0 0 1 16 0v6" stroke="#FFFFFF" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <circle cx="60" cy="67" r="3.5" fill="#4A66E8"/>
+</svg>
