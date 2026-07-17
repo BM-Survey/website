@@ -55,9 +55,9 @@ export default async function BlogPage({
     <>
       <PageHero
         eyebrow="The Blog"
-        titleLead="Stories, tips &"
+        titleLead="Insights, research & "
         titleHighlight="updates"
-        subtitle="Straight talk on earning more from your opinions, getting paid faster, and what's new on the platform."
+        subtitle="Explore research trends, industry perspectives, participation best practices, and updates from the B2B Insight Panel community."
       />
 
       <section className="px-6 pb-10">

@@ -131,7 +131,7 @@
   },
   "stats": {
     "eyebrow": "By the numbers",
-    "title": "Our Impact in Numbers Insights at Scale",
+    "title": "Insights at Scale",
     "paid": {
       "label": " ",
       "value": "700+",
@@ -174,7 +174,7 @@
       },
       "biteSized": {
         "title": "Flexible participation",
-        "text": ": Most studies are designed to respect your valuable time."
+        "text": "Most studies are designed to respect your valuable time."
       }
     },
     "phone": {
@@ -225,7 +225,7 @@
       "pageTitle": "Rewards Center",
       "modalTitle": "Redeem available rewards",
       "fromLabel": "FROM",
-      "orgName": "Beacon martech",
+      "orgName": "Beacon Martech",
       "availableValue": "$140",
       "availableSuffix": "available",
       "fullBalance": "Full balance",

@@ -32,7 +32,7 @@ export const posts: BlogPost[] = [
     date: "April 2026",
     readTime: "5 min read",
     authorBio:
-      "Hanzala leads research initiatives at B2B Insight Panel, connecting professionals with studies that shape real business decisions.",
+      "",
     intro:
       "In today's fast-changing business environment, companies can no longer rely solely on assumptions when making important decisions. Organizations increasingly depend on B2B research to understand market trends, customer needs, and emerging technologies.",
     subhead1: "Making decisions without guesswork",

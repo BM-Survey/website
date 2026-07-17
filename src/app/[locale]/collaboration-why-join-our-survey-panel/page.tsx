@@ -58,8 +58,9 @@ export default async function CollaborationPage({
         titleHighlight={collaboration.hero.titleHighlight}
         subtitle={collaboration.hero.subtitle}
       />
-      <WhyWorkWithUs data={collaboration.whyWorkWithUs} />
       <PartnerStory data={collaboration.story} />
+      <WhyWorkWithUs data={collaboration.whyWorkWithUs} />
+      
       <CtaBanner
         title={collaboration.cta.title}
         subtitle={collaboration.cta.subtitle}

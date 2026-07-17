@@ -15,7 +15,7 @@
   "categories": [
     { "key": "all", "label": "All" },
     { "key": "account", "label": "Account" },
-    { "key": "earning", "label": "Earning" },
+    { "key": "earning", "label": "Earnings" },
     { "key": "payouts", "label": "Payouts" },
     { "key": "privacy", "label": "Privacy" }
   ],
