@@ -53,7 +53,7 @@ export function CtaBanner({
           <p className="mx-auto mb-7 max-w-[440px] text-[17px] leading-relaxed text-[#d8e1ff]">
             {subtitle}
           </p>
-          <Button href={buttonHref} variant="white" target="_blank">
+          <Button href={buttonHref} variant="white">
             {buttonLabel}
           </Button>
         </div>

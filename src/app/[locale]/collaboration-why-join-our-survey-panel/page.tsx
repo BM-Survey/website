@@ -65,7 +65,7 @@ export default async function CollaborationPage({
         title={collaboration.cta.title}
         subtitle={collaboration.cta.subtitle}
         buttonLabel={collaboration.cta.button}
-        buttonHref={"mailto:support@b2b2insightpanel.com"}
+        buttonHref={pageHref(locale, "contact")}
       />
     </>
   );
