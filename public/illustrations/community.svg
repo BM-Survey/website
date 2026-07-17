@@ -1,0 +1,61 @@
+<svg width="360" height="300" viewBox="0 0 360 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cSkinA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8AA5FF"/>
+      <stop offset="1" stop-color="#5B7CFF"/>
+    </linearGradient>
+    <linearGradient id="cSkinB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7DDB93"/>
+      <stop offset="1" stop-color="#3EBB5C"/>
+    </linearGradient>
+    <linearGradient id="cSkinC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD87A"/>
+      <stop offset="1" stop-color="#FFB93D"/>
+    </linearGradient>
+    <linearGradient id="cRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DCE5FF"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <filter id="cSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#2E5BFF" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Connection ring -->
+  <circle cx="180" cy="160" r="112" stroke="url(#cRing)" stroke-width="10" fill="none"/>
+  <circle cx="180" cy="160" r="132" stroke="#DCE5FF" stroke-width="2" stroke-dasharray="3 10" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- Sparkles -->
+  <path d="M64 78l3.5 9 9 3.5-9 3.5-3.5 9-3.5-9-9-3.5 9-3.5z" fill="#8AA5FF" opacity="0.7"/>
+  <path d="M300 208l2.6 6.8 6.8 2.6-6.8 2.6-2.6 6.8-2.6-6.8-6.8-2.6 6.8-2.6z" fill="#FFC94D" opacity="0.8"/>
+  <circle cx="308" cy="96" r="5" fill="#7DDB93" opacity="0.7"/>
+  <circle cx="52" cy="206" r="4" fill="#5B7CFF" opacity="0.5"/>
+
+  <!-- Left person -->
+  <g filter="url(#cSoft)">
+    <circle cx="106" cy="150" r="38" fill="#FFFFFF"/>
+    <circle cx="106" cy="140" r="15" fill="url(#cSkinB)"/>
+    <path d="M79 176a27 27 0 0 1 54 0 38 38 0 0 1-54 0z" fill="url(#cSkinB)"/>
+  </g>
+
+  <!-- Right person -->
+  <g filter="url(#cSoft)">
+    <circle cx="254" cy="150" r="38" fill="#FFFFFF"/>
+    <circle cx="254" cy="140" r="15" fill="url(#cSkinC)"/>
+    <path d="M227 176a27 27 0 0 1 54 0 38 38 0 0 1-54 0z" fill="url(#cSkinC)"/>
+  </g>
+
+  <!-- Center person (front) -->
+  <g filter="url(#cSoft)">
+    <circle cx="180" cy="164" r="50" fill="#FFFFFF"/>
+    <circle cx="180" cy="150" r="20" fill="url(#cSkinA)"/>
+    <path d="M144 212a36 36 0 0 1 72 0 50 50 0 0 1-72 0z" fill="url(#cSkinA)"/>
+  </g>
+
+  <!-- Verified badge -->
+  <g filter="url(#cSoft)">
+    <circle cx="222" cy="118" r="20" fill="#FFFFFF"/>
+    <circle cx="222" cy="118" r="15" fill="url(#cSkinB)"/>
+    <path d="M214.5 118l5 5 10-10.5" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

@@ -25,8 +25,8 @@ const fillTones = [
   "bg-gradient-to-r from-primary to-success",
 ];
 
-/* How far each method's "speed bar" races — instant, same day, 1–2 days. */
-const speeds = ["96%", "68%", "40%"];
+/* How far each method's "speed bar" races — same day, same day, 1–2 days. */
+const speeds = ["68%", "68%", "40%"];
 
 export function PayoutSpeed({ data }: PayoutSpeedProps) {
   return (
@@ -38,7 +38,7 @@ export function PayoutSpeed({ data }: PayoutSpeedProps) {
             {data.title}
           </h2>
         </Reveal>
-        <Reveal variant="rise" stagger={0.12} className="grid gap-4 md:grid-cols-3">
+        <Reveal variant="rise" stagger={0.12} className="grid gap-4 md:grid-cols-3 md:items-center">
           {data.items.map((item, i) => {
             const Icon = icons[i];
             return (

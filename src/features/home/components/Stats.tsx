@@ -1,13 +1,12 @@
 import Image from "next/image";
 
-import { Briefcase, Star, Users } from "@/components/ui/icons";
+import { Briefcase, Globe } from "@/components/ui/icons";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
 import { Section } from "@/components/ui/Section";
 import type { HomeDictionary } from "@/i18n/dictionaries";
 import { CountUp } from "./CountUp";
-import { StarRating } from "./StarRating";
 
 type StatsProps = {
   stats: HomeDictionary["stats"];
@@ -61,7 +60,7 @@ export function Stats({ stats }: StatsProps) {
                   className="pointer-events-none absolute -inset-e-8 -top-4 w-40 select-none opacity-90"
                 />
                 <span className="relative flex h-10 w-10 items-center justify-center rounded-xl bg-white/10 text-[#8aa5ff]">
-                  <Users />
+                  <Globe />
                 </span>
                 <div className="relative">
                   <p className="mb-1.5 font-display text-[13px] font-bold tracking-wide text-[#8aa5ff] uppercase">
@@ -96,28 +95,24 @@ export function Stats({ stats }: StatsProps) {
               </article>
             </div>
 
-            <article className="relative flex min-h-[150px] flex-1 items-center justify-between gap-4 overflow-hidden rounded-[26px] border border-line bg-white p-8 shadow-[var(--shadow-card-lg)]">
+            <article className="relative flex min-h-[150px] flex-1 items-center gap-5 overflow-hidden rounded-[26px] border border-line bg-white p-8 shadow-[var(--shadow-card-lg)]">
               <Image
-                src="/illustrations/rating.svg"
+                src="/illustrations/community.svg"
                 alt=""
                 aria-hidden
-                width={300}
+                width={360}
                 height={300}
-                className="pointer-events-none absolute -inset-e-8 -top-10 w-40 select-none opacity-15"
+                className="pointer-events-none absolute -inset-e-6 top-1/2 w-44 -translate-y-1/2 select-none opacity-90 max-sm:opacity-20"
               />
-              <div className="relative">
-                <div className="flex items-center gap-2">
-                  <CountUp
-                    value={stats.rating.value}
-                    className="font-display text-[clamp(34px,3.8vw,50px)] leading-none font-black tracking-tight text-ink"
-                  />
-                  <Star width={30} height={30} className="text-amber" />
-                </div>
+              <div className="relative max-w-75 sm:max-w-85">
+                <CountUp
+                  value={stats.rating.value}
+                  className="font-display text-[clamp(34px,3.8vw,50px)] leading-none font-black tracking-tight text-ink"
+                />
                 <p className="mt-2 font-display text-[13px] font-bold tracking-wide text-muted uppercase">
                   {stats.rating.reviews}
                 </p>
               </div>
-              <StarRating size={22} label={stats.rating.value} />
             </article>
           </div>
         </Reveal>

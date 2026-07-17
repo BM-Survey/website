@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "How It Works — Earn Money With Surveys | B2B Insight Panel",
-    "description": "From sign-up to payout: see exactly how InsightPanel matches you with surveys, pays fair rewards, and cashes you out in minutes.",
+    "description": "From sign-up to payout: see exactly how InsightPanel matches you with surveys, pays fair rewards, and cashes you out the same day.",
     "keywords": [
       "how paid surveys work",
       "survey rewards process",
-      "instant payouts",
+      "fast payouts",
       "B2B insight panel"
     ],
     "ogAlt": "How InsightPanel works, from opinion to payout"
@@ -35,7 +35,7 @@
     {
       "number": "04",
       "title": "Receive Reward",
-      "text": "Reward lands in your balance instantly. Cash out to PayPal or gift cards from just $5."
+      "text": "Reward lands in your balance the same day. Cash out via UPI, PayPal, or bank transfer from just $5."
     }
   ],
   "surveyPreview": {
@@ -77,8 +77,8 @@
     "title": "How fast you get paid",
     "items": [
       {
-        "title": "PayPal — Instant",
-        "text": "Lands within minutes"
+        "title": "UPI / PayPal — Same day",
+        "text": "Sent to your UPI ID or PayPal account"
       },
       {
         "title": "Gift cards — Same day",
@@ -93,7 +93,7 @@
   "cta": {
     "title": "Ready to share your expertise?",
     "subtitle": "Join a trusted community of professionals participating in exclusive research opportunities and helping shape business decisions.",
-    "button": "Join Our Community"
+    "button": "Signup for Free"
   },
   "phoneScreens": {
     "nav": {
@@ -111,11 +111,7 @@
       "emailLabel": "Email",
       "emailValue": "alex@email.com",
       "interestsLabel": "Interests",
-      "interests": [
-        "Tecnology",
-        "Healthcare",
-        "Financial Services"
-      ],
+      "interests": ["Tecnology", "Healthcare", "Financial Services"],
       "progressLabel": "Profile complete",
       "progressValue": "80%",
       "cta": "Continue"
@@ -129,12 +125,7 @@
     "answer": {
       "progressLabel": "Question 5 of 18",
       "question": "Which cloud platforms does your organization currently use?",
-      "options": [
-        "AWS",
-        "Microsoft Azure ",
-        "Google Cloud Platform",
-        "Other"
-      ],
+      "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "Other"],
       "submitCta": "Submit answers"
     },
     "paid": {

@@ -37,6 +37,11 @@ export function Rewards({ rewards }: RewardsProps) {
       icon: "/icons/bank.png",
       bg: "bg-success-soft",
     },
+    {
+      label: rewards.options.gift,
+      icon: "/icons/gift.svg",
+      bg: "bg-amber-soft",
+    },
 
     // {
     //   label: rewards.options.starbucks,
@@ -90,7 +95,7 @@ export function Rewards({ rewards }: RewardsProps) {
             variant="zoom"
             stagger={0.07}
             delay={0.1}
-            className="grid grid-cols-2 gap-3.5 sm:grid-cols-3"
+            className="grid grid-cols-2 gap-3.5"
           >
             {options.map((option) => (
               <li

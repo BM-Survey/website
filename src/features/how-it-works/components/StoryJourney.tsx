@@ -196,7 +196,10 @@ export function StoryJourney({ steps, preview, phoneScreens, navLabel }: StoryJo
                     }
                   >
                     <span
-                      className="pointer-events-none absolute -top-9 start-0 font-display text-[76px] leading-none font-black tracking-tight text-ink/[0.05] md:-top-12 md:start-auto md:end-0 md:text-[110px]"
+                      className={
+                        "pointer-events-none absolute -top-9 start-0 font-display text-[76px] leading-none font-black tracking-tight text-ink/[0.05] md:-top-12 md:text-[110px] " +
+                        (flip ? "md:start-auto md:end-0" : "md:start-0")
+                      }
                       aria-hidden
                     >
                       {step.number}
