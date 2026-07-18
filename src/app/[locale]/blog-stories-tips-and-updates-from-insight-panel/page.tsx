@@ -78,9 +78,9 @@ export default async function BlogPage({
       </section>
 
       <CtaBanner
-        title="Ready to get started?"
-        subtitle="It's free, it takes a minute, and your first payout could be today."
-        buttonLabel="Sign Up Free"
+        title="Ready to share your expertise?"
+        subtitle="Join a trusted community of professionals participating in exclusive research opportunities and helping shape business decisions."
+        buttonLabel="Join Our Community"
         buttonHref={authUrls.register}
       />
     </>

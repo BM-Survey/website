@@ -237,8 +237,9 @@ export function Hero({ locale, hero, actions }: HeroProps) {
           </div>
 
           <Container className="relative grid w-full items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
-            {/* LEFT — centered on mobile, start-aligned from lg */}
-            <div className="mx-auto max-w-[560px] text-center lg:mx-0 lg:text-start [&>*]:animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_both] [&>*:nth-child(2)]:[animation-delay:90ms] [&>*:nth-child(3)]:[animation-delay:180ms] [&>*:nth-child(4)]:[animation-delay:270ms] [&>*:nth-child(5)]:[animation-delay:360ms]">
+            {/* LEFT — centered on mobile, start-aligned from lg. On mobile the
+                phone mockup is ordered above this text block. */}
+            <div className="order-2 mx-auto max-w-[560px] text-center lg:order-0 lg:mx-0 lg:text-start [&>*]:animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_both] [&>*:nth-child(2)]:[animation-delay:90ms] [&>*:nth-child(3)]:[animation-delay:180ms] [&>*:nth-child(4)]:[animation-delay:270ms] [&>*:nth-child(5)]:[animation-delay:360ms]">
               <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary-border bg-white px-3.5 py-1.5 shadow-[0_4px_14px_rgba(16,32,90,0.06)]">
                 {/* <StarRating size={14} label={`${hero.ratingValue} / 5`} /> */}
                 {/* <span className="font-display text-[13px] font-bold text-ink">
@@ -367,8 +368,9 @@ export function Hero({ locale, hero, actions }: HeroProps) {
               </div>
 
               {/* Phone + badges share one anchor so the badges hug the device on
-              every screen size */}
-              <div className="relative">
+              every screen size. On mobile the mockup is scaled down via
+              `zoom` so it sits compactly near the top of the section. */}
+              <div className="relative zoom-[0.4] lg:zoom-[1]">
                 {/* Pointer-follow tilt wrapper (desktop only) */}
                 <div ref={tiltRef} className="relative [perspective:1200px]">
                   <div className="transition-transform duration-300 ease-out will-change-transform [transform:rotateX(var(--tilt-x,0deg))_rotateY(var(--tilt-y,0deg))]">
