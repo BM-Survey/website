@@ -1,98 +1,98 @@
 {
   "meta": {
     "title": "Comment ça marche — Gagnez de l'argent avec des sondages | B2B Insight Panel",
-    "description": "De l'inscription au paiement : découvrez exactement comment InsightPanel vous associe à des sondages, verse des récompenses équitables et vous paie en quelques minutes.",
+    "description": "De l'inscription au paiement : voyez comment InsightPanel vous met en contact avec des sondages, propose des récompenses justes et vous paie le jour même.",
     "keywords": [
       "comment fonctionnent les sondages rémunérés",
       "processus de récompense des sondages",
-      "paiements instantanés",
-      "panel d'insights B2B"
+      "paiements rapides",
+      "panel d'insight B2B"
     ],
-    "ogAlt": "Comment fonctionne InsightPanel, de l'opinion au paiement"
+    "ogAlt": "Comment fonctionne InsightPanel, de l'avis au paiement"
   },
   "hero": {
     "eyebrow": "Comment ça marche",
-    "titleLead": "De l'opinion au",
-    "titleHighlight": "paiement",
-    "subtitle": "Chaque étape respecte votre temps : récompenses transparentes dès le départ, sondages rapides et paiements qui arrivent vite. Voici exactement comment ça fonctionne."
+    "titleLead": "De l'expertise à l'",
+    "titleHighlight": "impact",
+    "subtitle": "Participez à des opportunités de recherche B2B exclusives adaptées à votre expérience professionnelle. Partagez des idées précieuses, influencez les décisions d'affaires et recevez des récompenses pour votre contribution. Voici exactement comment cela fonctionne."
   },
   "steps": [
     {
       "number": "01",
-      "title": "Créez votre profil",
-      "text": "Inscrivez-vous gratuitement avec un e-mail. Répondez une fois à un court sondage de profil — il alimente toutes vos correspondances par la suite."
+      "title": " Créez votre profil professionnel",
+      "text": "Complétez votre profil professionnel afin que nous puissions vous mettre en contact avec des études qui correspondent à votre expertise."
     },
     {
       "number": "02",
-      "title": "Soyez mis en correspondance",
-      "text": "Nous vous proposons des sondages pour lesquels vous êtes susceptible d'être éligible, chacun affichant la durée et la récompense exactes avant que vous ne commenciez."
+      "title": " Soyez mis en contact avec des études",
+      "text": "Recevez des invitations à des études qui correspondent à votre expérience sectorielle et votre profil professionnel."
     },
     {
       "number": "03",
-      "title": "Répondez et envoyez",
-      "text": "La plupart des sondages durent de 3 à 8 minutes. Exclu tôt ? Vous n'êtes jamais pénalisé — essayez simplement le suivant."
+      "title": " Partagez votre expertise",
+      "text": "Participez à des opportunités de recherche pertinentes et partagez vos idées professionnelles par le biais de sondages, entretiens et autres activités de recherche."
     },
     {
       "number": "04",
-      "title": "Soyez payé",
-      "text": "La récompense arrive instantanément sur votre solde. Retirez sur PayPal ou en cartes cadeaux dès 5 $."
+      "title": "Recevez une récompense",
+      "text": "La récompense arrive dans votre solde le jour même. Retirez vos gains via UPI, PayPal ou virement bancaire à partir de 5 $."
     }
   ],
   "surveyPreview": {
-    "eyebrow": "Transparent, toujours",
-    "title": "À quoi ressemble vraiment un sondage",
+    "eyebrow": "Transparence, toujours",
+    "title": "Exemples d'opportunités de recherche",
     "cards": [
       {
-        "tag": "Shopping",
+        "tag": "Technologie",
         "tone": "primary",
-        "title": "Habitudes d'achat en ligne",
-        "time": "4 min",
-        "reward": "2,50 $"
+        "title": "Adoption du cloud en entreprise",
+        "time": "15 min",
+        "reward": "12,50 $"
       },
       {
-        "tag": "Tech",
+        "tag": "Cybersécurité",
         "tone": "purple",
-        "title": "Streaming et divertissement",
-        "time": "3 min",
-        "reward": "1,75 $"
+        "title": "Tendances en cybersécurité d'entreprise",
+        "time": "20 min",
+        "reward": "11 $"
       },
       {
-        "tag": "Alimentation",
+        "tag": "Finance",
         "tone": "orange",
-        "title": "Choix de courses hebdomadaires",
-        "time": "5 min",
-        "reward": "3,20 $"
+        "title": "Adoption de l'IA dans les services financiers",
+        "time": "15 min",
+        "reward": "10,50 $"
       },
       {
-        "tag": "Voyage",
+        "tag": "Approvisionnement",
         "tone": "success",
-        "title": "Vacances et planification de voyage",
-        "time": "5 min",
-        "reward": "4,00 $"
+        "title": "Évaluation des logiciels d'approvisionnement",
+        "time": "20 min",
+        "reward": "12,50 $"
       }
     ]
   },
   "payoutSpeed": {
-    "eyebrow": "Vitesse de paiement",
-    "title": "À quelle vitesse vous êtes payé",
+    "eyebrow": "OPTIONS DE RÉCOMPENSE",
+    "title": "Avec quelle rapidité vous êtes payé",
     "items": [
       {
-        "title": "PayPal — Instantané",
-        "text": "Arrive en quelques minutes"
+        "title": "UPI / PayPal — Le jour même",
+        "text": "Envoyé à votre ID UPI ou compte PayPal"
       },
       {
-        "title": "Cartes cadeaux — Le jour même",
-        "text": "Plus de 100 marques, +5 % de bonus sur certaines cartes"
+        "title": "Cartes-cadeaux — Le jour même",
+        "text": "Plus de 100 marques, bonus de +5 % sur certaines cartes"
       },
       {
         "title": "Virement bancaire — 1 à 2 jours",
-        "text": "Directement sur votre compte, sans frais"
+        "text": "Directement sur votre compte, zéro frais"
       }
     ]
   },
   "cta": {
-    "title": "Prêt à commencer ?",
-    "subtitle": "C'est gratuit, ça prend une minute, et votre premier paiement pourrait être aujourd'hui.",
+    "title": "Prêt à partager votre expertise ?",
+    "subtitle": "Rejoignez une communauté fiable de professionnels participant à des opportunités de recherche exclusives et contribuant à façonner les décisions d'affaires.",
     "button": "Inscription gratuite"
   },
   "phoneScreens": {
@@ -105,42 +105,33 @@
     },
     "profile": {
       "title": "Votre profil",
-      "subtitle": "Environ 2 minutes",
+      "subtitle": "Prend environ 2 minutes",
       "nameLabel": "Nom complet",
       "nameValue": "Alex Carter",
-      "emailLabel": "E-mail",
+      "emailLabel": "Email",
       "emailValue": "alex@email.com",
-      "interestsLabel": "Centres d'intérêt",
-      "interests": [
-        "Shopping",
-        "Tech",
-        "Voyage"
-      ],
+      "interestsLabel": "Intérêts",
+      "interests": ["Technologie", "Santé", "Services financiers"],
       "progressLabel": "Profil complété",
       "progressValue": "80 %",
       "cta": "Continuer"
     },
     "matched": {
-      "heading": "Sélectionnés pour vous",
-      "subtitle": "D'après votre profil",
-      "search": "Rechercher un sondage...",
+      "heading": "Études pour vous",
+      "subtitle": "Basé sur votre profil",
+      "search": "Rechercher des sondages...",
       "allChip": "Tous"
     },
     "answer": {
-      "progressLabel": "Question 5 sur 6",
-      "question": "À quelle fréquence achetez-vous en ligne ?",
-      "options": [
-        "Plusieurs fois par semaine",
-        "Environ une fois par semaine",
-        "Une fois par mois",
-        "Rarement"
-      ],
-      "submitCta": "Envoyer les réponses"
+      "progressLabel": "Question 5 sur 18",
+      "question": "Quelles plateformes cloud votre organisation utilise-t-elle actuellement ?",
+      "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "Autre"],
+      "submitCta": "Soumettre les réponses"
     },
     "paid": {
-      "title": "Vous avez été payé !",
-      "via": "Envoyé sur votre PayPal",
-      "balanceLabel": "Nouveau solde",
+      "title": "Récompense reçue",
+      "via": "Envoyée à votre PayPal",
+      "balanceLabel": "Récompense disponible",
       "balanceValue": "129,50 $"
     }
   }

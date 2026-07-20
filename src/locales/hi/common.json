@@ -7,18 +7,18 @@
     "howItWorks": "यह कैसे काम करता है",
     "rewards": "पुरस्कार",
     "about": "हमारे बारे में",
-    "faq": "सामान्य प्रश्न",
-    "contact": "संपर्क",
-    "collaboration": "संगठनों के लिए",
+    "faq": "अक्सर पूछे जाने वाले प्रश्न (FAQ)",
+    "contact": "संपर्क करें",
+    "collaboration": "संस्थानों के लिए",
     "blog": "ब्लॉग"
   },
   "actions": {
-    "login": "लॉग इन",
-    "signupFree": "मुफ़्त साइन अप करें",
-    "earnMoney": "अभी पैसे कमाएँ",
+    "login": "लॉग इन करें",
+    "signupFree": "हमारे समुदाय से जुड़ें",
+    "earnMoney": "विचार साझा करना शुरू करें",
     "seeHowItWorks": "देखें यह कैसे काम करता है",
-    "startNow": "अभी शुरू करें",
-    "cashOut": "पैसे निकालें"
+    "startNow": "मुफ़्त में साइन अप करें",
+    "cashOut": "पैसे निकालें (कैश आउट)"
   },
   "language": {
     "label": "भाषा",
@@ -27,43 +27,43 @@
   "a11y": {
     "openMenu": "मेन्यू खोलें",
     "closeMenu": "मेन्यू बंद करें",
-    "primaryNavigation": "मुख्य",
-    "footerNavigation": "फ़ुटर",
-    "skipToContent": "सामग्री पर जाएँ"
+    "primaryNavigation": "मुख्य नेविगेशन",
+    "footerNavigation": "फुटर नेविगेशन",
+    "skipToContent": "मुख्य सामग्री पर जाएं"
   },
   "footer": {
-    "tagline": "B2B इनसाइट पैनल जो उन राय के लिए आपको असली पैसे देता है, जिनकी ब्रांड्स को सच में ज़रूरत होती है।",
+    "tagline": "व्यावसायिक पेशेवरों और निर्णयकर्ताओं का एक वैश्विक समुदाय, जो विशेष शोध अवसरों में भाग लेते हैं।",
     "product": {
       "title": "उत्पाद",
       "home": "होम",
       "howItWorks": "यह कैसे काम करता है",
-      "faq": "सामान्य प्रश्न",
+      "faq": "अक्सर पूछे जाने वाले प्रश्न (FAQ)",
       "blog": "ब्लॉग",
-      "contact": "संपर्क",
-      "collaboration": "संगठनों के लिए"
+      "contact": "संपर्क करें",
+      "collaboration": "संस्थानों के लिए"
     },
     "legal": {
       "title": "कानूनी",
       "privacy": "गोपनीयता नीति",
       "cookie": "कुकी नीति",
-      "eula": "EULA",
-      "terms": "नियम और शर्तें"
+      "eula": "EULA (एंड यूज़र लाइसेंस एग्रीमेंट)",
+      "terms": "नियम एवं शर्तें"
     },
     "app": {
-      "title": "ऐप पाएँ",
-      "downloadOn": "डाउनलोड करें",
+      "title": "ऐप डाउनलोड करें",
+      "downloadOn": "यहाँ से डाउनलोड करें",
       "appStore": "App Store",
-      "getItOn": "पाएँ",
+      "getItOn": "यहाँ से प्राप्त करें",
       "googlePlay": "Google Play"
     },
-    "copyright": "© {year} InsightPanel — B2B Insight Panel. सर्वाधिकार सुरक्षित।",
+    "copyright": "© {year} B2B Insight Panel. Beacon Martech द्वारा संचालित। सर्वाधिकार सुरक्षित।",
     "bottom": {
       "privacy": "गोपनीयता",
       "cookies": "कुकीज़",
       "terms": "शर्तें"
     },
     "social": {
-      "x": "एक्स (ट्विटर)",
+      "x": "X (ट्विटर)",
       "instagram": "इंस्टाग्राम",
       "linkedin": "लिंक्डइन"
     }

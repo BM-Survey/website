@@ -1,31 +1,31 @@
 {
   "meta": {
-    "title": "Gagnez de l'argent en partageant vos opinions | B2B Insight Panel",
-    "description": "Répondez à des sondages rapides de marques qui valorisent votre avis. Retirez sur PayPal ou en cartes cadeaux — inscription 100 % gratuite, sans frais, jamais.",
+    "title": "Gagnez de l'argent réel en partageant votre avis | B2B Insight Panel",
+    "description": "Répondez à des sondages rapides de marques qui valorisent votre opinion. Retirez vos gains via PayPal ou cartes-cadeaux — 100 % gratuit, sans frais, jamais.",
     "keywords": [
       "sondages rémunérés",
       "gagner de l'argent en ligne",
-      "récompenses de sondage",
+      "récompenses de sondages",
       "paiements PayPal",
-      "cartes cadeaux",
+      "cartes-cadeaux",
       "panel d'études de marché",
-      "panel d'insights B2B"
+      "panel B2B Insight"
     ],
-    "ogAlt": "B2B Insight Panel — gagnez de l'argent pour vos opinions"
+    "ogAlt": "B2B Insight Panel — gagnez de l'argent réel pour vos opinions"
   },
   "hero": {
-    "ratingValue": "4,6",
-    "ratingLabel": "· Noté par plus de 82 000 membres",
-    "titleLead": "Gagnez de l'argent en",
-    "titleSharing": "partageant vos",
-    "titleHighlight": "opinions",
-    "subtitle": "Répondez à des sondages rapides de marques qui valorisent votre avis. Retirez sur PayPal ou en cartes cadeaux —",
-    "subtitleBold": "inscription 100 % gratuite,",
-    "subtitleTail": "sans frais, jamais.",
+    "ratingValue": "4.6",
+    "ratingLabel": "Reconnu par des professionnels et décideurs du monde entier",
+    "titleLead": "Influencez le",
+    "titleSharing": "monde avec vos",
+    "titleHighlight": "idées",
+    "subtitle": "Participez à des études B2B exclusives, ",
+    "subtitleBold": "partagez votre expertise professionnelle, influencez les décisions d'entreprise et recevez des récompenses,",
+    "subtitleTail": " pour vos précieuses idées.",
     "steps": {
       "browse": "Parcourir",
       "answer": "Répondre",
-      "submit": "Envoyer",
+      "submit": "Soumettre",
       "getPaid": "Être payé"
     },
     "phone": {
@@ -37,8 +37,8 @@
       "cards": {
         "shopping": {
           "tag": "Shopping",
-          "reward": "2,50 $",
-          "title": "Vos habitudes d'achat en ligne",
+          "reward": "15 $",
+          "title": "Adoption du cloud en entreprise",
           "time": "4 min",
           "questions": "8 questions",
           "spots": "8 places restantes",
@@ -46,47 +46,47 @@
         },
         "tech": {
           "tag": "Tech",
-          "reward": "1,75 $",
-          "title": "Streaming et divertissement",
+          "reward": "15 $",
+          "title": "Priorités en cybersécurité ",
           "time": "3 min",
           "questions": "6 questions",
           "spots": "3 places restantes",
           "date": "15 juil."
         },
         "food": {
-          "tag": "Alimentation",
-          "reward": "3,20 $",
-          "title": "Choix de courses hebdomadaires",
+          "tag": "Food",
+          "reward": "15 $",
+          "title": "Évaluation des logiciels d'approvisionnement",
           "spots": "12 places restantes",
           "date": "21 juil."
         }
       },
       "flow": {
-        "answerQuestion": "À quelle fréquence achetez-vous en ligne ?",
+        "answerQuestion": "Quelles plateformes cloud votre organisation utilise-t-elle actuellement ?",
         "answerOptions": [
-          "Plusieurs fois par semaine",
-          "Environ une fois par semaine",
-          "Une fois par mois",
-          "Rarement"
+          "AWS",
+          "Microsoft Azure",
+          "Google Cloud Platform",
+          "Autre"
         ],
-        "answerProgress": "Question 3 sur 8",
+        "answerProgress": "Question 3 sur 15",
         "answerNext": "Suivant",
-        "submitTitle": "Vérifier et envoyer",
+        "submitTitle": "Vérifier et soumettre",
         "submitDone": "Les 8 questions ont été répondues",
-        "submitCta": "Envoyer les réponses",
-        "paidTitle": "Vous avez été payé !",
-        "paidAmount": "+2,50 $",
-        "paidVia": "Envoyé sur votre PayPal",
-        "paidBalanceLabel": "Nouveau solde",
+        "submitCta": "Soumettre les réponses",
+        "paidTitle": "Votre récompense a été traitée",
+        "paidAmount": "15 $",
+        "paidVia": "Envoyée à votre PayPal",
+        "paidBalanceLabel": "Solde du portefeuille",
         "paidBalanceValue": "127,00 $"
       },
       "browse": {
         "title": "Découvrir les sondages",
-        "subtitle": "Répondez aux sondages, gagnez des récompenses",
-        "search": "Rechercher un sondage...",
+        "subtitle": "Remplissez des sondages, gagnez des récompenses",
+        "search": "Rechercher des sondages...",
         "chips": ["Tous", "Shopping", "Tech"],
         "statusNew": "Nouveau",
-        "statusEndsSoon": "Expire bientôt",
+        "statusEndsSoon": "Se termine bientôt",
         "nav": {
           "surveys": "Sondages",
           "history": "Historique",
@@ -99,108 +99,108 @@
         "detailsTitle": "Détails du sondage",
         "tag": "Tech",
         "statusLabel": "Terminé",
-        "title": "Test Prod 11",
+        "title": "Prod Test 11",
         "alert": "Vous avez déjà tenté ce sondage.",
-        "reward": "200 $",
-        "rewardLabel": "récompense par réalisation",
-        "expiresLabel": "EXPIRE",
+        "reward": "15 $ ",
+        "rewardLabel": "après réussite",
+        "expiresLabel": "L'étude se termine le",
         "expiresDate": "21 juil. 2026",
-        "spotsLabel": "PLACES RESTANTES",
+        "spotsLabel": "Participants restants :",
         "spotsValue": "1",
-        "spotsTotal": "2",
+        "spotsTotal": "",
         "postedByLabel": "PUBLIÉ PAR",
-        "creatorName": "Panel B2B Insight",
-        "orgName": "Beacon martech",
-        "ctaUnavailable": "Indisponible"
+        "creatorName": "B2B Insight Panel",
+        "orgName": "Propulsé par Beacon Martech",
+        "ctaUnavailable": "Déjà participé"
       }
     },
     "badges": {
       "paid": {
-        "value": "8,4 M$+",
-        "label": "versés aux membres"
+        "value": "Reconnu par des milliers ",
+        "label": "d'experts du secteur"
       },
       "instant": {
-        "value": "Instantané",
+        "value": "Le jour même",
         "label": "paiements PayPal"
       }
     },
-    "scroll": "Défiler"
+    "scroll": "Faire défiler"
   },
   "trust": {
-    "heading": "La confiance des équipes de recherche de plus de 120 marques"
+    "heading": "Reconnu par les équipes de recherche de plus de 120 marques"
   },
   "stats": {
     "eyebrow": "En chiffres",
-    "title": "Des chiffres qui comptent vraiment",
+    "title": "Des idées à grande échelle",
     "paid": {
-      "label": "Versés aux membres",
-      "value": "8,4 M$+",
-      "description": "Retirés sur de vrais comptes — le membre moyen gagne plus de 60 $ par mois."
+      "label": " ",
+      "value": "700+",
+      "description": "Projets de recherche B2B menés à bien avec succès dans divers secteurs."
     },
     "members": {
-      "label": "Membres",
-      "value": "1,9 M+"
+      "label": "Pays représentés",
+      "value": "30+"
     },
     "brands": {
-      "label": "Marques partenaires",
-      "value": "120+"
+      "label": "Partenaires de recherche",
+      "value": "20+"
     },
     "rating": {
-      "value": "4,6",
-      "reviews": "Sur plus de 82 000 avis"
+      "value": "25 K +",
+      "reviews": "Professionnels et décideurs vérifiés dans notre communauté."
     }
   },
   "video": {
-    "eyebrow": "De vrais membres, de vrais paiements",
-    "titleLine1": "Appuyez sur lecture et voyez",
-    "titleLine2": "pourquoi on adore",
-    "watch": "Regarder l'histoire de 90 secondes",
-    "featured": "À la une",
+    "eyebrow": "De vrais membres, de vrais gains",
+    "titleLine1": "Découvrez comment",
+    "titleLine2": " fonctionne B2B Insight Panel",
+    "watch": "Regarder l'histoire en 90 secondes",
+    "featured": "En vedette",
     "posterAlt": "Vidéo témoignage d'un membre de B2B Insight Panel"
   },
   "feature1": {
-    "eyebrow": "Des sondages adaptés à votre vie",
-    "titleLine1": "Seulement les sondages",
-    "titleLine2": "que vous aimerez vraiment",
-    "description": "Nous vous associons à des études selon votre profil, pour ne jamais perdre de temps sur des sondages non éligibles. Chacun affiche la récompense et la durée à l'avance.",
+    "eyebrow": "DES ÉTUDES ADAPTÉES À VOTRE EXPERTISE",
+    "titleLine1": "Uniquement les études pertinentes ",
+    "titleLine2": "pour votre expertise professionnelle",
+    "description": "Recevez des invitations à des études qui correspondent à votre expérience, afin que votre temps et votre expertise soient valorisés.",
     "points": {
       "matching": {
         "title": "Correspondance intelligente",
-        "text": "Des sondages choisis selon vos centres d'intérêt et votre profil."
+        "text": "Études adaptées à votre profil professionnel et à votre expertise sectorielle."
       },
       "upfront": {
-        "title": "Récompenses claires",
-        "text": "Voyez exactement ce que vous gagnerez avant de commencer."
+        "title": "Récompenses annoncées à l'avance",
+        "text": "Récompenses affichées clairement avant la participation."
       },
       "biteSized": {
-        "title": "Format court",
-        "text": "La plupart durent moins de 5 minutes — faites-les partout."
+        "title": "Participation flexible",
+        "text": "La plupart des études sont conçues pour respecter votre temps précieux."
       }
     },
     "phone": {
-      "heading": "Sélectionnés pour vous",
-      "subtitle": "D'après votre intérêt pour le Voyage",
-      "search": "Rechercher un sondage assorti...",
-      "chips": ["Tous", "Voyage", "Banque", "Café"],
+      "heading": "Études pour vous",
+      "subtitle": "Sélectionnées selon votre profil professionnel.",
+      "search": "Rechercher des sondages adaptés...",
+      "chips": ["Tous", "Technologie", "Santé", "Finance"],
       "cards": [
         {
           "match": "98 % de correspondance",
-          "reward": "4,00 $",
-          "title": "Planification de voyages et vacances",
-          "time": "5 min",
-          "questions": "12 questions"
+          "reward": "15 $",
+          "title": "Adoption de l'IA en entreprise",
+          "time": "15 min",
+          "questions": "Étude de recherche"
         },
         {
           "match": "91 % de correspondance",
-          "reward": "3,10 $",
-          "title": "Habitudes d'escapades le week-end",
+          "reward": "15 $",
+          "title": "Stratégie d'infrastructure cloud",
           "time": "4 min",
           "questions": "9 questions"
         },
         {
           "match": "87 % de correspondance",
-          "reward": "2,75 $",
-          "title": "Expérience à l'aéroport et en vol",
+          "reward": "15 $",
+          "title": "Priorités d'investissement en cybersécurité",
           "time": "6 min",
           "questions": "14 questions"
         }
@@ -208,34 +208,34 @@
     }
   },
   "feature2": {
-    "eyebrow": "Retirez, à votre façon",
-    "title": "Transformez vos opinions en argent réel — instantanément",
+    "eyebrow": "DES RÉCOMPENSES POUR VOS IDÉES",
+    "title": "Soyez récompensé pour vos précieuses idées",
     "cards": {
       "threshold": {
-        "title": "Seuil bas de 5 $",
-        "text": "Retirez sur PayPal ou plus de 100 cartes cadeaux dès que vous atteignez cinq dollars."
+        "title": "Options de récompense flexibles",
+        "text": "Les récompenses sont traitées en toute sécurité après une participation réussie."
       },
       "noFees": {
-        "title": "Zéro frais",
-        "text": "Vous gardez chaque centime gagné — aucuns frais de retrait, aucun piège."
+        "title": "Paiements sécurisés",
+        "text": "Les récompenses sont traitées via des méthodes de paiement fiables."
       }
     },
     "phone": {
       "appName": "B2B Insight Panel",
-      "pageTitle": "Retirer le solde",
-      "modalTitle": "Demander un retrait",
-      "fromLabel": "DE",
-      "orgName": "Beacon martech",
-      "availableValue": "$140",
-      "availableSuffix": "disponible",
+      "pageTitle": "Centre de récompenses",
+      "modalTitle": "Échanger les récompenses disponibles",
+      "fromLabel": "DE LA PART DE",
+      "orgName": "Beacon Martech",
+      "availableValue": "140 $",
+      "availableSuffix": "disponibles",
       "fullBalance": "Solde complet",
       "customAmount": "Montant personnalisé",
       "amountLabel": "Montant",
-      "amountValue": "$140",
-      "receiveLabel": "Vous recevrez",
-      "receiveValue": "$140",
-      "requestCta": "Demander",
-      "disclaimer": "Votre demande est envoyée à Beacon martech pour examen. Une fois approuvé, le montant est envoyé sur votre compte PayPal enregistré.",
+      "amountValue": "140 $",
+      "receiveLabel": "Montant de la récompense",
+      "receiveValue": "140 $",
+      "requestCta": "Échanger les récompenses",
+      "disclaimer": "Votre demande est transmise à Beacon Martech pour examen. Les récompenses sont traitées en toute sécurité après vérification.",
       "nav": {
         "surveys": "Sondages",
         "history": "Historique",
@@ -247,137 +247,184 @@
   },
   "rewards": {
     "eyebrow": "Récompenses",
-    "titleLine1": "Dépensez-le comme",
-    "titleLine2": "vous le souhaitez",
-    "description": "Espèces, cartes cadeaux ou dons à des associations — plus de 100 façons d'échanger, toutes sans frais de retrait.",
+    "titleLine1": "Des options de récompense flexibles ",
+    "titleLine2": "pour votre participation",
+    "description": "Choisissez parmi plusieurs options de récompense sécurisées, notamment PayPal, virement bancaire et cartes-cadeaux, selon vos préférences et votre localisation.",
     "stats": {
       "minCashout": {
-        "value": "5 $",
-        "label": "retrait min."
+        "value": "🔒 ",
+        "label": "Paiements sécurisés"
       },
       "fees": {
-        "value": "0 %",
-        "label": "frais"
+        "value": "🌍",
+        "label": "Options de récompense internationales"
       },
       "options": {
-        "value": "100+",
-        "label": "options de récompense"
+        "value": "⚡",
+        "label": "Traitement rapide"
       }
     },
     "options": {
       "paypal": "PayPal",
-      "amazon": "Amazon",
       "bank": "Banque",
       "upi": "UPI",
-      "starbucks": "Starbucks",
-      "steam": "Steam",
-      "donate": "Faire un don",
-      "gift": "Carte cadeau"
+      "gift": "Carte-cadeau"
     }
   },
   "about": {
     "eyebrow": "Pourquoi nous existons",
-    "title": "Votre opinion a de la valeur. Nous veillons à ce que vous soyez payé pour cela.",
-    "paragraph1": "Les marques dépensent des milliards pour comprendre ce que veulent les gens. Nous pensons que ceux qui donnent leur avis méritent une juste part — pas des points qui expirent ni de vagues « récompenses ».",
-    "paragraph2": "De l'argent réel, des récompenses transparentes et une confidentialité que vous contrôlez. C'est toute l'idée.",
+    "title": "Nous valorisons votre expertise et protégeons votre confiance.",
+    "paragraph1": "Les organisations s'appuient sur l'avis d'experts pour prendre de meilleures décisions d'affaires. Nous pensons que les professionnels doivent être reconnus et récompensés pour le partage de leur expertise.",
+    "paragraph2": "Nous nous engageons pour la transparence, une participation sécurisée et la protection de vos données, tout en garantissant des récompenses justes pour vos précieuses contributions.",
     "badge": {
       "title": "Conforme au RGPD",
-      "text": "Vos données, toujours protégées"
+      "text": "Votre vie privée et la sécurité de vos données passent avant tout."
     },
     "chips": {
-      "neverSold": "Jamais vendues à des tiers",
+      "neverSold": "Jamais vendu à des tiers",
       "encryption": "Chiffrement de niveau bancaire",
-      "delete": "Suppression à tout moment",
+      "delete": "Suppression possible à tout moment",
       "confidential": "Participation confidentielle",
       "privacyProtected": "Confidentialité des données protégée"
     },
-    "photoAlt": "Un membre répondant à un sondage sur son téléphone"
+    "photoAlt": "Un membre remplissant un sondage sur son téléphone"
   },
   "testimonials": {
-    "eyebrow": "★ 4,6 · plus de 82 000 avis",
-    "title": "Apprécié par les membres du monde entier",
-    "verified": "Membre vérifié",
+    "eyebrow": "★ 4.6 · avis",
+    "title": "Ce que disent nos membres",
     "items": [
       {
-        "name": "Maya R.",
-        "role": "Responsable IT",
-        "headline": "50 $ retirés dès mon premier mois",
-        "text": "Je réponds à des sondages dans les transports. Les paiements sont réels et arrivent sur PayPal en moins d'une heure. Pas de bêtises de points."
+        "name": "Sarah M.",
+        "role": "Directrice technologique",
+        "headline": "Des opportunités pertinentes à chaque fois",
+        "text": "Les études que je reçois correspondent parfaitement à mon parcours professionnel, ce qui rend ma participation à la fois utile et gratifiante."
       },
       {
-        "name": "Devin K.",
-        "role": "Dirigeant du secteur de la santé",
-        "headline": "Enfin des sondages qui respectent mon temps",
-        "text": "Chaque sondage indique la récompense et la durée à l'avance. Si je ne suis pas éligible, j'en sors en quelques secondes — pas dix minutes."
+        "name": "Michael T.",
+        "role": "Responsable des achats",
+        "headline": "Professionnel et transparent",
+        "text": "J'apprécie la clarté des communications concernant les exigences des études et les honoraires. L'expérience a été fluide et professionnelle."
       },
       {
-        "name": "Priya S.",
-        "role": "Consultante marketing",
-        "headline": "Les bonus de cartes cadeaux sont incroyables",
-        "text": "5 % de plus sur les cartes Amazon, ça s'accumule vite. J'ai pratiquement couvert mon budget café pour un an."
+        "name": "David R.",
+        "role": "Directeur des opérations",
+        "headline": "Respectueux de mon temps",
+        "text": "Contrairement à de nombreuses plateformes de recherche, les opportunités qui me sont proposées sont pertinentes et valent l'investissement en temps."
       },
       {
-        "name": "Tom B.",
-        "role": "Leader industriel",
-        "headline": "Légitime et paie vraiment",
-        "text": "J'étais sceptique au début, mais le retrait minimum de 5 $ et PayPal instantané m'ont convaincu. Je l'utilise au quotidien."
+        "name": "Emily K.",
+        "role": "Professionnelle de la finance",
+        "headline": "Sécurisé et digne de confiance",
+        "text": "La confidentialité des données est très importante pour moi, et B2B Insight Panel m'inspire confiance grâce à ses processus transparents et sécurisés."
       },
       {
-        "name": "Ana L.",
-        "role": "Product manager",
-        "headline": "Appli soignée, zéro spam",
-        "text": "L'interface ressemble à une vraie appli iOS, pas à un site de récompenses douteux. Mes données restent privées aussi."
+        "name": "James L.",
+        "role": "Décideur informatique",
+        "headline": "Une participation sectorielle enrichissante",
+        "text": "C'est gratifiant de partager mon expertise et de savoir que mes idées aident les organisations à prendre de meilleures décisions."
       },
       {
-        "name": "Jordan M.",
-        "role": "Manager de croissance",
-        "headline": "Mon activité préférée pour les temps morts",
-        "text": "Mieux que de scroller sans but. J'ai gagné plus de 200 $ en répondant à des questions sur des sujets que je connais déjà."
+        "name": "Jennifer P.",
+        "role": "Cadre du secteur de la santé",
+        "headline": "Des études de grande qualité",
+        "text": "Les études sont bien structurées, gérées de manière professionnelle et centrées sur de vrais enjeux d'affaires."
+      },
+      {
+        "name": "Robert S.",
+        "role": "Responsable en industrie manufacturière",
+        "headline": "Un réseau professionnel précieux",
+        "text": "La plateforme offre des occasions de partager des connaissances sur des sujets qui comptent vraiment dans mon secteur."
+      },
+      {
+        "name": "Linda W.",
+        "role": "Directrice marketing",
+        "headline": "Une juste reconnaissance de l'expertise",
+        "text": "Les honoraires sont transparents et les études respectent la valeur de l'expérience professionnelle."
       }
     ]
   },
   "faq": {
     "eyebrow": "FAQ",
-    "title": "Des questions ? Réponses.",
+    "title": "Des questions ? Nous avons les réponses.",
     "moreText": "Encore des questions ? D'autres réponses vous attendent.",
-    "moreLink": "Voir toutes les FAQ",
+    "moreLink": "Voir toute la FAQ",
     "items": [
       {
-        "question": "Est-ce vraiment gratuit de s'inscrire ?",
-        "answer": "Oui — 100 % gratuit, pour toujours. Aucuns frais d'inscription, aucun abonnement et aucuns frais de retrait. Vous gardez chaque centime gagné."
+        "question": "Est-ce gratuit de s'inscrire ?",
+        "answer": "Oui. L'inscription à B2B Insight Panel est totalement gratuite. Il n'y a aucuns frais d'inscription, d'abonnement ou coûts cachés."
       },
       {
-        "question": "Combien puis-je gagner ?",
-        "answer": "Cela dépend du nombre de sondages pour lesquels vous êtes éligible, mais la plupart des membres gagnent entre 30 $ et 150 $ par mois pendant leur temps libre. Plus votre profil est complet, plus vous avez de correspondances."
+        "question": "Qu'est-ce que B2B Insight Panel ?",
+        "answer": "B2B Insight Panel est une communauté mondiale de professionnels et de décideurs qui participent à des études, sondages, entretiens et discussions afin d'aider les organisations à prendre de meilleures décisions d'affaires."
       },
       {
-        "question": "Comment suis-je payé ?",
-        "answer": "Retirez sur PayPal, par virement bancaire ou via plus de 100 cartes cadeaux (Amazon, Starbucks, Steam et plus) dès que vous atteignez un solde de 5 $. La plupart des paiements arrivent en quelques minutes."
+        "question": "Qui peut rejoindre la communauté ?",
+        "answer": "Les professionnels de divers secteurs et fonctions sont les bienvenus, notamment les cadres dirigeants, gestionnaires, professionnels de l'informatique, responsables des achats, experts financiers, professionnels de la santé et autres décideurs d'affaires."
       },
       {
-        "question": "Mes données sont-elles en sécurité ?",
-        "answer": "Absolument. Vos réponses sont anonymisées et jamais vendues à des tiers. Nous utilisons un chiffrement de niveau bancaire et sommes entièrement conformes au RGPD — et vous pouvez supprimer votre compte et vos données à tout moment."
+        "question": "Comment les membres sont-ils sélectionnés pour les opportunités de recherche ?",
+        "answer": "Les invitations aux études sont attribuées en fonction de votre profil professionnel, notamment votre secteur, poste, ancienneté, expertise et responsabilités décisionnelles. Garder votre profil à jour permet de vous proposer des opportunités plus pertinentes."
       },
       {
-        "question": "Combien de temps durent les sondages ?",
-        "answer": "La plupart durent moins de cinq minutes. Chaque sondage affiche la récompense exacte et la durée estimée avant de commencer, pour ne jamais être pris au dépourvu."
+        "question": "Quels types d'opportunités de recherche sont proposés ?",
+        "answer": "Les membres peuvent être invités à participer à des sondages en ligne, des entretiens individuels, des groupes de discussion, des forums de discussion, des évaluations de produits et des études sectorielles."
       },
       {
-        "question": "Que se passe-t-il si je ne suis pas éligible ?",
-        "answer": "Vous le saurez généralement dès les premières questions, et tout est conçu pour vous filtrer rapidement. Nous travaillons sans cesse à vous proposer des sondages pour lesquels vous serez éligible."
+        "question": "Combien de temps durent généralement les études ?",
+        "answer": "La durée des études varie selon le type de recherche : les sondages en ligne prennent généralement 10 à 30 minutes, les entretiens de 30 à 60 minutes, et les forums de discussion ou études spécialisées peuvent varier. Le temps de participation estimé est toujours communiqué à l'avance."
+      },
+      {
+        "question": "Serai-je rémunéré pour ma participation ?",
+        "answer": "Oui. Les membres reçoivent des récompenses ou honoraires pour avoir complété avec succès des opportunités de recherche qualifiées. La rémunération varie selon la complexité, la durée et l'expertise requise pour l'étude."
+      },
+      {
+        "question": "Comment les récompenses sont-elles traitées ?",
+        "answer": "Les récompenses sont traitées en toute sécurité via les modes de paiement disponibles, qui peuvent inclure PayPal, virement bancaire, cartes-cadeaux, UPI ou d'autres options locales. Les méthodes disponibles peuvent varier selon le pays."
+      },
+      {
+        "question": "Comment les montants des récompenses sont-ils déterminés ?",
+        "answer": "Les montants des récompenses dépendent de facteurs tels que la durée de l'étude, le niveau d'expertise requis, l'ancienneté des participants et la complexité de la recherche. Les détails des récompenses sont communiqués avant la participation."
+      },
+      {
+        "question": "Que se passe-t-il si je ne suis pas admissible à une étude ?",
+        "answer": "Certaines études ont des critères de sélection spécifiques. Si vous n'êtes pas admissible à une étude en particulier, vous pourrez tout de même recevoir des invitations pour de futures opportunités correspondant mieux à votre profil professionnel."
+      },
+      {
+        "question": "Mes informations sont-elles confidentielles ?",
+        "answer": "Absolument. Vos informations personnelles sont protégées et traitées conformément aux réglementations applicables en matière de confidentialité. Les réponses individuelles sont généralement analysées de façon globale et ne sont pas partagées sans consentement approprié."
+      },
+      {
+        "question": "Mes données sont-elles sécurisées ?",
+        "answer": "Oui. Nous employons des mesures de sécurité et des pratiques de confidentialité conformes aux normes du secteur afin de protéger les informations des membres et de maintenir un environnement de recherche sécurisé."
+      },
+      {
+        "question": "Mon employeur saura-t-il que je participe ?",
+        "answer": "Non. La participation est entièrement volontaire et confidentielle. Nous n'informons pas les employeurs de votre participation, sauf si cela est explicitement requis et convenu pour une étude spécifique."
+      },
+      {
+        "question": "Puis-je mettre à jour les informations de mon profil ?",
+        "answer": "Oui. Vous pouvez mettre à jour vos informations professionnelles, votre secteur d'activité et vos domaines d'expertise à tout moment. Maintenir un profil précis nous permet de vous offrir des opportunités de recherche plus pertinentes."
+      },
+      {
+        "question": "À quelle fréquence recevrai-je des invitations ?",
+        "answer": "La fréquence des invitations dépend de votre profil professionnel et des besoins des projets de recherche en cours. Certains professionnels peuvent recevoir des opportunités plus fréquemment que d'autres selon la demande du marché."
+      },
+      {
+        "question": "Puis-je quitter la communauté à tout moment ?",
+        "answer": "Oui. Vous pouvez demander la suppression de votre compte ou vous désabonner des communications à tout moment."
       }
     ]
   },
   "cta": {
-    "titleLine1": "Commencez à gagner dès aujourd'hui.",
-    "titleLine2": "C'est totalement gratuit.",
-    "subtitle": "Rejoignez plus de 1,9 M de membres qui transforment leurs opinions en argent réel. Sans frais, sans piège.",
+    "titleLine1": "Rejoignez une",
+    "titleLine2": "communauté de recherche de confiance.",
+    "subtitle": "Rejoignez des milliers de professionnels qui partagent de précieuses idées grâce à des opportunités de recherche B2B exclusives. Sans frais, sans piège.",
     "primary": "Inscription gratuite",
     "secondary": "Comment ça marche",
     "assurances": {
-      "noCard": "Sans carte bancaire",
-      "cashOut": "Retrait dès 5 $",
-      "rated": "Noté 4,6★"
+      "noCard": " Gratuit pour s'inscrire",
+      "cashOut": " Sécurisé et confidentiel",
+      "rated": "Récompenses flexibles"
     }
   }
 }

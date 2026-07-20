@@ -1,54 +1,54 @@
 {
   "meta": {
-    "title": "Nous contacter — Assistance et aide | B2B Insight Panel",
-    "description": "Contactez l'assistance InsightPanel pour toute question de compte, de paiement ou de partenariat de marque. Nous répondons sous un jour ouvré.",
+    "title": "Contactez-nous — Support & Aide | B2B Insight Panel",
+    "description": "Contactez le support d'InsightPanel pour toute question concernant votre compte, vos paiements ou nos partenariats. Nous répondons sous un jour ouvré.",
     "keywords": [
-      "contacter insight panel",
-      "assistance sondages",
-      "demande de marque"
+      "contact insight panel",
+      "support sondage",
+      "demande partenariat"
     ],
-    "ogAlt": "Contactez l'équipe InsightPanel"
+    "ogAlt": "Contacter l'équipe d'InsightPanel"
   },
   "hero": {
     "eyebrow": "Contact",
-    "title": "Parlons-en"
+    "title": "Discutons ensemble"
   },
   "cards": {
     "email": {
-      "title": "Assistance par e-mail",
+      "title": "Support par e-mail",
       "value": "support@b2b2insightpanel.com"
     },
     "chat": {
       "title": "Chat en direct",
-      "value": "Dans l'app, de 9h à 21h tous les jours"
+      "value": "Dans l'application, tous les jours de 9h à 21h"
     },
     "brands": {
-      "title": "Pour les marques et équipes de recherche",
-      "text": "Vous souhaitez mener une étude sur notre panel ?",
-      "link": "Voir la collaboration"
+      "title": "Pour les marques & équipes de recherche",
+      "text": "Vous souhaitez lancer une étude sur notre panel ?",
+      "link": "Voir les collaborations"
     }
   },
   "form": {
     "label": "Envoyez-nous un message",
-    "reassure": "Moins d'une minute — nous répondons sous 24 h.",
+    "reassure": "Nous répondons généralement sous 24 heures ouvrées.",
     "nameLabel": "Nom",
     "namePlaceholder": "Votre nom",
     "emailLabel": "E-mail",
     "emailPlaceholder": "vous@email.com",
     "topicLabel": "Sujet",
     "topics": [
-      "Compte et gains",
-      "Paiements",
-      "Signaler un bug",
-      "Demande de marque / recherche",
+      "Support de compte",
+      "Récompenses & Paiements",
+      "Participation aux études",
+      "Problème technique",
       "Autre"
     ],
     "messageLabel": "Message",
-    "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "messagePlaceholder": "Veuillez fournir des détails sur votre question ou votre demande.",
     "submit": "Envoyer le message",
-    "submitting": "Envoi…",
-    "errorMessage": "Une erreur s'est produite. Veuillez réessayer.",
+    "submitting": "Envoi en cours…",
+    "errorMessage": "Une erreur est survenue. Veuillez réessayer.",
     "submitted": "Envoyé",
-    "sentMessage": "Message reçu — nous répondrons sous 24 heures."
+    "sentMessage": "Message reçu — nous vous répondrons sous 24 heures."
   }
 }

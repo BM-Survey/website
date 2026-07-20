@@ -1,6 +1,6 @@
 {
-  "badge": "Mentions légales · Dernière mise à jour juillet 2026",
-  "contactPageLabel": "page Contact",
+  "badge": "Juridique · Dernière mise à jour juillet 2026",
+  "contactPageLabel": "Page de contact",
   "nav": {
     "privacy": "Politique de confidentialité",
     "cookie": "Politique relative aux cookies",
@@ -11,190 +11,120 @@
     "title": "Politique de confidentialité",
     "meta": {
       "title": "Politique de confidentialité | B2B Insight Panel",
-      "description": "Comment InsightPanel collecte, utilise et protège vos données personnelles.",
-      "ogAlt": "Politique de confidentialité InsightPanel"
+      "description": "Comment B2B Insight Panel collecte, utilise et protège vos données personnelles.",
+      "ogAlt": "Politique de confidentialité de B2B Insight Panel"
     },
-    "intro": "InsightPanel (« nous », « notre », « nos ») exploite un panel d'insights B2B mettant en relation des répondants à des sondages avec des marques de recherche. Cette politique de confidentialité explique quelles données nous collectons, comment nous les utilisons, et les choix qui s'offrent à vous.",
+    "intro": "B2B Insight Panel (« nous », « notre » ou « nos »), propulsé par Beacon Martech, gère une communauté mondiale de professionnels et de décideurs participant à des activités de recherche, notamment des enquêtes, entretiens, groupes de discussion et autres initiatives d'études de marché. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations.",
     "sections": [
-      {
-        "heading": "1. Informations que nous collectons",
-        "paragraphs": ["Nous collectons les informations que vous fournissez directement (nom, e-mail, réponses au profil démographique) ainsi que les informations générées par votre utilisation du service (réponses aux sondages, données de l'appareil, adresse IP et données d'analyse d'utilisation)."]
-      },
-      {
-        "heading": "2. Comment nous utilisons vos informations",
-        "paragraphs": [],
-        "list": [
-          "Pour vous associer à des sondages pertinents auxquels vous êtes éligible",
-          "Pour calculer et traiter vos récompenses et paiements",
-          "Pour détecter la fraude et protéger l'intégrité du panel",
-          "Pour améliorer nos algorithmes de correspondance et l'expérience produit"
-        ]
-      },
-      {
-        "heading": "3. Comment nous partageons les informations",
-        "paragraphs": ["Les réponses aux sondages sont partagées avec les partenaires de recherche uniquement sous forme agrégée et anonymisée. Nous ne vendons jamais vos données personnelles, et nous ne partageons jamais votre nom, votre e-mail ou vos informations d'identification avec les commanditaires de sondages sans votre consentement explicite."]
-      },
-      {
-        "heading": "4. Conservation des données",
-        "paragraphs": ["Nous conservons les données de compte et de réponses aussi longtemps que votre compte est actif, ou selon les besoins pour respecter nos obligations légales. Vous pouvez demander leur suppression à tout moment via les paramètres du compte ou en contactant le support."]
-      },
-      {
-        "heading": "5. Vos droits",
-        "paragraphs": ["Selon votre juridiction, vous pouvez avoir le droit d'accéder à vos données personnelles, de les corriger, de les exporter ou de les supprimer, et de vous opposer à certains traitements. Nous sommes entièrement conformes au RGPD et au CCPA."]
-      },
-      {
-        "heading": "6. Sécurité",
-        "paragraphs": ["Nous utilisons un chiffrement de niveau bancaire conforme aux normes du secteur, en transit comme au repos, ainsi que des audits de sécurité réguliers, pour protéger vos informations."]
-      },
-      {
-        "heading": "7. Nous contacter",
-        "paragraphs": ["Des questions sur cette politique ? Contactez-nous à support@b2b2insightpanel.com ou via notre"],
-        "contactLink": true
-      }
+      { "heading": "2. Informations que nous collectons", "paragraphs": [
+        "Informations personnelles : nom, adresse e-mail, pays et région, informations professionnelles (intitulé du poste, secteur d'activité, taille de l'entreprise, ancienneté), domaines d'expertise, et informations de paiement nécessaires aux honoraires.",
+        "Informations de recherche : réponses aux enquêtes, historique de participation, informations de profil, et réponses de qualification aux études.",
+        "Informations techniques : adresse IP, identifiants de l'appareil, informations sur le navigateur, système d'exploitation, analyses d'utilisation, et informations sur les cookies."
+      ]},
+      { "heading": "3. Comment nous utilisons vos informations", "paragraphs": [], "list": [
+        "Mettre en relation les participants avec des opportunités de recherche pertinentes",
+        "Traiter les récompenses de participation et les honoraires",
+        "Vérifier l'éligibilité et prévenir la fraude",
+        "Améliorer notre plateforme et l'expérience des répondants",
+        "Communiquer les invitations aux études et les mises à jour de compte",
+        "Partager du contenu sectoriel pertinent, des opportunités de recherche et des solutions liées aux défis et intérêts identifiés dans votre profil, sous réserve de votre consentement",
+        "Se conformer aux obligations légales"
+      ]},
+      { "heading": "4. Comment nous partageons les informations", "paragraphs": ["Nous ne vendons ni ne louons d'informations personnelles. Votre nom, adresse e-mail ou toute information identifiable ne seront pas partagés avec des clients de recherche sans votre consentement explicite."], "list": [
+        "Clients de recherche, sous forme agrégée et anonymisée",
+        "Prestataires de services soutenant l'exploitation de la plateforme",
+        "Processeurs de paiement",
+        "Autorités légales lorsque la loi l'exige"
+      ]},
+      { "heading": "5. Transferts internationaux de données", "paragraphs": ["En tant que plateforme mondiale, vos informations peuvent être traitées dans des pays situés en dehors de votre pays de résidence. Nous mettons en œuvre des garanties appropriées pour protéger vos informations."] },
+      { "heading": "6. Conservation des données", "paragraphs": ["Nous conservons les informations tant que votre compte reste actif et dans la mesure nécessaire pour :"], "list": [
+        "Les obligations légales", "La prévention de la fraude", "La résolution des litiges", "L'exécution des contrats"
+      ]},
+      { "heading": "7. Vos droits", "paragraphs": ["Selon les lois applicables, vous pouvez avoir le droit de :"], "list": [
+        "Accéder à vos informations", "Corriger les informations inexactes", "Demander la suppression", "Restreindre le traitement", "Retirer votre consentement", "Vous opposer à certaines communications", "Demander la portabilité des données"
+      ]},
+      { "heading": "8. Sécurité", "paragraphs": ["Nous mettons en œuvre des mesures techniques et organisationnelles raisonnables pour protéger vos informations, y compris le chiffrement, les contrôles d'accès et la surveillance de la sécurité."] },
+      { "heading": "9. Confidentialité des mineurs", "paragraphs": ["Nos services sont destinés uniquement aux personnes âgées de 18 ans ou plus."] },
+      { "heading": "10. Nous contacter", "paragraphs": ["Des questions sur cette politique ? Contactez-nous à support@b2binsightpanel.com ou via notre"], "contactLink": true }
     ]
   },
   "cookie": {
     "title": "Politique relative aux cookies",
     "meta": {
       "title": "Politique relative aux cookies | B2B Insight Panel",
-      "description": "Comment InsightPanel utilise les cookies et technologies similaires.",
-      "ogAlt": "Politique relative aux cookies InsightPanel"
+      "description": "Comment B2B Insight Panel utilise les cookies et technologies similaires.",
+      "ogAlt": "Politique relative aux cookies de B2B Insight Panel"
     },
-    "intro": "Cette politique relative aux cookies explique comment InsightPanel utilise des cookies et technologies similaires lorsque vous visitez notre site web ou utilisez notre application.",
+    "intro": "Les cookies sont de petits fichiers texte stockés sur votre appareil qui contribuent à améliorer le fonctionnement du site et l'expérience utilisateur. Cette politique relative aux cookies explique comment B2B Insight Panel utilise les cookies et technologies similaires lorsque vous visitez notre site web ou utilisez notre application.",
     "sections": [
-      {
-        "heading": "1. Que sont les cookies",
-        "paragraphs": ["Les cookies sont de petits fichiers texte placés sur votre appareil qui nous aident à vous reconnaître, à mémoriser vos préférences et à comprendre comment vous utilisez notre service."]
-      },
-      {
-        "heading": "2. Types de cookies que nous utilisons",
-        "paragraphs": [],
-        "table": {
-          "headers": ["Catégorie", "Objectif", "Durée"],
-          "rows": [
-            ["Essentiels", "Sessions de connexion, sécurité, équilibrage de charge", "Session"],
-            ["Préférences", "Mémoriser la langue, la devise et les paramètres d'affichage", "1 an"],
-            ["Analytiques", "Comprendre les habitudes d'utilisation pour améliorer le produit", "1 an"],
-            ["Prévention de la fraude", "Détecter les comptes en double et les activités suspectes", "2 ans"]
-          ]
-        }
-      },
-      {
-        "heading": "3. Gérer vos préférences",
-        "paragraphs": ["Vous pouvez gérer les cookies non essentiels à tout moment via notre bandeau de cookies ou les paramètres de votre navigateur. Désactiver les cookies essentiels peut empêcher certaines fonctionnalités clés (comme rester connecté) de fonctionner correctement."]
-      },
-      {
-        "heading": "4. Cookies tiers",
-        "paragraphs": ["Certains partenaires d'analyse et de prévention de la fraude peuvent déposer leurs propres cookies en notre nom. Nous ne travaillons qu'avec des partenaires liés par des accords stricts de protection des données."]
-      },
-      {
-        "heading": "5. Modifications de cette politique",
-        "paragraphs": ["Nous mettrons à jour cette page chaque fois que nos pratiques en matière de cookies changeront de manière significative, et indiquerons la date en haut de page."]
-      },
-      {
-        "heading": "6. Nous contacter",
-        "paragraphs": ["Des questions ? Contactez-nous à support@b2b2insightpanel.com ou via notre"],
-        "contactLink": true
-      }
+      { "heading": "1. Qu'est-ce qu'un cookie", "paragraphs": ["Les cookies sont de petits fichiers texte stockés sur votre appareil qui contribuent à améliorer le fonctionnement du site et l'expérience utilisateur."] },
+      { "heading": "2. Types de cookies que nous utilisons", "paragraphs": [], "table": {
+        "headers": ["Catégorie", "Objectif"],
+        "rows": [
+          ["Essentiels", "Nécessaires à la connexion au compte et au fonctionnement de la plateforme"],
+          ["Analytiques", "Nous aident à comprendre l'utilisation de la plateforme et à améliorer nos services"],
+          ["Préférences", "Mémorisent vos paramètres et préférences"],
+          ["Marketing", "Utilisés, lorsque le consentement est donné, pour fournir des communications et du contenu pertinents"]
+        ]
+      }},
+      { "heading": "3. Gestion des cookies", "paragraphs": ["Vous pouvez désactiver les cookies via les paramètres de votre navigateur. Certaines fonctionnalités peuvent ne pas fonctionner correctement sans cookies."] },
+      { "heading": "4. Nous contacter", "paragraphs": ["Des questions ? Contactez-nous à support@b2binsightpanel.com ou via notre"], "contactLink": true }
     ]
   },
   "eula": {
     "title": "Contrat de licence utilisateur final",
     "meta": {
       "title": "CLUF — Contrat de licence utilisateur final | B2B Insight Panel",
-      "description": "Les conditions de licence régissant votre utilisation de l'application et du site web InsightPanel.",
-      "ogAlt": "Contrat de licence utilisateur final InsightPanel"
+      "description": "Les conditions de licence régissant votre utilisation de l'application et du site web B2B Insight Panel.",
+      "ogAlt": "Contrat de licence utilisateur final de B2B Insight Panel"
     },
-    "intro": "Ce contrat de licence utilisateur final (le « CLUF ») régit votre utilisation de l'application mobile et du site web InsightPanel (l'« Application »). En installant ou en utilisant l'Application, vous acceptez d'être lié par ce CLUF.",
+    "intro": "Ce contrat de licence utilisateur final (« CLUF ») régit votre utilisation de l'application mobile et du site web B2B Insight Panel (l'« Application »). En installant ou en utilisant l'Application, vous acceptez d'être lié par ce CLUF.",
     "sections": [
-      {
-        "heading": "1. Octroi de licence",
-        "paragraphs": ["Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour installer et utiliser l'Application sur vos appareils personnels, uniquement dans le but de participer à des sondages et de gérer votre compte."]
-      },
-      {
-        "heading": "2. Restrictions",
-        "paragraphs": [],
-        "list": [
-          "Vous ne pouvez pas procéder à l'ingénierie inverse, décompiler ou désassembler l'Application",
-          "Vous ne pouvez pas utiliser de robots, scripts ou automatisations pour répondre aux sondages",
-          "Vous ne pouvez pas créer plusieurs comptes pour accumuler des récompenses de manière abusive",
-          "Vous ne pouvez pas revendre, sous-licencier ou transférer votre compte"
-        ]
-      },
-      {
-        "heading": "3. Propriété",
-        "paragraphs": ["L'Application, y compris l'ensemble du code, du design et des marques, demeure la propriété exclusive d'InsightPanel. Ce CLUF ne vous transfère aucun droit de propriété."]
-      },
-      {
-        "heading": "4. Mises à jour",
-        "paragraphs": ["Nous pouvons publier périodiquement des mises à jour de l'Application. La poursuite de l'utilisation après une mise à jour constitue une acceptation de tout changement de fonctionnalité."]
-      },
-      {
-        "heading": "5. Résiliation",
-        "paragraphs": ["Nous pouvons suspendre ou résilier votre licence immédiatement en cas de violation de ce CLUF, y compris en cas d'activité frauduleuse liée aux sondages ou de comptes en double. Tout solde impayé obtenu par fraude sera confisqué."]
-      },
-      {
-        "heading": "6. Avertissement et responsabilité",
-        "paragraphs": ["L'Application est fournie « telle quelle », sans garantie d'aucune sorte. Dans la limite maximale permise par la loi, InsightPanel ne peut être tenu responsable des dommages indirects ou consécutifs découlant de votre utilisation de l'Application."]
-      },
-      {
-        "heading": "7. Nous contacter",
-        "paragraphs": ["Des questions sur ce contrat ? Contactez-nous via notre"],
-        "contactLink": true
-      }
+      { "heading": "1. Octroi de licence", "paragraphs": ["B2B Insight Panel vous accorde une licence limitée, non exclusive et non transférable pour accéder à notre site web et à nos applications mobiles et les utiliser."] },
+      { "heading": "2. Restrictions", "paragraphs": [], "list": [
+        "Effectuer une ingénierie inverse du logiciel", "Copier, modifier ou distribuer des composants de la plateforme", "Utiliser des robots ou des systèmes automatisés", "Interférer avec la sécurité de la plateforme"
+      ]},
+      { "heading": "3. Contenu de l'utilisateur", "paragraphs": ["Les réponses aux enquêtes et les informations de profil restent soumises à notre politique de confidentialité."] },
+      { "heading": "4. Mises à jour", "paragraphs": ["Nous pouvons fournir des mises à jour et des modifications logicielles à notre discrétion."] },
+      { "heading": "5. Suspension de compte", "paragraphs": ["Nous pouvons suspendre l'accès pour :"], "list": [
+        "Activités frauduleuses", "Fausses déclarations", "Abus des services de la plateforme", "Violations des lois applicables"
+      ]},
+      { "heading": "6. Propriété intellectuelle", "paragraphs": ["Tous les logiciels, marques, logos et contenus sont la propriété de B2B Insight Panel et/ou de Beacon Martech."] },
+      { "heading": "7. Avertissement", "paragraphs": ["La plateforme est fournie « en l'état » et « selon disponibilité »."] },
+      { "heading": "8. Limitation de responsabilité", "paragraphs": ["Dans la mesure permise par la loi, B2B Insight Panel ne pourra être tenu responsable des dommages indirects, accessoires ou consécutifs découlant de l'utilisation de la plateforme."] },
+      { "heading": "9. Droit applicable", "paragraphs": ["Ces conditions sont régies par les lois de l'Inde, sauf disposition contraire requise par la réglementation locale applicable."] },
+      { "heading": "10. Nous contacter", "paragraphs": ["Des questions sur ce contrat ? Contactez-nous via notre"], "contactLink": true }
     ]
   },
   "terms": {
     "title": "Conditions générales",
     "meta": {
       "title": "Conditions générales | B2B Insight Panel",
-      "description": "Les conditions régissant votre accès et votre utilisation d'InsightPanel.",
-      "ogAlt": "Conditions générales InsightPanel"
+      "description": "Les conditions régissant votre accès à B2B Insight Panel et votre utilisation de celui-ci.",
+      "ogAlt": "Conditions générales de B2B Insight Panel"
     },
-    "intro": "Ces conditions générales (les « Conditions ») régissent votre accès et votre utilisation d'InsightPanel. En créant un compte, vous acceptez ces Conditions dans leur intégralité.",
+    "intro": "En accédant à B2B Insight Panel ou en l'utilisant, vous acceptez ces Conditions.",
     "sections": [
-      {
-        "heading": "1. Éligibilité",
-        "paragraphs": ["Vous devez avoir au moins 18 ans (ou l'âge de la majorité dans votre juridiction) et être capable de conclure un contrat contraignant pour utiliser InsightPanel. Un seul compte par personne est autorisé."]
-      },
-      {
-        "heading": "2. Compte et conduite",
-        "paragraphs": [],
-        "list": [
-          "Vous êtes responsable de la sécurité de vos identifiants de connexion",
-          "Vous devez fournir des informations de profil exactes pour la mise en correspondance des sondages",
-          "Les réponses frauduleuses, les robots ou les comptes en double entraîneront une suspension"
-        ]
-      },
-      {
-        "heading": "3. Récompenses et paiements",
-        "paragraphs": ["Les récompenses sont créditées sur votre solde après achèvement réussi d'un sondage, vérifié par nos contrôles qualité. Les soldes peuvent être retirés dès que vous atteignez le seuil minimum de 5 $, vers PayPal, un virement bancaire ou des cartes cadeaux prises en charge, sans frais."]
-      },
-      {
-        "heading": "4. L'adhésion est gratuite",
-        "paragraphs": ["Créer et maintenir un compte InsightPanel est toujours gratuit. Nous ne facturons jamais de frais d'abonnement ou d'adhésion, et nous ne prélevons jamais de commission sur vos récompenses."]
-      },
-      {
-        "heading": "5. Participation aux sondages",
-        "paragraphs": ["Les sondages sont fournis par des marques de recherche tierces via notre plateforme. Nous faisons de notre mieux pour garantir des estimations précises de récompense et de durée, mais l'éligibilité exacte est déterminée par la logique de sélection de chaque sondage."]
-      },
-      {
-        "heading": "6. Résiliation",
-        "paragraphs": ["Nous pouvons suspendre ou fermer les comptes qui enfreignent ces Conditions, y compris en cas de fraude, d'abus ou de comptes multiples. Vous pouvez fermer votre compte à tout moment depuis les paramètres du compte."]
-      },
-      {
-        "heading": "7. Limitation de responsabilité",
-        "paragraphs": ["InsightPanel est fourni « tel quel ». Nous ne pouvons être tenus responsables des dommages indirects, accessoires ou consécutifs découlant de votre utilisation du service, dans la limite maximale permise par la loi."]
-      },
-      {
-        "heading": "8. Modifications de ces conditions",
-        "paragraphs": ["Nous pouvons mettre à jour ces Conditions de temps à autre. Les changements importants seront communiqués par e-mail ou par notification dans l'application avant leur entrée en vigueur."]
-      },
-      {
-        "heading": "9. Nous contacter",
-        "paragraphs": ["Des questions sur ces Conditions ? Contactez-nous via notre"],
-        "contactLink": true
-      }
+      { "heading": "1. Éligibilité", "paragraphs": ["Vous devez :"], "list": [
+        "Avoir au moins 18 ans", "Fournir des informations exactes", "Ne maintenir qu'un seul compte, sauf approbation contraire"
+      ]},
+      { "heading": "2. Consentement du participant", "paragraphs": ["En créant un compte et en complétant votre profil, vous consentez à :"], "list": [
+        "La participation à des activités de recherche", "La réception d'invitations à des études pertinentes", "La réception de communications relatives aux études, aux perspectives sectorielles et aux solutions pouvant être pertinentes pour les défis et intérêts professionnels identifiés dans votre profil", "Le traitement de vos informations tel que décrit dans notre politique de confidentialité"
+      ]},
+      { "heading": "3. Participation à la recherche", "paragraphs": ["Les opportunités de participation ne sont pas garanties. L'éligibilité peut varier selon les exigences de l'étude. Fournir de fausses informations peut entraîner la suspension du compte. Vous pouvez retirer votre consentement à tout moment en mettant à jour vos préférences de communication ou en contactant le support."] },
+      { "heading": "4. Récompenses et honoraires", "paragraphs": ["Les honoraires varient selon l'étude. Les récompenses peuvent être retenues en cas de :"], "list": [
+        "Participation frauduleuse", "Comptes en double", "Fausses informations", "Méthodes de participation automatisées"
+      ]},
+      { "heading": "5. Prévention de la fraude", "paragraphs": ["Les utilisateurs ne doivent pas :"], "list": [
+        "Utiliser des VPN, des proxys, des robots ou des outils d'automatisation", "Créer plusieurs comptes", "Fausser des informations professionnelles"
+      ]},
+      { "heading": "6. Communications", "paragraphs": ["Vous acceptez que nous puissions envoyer :"], "list": [
+        "Des invitations aux études", "Des mises à jour de la plateforme", "Des notifications d'honoraires", "Du contenu sectoriel pertinent et des solutions professionnelles liées aux sujets et défis identifiés dans votre profil, lorsque le consentement a été donné"
+      ]},
+      { "heading": "7. Propriété intellectuelle", "paragraphs": ["Tout le contenu de la plateforme, les logiciels, les logos et les documents demeurent la propriété de B2B Insight Panel et de Beacon Martech."] },
+      { "heading": "8. Limitation de responsabilité", "paragraphs": ["Nous déployons des efforts raisonnables pour maintenir la disponibilité du service, mais ne garantissons pas un accès ininterrompu."] },
+      { "heading": "9. Résiliation", "paragraphs": ["Nous nous réservons le droit de suspendre ou de résilier des comptes en cas de violation de ces Conditions."] },
+      { "heading": "10. Nous contacter", "paragraphs": ["Des questions sur ces Conditions ? Contactez-nous via notre"], "contactLink": true }
     ]
   }
 }

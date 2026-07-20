@@ -4,66 +4,66 @@
     "name": "Insight Panel"
   },
   "nav": {
-    "howItWorks": "كيف يعمل",
+    "howItWorks": "آلية العمل",
     "rewards": "المكافآت",
     "about": "من نحن",
     "faq": "الأسئلة الشائعة",
-    "contact": "تواصل معنا",
+    "contact": "اتصل بنا",
     "collaboration": "للمؤسسات",
     "blog": "المدونة"
   },
   "actions": {
     "login": "تسجيل الدخول",
-    "signupFree": "سجّل مجانًا",
-    "earnMoney": "اربح المال الآن",
-    "seeHowItWorks": "شاهد كيف يعمل",
-    "startNow": "ابدأ الآن",
-    "cashOut": "اسحب أموالك"
+    "signupFree": "انضم إلى مجتمعنا",
+    "earnMoney": "ابدأ بمشاركة الرؤى",
+    "seeHowItWorks": "اكتشف كيف يعمل",
+    "startNow": "سجّل مجاناً",
+    "cashOut": "سحب الأرباح"
   },
   "language": {
     "label": "اللغة",
     "select": "اختر اللغة"
   },
   "a11y": {
-    "openMenu": "افتح القائمة",
-    "closeMenu": "أغلق القائمة",
-    "primaryNavigation": "الرئيسية",
-    "footerNavigation": "التذييل",
-    "skipToContent": "تخطَّ إلى المحتوى"
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "primaryNavigation": "التصفح الرئيسي",
+    "footerNavigation": "تصفح أسفل الصفحة",
+    "skipToContent": "الانتقال إلى المحتوى الأساسي"
   },
   "footer": {
-    "tagline": "لوحة رؤى B2B التي تدفع لك أموالًا حقيقية مقابل الآراء التي تحتاجها العلامات التجارية فعلًا.",
+    "tagline": "مجتمع عالمي من مهنيي الأعمال وصناع القرار المشاركين في فرص بحثية حصرية.",
     "product": {
       "title": "المنتج",
       "home": "الرئيسية",
-      "howItWorks": "كيف يعمل",
+      "howItWorks": "آلية العمل",
       "faq": "الأسئلة الشائعة",
       "blog": "المدونة",
-      "contact": "تواصل معنا",
+      "contact": "اتصل بنا",
       "collaboration": "للمؤسسات"
     },
     "legal": {
-      "title": "قانوني",
+      "title": "الشؤون القانونية",
       "privacy": "سياسة الخصوصية",
       "cookie": "سياسة ملفات تعريف الارتباط",
-      "eula": "اتفاقية الترخيص",
+      "eula": "اتفاقية ترخيص المستخدم النهائي (EULA)",
       "terms": "الشروط والأحكام"
     },
     "app": {
-      "title": "احصل على التطبيق",
-      "downloadOn": "حمّله من",
+      "title": "حمّل التطبيق",
+      "downloadOn": "تنزيل من",
       "appStore": "App Store",
-      "getItOn": "احصل عليه من",
+      "getItOn": "الحصول عليه من",
       "googlePlay": "Google Play"
     },
-    "copyright": "© {year} InsightPanel — B2B Insight Panel. جميع الحقوق محفوظة.",
+    "copyright": "© {year} B2B Insight Panel. بدعم من Beacon Martech. جميع الحقوق محفوظة.",
     "bottom": {
       "privacy": "الخصوصية",
-      "cookies": "ملفات الارتباط",
+      "cookies": "ملفات تعريف الارتباط",
       "terms": "الشروط"
     },
     "social": {
-      "x": "إكس (تويتر)",
+      "x": "X (تويتر)",
       "instagram": "إنستغرام",
       "linkedin": "لينكد إن"
     }

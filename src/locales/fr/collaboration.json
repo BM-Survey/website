@@ -1,112 +1,171 @@
 {
   "meta": {
-    "title": "Pour les organisations — Lancez vos enquêtes sur InsightPanel | B2B Insight Panel",
-    "description": "Confiez vos enquêtes à InsightPanel : lancement en quelques minutes, professionnels vérifiés ciblés par département, résultats en temps réel et récompenses gérées automatiquement.",
-    "keywords": ["plateforme de gestion d'enquêtes", "enquêtes pour entreprises", "panel d'enquêtes B2B", "études de marché pour organisations"],
-    "ogAlt": "Pourquoi les organisations mènent leurs enquêtes sur InsightPanel"
+    "title": "Pour les Organisations — Lancez Vos Sondages sur InsightPanel | Panel d'Enquêtes B2B",
+    "description": "Appliquez vos sondages sur InsightPanel : lancez-les en quelques minutes, ciblez des professionnels vérifiés par département, suivez les résultats en temps réel et automatisez la distribution des récompenses.",
+    "keywords": [
+      "plateforme de gestion de sondages",
+      "réaliser des sondages professionnels",
+      "panel d'enquêtes B2B",
+      "étude de marché pour entreprises"
+    ],
+    "ogAlt": "Pourquoi les organisations choisissent InsightPanel pour leurs sondages"
   },
   "hero": {
-    "eyebrow": "Pour les organisations",
-    "titleLead": "Vos questions, les réponses de",
-    "titleHighlight": "vrais professionnels",
-    "subtitle": "InsightPanel est la plateforme de gestion d'enquêtes où les organisations lancent leurs études, ciblent des professionnels vérifiés par département et voient arriver des données propres en temps réel — récompenses et paiements inclus."
+    "eyebrow": "Pour les Organisations",
+    "titleLead": "Connectez-vous avec des professionnels vérifiés et ",
+    "titleHighlight": "transformez l'expertise en insights exploitables",
+    "subtitle": "Accédez à des réponses de haute qualité provenant de professionnels de tous secteurs. Lancez vos études, atteignez votre public cible et exploitez des données concrètes pour prendre des décisions stratégiques."
   },
   "whyWorkWithUs": {
     "eyebrow": "Pourquoi les organisations travaillent avec nous",
-    "title": "Un accompagnement de bout en bout",
-    "subtitle": "De la mise en place du projet au rapport final, notre équipe gère l'ensemble du cycle de recherche.",
+    "title": "Un accompagnement de recherche de bout en bout",
+    "subtitle": "De la configuration du projet au rapport final, notre équipe gère l'intégralité du cycle de recherche.",
     "cards": [
       {
-        "title": "Répondants professionnels vérifiés",
-        "text": "Accédez à des décideurs et experts sectoriels."
+        "title": "Répondants Professionnels Vérifiés",
+        "text": "Accédez à des décideurs et à des experts de l'industrie."
       },
       {
-        "title": "Données de qualité garantie",
-        "text": "Plusieurs niveaux de validation assurent des résultats fiables."
+        "title": "Données de Qualité Garantie",
+        "text": "Plusieurs niveaux de validation garantissent des insights fiables."
       },
       {
-        "title": "Solutions de recherche flexibles",
-        "text": "Des études sur mesure conçues autour de vos objectifs."
+        "title": "Solutions de Recherche Flexibles",
+        "text": "Des études sur mesure conçues selon vos objectifs spécifiques."
       },
       {
-        "title": "Gestion de projet dédiée",
-        "text": "Une seule équipe vous accompagne tout au long du projet."
+        "title": "Gestion de Projet Dédiée",
+        "text": "Une équipe unique pour vous accompagner tout au long du projet."
       },
       {
-        "title": "Délais d'exécution rapides",
+        "title": "Délais d'Exécution Rapides",
         "text": "Une exécution efficace sans compromis sur la qualité."
       },
       {
-        "title": "Traitement sécurisé des données",
+        "title": "Traitement Sécurisé des Données",
         "text": "Confidentialité et sécurité des données à chaque étape."
       }
     ]
   },
   "story": {
     "eyebrow": "Votre parcours avec nous",
-    "title": "Cinq chapitres, de la question à l'insight",
-    "subtitle": "Voici ce que donne concrètement une étude menée sur InsightPanel — du premier contact jusqu'à l'arrivée des réponses.",
+    "title": "Des problématiques business aux insights exploitables",
+    "subtitle": "Nous intervenons à chaque étape du processus de recherche, de la définition des objectifs à l'identification des bons répondants, jusqu'à la livraison de rapports finaux directement exploitables.",
     "chapters": [
       {
         "number": "01",
-        "label": "Chapitre 01",
-        "title": "Tout commence par une question",
-        "text": "Votre équipe a besoin de vraies réponses, pas de suppositions. Vous nous contactez, nous intégrons votre organisation, et en quelques jours vous disposez de votre propre portail d'administration, prêt à l'emploi.",
+        "label": "Étape 01",
+        "title": "Compréhension de vos objectifs business",
+        "text": "Nous commençons par analyser votre produit, votre service, vos objectifs d'étude et vos enjeux commerciaux.",
         "points": [
-          "Tableau de bord d'administration dédié",
-          "Intégration accompagnée par notre équipe",
-          "Aucune intégration technique pour démarrer"
+          "Consultation de recherche",
+          "Alignement sur les objectifs business",
+          "Définition des indicateurs de réussite",
+          "Planification du public cible"
         ]
       },
       {
         "number": "02",
-        "label": "Chapitre 02",
-        "title": "Lancez une enquête en quelques minutes",
-        "text": "Donnez un titre à votre étude, ciblez les départements qui vous intéressent, définissez la récompense et le quota de réponses, puis publiez. Les brouillons restent modifiables jusqu'au lancement.",
+        "label": "Étape 02",
+        "title": "Définition de l'audience idéale",
+        "text": "Identification et création des profils de répondants basés sur le secteur, les intitulés de postes, le département, la zone géographique, la taille de l'entreprise et les habitudes d'utilisation des produits.",
         "points": [
-          "Ciblage par département professionnel",
-          "Vous fixez récompenses, quota et échéance",
-          "Brouillon modifiable, publication quand vous voulez"
+          "Profilage personnalisé des répondants",
+          "Critères de qualification de l'audience",
+          "Ciblage de professionnels vérifiés"
         ]
       },
       {
         "number": "03",
-        "label": "Chapitre 03",
-        "title": "Les bonnes personnes répondent",
-        "text": "Votre enquête n'apparaît qu'aux professionnels vérifiés des départements choisis. Des questions de sélection écartent les profils inadaptés, chaque répondant n'a qu'une seule tentative, et des contrôles anti-fraude tournent en continu.",
+        "label": "Étape 03",
+        "title": "Conception et programmation du sondage",
+        "text": "Notre équipe développe des questionnaires de filtrage (screeners) et des sondages alignés avec vos objectifs.",
         "points": [
-          "Répondants vérifiés et profilés",
-          "Une seule tentative par répondant",
-          "Détection VPN et anti-fraude intégrée"
+          "Développement des questionnaires de filtrage",
+          "Conception du questionnaire",
+          "Programmation du sondage",
+          "Configuration de la logique et du routage"
         ]
       },
       {
         "number": "04",
-        "label": "Chapitre 04",
-        "title": "Les insights arrivent en temps réel",
-        "text": "Suivez les réponses en direct sur votre tableau de bord : taux de complétion, géographie des répondants et classements. Une fois terminé, exportez tout en CSV.",
+        "label": "Étape 04",
+        "title": "Tests et assurance qualité",
+        "text": "Chaque étude fait l'objet de tests internes approfondis et d'une validation client avant son lancement.",
         "points": [
-          "Tableau de bord analytique en direct",
-          "Répartition par région et par département",
-          "Export CSV en un clic"
+          "Tests d'assurance qualité internes",
+          "Revue client et retours",
+          "Révisions et approbations",
+          "Vérifications finales avant lancement"
         ]
       },
       {
         "number": "05",
-        "label": "Chapitre 05",
-        "title": "Les récompenses se gèrent toutes seules",
-        "text": "Une rémunération juste, c'est la clé de données propres. Vous financez les récompenses depuis votre propre compte de paiement ; les répondants retirent à la demande et chaque paiement est tracé — zéro charge pour vous.",
+        "label": "Étape 05",
+        "title": "Pré-lancement et approche des répondants",
+        "text": "Les études sont d'abord lancées auprès d'un échantillon réduit pour valider les performances et la qualité des réponses.",
         "points": [
-          "Vous maîtrisez le budget",
-          "Répondants payés à la demande",
-          "Chaque transaction est tracée"
+          "Suivi du pré-lancement (soft launch)",
+          "Campagnes d'invitation par e-mail",
+          "Gestion du recrutement du panel",
+          "Validation des premières réponses"
+        ]
+      },
+      {
+        "number": "06",
+        "label": "Étape 06",
+        "title": "Lancement officiel et exécution",
+        "text": "Une fois validées, les études sont déployées à grande échelle.",
+        "points": [
+          "Suivi des réponses en temps réel",
+          "Gestion de l'échantillonnage",
+          "Optimisation continue",
+          "Gestion des quotas de complétion"
+        ]
+      },
+      {
+        "number": "07",
+        "label": "Étape 07",
+        "title": "Gestion de la qualité des données",
+        "text": "Chaque réponse est scrupuleusement vérifiée pour garantir la fiabilité des données.",
+        "points": [
+          "Détection des fraudes",
+          "Contrôle de la vitesse de réponse (speeding)",
+          "Validation de la cohérence logique",
+          "Suppression des réponses incomplètes",
+          "Détection des doublons"
+        ]
+      },
+      {
+        "number": "08",
+        "label": "Étape 08",
+        "title": "Traitement et analyse des données",
+        "text": "Les données collectées sont nettoyées et préparées pour l'analyse stratégique.",
+        "points": [
+          "Extraction des données",
+          "Analyse comparative (benchmarking)",
+          "Identification des tendances",
+          "Génération d'insights"
+        ]
+      },
+      {
+        "number": "09",
+        "label": "Étape 09",
+        "title": "Restitution et rapports",
+        "text": "Recevez des insights clairs et exploitables pour guider vos décisions stratégiques.",
+        "points": [
+          "Jeux de données nettoyés",
+          "Synthèses exécutives",
+          "Graphiques et visualisations",
+          "Recommandations stratégiques",
+          "Livrables et rapports finaux"
         ]
       }
     ]
   },
   "cta": {
-    "title": "Confiez vos enquêtes à InsightPanel",
-    "subtitle": "Dites-nous ce que vous voulez apprendre — notre équipe répond sous un jour ouvré.",
-    "button": "Parler à notre équipe"
+    "title": "Prêt à lancer votre prochain projet de recherche ?",
+    "subtitle": "Collaborez avec B2B Insight Panel pour entrer en contact avec des professionnels vérifiés et générer des insights de haute qualité.",
+    "button": "Contacter Notre Équipe →"
   }
 }

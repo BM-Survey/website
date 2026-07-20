@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "FAQ — Foire aux questions | B2B Insight Panel",
-    "description": "Réponses sur votre compte, vos gains, vos paiements et la confidentialité sur InsightPanel — le panel d'insights B2B qui paie de l'argent réel pour de vraies opinions.",
-    "keywords": ["FAQ sondages", "questions sur les sondages rémunérés", "questions sur les paiements", "panel d'insights B2B"],
-    "ogAlt": "Foire aux questions sur InsightPanel"
+    "title": "FAQ — Foire Aux Questions | B2B Insight Panel",
+    "description": "Des réponses concernant votre compte, vos gains, vos paiements et votre confidentialité sur InsightPanel — le panel d'études B2B qui rémunère de vraies opinions avec de l'argent réel.",
+    "keywords": ["FAQ sondages", "questions sondages rémunérés", "questions paiements", "panel d'études B2B"],
+    "ogAlt": "Foire aux questions concernant InsightPanel"
   },
   "hero": {
     "eyebrow": "FAQ",
     "titleLead": "Des questions ?",
-    "titleHighlight": "Réponses.",
+    "titleHighlight": "Voici les réponses.",
     "subtitleText": "Toujours bloqué ?",
-    "subtitleLink": "Contactez notre équipe d'assistance"
+    "subtitleLink": "Contactez notre équipe de support"
   },
   "categories": [
     { "key": "all", "label": "Tout" },
@@ -20,20 +20,26 @@
     { "key": "privacy", "label": "Confidentialité" }
   ],
   "items": [
-    { "cat": "account", "question": "Est-ce vraiment gratuit de s'inscrire ?", "answer": "Oui — 100 % gratuit, pour toujours. Aucuns frais d'inscription, aucun abonnement et aucuns frais de retrait. Vous gardez chaque centime gagné." },
-    { "cat": "account", "question": "Dois-je vérifier mon identité ?", "answer": "Un e-mail vérifié est requis pour s'inscrire. Pour les paiements supérieurs à 50 $, nous pouvons demander une vérification de base afin de prévenir la fraude et de protéger votre solde." },
-    { "cat": "account", "question": "Puis-je utiliser InsightPanel sur plusieurs appareils ?", "answer": "Oui — votre compte et votre solde se synchronisent entre le web et le mobile. Un seul compte par personne, s'il vous plaît ; les comptes en double sont suspendus." },
-    { "cat": "earning", "question": "Combien puis-je gagner ?", "answer": "La plupart des membres gagnent entre 30 $ et 150 $ par mois en répondant à des sondages pendant leur temps libre. Plus votre profil est complet, plus vous avez de correspondances." },
-    { "cat": "earning", "question": "Combien de temps durent les sondages ?", "answer": "La plupart durent moins de cinq minutes. Chaque sondage affiche la récompense exacte et la durée estimée avant que vous ne commenciez." },
-    { "cat": "earning", "question": "Que se passe-t-il si je ne suis pas éligible à un sondage ?", "answer": "Vous le saurez généralement dès les premières questions — nous le concevons pour que vous soyez rapidement exclu et associé à des études mieux adaptées." },
-    { "cat": "payouts", "question": "Comment suis-je payé ?", "answer": "Retirez sur PayPal, par virement bancaire ou via plus de 100 cartes cadeaux dès que vous atteignez un solde de 5 $. La plupart des paiements arrivent en quelques minutes." },
-    { "cat": "payouts", "question": "Y a-t-il des frais de retrait ?", "answer": "Aucun. Quel que soit le solde que vous retirez, c'est le montant que vous recevez, en totalité." },
-    { "cat": "privacy", "question": "Mes données sont-elles en sécurité ?", "answer": "Absolument. Vos réponses sont anonymisées et jamais vendues à des tiers. Nous utilisons un chiffrement de niveau bancaire, sommes entièrement conformes au RGPD, et vous pouvez supprimer vos données à tout moment." },
-    { "cat": "privacy", "question": "Qui voit mes réponses aux sondages ?", "answer": "Seuls des résultats agrégés et anonymisés sont partagés avec les marques de recherche — jamais votre nom, votre e-mail ou vos informations d'identification." }
+    { "cat": "account", "question": "L'inscription est-elle gratuite ?", "answer": "Oui. Rejoindre B2B Insight Panel est entièrement gratuit. Il n'y a pas de frais d'inscription, de frais d'abonnement ou de coûts cachés." },
+    { "cat": "account", "question": "Qu'est-ce que B2B Insight Panel ?", "answer": "B2B Insight Panel est une communauté mondiale de professionnels et de décideurs qui participent à des études de recherche, des sondages, des entretiens et des panels de discussion pour aider les entreprises à prendre de meilleures décisions stratégiques." },
+    { "cat": "account", "question": "Qui peut rejoindre la communauté ?", "answer": "Les professionnels de tous secteurs et de toutes fonctions sont les bienvenus, y compris les cadres, les managers, les experts en informatique, les responsables des achats, les professionnels de la finance, les acteurs de la santé et d'autres décideurs d'entreprise." },
+    { "cat": "account", "question": "Comment les membres sont-ils sélectionnés pour les opportunités d'études ?", "answer": "Les invitations à participer aux recherches sont attribuées en fonction de votre profil professionnel, notamment selon votre secteur d'activité, votre rôle, votre niveau d'ancienneté, votre expertise et vos responsabilités décisionnelles. Maintenir votre profil à jour vous permet de recevoir des opportunités plus pertinentes." },
+    { "cat": "account", "question": "Puis-je mettre à jour les informations de mon profil ?", "answer": "Oui. Vous pouvez modifier vos informations professionnelles, votre secteur d'activité et vos domaines d'expertise à tout moment. Un profil précis nous permet de vous proposer des études plus adaptées." },
+    { "cat": "account", "question": "Puis-je quitter la communauté à tout moment ?", "answer": "Oui. Vous pouvez demander la suppression de votre compte ou vous désabonner de nos communications à tout moment." },
+    { "cat": "earning", "question": "Quels types d'opportunités de recherche sont disponibles ?", "answer": "Les membres peuvent être invités à participer à des sondages en ligne, des entretiens individuels, des groupes de discussion (focus groups), des forums de discussion, des évaluations de produits et des études de marché sectorielles." },
+    { "cat": "earning", "question": "Combien de temps durent généralement les études ?", "answer": "La durée varie selon le type de recherche : les sondages en ligne prennent généralement de 10 à 30 minutes, les entretiens durent de 30 à 60 minutes, tandis que la durée des forums de discussion ou des études spécialisées peut varier. Le temps de participation estimé est toujours communiqué à l'avance." },
+    { "cat": "earning", "question": "Serai-je rémunéré pour ma participation ?", "answer": "Oui. Les membres reçoivent des récompenses ou des honoraires lorsqu'ils finalisent avec succès les études de recherche pour lesquelles ils sont qualifiés. La rémunération varie selon la complexité de l'étude, sa durée et l'expertise requise." },
+    { "cat": "earning", "question": "Comment le montant des récompenses est-il déterminé ?", "answer": "Le montant des récompenses dépend de facteurs tels que la durée de l'étude, le niveau d'expertise requis, l'ancienneté des participants et la complexité de la recherche. Les détails de la récompense sont systématiquement partagés avant votre participation." },
+    { "cat": "earning", "question": "Que se passe-t-il si je ne suis pas qualifié pour une étude ?", "answer": "Certaines études comportent des critères de filtrage stricts. Si vous ne répondez pas aux critères d'une étude spécifique, vous continuerez à recevoir des invitations pour de futures opportunités correspondant mieux à votre parcours professionnel." },
+    { "cat": "earning", "question": "À quelle fréquence vais-je recevoir des invitations ?", "answer": "La fréquence des invitations dépend de votre profil professionnel et des besoins des projets de recherche en cours. Selon la demande du marché, certains professionnels peuvent recevoir des opportunités plus fréquemment que d'autres." },
+    { "cat": "payouts", "question": "Comment les récompenses sont-elles traitées ?", "answer": "Les récompenses sont traitées de manière sécurisée via les modes de paiement disponibles, qui peuvent inclure PayPal, les virements bancaires, les cartes cadeaux, UPI ou d'autres options de retrait locales. Les méthodes disponibles peuvent varier selon les pays." },
+    { "cat": "privacy", "question": "Mes informations restent-elles confidentielles ?", "answer": "Absolument. Vos informations personnelles sont protégées et traitées conformément aux réglementations en vigueur sur la confidentialité. Les réponses individuelles sont généralement analysées de manière globale (agrégée) et ne sont jamais partagées sans votre consentement préalable." },
+    { "cat": "privacy", "question": "Mes données sont-elles sécurisées ?", "answer": "Oui. Nous appliquons des mesures de sécurité et des pratiques de confidentialité conformes aux normes de l'industrie pour protéger les informations des membres et garantir un environnement de recherche hautement sécurisé." },
+    { "cat": "privacy", "question": "Mon employeur saura-t-il que je participe ?", "answer": "Non. La participation est entièrement volontaire et confidentielle. Nous n'informons jamais les employeurs de votre participation, sauf si cela est expressément requis et convenu pour une étude spécifique." }
   ],
   "cta": {
     "title": "Vous n'avez pas trouvé votre réponse ?",
-    "subtitle": "Notre équipe d'assistance répond sous un jour ouvré.",
-    "button": "Contacter le support"
+    "subtitle": "Notre équipe de support répond sous un jour ouvré.",
+    "button": "Contacter le Support"
   }
 }

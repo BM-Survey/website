@@ -9,16 +9,16 @@
     "about": "À propos",
     "faq": "FAQ",
     "contact": "Contact",
-    "collaboration": "Pour les organisations",
+    "collaboration": "Pour les Organisations",
     "blog": "Blog"
   },
   "actions": {
     "login": "Connexion",
-    "signupFree": "Inscription gratuite",
-    "earnMoney": "Gagnez de l'argent maintenant",
-    "seeHowItWorks": "Voir comment ça marche",
-    "startNow": "Commencer",
-    "cashOut": "Retirer"
+    "signupFree": "Rejoindre notre communauté",
+    "earnMoney": "Partager mes insights",
+    "seeHowItWorks": "Découvrir le fonctionnement",
+    "startNow": "S'inscrire gratuitement",
+    "cashOut": "Encaisser mes gains"
   },
   "language": {
     "label": "Langue",
@@ -27,12 +27,12 @@
   "a11y": {
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
-    "primaryNavigation": "Principale",
-    "footerNavigation": "Pied de page",
-    "skipToContent": "Aller au contenu"
+    "primaryNavigation": "Navigation principale",
+    "footerNavigation": "Navigation de pied de page",
+    "skipToContent": "Passer au contenu"
   },
   "footer": {
-    "tagline": "Le panel d'insights B2B qui vous paie en argent réel pour les opinions dont les marques ont vraiment besoin.",
+    "tagline": "Une communauté mondiale de professionnels et de décideurs participant à des opportunités d'études exclusives.",
     "product": {
       "title": "Produit",
       "home": "Accueil",
@@ -40,23 +40,23 @@
       "faq": "FAQ",
       "blog": "Blog",
       "contact": "Contact",
-      "collaboration": "Pour les organisations"
+      "collaboration": "Pour les Organisations"
     },
     "legal": {
       "title": "Mentions légales",
       "privacy": "Politique de confidentialité",
-      "cookie": "Politique relative aux cookies",
-      "eula": "CLUF",
+      "cookie": "Politique des cookies",
+      "eula": "CLUF (Contrat de Licence Utilisateur Final)",
       "terms": "Conditions générales"
     },
     "app": {
-      "title": "Télécharger l'app",
-      "downloadOn": "Télécharger sur l'",
+      "title": "Télécharger l'application",
+      "downloadOn": "Télécharger dans l'ou sur l'",
       "appStore": "App Store",
       "getItOn": "Disponible sur",
       "googlePlay": "Google Play"
     },
-    "copyright": "© {year} InsightPanel — B2B Insight Panel. Tous droits réservés.",
+    "copyright": "© {year} B2B Insight Panel. Propulsé par Beacon Martech. Tous droits réservés.",
     "bottom": {
       "privacy": "Confidentialité",
       "cookies": "Cookies",
