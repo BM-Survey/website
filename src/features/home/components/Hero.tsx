@@ -236,11 +236,14 @@ export function Hero({ locale, hero, actions }: HeroProps) {
             />
           </div>
 
-          <Container className="relative grid w-full items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
-            {/* LEFT — centered on mobile, start-aligned from lg. On mobile the
-                phone mockup is ordered above this text block. */}
-            <div className="order-2 mx-auto max-w-[560px] text-center lg:order-0 lg:mx-0 lg:text-start [&>*]:animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_both] [&>*:nth-child(2)]:[animation-delay:90ms] [&>*:nth-child(3)]:[animation-delay:180ms] [&>*:nth-child(4)]:[animation-delay:270ms] [&>*:nth-child(5)]:[animation-delay:360ms]">
-              <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary-border bg-white px-3.5 py-1.5 shadow-[0_4px_14px_rgba(16,32,90,0.06)]">
+          <Container className="relative flex w-full flex-col items-stretch gap-6 sm:gap-8 lg:grid lg:items-center lg:gap-10 lg:grid-cols-[1.05fr_0.95fr]">
+            {/* LEFT — on mobile this wrapper is `display: contents`, so its
+                children become direct flex items of the Container and can be
+                ordered individually around the phone mockup (badge + headline
+                above it, subtitle + CTAs below). From lg it becomes a normal
+                block again and the two-column grid takes over. */}
+            <div className="contents text-center lg:block lg:mx-0 lg:max-w-[560px] lg:text-start [&>*]:animate-[riseIn_0.7s_cubic-bezier(0.22,1,0.36,1)_both] [&>*:nth-child(2)]:[animation-delay:90ms] [&>*:nth-child(3)]:[animation-delay:180ms] [&>*:nth-child(4)]:[animation-delay:270ms] [&>*:nth-child(5)]:[animation-delay:360ms]">
+              <div className="order-1 mx-auto mb-0 inline-flex items-center gap-2 rounded-full border border-primary-border bg-white px-3.5 py-1.5 shadow-[0_4px_14px_rgba(16,32,90,0.06)] lg:mx-0 lg:mb-5">
                 {/* <StarRating size={14} label={`${hero.ratingValue} / 5`} /> */}
                 {/* <span className="font-display text-[13px] font-bold text-ink">
                   {hero.ratingValue}
@@ -250,7 +253,7 @@ export function Hero({ locale, hero, actions }: HeroProps) {
                 </span>
               </div>
 
-              <h1 className="mb-5 font-display text-[clamp(35px,5vw,66px)] leading-[1.05] font-black tracking-tight text-ink lg:leading-[1.02]">
+              <h1 className="order-2 mb-0 font-display text-[clamp(35px,5vw,66px)] leading-[1.05] font-black tracking-tight text-ink lg:mb-5 lg:leading-[1.02]">
                 <HeadlineWords text={hero.titleLead} startDelay={150} />
                 <br />
                 <HeadlineWords
@@ -289,12 +292,12 @@ export function Hero({ locale, hero, actions }: HeroProps) {
                 </span>
               </h1>
 
-              <p className="mx-auto mb-7 max-w-[480px] text-[16.5px] leading-relaxed text-muted-2 sm:text-[18.5px] lg:mx-0">
+              <p className="order-4 mx-auto mb-0 max-w-[480px] text-[16.5px] leading-relaxed text-muted-2 sm:text-[18.5px] lg:mx-0 lg:mb-7">
                 {hero.subtitle} <b className="text-ink">{hero.subtitleBold}</b>{" "}
                 {hero.subtitleTail}
               </p>
 
-              <div className="mb-2 flex flex-wrap justify-center gap-3 lg:mb-7 lg:justify-start">
+              <div className="order-5 mb-2 flex flex-wrap justify-center gap-3 lg:mb-7 lg:justify-start">
                 <Button
                   href={authUrls.register}
                   target="_blank"
@@ -338,7 +341,7 @@ export function Hero({ locale, hero, actions }: HeroProps) {
             </div>
 
             {/* RIGHT: phone mockup + floating badges */}
-            <div className="relative flex animate-[riseIn_0.9s_cubic-bezier(0.22,1,0.36,1)_0.25s_both] flex-col items-center justify-center">
+            <div className="order-3 relative flex animate-[riseIn_0.9s_cubic-bezier(0.22,1,0.36,1)_0.25s_both] flex-col items-center justify-center">
               {/* Step-tinted glow + slow conic ring behind the device */}
               <div
                 className="pointer-events-none absolute inset-0 flex items-center justify-center"
@@ -368,9 +371,10 @@ export function Hero({ locale, hero, actions }: HeroProps) {
               </div>
 
               {/* Phone + badges share one anchor so the badges hug the device on
-              every screen size. On mobile the mockup is scaled down via
-              `zoom` so it sits compactly near the top of the section. */}
-              <div className="relative zoom-[0.4] lg:zoom-[1]">
+              every screen size. On mobile the mockup is scaled down a touch via
+              `zoom` so the device and its floating badges fit the viewport
+              width without wasted space. */}
+              <div className="relative zoom-[0.72] sm:zoom-[0.9] lg:zoom-[1]">
                 {/* Pointer-follow tilt wrapper (desktop only) */}
                 <div ref={tiltRef} className="relative [perspective:1200px]">
                   <div className="transition-transform duration-300 ease-out will-change-transform [transform:rotateX(var(--tilt-x,0deg))_rotateY(var(--tilt-y,0deg))]">
