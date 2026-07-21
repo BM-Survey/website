@@ -42,7 +42,7 @@ export function CtaBanner({
         <div className="relative">
           <h2
             className={
-              "mb-4 font-display leading-[1.08] font-black tracking-tight text-white " +
+              "mx-auto mb-4 max-w-[22ch] font-display leading-[1.08] font-black tracking-tight text-white " +
               (size === "lg"
                 ? "text-[clamp(32px,4.2vw,54px)]"
                 : "text-[clamp(26px,3.6vw,42px)]")

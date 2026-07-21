@@ -93,7 +93,7 @@
   "cta": {
     "title": "Ready to share your expertise?",
     "subtitle": "Join a trusted community of professionals participating in exclusive research opportunities and helping shape business decisions.",
-    "button": "Signup for Free"
+    "button": "Join Our Community"
   },
   "phoneScreens": {
     "nav": {
@@ -111,7 +111,7 @@
       "emailLabel": "Email",
       "emailValue": "alex@email.com",
       "interestsLabel": "Interests",
-      "interests": ["Tecnology", "Healthcare", "Financial Services"],
+      "interests": ["Technology", "Healthcare", "Financial Services"],
       "progressLabel": "Profile complete",
       "progressValue": "80%",
       "cta": "Continue"
@@ -126,7 +126,7 @@
       "progressLabel": "Question 5 of 18",
       "question": "Which cloud platforms does your organization currently use?",
       "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "Other"],
-      "submitCta": "Submit answers"
+      "submitCta": "Next"
     },
     "paid": {
       "title": "Reward Received",

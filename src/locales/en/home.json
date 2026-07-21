@@ -36,8 +36,8 @@
       "surveysForYou": "Surveys for you",
       "cards": {
         "shopping": {
-          "tag": "Shopping",
-          "reward": "$15",
+          "tag": "Technology",
+          "reward": "$12",
           "title": "Cloud Infrastructure Adoption",
           "time": "4 min",
           "questions": "8 questions",
@@ -45,8 +45,8 @@
           "date": "08 Jul"
         },
         "tech": {
-          "tag": "Tech",
-          "reward": "$15",
+          "tag": "Cyber Security",
+          "reward": "$12.50",
           "title": "Cybersecurity Priorities ",
           "time": "3 min",
           "questions": "6 questions",
@@ -54,7 +54,7 @@
           "date": "15 Jul"
         },
         "food": {
-          "tag": "Food",
+          "tag": "Procurement",
           "reward": "$15",
           "title": "Procurement Software Evaluation",
           "spots": "12 spots left",
@@ -84,7 +84,7 @@
         "title": "Discover Surveys",
         "subtitle": "Complete surveys, earn rewards",
         "search": "Search surveys...",
-        "chips": ["All", "Shopping", "Tech"],
+        "chips": ["All", "Technology", "Healthcare"],
         "statusNew": "New",
         "statusEndsSoon": "Ends soon",
         "nav": {
@@ -185,21 +185,21 @@
       "cards": [
         {
           "match": "98% match",
-          "reward": "$15",
+          "reward": "$12",
           "title": "Enterprise AI Adoption",
           "time": "15 min",
           "questions": "Research Survey"
         },
         {
           "match": "91% match",
-          "reward": "$15",
+          "reward": "$8",
           "title": "Cloud Infrastructure Strategy",
           "time": "4 min",
           "questions": "9 questions"
         },
         {
           "match": "87% match",
-          "reward": "$15",
+          "reward": "$13",
           "title": "Cybersecurity Investment Priorities",
           "time": "6 min",
           "questions": "14 questions"
@@ -249,7 +249,7 @@
     "eyebrow": "Rewards",
     "titleLine1": "Flexible reward options ",
     "titleLine2": "for your participation",
-    "description": "Choose from multiple secure reward options, including PayPal, bank transfer, and gift cards, based on your preferences and location.",
+    "description": "Choose from multiple secure reward options, including UPI, PayPal, bank transfer, and gift cards, based on your preferences and location.",
     "stats": {
       "minCashout": {
         "value": "🔒 ",
@@ -266,9 +266,9 @@
     },
     "options": {
       "paypal": "PayPal",
-      "bank": "Bank",
+      "bank": "Bank Transfer",
       "upi": "UPI",
-      "gift": "Gift Card"
+      "gift": "Gift Cards"
     }
   },
   "about": {
@@ -419,7 +419,7 @@
     "titleLine1": "Become part of a",
     "titleLine2": "trusted research community.",
     "subtitle": "Join thousands of professionals contributing valuable insights through exclusive B2B research opportunities. No fees, no catch.",
-    "primary": "Signup for Free",
+    "primary": "Join Our Community",
     "secondary": "How it works",
     "assurances": {
       "noCard": " Free to Join",

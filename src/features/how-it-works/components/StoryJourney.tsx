@@ -427,7 +427,7 @@ function AnswerScreen({
   p: HowItWorksDictionary["phoneScreens"]["answer"];
   card: HowItWorksDictionary["surveyPreview"]["cards"][number];
 }) {
-  const progressPct = 83;
+  const progressPct = 28;
 
   return (
     <div className="flex h-full flex-col pt-10">

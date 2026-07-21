@@ -54,7 +54,7 @@ export default async function ContactPage({
       </section>
 
       <section className="px-6 pb-32">
-        <Container size="lg" className="grid gap-4 lg:grid-cols-[1fr_1.3fr]">
+        <Container size="lg" className="flex flex-col-reverse gap-4 lg:grid lg:grid-cols-[1fr_1.3fr]">
           <ContactCards locale={locale} cards={contact.cards} />
           <ContactForm form={contact.form} />
         </Container>

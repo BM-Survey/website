@@ -80,7 +80,7 @@ export default async function FaqPage({
         title={faqPage.cta.title}
         subtitle={faqPage.cta.subtitle}
         buttonLabel={faqPage.cta.button}
-        buttonHref={"mailto:support@b2b2insightpanel.com"}
+        buttonHref={"mailto:support@b2binsightpanel.com"}
         size="md"
       />
     </>

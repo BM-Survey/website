@@ -54,6 +54,8 @@ export function Footer({ locale, common }: FooterProps) {
                   <a
                     href={href}
                     aria-label={label}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/[0.08] text-[#dde4ff] transition-colors hover:bg-white/15"
                   >
                     <Icon width={17} height={17} />
