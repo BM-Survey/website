@@ -4,8 +4,9 @@ import { Container } from "@/components/ui/Container";
 type CtaBannerProps = {
   title: string;
   subtitle: string;
-  buttonLabel: string;
-  buttonHref: string;
+  buttonLabel?: string;
+  buttonHref?: string;
+  action?: React.ReactNode;
   size?: "md" | "lg";
 };
 
@@ -15,6 +16,7 @@ export function CtaBanner({
   subtitle,
   buttonLabel,
   buttonHref,
+  action,
   size = "lg",
 }: CtaBannerProps) {
   return (
@@ -53,9 +55,13 @@ export function CtaBanner({
           <p className="mx-auto mb-7 max-w-[440px] text-[17px] leading-relaxed text-[#d8e1ff]">
             {subtitle}
           </p>
-          <Button href={buttonHref} variant="white">
-            {buttonLabel}
-          </Button>
+          {action ? (
+            action
+          ) : (
+            <Button href={buttonHref!} variant="white">
+              {buttonLabel}
+            </Button>
+          )}
         </div>
       </Container>
     </section>

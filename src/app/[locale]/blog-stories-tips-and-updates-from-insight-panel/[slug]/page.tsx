@@ -142,8 +142,8 @@ export default async function BlogPostPage({
       </section>
 
       <CtaBanner
-        title="Ready to get started?"
-        subtitle="It's free, it takes a minute, and your first payout could be today."
+        title="Ready to share your expertise?"
+        subtitle="Join a trusted community of professionals participating in exclusive research opportunities and helping shape business decisions."
         buttonLabel="Join Our Community"
         buttonHref={pageHref(locale, "home")}
       />

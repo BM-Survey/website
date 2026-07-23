@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { CtaBanner } from "@/components/marketing/CtaBanner";
+import { CollaborationCta } from "@/features/collaboration/components/CollaborationCta";
 import { PageHero } from "@/components/marketing/PageHero";
 import { PartnerStory } from "@/features/collaboration/components/PartnerStory";
 import { WhyWorkWithUs } from "@/features/collaboration/components/WhyWorkWithUs";
@@ -61,11 +61,10 @@ export default async function CollaborationPage({
       <PartnerStory data={collaboration.story} />
       <WhyWorkWithUs data={collaboration.whyWorkWithUs} />
       
-      <CtaBanner
+      <CollaborationCta
         title={collaboration.cta.title}
         subtitle={collaboration.cta.subtitle}
         buttonLabel={collaboration.cta.button}
-        buttonHref={pageHref(locale, "contact")}
       />
     </>
   );
