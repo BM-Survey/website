@@ -56,7 +56,7 @@ export default async function LocaleLayout({
         <Navbar locale={locale} common={common} />
         <main
           id="main"
-          className="relative z-1 bg-bg md:mb-(--footer-height)"
+          className="relative z-1 bg-bg md:mb-(--footer-height) md:min-h-screen"
         >
           {children}
         </main>

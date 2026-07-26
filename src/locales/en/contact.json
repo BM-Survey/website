@@ -2,11 +2,7 @@
   "meta": {
     "title": "Contact Us — Support & Help | B2B Insight Panel",
     "description": "Reach InsightPanel support for account, payout, or brand inquiries. We reply within one business day.",
-    "keywords": [
-      "contact insight panel",
-      "survey support",
-      "brand inquiry"
-    ],
+    "keywords": ["contact insight panel", "survey support", "brand inquiry"],
     "ogAlt": "Contact the InsightPanel team"
   },
   "hero": {
@@ -20,7 +16,7 @@
     },
     "chat": {
       "title": "Live chat",
-      "value": "In-app, 24/7"
+      "value": "Always At Work 24/7"
     },
     "brands": {
       "title": "For brands & research teams",

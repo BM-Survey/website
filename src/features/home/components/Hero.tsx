@@ -717,7 +717,7 @@ function BrowseCard({ card }: { card: BrowseCardData }) {
  */
 function AnswerScreen({ p }: { p: PhoneData }) {
   const f = p.flow;
-  const progressPct = 38;
+  const progressPct = 20;
 
   return (
     <div className="flex h-full flex-col pt-10">
