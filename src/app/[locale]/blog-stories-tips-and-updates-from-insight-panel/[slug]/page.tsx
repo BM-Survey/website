@@ -86,7 +86,7 @@ export default async function BlogPostPage({
       <section className="px-6 pb-4">
         <Container size="md">
           <div className="relative aspect-[16/8] overflow-hidden rounded-[26px]">
-            <CoverPlaceholder color={post.color} initial={post.authorInitial} />
+            <CoverPlaceholder color={post.color} initial={post.authorInitial} image={post.image} />
           </div>
         </Container>
       </section>

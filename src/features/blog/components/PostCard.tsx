@@ -23,7 +23,7 @@ export function PostCard({ locale, post, tone = "default" }: PostCardProps) {
       }
     >
       <div className="relative aspect-[16/10]">
-        <CoverPlaceholder color={post.color} initial={post.authorInitial} />
+        <CoverPlaceholder color={post.color} initial={post.authorInitial} image={post.image} />
       </div>
       <div className="flex flex-1 flex-col p-6">
         <h3 className="mb-2.5 font-display text-[18.5px] leading-tight font-extrabold tracking-tight text-ink">

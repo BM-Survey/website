@@ -17,7 +17,7 @@ export function FeaturedPost({ locale, post }: FeaturedPostProps) {
       className="grid min-h-[420px] overflow-hidden rounded-[32px] bg-white shadow-[0_24px_60px_rgba(16,32,90,0.14)] lg:grid-cols-2"
     >
       <div className="relative order-2 min-h-[220px]">
-        <CoverPlaceholder color={post.color} initial={post.authorInitial} />
+        <CoverPlaceholder color={post.color} initial={post.authorInitial} image={post.image} />
       </div>
       <div className="order-1 flex flex-col justify-center p-9 sm:p-11">
         <span className="mb-3.5 font-display text-[12.5px] font-extrabold tracking-wide text-muted-3 uppercase">

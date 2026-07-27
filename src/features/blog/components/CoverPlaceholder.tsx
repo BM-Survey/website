@@ -1,13 +1,23 @@
+import Image from "next/image";
 import { cn } from "@/lib/cn";
 
 type CoverPlaceholderProps = {
   color: string;
   initial: string;
+  image?: string;
   className?: string;
 };
 
 /** Gradient cover placeholder standing in for an article's hero image. */
-export function CoverPlaceholder({ color, initial, className }: CoverPlaceholderProps) {
+export function CoverPlaceholder({ color, initial, image, className }: CoverPlaceholderProps) {
+  if (image) {
+    return (
+      <div className={cn("absolute inset-0", className)}>
+        <Image src={image} alt="" fill className="object-cover" />
+      </div>
+    );
+  }
+
   return (
     <div
       className={cn("absolute inset-0 flex items-center justify-center", className)}

@@ -5,6 +5,7 @@ export type BlogPost = {
   author: string;
   authorRole: string;
   authorInitial: string;
+  image?: string;
   color: string;
   date: string;
   readTime: string;
@@ -28,6 +29,7 @@ export const posts: BlogPost[] = [
     author: "Hanzala Shaikh",
     authorRole: "Founder & CEO | Beacon Martech",
     authorInitial: "H",
+    image: "/images/growing-importance-blog.jpeg",
     color: "#2E5BFF",
     date: "April 2026",
     readTime: "5 min read",
@@ -55,6 +57,7 @@ export const posts: BlogPost[] = [
     author: "B2B Insight Panel Team",
     authorRole: "Editorial Team",
     authorInitial: "B",
+    image: "/images/professional-insights-blog.jpeg",
     color: "#22C35E",
     date: "July 2026",
     readTime: "5 min read",
@@ -81,6 +84,7 @@ export const posts: BlogPost[] = [
     author: "Esha Shah",
     authorRole: "Research Analyst",
     authorInitial: "E",
+    image: "/images/research-matching-blog.jpeg",
     color: "#7A3FF2",
     date: "March 2026",
     readTime: "6 min read",
@@ -105,6 +109,7 @@ export const posts: BlogPost[] = [
     author: "B2B Insight Panel Team",
     authorRole: "Editorial Team",
     authorInitial: "B",
+    image: "/images/future-of-b2b-blog.jpeg",
     color: "#E0781A",
     date: "July 2026",
     readTime: "4 min read",
