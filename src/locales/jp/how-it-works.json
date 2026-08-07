@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "仕組み (How It Works) — サーベイでアーニング | B2B Insight Panel",
+    "description": "サインアップからペイアウトまで：InsightPanelがどのように最適なサーベイをマッチングし、適正なリワードを支払い、即日キャッシュアウトできるかを詳しく解説します。",
+    "keywords": [
+      "how paid surveys work",
+      "survey rewards process",
+      "fast payouts",
+      "B2B insight panel"
+    ],
+    "ogAlt": "オピニオンからペイアウトまで、InsightPanelの仕組み"
+  },
+  "hero": {
+    "eyebrow": "仕組み (How It Works)",
+    "titleLead": "プロの知見から ",
+    "titleHighlight": "インパクトへ",
+    "subtitle": "あなたのプロフェッショナルな経験にテーラーメイドされた、エクスクルーシブなB2Bリサーチオポチュニティに参画。貴重なインサイトをシェアしてビジネスの意思決定にインフルエンスを与え、貢献に対するリワードを受け取りましょう。具体的なプロセスは以下の通りです。"
+  },
+  "steps": [
+    {
+      "number": "01",
+      "title": " プロフェッショナルプロファイルをビルド",
+      "text": "あなた自身のエキスパート知識にマッチするリサーチスタディとコネクトできるよう、プロファイルを入力・コンプリートしてください。"
+    },
+    {
+      "number": "02",
+      "title": " スタディとのマッチングを獲得",
+      "text": "あなたの所属インダストリーの経験やビジネスバックグラウンドにアラインしたリサーチスタディへのインビテーションが届きます。"
+    },
+    {
+      "number": "03",
+      "title": " エキスパート知識をシェア",
+      "text": "適切なリサーチオポチュニティにパーティシペートし、サーベイやインタビューなどを通じてプロフェッショナルなインサイトをシェアします。"
+    },
+    {
+      "number": "04",
+      "title": "リワードのレシーブ",
+      "text": "リワードは即日あなたのバランス（残高）に反映。UPI、PayPal、または銀行振込経由でわずか5ドルからキャッシュアウト可能です。"
+    }
+  ],
+  "surveyPreview": {
+    "eyebrow": "いつでもトランスペアレント（透明）に",
+    "title": "リサーチオポチュニティのサンプル",
+    "cards": [
+      {
+        "tag": "Technology",
+        "tone": "primary",
+        "title": "Cloud Infrastructure Adoption",
+        "time": "15分",
+        "reward": "$12.50"
+      },
+      {
+        "tag": "Cybersecurity",
+        "tone": "purple",
+        "title": "Enterprise Cybersecurity Trends",
+        "time": "20分",
+        "reward": "$11"
+      },
+      {
+        "tag": "Finance",
+        "tone": "orange",
+        "title": "AI Adoption in Financial Services",
+        "time": "15分",
+        "reward": "$10.50"
+      },
+      {
+        "tag": "Procurement",
+        "tone": "success",
+        "title": "Procurement Software Evaluation",
+        "time": "20分",
+        "reward": "$12.50"
+      }
+    ]
+  },
+  "payoutSpeed": {
+    "eyebrow": "リワードの選択肢 (REWARD OPTIONS)",
+    "title": "支払いのスピード感",
+    "items": [
+      {
+        "title": "UPI / PayPal — 即日（Same day）",
+        "text": "ご指定のUPI IDまたはPayPalアカウントへ送金"
+      },
+      {
+        "title": "ギフトカード — 即日（Same day）",
+        "text": "100以上のブランドに対応、特定のカードで+5%のボーナス付与"
+      },
+      {
+        "title": "銀行振込 — 1〜2日",
+        "text": "あなたのアカウントへダイレクトに入金、手数料はゼロ（zero fees）"
+      }
+    ]
+  },
+  "cta": {
+    "title": "エキスパート知識をシェアするレディはできましたか？",
+    "subtitle": "エクスクルーシブなリサーチに参画し、ビジネスディシジョンを一緒に形作っていく、信頼されたプロフェッショナルコミュニティにジョインしましょう。",
+    "button": "コミュニティにジョインする"
+  },
+  "phoneScreens": {
+    "nav": {
+      "surveys": "サーベイ",
+      "history": "履歴 (History)",
+      "wallet": "ウォレット",
+      "analytics": "アナリティクス",
+      "profile": "プロファイル"
+    },
+    "profile": {
+      "title": "あなたのプロファイル",
+      "subtitle": "所要時間は約2分です",
+      "nameLabel": "フルネーム",
+      "nameValue": "Alex Carter",
+      "emailLabel": "Eメール",
+      "emailValue": "alex@email.com",
+      "interestsLabel": "インタレスト（関心分野）",
+      "interests": ["Technology", "Healthcare", "Financial Services"],
+      "progressLabel": "プロファイルの入力状況",
+      "progressValue": "80%",
+      "cta": "次へ進む (Continue)"
+    },
+    "matched": {
+      "heading": "あなた向けのスタディ",
+      "subtitle": "プロファイルに基づくマッチング",
+      "search": "サーベイを検索...",
+      "allChip": "すべて"
+    },
+    "answer": {
+      "progressLabel": "質問 5 / 18",
+      "question": "あなたの組織で現在利用しているクラウドプラットフォームはどれですか？",
+      "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "その他 (Other)"],
+      "submitCta": "次へ (Next)"
+    },
+    "paid": {
+      "title": "リワード獲得完了",
+      "via": "ご自身のPayPalへ送金済み",
+      "balanceLabel": "利用可能なリワード残高",
+      "balanceValue": "$129.50"
+    }
+  }
+}

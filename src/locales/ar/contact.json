@@ -1,54 +1,50 @@
 {
   "meta": {
-    "title": "اتصل بنا — الدعم والمساعدة | B2B Insight Panel",
-    "description": "تواصل مع دعم InsightPanel للاستفسارات المتعلقة بالحساب، الدفعات، أو شراكات العلامات التجارية. نرد خلال يوم عمل واحد.",
-    "keywords": [
-      "الاتصال بـ insight panel",
-      "دعم الاستطلاعات",
-      "استفسار العلامة التجارية"
-    ],
-    "ogAlt": "الاتصال بفريق InsightPanel"
+    "title": "تواصل معنا (Contact Us) — الدعم والمساعدة | B2B Insight Panel",
+    "description": "تواصل مع سبورت InsightPanel بخصوص حسابك، المدفوعات، أو استفسارات الشركات. بنرد عليك خلال يوم عمل واحد.",
+    "keywords": ["contact insight panel", "survey support", "brand inquiry"],
+    "ogAlt": "تواصل مع تيم InsightPanel"
   },
   "hero": {
-    "eyebrow": "اتصل بنا",
-    "title": "دعنا نتحدث"
+    "eyebrow": "تواصل معنا (Contact)",
+    "title": "خلينا نتكلم (Let's talk)"
   },
   "cards": {
     "email": {
-      "title": "الدعم عبر البريد الإلكتروني",
+      "title": "الدعم عبر الإيميل (Email support)",
       "value": "support@b2binsightpanel.com"
     },
     "chat": {
-      "title": "المحادثة المباشرة",
-      "value": "داخل التطبيق، يومياً من 9 صباحاً حتى 9 مساءً"
+      "title": "شات مباشر (Live chat)",
+      "value": "شغالين على طول 24/7 (Always At Work)"
     },
     "brands": {
-      "title": "للشركات وفرق الأبحاث",
-      "text": "هل تتطلع لإجراء دراسة بحثية على منصتنا؟",
-      "link": "عرض خيارات التعاون"
+      "title": "للبراندات وتيمات الأبحاث (For brands & research teams)",
+      "text": "عايز تعمل دراسة (field a study) على البانل بتاعنا؟",
+      "link": "شوف نظام التعاون (See collaboration)"
     }
   },
   "form": {
-    "label": "أرسل لنا رسالة",
-    "reassure": "عادةً ما نرد خلال 24 ساعة عمل.",
-    "nameLabel": "الاسم",
-    "namePlaceholder": "اسمك",
-    "emailLabel": "البريد الإلكتروني",
+    "label": "ابعت لنا مسج (Send us a message)",
+    "reassure": "غالباً بنرد خلال 24 ساعة عمل.",
+    "nameLabel": "الاسم (Name)",
+    "namePlaceholder": "اسمك بالكامل",
+    "emailLabel": "الإيميل (Email)",
     "emailPlaceholder": "you@email.com",
-    "topicLabel": "الموضوع",
+    "topicLabel": "الموضوع (Topic)",
     "topics": [
-      "دعم الحساب",
-      "المكافآت والمدفوعات",
-      "المشاركة في الدراسات",
-      "مشكلة تقنية",
-      "أخرى"
+      "دعم الحساب (Account Support)",
+      "المكافآت والمدفوعات (Rewards & Payments)",
+      "المشاركة في الدراسات (Study Participation)",
+      "مشكلة تقنية (Technical Issue)",
+      "أخرى (Other)"
     ],
-    "messageLabel": "الرسالة",
-    "messagePlaceholder": "يرجى تقديم تفاصيل حول سؤالك أو طلبك.",
-    "submit": "إرسال الرسالة",
-    "submitting": "جاري الإرسال…",
-    "errorMessage": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
-    "submitted": "تم الإرسال",
-    "sentMessage": "تم استلام الرسالة — سنرد عليك خلال 24 ساعة."
+    "messageLabel": "الرسالة (Message)",
+    "messagePlaceholder": "ياريت تكتب تفاصيل أكتر عن سؤالك أو طلبك.",
+    "submit": "ابعت المسج (Send message)",
+    "submitting": "بيتبعت (Sending…)",
+    "errorMessage": "حصلت مشكلة (Something went wrong)، ياريت تجرب تاني.",
+    "submitted": "اتبعتت (Sent)",
+    "sentMessage": "وصلت المسج (Message received) — هنرد عليك خلال 24 ساعة."
   }
 }

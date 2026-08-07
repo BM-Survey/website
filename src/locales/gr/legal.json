@@ -1,0 +1,331 @@
+{
+  "badge": "Legal · Letztes Update Juli 2026",
+  "contactPageLabel": "Kontaktseite",
+  "nav": {
+    "privacy": "Privacy Policy / Datenschutzerklärung",
+    "cookie": "Cookie Policy / Cookie-Richtlinie",
+    "eula": "EULA / Lizenzvereinbarung",
+    "terms": "Terms & Conditions / AGB"
+  },
+  "privacy": {
+    "title": "Privacy Policy (Datenschutzerklärung)",
+    "meta": {
+      "title": "Privacy Policy | B2B Insight Panel",
+      "description": "Wie B2B Insight Panel Ihre Daten sammelt, nutzt und schützt.",
+      "ogAlt": "B2B Insight Panel Privacy Policy"
+    },
+    "intro": "B2B Insight Panel (\"wir\"), powered by Beacon Martech, betreibt ein globales Netzwerk für Experten. Diese Privacy Policy erklärt, wie wir Ihre Daten verarbeiten und schützen.",
+    "sections": [
+      {
+        "heading": "2. Information we collect (Erhobene Daten)",
+        "paragraphs": [
+          "Personal information: Name, E-Mail-Adresse, Land/Region, Berufsangaben (Jobtitel, Branche, Unternehmensgröße), Fachgebiete und Zahlungsdaten für Honorariums.",
+          "Research information: Umfrage-Antworten, Teilnahme-Historie, Profil-Informationen und Qualifikationsdaten.",
+          "Technical information: IP-Adresse, Geräte-IDs, Browser-Typ, Betriebssystem, Analytics-Daten und Cookies."
+        ]
+      },
+      {
+        "heading": "3. How we use your information (Verwendungszwecke)",
+        "paragraphs": [],
+        "list": [
+          "Passende Research-Opportunities zuweisen",
+          "Auszahlung von Rewards und Honorariums",
+          "Berechtigung prüfen und Fraud Prevention (Betrugsschutz)",
+          "Plattform-Erfahrung und Performance verbessern",
+          "Einladungen zu Studien und Account-Updates senden",
+          "Relevante Inhalte und Branchen-Lösungen (mit Zustimmung) teilen",
+          "Einhaltung rechtlicher Verpflichtungen (Legal obligations)"
+        ]
+      },
+      {
+        "heading": "4. How we share information (Weitergabe von Daten)",
+        "paragraphs": [
+          "We do not sell or rent personal information. Ihre Daten werden niemals ohne explizite Zustimmung an Sponsoren weitergegeben."
+        ],
+        "list": [
+          "Kunden/Sponsoren (nur anonymisiert & aggregiert)",
+          "Service Provider für den Plattform-Betrieb",
+          "Zahlungsdienstleister (Payment Processors)",
+          "Behörden bei rechtlicher Verpflichtung"
+        ]
+      },
+      {
+        "heading": "5. International data transfers",
+        "paragraphs": [
+          "Als globale Plattform können Ihre Daten im Ausland verarbeitet werden. Wir nutzen entsprechende Sicherheitsgarantien (Safeguards)."
+        ]
+      },
+      {
+        "heading": "6. Data retention (Speicherdauer)",
+        "paragraphs": [
+          "Wir speichern Daten, solange Ihr Account aktiv ist und wie erforderlich für:"
+        ],
+        "list": [
+          "Rechtliche Pflichten",
+          "Fraud Prevention",
+          "Beilegung von Streitigkeiten",
+          "Vertragserfüllung"
+        ]
+      },
+      {
+        "heading": "7. Your rights (Ihre Rechte)",
+        "paragraphs": [
+          "Je nach Anwendbarkeit haben Sie folgende Rechte:"
+        ],
+        "list": [
+          "Auskunft (Access your information)",
+          "Berichtigung falscher Daten (Correction)",
+          "Löschung (Request deletion)",
+          "Einschränkung der Verarbeitung",
+          "Widerruf von Einwilligungen (Withdraw consent)",
+          "Widerspruch gegen Kommunikation",
+          "Datenübertragbarkeit (Data portability)"
+        ]
+      },
+      {
+        "heading": "8. Security (Sicherheit)",
+        "paragraphs": [
+          "Wir nutzen technische und organisatorische Maßnahmen wie Verschlüsselung und Zugriffskontrollen."
+        ]
+      },
+      {
+        "heading": "9. Children's privacy",
+        "paragraphs": [
+          "Unsere Dienste richten sich ausschließlich an Personen ab 18 Jahren."
+        ]
+      },
+      {
+        "heading": "10. Contact us (Kontakt)",
+        "paragraphs": [
+          "Fragen? Schreiben Sie uns an support@b2binsightpanel.com oder nutzen Sie unsere"
+        ],
+        "contactLink": true
+      }
+    ]
+  },
+  "cookie": {
+    "title": "Cookie Policy (Cookie-Richtlinie)",
+    "meta": {
+      "title": "Cookie Policy | B2B Insight Panel",
+      "description": "How B2B Insight Panel uses cookies.",
+      "ogAlt": "B2B Insight Panel Cookie Policy"
+    },
+    "intro": "Cookies sind kleine Textdateien auf Ihrem Gerät, die die Funktionalität der Webseite verbessern.",
+    "sections": [
+      {
+        "heading": "1. What are cookies",
+        "paragraphs": [
+          "Cookies dienen dazu, die Plattform nutzerfreundlicher und sicherer zu machen."
+        ]
+      },
+      {
+        "heading": "2. Types of cookies we use",
+        "paragraphs": [],
+        "table": {
+          "headers": ["Kategorie", "Zweck / Purpose"],
+          "rows": [
+            ["Essential", "Erforderlich für Login und grundlegende Funktionen"],
+            ["Analytics", "Helfen uns, die Nutzung der Plattform zu verstehen"],
+            ["Preference", "Speichern Ihre gewählten Einstellungen"],
+            ["Marketing", "Wird (mit Zustimmung) für relevante Inhalte genutzt"]
+          ]
+        }
+      },
+      {
+        "heading": "3. Managing cookies (Cookies verwalten)",
+        "paragraphs": [
+          "Sie können Cookies in Ihren Browser-Einstellungen deaktivieren. Einige Funktionen könnten dann eingeschränkt sein."
+        ]
+      },
+      {
+        "heading": "4. Contact us",
+        "paragraphs": [
+          "Fragen? Kontaktieren Sie support@b2binsightpanel.com oder nutzen Sie unsere"
+        ],
+        "contactLink": true
+      }
+    ]
+  },
+  "eula": {
+    "title": "End User License Agreement (EULA)",
+    "meta": {
+      "title": "EULA | B2B Insight Panel",
+      "description": "Die Lizenzbedingungen für die App- und Webseiten-Nutzung.",
+      "ogAlt": "B2B Insight Panel End User License Agreement"
+    },
+    "intro": "Diese EULA regelt die Nutzung der App und Webseite von B2B Insight Panel.",
+    "sections": [
+      {
+        "heading": "1. License grant (Lizenzgewährung)",
+        "paragraphs": [
+          "B2B Insight Panel gewährt Ihnen eine einfache, nicht übertragbare Lizenz zur Nutzung der Plattform."
+        ]
+      },
+      {
+        "heading": "2. Restrictions (Einschränkungen)",
+        "paragraphs": [],
+        "list": [
+          "Reverse Engineering des Quellcodes",
+          "Kopieren oder Modifizieren von Plattform-Komponenten",
+          "Einsatz von Bots oder Automatisierungstools",
+          "Umgehung von Sicherheitsfunktionen"
+        ]
+      },
+      {
+        "heading": "3. User content",
+        "paragraphs": [
+          "Ihre Antworten und Profil-Angaben unterliegen der Privacy Policy."
+        ]
+      },
+      {
+        "heading": "4. Updates",
+        "paragraphs": [
+          "Wir können nach eigenem Ermessen Updates und Software-Anpassungen bereitstellen."
+        ]
+      },
+      {
+        "heading": "5. Account suspension (Sperrung)",
+        "paragraphs": [
+          "Wir können Zugänge aus folgenden Gründen sperren:"
+        ],
+        "list": [
+          "Betrügerische Aktivitäten (Fraud)",
+          "Falschangaben (Misrepresentation)",
+          "Missbrauch der Plattform",
+          "Verstoß gegen geltendes Recht"
+        ]
+      },
+      {
+        "heading": "6. Intellectual property (Geistiges Eigentum)",
+        "paragraphs": [
+          "Alle Rechte an Software, Marken und Inhalten liegen bei B2B Insight Panel / Beacon Martech."
+        ]
+      },
+      {
+        "heading": "7. Disclaimer",
+        "paragraphs": [
+          "Die Bereitstellung erfolgt \"as is\" (wie gesehen) und nach Verfügbarkeit."
+        ]
+      },
+      {
+        "heading": "8. Limitation of liability (Haftungsbeschränkung)",
+        "paragraphs": [
+          "Soweit gesetzlich zulässig, haften wir nicht für indirekte Schäden oder Folgeschäden."
+        ]
+      },
+      {
+        "heading": "9. Governing law (Anwendbares Recht)",
+        "paragraphs": [
+          "Unterliegt indischem Recht, sofern lokale Gesetze nichts anderes vorschreiben."
+        ]
+      },
+      {
+        "heading": "10. Contact us",
+        "paragraphs": [
+          "Fragen zu dieser Vereinbarung? Kontaktieren Sie uns via"
+        ],
+        "contactLink": true
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms & Conditions (AGB)",
+    "meta": {
+      "title": "Terms & Conditions | B2B Insight Panel",
+      "description": "Bedingungen für den Zugriff auf B2B Insight Panel.",
+      "ogAlt": "B2B Insight Panel Terms & Conditions"
+    },
+    "intro": "Mit der Nutzung von B2B Insight Panel stimmen Sie diesen Geschäftsbedingungen zu.",
+    "sections": [
+      {
+        "heading": "1. Eligibility (Voraussetzungen)",
+        "paragraphs": [
+          "Sie müssen:"
+        ],
+        "list": [
+          "Mindestens 18 Jahre alt sein",
+          "Korrekt Angaben machen",
+          "Nur ein einzelnes Konto führen"
+        ]
+      },
+      {
+        "heading": "2. Participant consent",
+        "paragraphs": [
+          "Mit der Registrierung stimmen Sie Folgendem zu:"
+        ],
+        "list": [
+          "Teilnahme an Marktforschungsstudien",
+          "Empfang von Einladungen zu passenden Studien",
+          "Zusendung relevanter Themen & Branchen-Updates",
+          "Datenverarbeitung gemäß Privacy Policy"
+        ]
+      },
+      {
+        "heading": "3. Research participation",
+        "paragraphs": [
+          "Es besteht kein Anspruch auf Studien-Teilnahme. Falschangaben können zur Kontosperrung führen."
+        ]
+      },
+      {
+        "heading": "4. Rewards and honorariums",
+        "paragraphs": [
+          "Die Vergütung variiert je Studie. Belohnungen können einbehalten werden bei:"
+        ],
+        "list": [
+          "Unlauterer Teilnahme",
+          "Mehrfach-Accounts",
+          "Falschaingaben",
+          "Verwendung automatisierter Tools"
+        ]
+      },
+      {
+        "heading": "5. Fraud prevention",
+        "paragraphs": [
+          "Nutzern ist Folgendes untersagt:"
+        ],
+        "list": [
+          "Nutzung von VPNs, Proxys oder Bots",
+          "Erstellung mehrerer Accounts",
+          "Fälschung beruflicher Informationen"
+        ]
+      },
+      {
+        "heading": "6. Communications",
+        "paragraphs": [
+          "Sie erklären sich einverstanden mit dem Empfang von:"
+        ],
+        "list": [
+          "Einladungen zu Studien",
+          "Plattform-Updates",
+          "Auszahlungs-Benachrichtigungen",
+          "Relevanten Content & Business-Lösungen"
+        ]
+      },
+      {
+        "heading": "7. Intellectual property",
+        "paragraphs": [
+          "Sämtlicher Inhalt bleibt Eigentum von B2B Insight Panel und Beacon Martech."
+        ]
+      },
+      {
+        "heading": "8. Limitation of liability",
+        "paragraphs": [
+          "Wir bemühen uns um hohe Verfügbarkeit, garantieren jedoch keinen unterbrechungsfreien Zugang."
+        ]
+      },
+      {
+        "heading": "9. Termination (Kündigung)",
+        "paragraphs": [
+          "Wir behalten uns das Recht vor, Konten bei Verstößen fristlos zu sperren."
+        ]
+      },
+      {
+        "heading": "10. Contact us",
+        "paragraphs": [
+          "Fragen zu den AGB? Wenden Sie sich an uns über unsere"
+        ],
+        "contactLink": true
+      }
+    ]
+  }
+}

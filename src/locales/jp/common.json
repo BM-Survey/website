@@ -1,0 +1,71 @@
+{
+  "brand": {
+    "prefix": "B2B",
+    "name": "Insight Panel"
+  },
+  "nav": {
+    "howItWorks": "仕組み (How It Works)",
+    "rewards": "リワード (Rewards)",
+    "about": "会社概要 (About)",
+    "faq": "FAQ",
+    "contact": "お問い合わせ (Contact)",
+    "collaboration": "オーガナイゼーション向け",
+    "blog": "ブログ"
+  },
+  "actions": {
+    "login": "ログイン (Log in)",
+    "signupFree": "コミュニティにジョインする",
+    "earnMoney": "インサイトの共有をスタート",
+    "seeHowItWorks": "仕組みをチェックする",
+    "startNow": "コミュニティにジョインする",
+    "cashOut": "キャッシュアウト (Cash out)"
+  },
+  "language": {
+    "label": "言語 (Language)",
+    "select": "言語を選択"
+  },
+  "a11y": {
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "primaryNavigation": "メインナビゲーション",
+    "footerNavigation": "フッター",
+    "skipToContent": "コンテンツへスキップ"
+  },
+  "footer": {
+    "tagline": "エクスクルーシブなリサーチに参画する、ビジネスプロフェッショナルやディシジョンメーカーのグローバルコミュニティ。",
+    "product": {
+      "title": "プロダクト",
+      "home": "ホーム",
+      "howItWorks": "仕組み (How It Works)",
+      "faq": "FAQ",
+      "blog": "ブログ",
+      "contact": "お問い合わせ (Contact)",
+      "collaboration": "オーガナイゼーション向け"
+    },
+    "legal": {
+      "title": "リーガル",
+      "privacy": "プライバシーポリシー",
+      "cookie": "クッキーポリシー",
+      "eula": "EULA (利用規約)",
+      "terms": "利用規約 (Terms & Conditions)"
+    },
+    "app": {
+      "title": "アプリをダウンロード",
+      "downloadOn": "ダウンロードはこちら",
+      "appStore": "App Store",
+      "getItOn": "手に入れよう",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© {year} B2B Insight Panel. Powered by Beacon Martech. All rights reserved.",
+    "bottom": {
+      "privacy": "プライバシー",
+      "cookies": "クッキー",
+      "terms": "規約"
+    },
+    "social": {
+      "x": "X (旧Twitter)",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  }
+}

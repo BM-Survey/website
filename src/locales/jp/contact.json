@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "お問い合わせ — Support & Help | B2B Insight Panel",
+    "description": "アカウント、ペイアウト、またはブランドからのお問い合わせは、InsightPanelのサポートまで。1営業日以内にリプライいたします。",
+    "keywords": ["contact insight panel", "survey support", "brand inquiry"],
+    "ogAlt": "InsightPanelチームへのお問い合わせ"
+  },
+  "hero": {
+    "eyebrow": "コンタクト (Contact)",
+    "title": "Let's talk"
+  },
+  "cards": {
+    "email": {
+      "title": "Eメールサポート",
+      "value": "support@b2binsightpanel.com"
+    },
+    "chat": {
+      "title": "ライブチャット (Live chat)",
+      "value": "24時間年中無休で稼働中 (Always At Work 24/7)"
+    },
+    "brands": {
+      "title": "ブランド＆リサーチチーム向け",
+      "text": "弊社のパネルでスタディをフィールド（実施）することをご検討中ですか？",
+      "link": "コラボレーションを見る"
+    }
+  },
+  "form": {
+    "label": "メッセージを送信する",
+    "reassure": "通常、24ビジネスアワーズ（営業時間内）以内に対応いたします。",
+    "nameLabel": "お名前 (Name)",
+    "namePlaceholder": "お名前を入力してください",
+    "emailLabel": "Eメール (Email)",
+    "emailPlaceholder": "you@email.com",
+    "topicLabel": "トピック (Topic)",
+    "topics": [
+      "Account Support",
+      "Rewards & Payments",
+      "Study Participation",
+      "Technical Issue",
+      "Other"
+    ],
+    "messageLabel": "メッセージ (Message)",
+    "messagePlaceholder": "ご質問やリクエストの詳細を記述してください。",
+    "submit": "メッセージ送信",
+    "submitting": "送信中… (Sending…)",
+    "errorMessage": "Something went wrong. もう一度トライしてください。",
+    "submitted": "送信完了 (Sent)",
+    "sentMessage": "メッセージを受領しました — 24時間以内にご連絡いたします。"
+  }
+}

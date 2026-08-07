@@ -1,41 +1,41 @@
 {
   "meta": {
-    "title": "FAQ — Foire Aux Questions | B2B Insight Panel",
-    "description": "Des réponses concernant votre compte, vos gains, vos paiements et votre confidentialité sur InsightPanel — le panel d'études B2B qui rémunère de vraies opinions avec de l'argent réel.",
-    "keywords": ["FAQ sondages", "questions sondages rémunérés", "questions paiements", "panel d'études B2B"],
-    "ogAlt": "Foire aux questions concernant InsightPanel"
+    "title": "FAQ — Frequently Asked Questions | B2B Insight Panel",
+    "description": "Des réponses sur votre compte, earnings, payouts et privacy sur InsightPanel — le panel B2B qui paye de la vraie money pour de vraies opinions.",
+    "keywords": ["survey FAQ", "paid survey questions", "payout questions", "B2B insight panel"],
+    "ogAlt": "Questions fréquemment posées sur InsightPanel"
   },
   "hero": {
     "eyebrow": "FAQ",
     "titleLead": "Des questions ?",
-    "titleHighlight": "Voici les réponses.",
-    "subtitleText": "Toujours bloqué ?",
+    "titleHighlight": "On a les réponses.",
+    "subtitleText": "Toujours stuck ?",
     "subtitleLink": "Contactez notre équipe de support"
   },
   "categories": [
     { "key": "all", "label": "Tout" },
     { "key": "account", "label": "Compte" },
-    { "key": "earning", "label": "Gains" },
-    { "key": "payouts", "label": "Paiements" },
-    { "key": "privacy", "label": "Confidentialité" }
+    { "key": "earning", "label": "Earnings" },
+    { "key": "payouts", "label": "Payouts" },
+    { "key": "privacy", "label": "Privacy" }
   ],
   "items": [
-    { "cat": "account", "question": "L'inscription est-elle gratuite ?", "answer": "Oui. Rejoindre B2B Insight Panel est entièrement gratuit. Il n'y a pas de frais d'inscription, de frais d'abonnement ou de coûts cachés." },
-    { "cat": "account", "question": "Qu'est-ce que B2B Insight Panel ?", "answer": "B2B Insight Panel est une communauté mondiale de professionnels et de décideurs qui participent à des études de recherche, des sondages, des entretiens et des panels de discussion pour aider les entreprises à prendre de meilleures décisions stratégiques." },
-    { "cat": "account", "question": "Qui peut rejoindre la communauté ?", "answer": "Les professionnels de tous secteurs et de toutes fonctions sont les bienvenus, y compris les cadres, les managers, les experts en informatique, les responsables des achats, les professionnels de la finance, les acteurs de la santé et d'autres décideurs d'entreprise." },
-    { "cat": "account", "question": "Comment les membres sont-ils sélectionnés pour les opportunités d'études ?", "answer": "Les invitations à participer aux recherches sont attribuées en fonction de votre profil professionnel, notamment selon votre secteur d'activité, votre rôle, votre niveau d'ancienneté, votre expertise et vos responsabilités décisionnelles. Maintenir votre profil à jour vous permet de recevoir des opportunités plus pertinentes." },
-    { "cat": "account", "question": "Puis-je mettre à jour les informations de mon profil ?", "answer": "Oui. Vous pouvez modifier vos informations professionnelles, votre secteur d'activité et vos domaines d'expertise à tout moment. Un profil précis nous permet de vous proposer des études plus adaptées." },
-    { "cat": "account", "question": "Puis-je quitter la communauté à tout moment ?", "answer": "Oui. Vous pouvez demander la suppression de votre compte ou vous désabonner de nos communications à tout moment." },
-    { "cat": "earning", "question": "Quels types d'opportunités de recherche sont disponibles ?", "answer": "Les membres peuvent être invités à participer à des sondages en ligne, des entretiens individuels, des groupes de discussion (focus groups), des forums de discussion, des évaluations de produits et des études de marché sectorielles." },
-    { "cat": "earning", "question": "Combien de temps durent généralement les études ?", "answer": "La durée varie selon le type de recherche : les sondages en ligne prennent généralement de 10 à 30 minutes, les entretiens durent de 30 à 60 minutes, tandis que la durée des forums de discussion ou des études spécialisées peut varier. Le temps de participation estimé est toujours communiqué à l'avance." },
-    { "cat": "earning", "question": "Serai-je rémunéré pour ma participation ?", "answer": "Oui. Les membres reçoivent des récompenses ou des honoraires lorsqu'ils finalisent avec succès les études de recherche pour lesquelles ils sont qualifiés. La rémunération varie selon la complexité de l'étude, sa durée et l'expertise requise." },
-    { "cat": "earning", "question": "Comment le montant des récompenses est-il déterminé ?", "answer": "Le montant des récompenses dépend de facteurs tels que la durée de l'étude, le niveau d'expertise requis, l'ancienneté des participants et la complexité de la recherche. Les détails de la récompense sont systématiquement partagés avant votre participation." },
-    { "cat": "earning", "question": "Que se passe-t-il si je ne suis pas qualifié pour une étude ?", "answer": "Certaines études comportent des critères de filtrage stricts. Si vous ne répondez pas aux critères d'une étude spécifique, vous continuerez à recevoir des invitations pour de futures opportunités correspondant mieux à votre parcours professionnel." },
-    { "cat": "earning", "question": "À quelle fréquence vais-je recevoir des invitations ?", "answer": "La fréquence des invitations dépend de votre profil professionnel et des besoins des projets de recherche en cours. Selon la demande du marché, certains professionnels peuvent recevoir des opportunités plus fréquemment que d'autres." },
-    { "cat": "payouts", "question": "Comment les récompenses sont-elles traitées ?", "answer": "Les récompenses sont traitées de manière sécurisée via les modes de paiement disponibles, qui peuvent inclure PayPal, les virements bancaires, les cartes cadeaux, UPI ou d'autres options de retrait locales. Les méthodes disponibles peuvent varier selon les pays." },
-    { "cat": "privacy", "question": "Mes informations restent-elles confidentielles ?", "answer": "Absolument. Vos informations personnelles sont protégées et traitées conformément aux réglementations en vigueur sur la confidentialité. Les réponses individuelles sont généralement analysées de manière globale (agrégée) et ne sont jamais partagées sans votre consentement préalable." },
-    { "cat": "privacy", "question": "Mes données sont-elles sécurisées ?", "answer": "Oui. Nous appliquons des mesures de sécurité et des pratiques de confidentialité conformes aux normes de l'industrie pour protéger les informations des membres et garantir un environnement de recherche hautement sécurisé." },
-    { "cat": "privacy", "question": "Mon employeur saura-t-il que je participe ?", "answer": "Non. La participation est entièrement volontaire et confidentielle. Nous n'informons jamais les employeurs de votre participation, sauf si cela est expressément requis et convenu pour une étude spécifique." }
+    { "cat": "account", "question": "Est-ce que c'est gratuit de joindre ?", "answer": "Oui. Rejoindre le B2B Insight Panel est complètement gratuit. Il n'y a pas de frais d'inscription, de frais d'abonnement ou de coûts cachés." },
+    { "cat": "account", "question": "C'est quoi B2B Insight Panel ?", "answer": "B2B Insight Panel est une global community de professionnels et de décisionnaires qui participent à des études de recherche, des surveys, des interviews et des discussions pour aider les entreprises à prendre de meilleures décisions business." },
+    { "cat": "account", "question": "Qui peut joindre la community ?", "answer": "Les pros de toutes les industries et fonctions sont les bienvenus : executives, managers, pros de l'IT, leaders du procurement, experts en finance, professionnels de la santé et autres décideurs business." },
+    { "cat": "account", "question": "Comment les membres sont-ils sélectionnés pour les opportunités ?", "answer": "Les invitations de recherche sont matchées selon votre profil professionnel, incluant des facteurs comme l'industrie, le job role, la séniorité, l'expertise et les responsabilités de décision. Garder votre profil à jour vous aide à recevoir des opportunités plus pertinentes." },
+    { "cat": "account", "question": "Est-ce que je peux updater les infos de mon profil ?", "answer": "Oui. Vous pouvez updater vos détails professionnels, vos infos d'industrie et vos domaines d'expertise à tout moment. Avoir un profil précis nous aide à vous envoyer des recherches plus pertinentes." },
+    { "cat": "account", "question": "Est-ce que je peux quitter la community quand je veux ?", "answer": "Oui. Vous pouvez demander la suppression de votre compte ou vous désabonner des communications à tout moment." },
+    { "cat": "earning", "question": "Quels types d'opportunités de recherche sont disponibles ?", "answer": "Les membres peuvent être invités à participer à des online surveys, des interviews one-on-one, des focus groups, des discussion boards, des évaluations de produits et des études sectorielles." },
+    { "cat": "earning", "question": "Combien de temps prennent les études en général ?", "answer": "La durée varie selon le type de recherche : les online surveys prennent généralement 10 à 30 minutes, les interviews 30 à 60 minutes, et les discussion boards ou études spécialisées peuvent varier. Le temps de participation estimé est toujours communiqué à l'avance." },
+    { "cat": "earning", "question": "Est-ce que je serai compensé pour ma participation ?", "answer": "Oui. Les membres reçoivent des rewards ou des honoraires pour avoir complété avec succès les études de recherche où ils sont qualifiés. La compensation varie selon la complexité de l'étude, sa durée et l'expertise demandée." },
+    { "cat": "earning", "question": "Comment sont déterminés los montants des rewards ?", "answer": "Les montants dépendent de facteurs comme la durée de l'étude, le niveau d'expertise requis, la séniorité des participants et la complexité de la recherche. Les détails des rewards sont partagés avant votre participation." },
+    { "cat": "earning", "question": "Qu'est-ce qui se passe si je ne suis pas qualifié pour une étude ?", "answer": "Certaines études ont des critères de screening très spécifiques. Si vous ne vous qualifiez pas pour une étude en particulier, vous continuerez à recevoir des invitations pour de futures opportunités qui matchent mieux avec votre background pro." },
+    { "cat": "earning", "question": "À quelle fréquence vais-je recevoir des invitations ?", "answer": "La fréquence dépend de votre profil pro et des besoins des projets de recherche en cours. Certains pros reçoivent des opportunités plus souvent que d'autres selon la market demand." },
+    { "cat": "payouts", "question": "Comment sont processés les rewards ?", "answer": "Les rewards sont processés de manière sécurisée via les méthodes de paiement disponibles, qui peuvent inclure PayPal, virement bancaire, gift cards, UPI ou d'autres options locales. Les méthodes varient selon le pays." },
+    { "cat": "privacy", "question": "Est-ce que mes informations restent confidentielles ?", "answer": "Absolument. Vos données personnelles sont protégées et traitées selon les privacy regulations en vigueur. Les réponses individuelles sont analysées de manière agrégée et ne sont jamais partagées sans votre consentement." },
+    { "cat": "privacy", "question": "Est-ce que ma data est sécurisée ?", "answer": "Oui. Nous utilisons des mesures de sécurité industry-standard et des pratiques de privacy strictes pour protéger les informations des membres et maintenir un environnement de recherche sûr." },
+    { "cat": "privacy", "question": "Est-ce que mon employeur saura que je participe ?", "answer": "Non. La participation est entièrement volontaire et confidentielle. Nous ne notifions jamais les employeurs de votre participation, sauf si c'est explicitement requis et validé ensemble pour une étude spécifique." }
   ],
   "cta": {
     "title": "Vous n'avez pas trouvé votre réponse ?",

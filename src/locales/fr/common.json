@@ -5,7 +5,7 @@
   },
   "nav": {
     "howItWorks": "Comment ça marche",
-    "rewards": "Récompenses",
+    "rewards": "Rewards",
     "about": "À propos",
     "faq": "FAQ",
     "contact": "Contact",
@@ -13,29 +13,29 @@
     "blog": "Blog"
   },
   "actions": {
-    "login": "Connexion",
-    "signupFree": "Rejoindre notre communauté",
-    "earnMoney": "Partager mes insights",
-    "seeHowItWorks": "Découvrir le fonctionnement",
-    "startNow": "S'inscrire gratuitement",
-    "cashOut": "Encaisser mes gains"
+    "login": "Log in",
+    "signupFree": "Rejoindre la Community",
+    "earnMoney": "Commencer à partager vos Insights",
+    "seeHowItWorks": "Voir comment ça marche",
+    "startNow": "Rejoindre la Community",
+    "cashOut": "Cash out"
   },
   "language": {
-    "label": "Langue",
-    "select": "Choisir la langue"
+    "label": "Language",
+    "select": "Sélectionner la langue"
   },
   "a11y": {
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
     "primaryNavigation": "Navigation principale",
-    "footerNavigation": "Navigation de pied de page",
+    "footerNavigation": "Footer",
     "skipToContent": "Passer au contenu"
   },
   "footer": {
-    "tagline": "Une communauté mondiale de professionnels et de décideurs participant à des opportunités d'études exclusives.",
+    "tagline": "Une global community de professionnels et de décisionnaires qui participent à des opportunités de recherche exclusives.",
     "product": {
       "title": "Produit",
-      "home": "Accueil",
+      "home": "Home",
       "howItWorks": "Comment ça marche",
       "faq": "FAQ",
       "blog": "Blog",
@@ -43,24 +43,24 @@
       "collaboration": "Pour les Organisations"
     },
     "legal": {
-      "title": "Mentions légales",
-      "privacy": "Politique de confidentialité",
-      "cookie": "Politique des cookies",
-      "eula": "CLUF (Contrat de Licence Utilisateur Final)",
-      "terms": "Conditions générales"
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "cookie": "Cookie Policy",
+      "eula": "EULA",
+      "terms": "Terms & Conditions"
     },
     "app": {
-      "title": "Télécharger l'application",
-      "downloadOn": "Télécharger dans l'ou sur l'",
+      "title": "Get the app",
+      "downloadOn": "Télécharger sur l'",
       "appStore": "App Store",
       "getItOn": "Disponible sur",
       "googlePlay": "Google Play"
     },
-    "copyright": "© {year} B2B Insight Panel. Propulsé par Beacon Martech. Tous droits réservés.",
+    "copyright": "© {year} B2B Insight Panel. Powered by Beacon Martech. Tous droits réservés.",
     "bottom": {
-      "privacy": "Confidentialité",
+      "privacy": "Privacy",
       "cookies": "Cookies",
-      "terms": "Conditions"
+      "terms": "Terms"
     },
     "social": {
       "x": "X (Twitter)",

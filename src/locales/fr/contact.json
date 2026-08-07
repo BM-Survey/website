@@ -1,54 +1,50 @@
 {
   "meta": {
-    "title": "Contactez-nous — Support & Aide | B2B Insight Panel",
-    "description": "Contactez le support d'InsightPanel pour toute question concernant votre compte, vos paiements ou nos partenariats. Nous répondons sous un jour ouvré.",
-    "keywords": [
-      "contact insight panel",
-      "support sondage",
-      "demande partenariat"
-    ],
-    "ogAlt": "Contacter l'équipe d'InsightPanel"
+    "title": "Contactez-nous — Support & Help | B2B Insight Panel",
+    "description": "Contactez le support d'InsightPanel pour des questions de compte, payout ou demandes de brands. On vous répond sous un jour ouvré.",
+    "keywords": ["contact insight panel", "survey support", "brand inquiry"],
+    "ogAlt": "Contactez l'équipe d'InsightPanel"
   },
   "hero": {
     "eyebrow": "Contact",
-    "title": "Discutons ensemble"
+    "title": "Let's talk"
   },
   "cards": {
     "email": {
-      "title": "Support par e-mail",
+      "title": "Support par email",
       "value": "support@b2binsightpanel.com"
     },
     "chat": {
-      "title": "Chat en direct",
-      "value": "Dans l'application, tous les jours de 9h à 21h"
+      "title": "Live chat",
+      "value": "Dispo 24/7 non-stop"
     },
     "brands": {
-      "title": "Pour les marques & équipes de recherche",
-      "text": "Vous souhaitez lancer une étude sur notre panel ?",
+      "title": "Pour les brands & équipes de research",
+      "text": "Vous cherchez à lancer une étude sur notre panel ?",
       "link": "Voir les collaborations"
     }
   },
   "form": {
     "label": "Envoyez-nous un message",
-    "reassure": "Nous répondons généralement sous 24 heures ouvrées.",
+    "reassure": "On répond généralement sous 24 heures ouvrées.",
     "nameLabel": "Nom",
     "namePlaceholder": "Votre nom",
-    "emailLabel": "E-mail",
-    "emailPlaceholder": "vous@email.com",
-    "topicLabel": "Sujet",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@email.com",
+    "topicLabel": "Topic",
     "topics": [
-      "Support de compte",
-      "Récompenses & Paiements",
-      "Participation aux études",
-      "Problème technique",
-      "Autre"
+      "Account Support",
+      "Rewards & Payments",
+      "Study Participation",
+      "Technical Issue",
+      "Other"
     ],
     "messageLabel": "Message",
-    "messagePlaceholder": "Veuillez fournir des détails sur votre question ou votre demande.",
+    "messagePlaceholder": "Merci de donner des détails sur votre question ou demande.",
     "submit": "Envoyer le message",
     "submitting": "Envoi en cours…",
-    "errorMessage": "Une erreur est survenue. Veuillez réessayer.",
+    "errorMessage": "Something went wrong. Merci de réessayer.",
     "submitted": "Envoyé",
-    "sentMessage": "Message reçu — nous vous répondrons sous 24 heures."
+    "sentMessage": "Message reçu — on vous répond d'ici 24 heures."
   }
 }

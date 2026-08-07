@@ -1,137 +1,137 @@
 {
   "meta": {
-    "title": "كيف يعمل — اكسب المال من خلال الاستبيانات | B2B Insight Panel",
-    "description": "من التسجيل إلى الدفع: شاهد بالضبط كيف يربطك InsightPanel بالاستبيانات، ويقدم مكافآت عادلة، ويدفع لك في نفس اليوم.",
+    "title": "طريقة الشغل (How It Works) — اكسب فلوس من السيرفيهات | B2B Insight Panel",
+    "description": "من أول ما تسجل لحد الـ payout: شوف بالظبط ازاي InsightPanel بيعملك ماتش مع السيرفيهات، وبيعمل كاش أوت في نفس اليوم.",
     "keywords": [
-      "كيف تعمل الاستبيانات المدفوعة",
-      "عملية مكافآت الاستبيانات",
-      "المدفوعات السريعة",
-      "لوحة B2B insight"
+      "how paid surveys work",
+      "survey rewards process",
+      "fast payouts",
+      "B2B insight panel"
     ],
-    "ogAlt": "كيفية عمل InsightPanel، من الرأي إلى الدفع"
+    "ogAlt": "ازاي InsightPanel بيشتغل، من أول رأيك لحد الـ payout"
   },
   "hero": {
-    "eyebrow": "كيف يعمل",
-    "titleLead": "من الخبرة إلى ",
-    "titleHighlight": "التأثير",
-    "subtitle": "شارك في فرص البحث B2B الحصرية المصممة خصيصاً لخبرتك المهنية. شارك الأفكار القيمة، وأثر على قرارات الأعمال، واحصل على مكافآت لمساهمتك. إليك بالضبط كيفية عمله."
+    "eyebrow": "طريقة الشغل (How It Works)",
+    "titleLead": "من الخبرة للـ ",
+    "titleHighlight": "تأثير (Impact)",
+    "subtitle": "شارك في فرص أبحاث B2B حصرية ومخصصة لخبرتك المهنية. شارك الـ insights بتاعتك، وأثّر على قرارات البيزنس، وخد مكافآت مقابل مشاركتك. دي طريقة الشغل بالظبط."
   },
   "steps": [
     {
       "number": "01",
-      "title": " بناء ملفك الشخصي المهني",
-      "text": "أكمل ملفك الشخصي المهني حتى نتمكن من ربطك بدراسات البحث التي تتوافق مع خبرتك."
+      "title": "ابني الـ Professional Profile بتاعك",
+      "text": "كمل البروفايل بتاعك عشان نقدر نعملك كونيكت مع الدراسات البحثية اللي بتناسب خبرتك بالظبط."
     },
     {
       "number": "02",
-      "title": " تطابق الدراسات",
-      "text": "احصل على دعوات لدراسات البحث التي تتماشى مع خبرة الصناعة والخلفية المهنية لديك."
+      "title": "هتتوصل بالدراسات المناسبة (Get Matched)",
+      "text": "هيجيلك دعوات (invitations) لدراسات بتماتش مع مجال شغلك وخلفيتك المهنية."
     },
     {
       "number": "03",
-      "title": " شارك خبرتك",
-      "text": "شارك في فرص البحث ذات الصلة وشارك رؤيتك المهنية من خلال الاستبيانات والمقابلات وأنشطة البحث الأخرى."
+      "title": "شارك خبرتك (Share Your Expertise)",
+      "text": "شارك في فرص الأبحاث المناسبة وقدم الـ professional insights بتاعتك من خلال سيرفيهات، وإنترفيوهات، ونشاطات بحثية تانية."
     },
     {
       "number": "04",
-      "title": "الحصول على المكافأة",
-      "text": "تصل المكافأة إلى رصيدك في نفس اليوم. اسحب عبر UPI أو PayPal أو تحويل بنكي من 5 دولار فقط."
+      "title": "استلم الـ Reward",
+      "text": "الـ reward بينزل في الرصيد بتاعك في نفس اليوم. تقدر تعمل كاش أوت (cash out) عبر UPI، بايبال، أو تحويل بنكي من أول 5 دولار بس."
     }
   ],
   "surveyPreview": {
-    "eyebrow": "شفافية، دائماً",
-    "title": "أمثلة على فرص البحث",
+    "eyebrow": "شفافية دايماً (Transparent, always)",
+    "title": "أمثلة لفرص الأبحاث",
     "cards": [
       {
-        "tag": "التكنولوجيا",
+        "tag": "تكنولوجيا (Technology)",
         "tone": "primary",
-        "title": "اعتماد البنية التحتية السحابية",
+        "title": "Cloud Infrastructure Adoption",
         "time": "15 دقيقة",
         "reward": "$12.50"
       },
       {
-        "tag": "الأمن السيبراني",
+        "tag": "أمن سيبراني (Cybersecurity)",
         "tone": "purple",
-        "title": "اتجاهات الأمن السيبراني للمؤسسات",
+        "title": "Enterprise Cybersecurity Trends",
         "time": "20 دقيقة",
         "reward": "$11"
       },
       {
-        "tag": "التمويل",
+        "tag": "فاينانس (Finance)",
         "tone": "orange",
-        "title": "اعتماد الذكاء الاصطناعي في الخدمات المالية",
+        "title": "AI Adoption in Financial Services",
         "time": "15 دقيقة",
         "reward": "$10.50"
       },
       {
-        "tag": "المشتريات",
+        "tag": "مشتريات (Procurement)",
         "tone": "success",
-        "title": "تقييم برامج المشتريات",
+        "title": "Procurement Software Evaluation",
         "time": "20 دقيقة",
         "reward": "$12.50"
       }
     ]
   },
   "payoutSpeed": {
-    "eyebrow": "خيارات المكافآت",
-    "title": "السرعة التي تتلقى بها الدفع",
+    "eyebrow": "خيارات المكافآت (REWARD OPTIONS)",
+    "title": "بتتقبض بسرعة قد إيه",
     "items": [
       {
-        "title": "UPI / PayPal — نفس اليوم",
-        "text": "تم الإرسال إلى معرّف UPI أو حسابك على PayPal"
+        "title": "UPI / PayPal — في نفس اليوم",
+        "text": "بتتبعت على الـ UPI ID أو حساب البايبال بتاعك"
       },
       {
-        "title": "بطاقات الهدايا — نفس اليوم",
-        "text": "أكثر من 100 علامة تجارية، مكافأة +5% على البطاقات المختارة"
+        "title": "كروت هدايا (Gift cards) — في نفس اليوم",
+        "text": "أكتر من 100 براند، ومعاهم +5% بونص على كروت معينة"
       },
       {
-        "title": "التحويل البنكي — 1-2 يوم",
-        "text": "مباشرة إلى حسابك، لا توجد رسوم"
+        "title": "تحويل بنكي — خلال 1–2 يوم",
+        "text": "مباشرة لحسابك، ومفيش أي فيز (zero fees)"
       }
     ]
   },
   "cta": {
-    "title": "هل أنت مستعد لمشاركة خبرتك؟",
-    "subtitle": "انضم إلى مجتمع موثوق من المحترفين يشاركون في فرص البحث الحصرية والمساعدة في تشكيل قرارات الأعمال.",
-    "button": "التسجيل مجاناً"
+    "title": "جاهز تشارك خبرتك؟",
+    "subtitle": "انضم لـ مجتمع موثوق (trusted community) من المحترفين اللي بيشاركوا في أبحاث حصرية وبيساعدوا في توجيه قرارات البيزنس.",
+    "button": "انضم للـ Community بتاعنا"
   },
   "phoneScreens": {
     "nav": {
-      "surveys": "الاستبيانات",
-      "history": "السجل",
-      "wallet": "المحفظة",
-      "analytics": "التحليلات",
-      "profile": "الملف الشخصي"
+      "surveys": "سيرفيهات (Surveys)",
+      "history": "الهستوري (History)",
+      "wallet": "المحفظة (Wallet)",
+      "analytics": "التحليلات (Analytics)",
+      "profile": "البروفايل (Profile)"
     },
     "profile": {
-      "title": "ملفك الشخصي",
-      "subtitle": "يستغرق حوالي دقيقتين",
-      "nameLabel": "الاسم الكامل",
+      "title": "البروفايل بتاعك",
+      "subtitle": "بياخد حوالي دقيقتين بس",
+      "nameLabel": "الاسم بالكامل",
       "nameValue": "Alex Carter",
-      "emailLabel": "البريد الإلكتروني",
+      "emailLabel": "الإيميل",
       "emailValue": "alex@email.com",
-      "interestsLabel": "الاهتمامات",
-      "interests": ["التكنولوجيا", "الرعاية الصحية", "الخدمات المالية"],
-      "progressLabel": "الملف الشخصي مكتمل",
+      "interestsLabel": "الاهتمامات (Interests)",
+      "interests": ["Technology", "Healthcare", "Financial Services"],
+      "progressLabel": "اكتمل البروفايل",
       "progressValue": "80%",
-      "cta": "متابعة"
+      "cta": "كمل (Continue)"
     },
     "matched": {
-      "heading": "دراسات من أجلك",
-      "subtitle": "بناءً على ملفك الشخصي",
-      "search": "البحث عن الاستبيانات...",
-      "allChip": "الكل"
+      "heading": "دراسات ليك (Studies for You)",
+      "subtitle": "بناءً على البروفايل بتاعك",
+      "search": "دور على سيرفيهات...",
+      "allChip": "الكل (All)"
     },
     "answer": {
-      "progressLabel": "السؤال 5 من 18",
-      "question": "ما هي منصات السحابة التي تستخدمها مؤسستك حالياً؟",
-      "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "أخرى"],
-      "submitCta": "إرسال الإجابات"
+      "progressLabel": "سؤال 5 من 18",
+      "question": "إيه هي الـ cloud platforms اللي شركتكم بتستخدمها حالياً؟",
+      "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "أخرى (Other)"],
+      "submitCta": "التالي (Next)"
     },
     "paid": {
-      "title": "تم استقبال المكافأة",
-      "via": "تم الإرسال إلى PayPal الخاص بك",
-      "balanceLabel": "المكافأة المتاحة",
+      "title": "تم استلام الـ Reward",
+      "via": "اتبعتت على البايبال بتاعك",
+      "balanceLabel": "الـ Reward المتاح",
       "balanceValue": "$129.50"
     }
   }

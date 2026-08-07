@@ -1,0 +1,330 @@
+{
+  "badge": "Legal · 最終更新 2026年7月",
+  "contactPageLabel": "お問い合わせページ (Contact page)",
+  "nav": {
+    "privacy": "プライバシーポリシー (Privacy Policy)",
+    "cookie": "クッキーポリシー (Cookie Policy)",
+    "eula": "EULA (利用規約)",
+    "terms": "利用規約 (Terms & Conditions)"
+  },
+  "privacy": {
+    "title": "プライバシーポリシー (Privacy Policy)",
+    "meta": {
+      "title": "Privacy Policy | B2B Insight Panel",
+      "description": "B2B Insight Panel がお客様の個人情報を収集、利用、保護する方法について。",
+      "ogAlt": "B2B Insight Panel Privacy Policy"
+    },
+    "intro": "B2B Insight Panel (\"当社\") は、Beacon Martech によって運営されています。本 Privacy Policy は、当社のプラットフォームにおける個人情報の取り扱い方針を説明するものです。",
+    "sections": [
+      {
+        "heading": "2. 収集する情報 (Information we collect)",
+        "paragraphs": [
+          "Personal information: 氏名、メールアドレス、国/地域、職業情報 (役職、業界、会社規模など)、専門分野、謝礼 (honorariums) 支払用の情報。",
+          "Research information: アンケート回答、参加履歴、プロフィール情報、スクリーニング回答。",
+          "Technical information: IP アドレス、デバイス識別子、ブラウザ情報、OS、利用状況アナリティクス、Cookie 情報。"
+        ]
+      },
+      {
+        "heading": "3. データの利用目的 (How we use your information)",
+        "paragraphs": [],
+        "list": [
+          "最適な Research opportunities とのマッチング",
+          "謝礼 (Honorariums) およびリワードの発送処理",
+          "本人確認および不正利用 (Fraud) 防止",
+          "プラットフォームの機能改善と UX の向上",
+          "調査への招待メールやアカウント更新のお知らせ通知",
+          "同意に基づく関連業界コンテンツやソリューション情報の配信",
+          "法的義務の遵守 (Legal compliance)"
+        ]
+      },
+      {
+        "heading": "4. 情報の共有 (How we share information)",
+        "paragraphs": [
+          "当社が個人情報を販売または貸与することはありません。明示的な同意がない限り、個人特定可能な情報がクライアントへ渡ることはありません。"
+        ],
+        "list": [
+          "リサーチクライアント (匿名化・統計データとして処理)",
+          "システムを支援する Service providers",
+          "決済処理事業者 (Payment processors)",
+          "法令に基づく法的機関からの要請"
+        ]
+      },
+      {
+        "heading": "5. 海外へのデータ転送 (International data transfers)",
+        "paragraphs": [
+          "グローバルサービスのため、お客様のデータは居住国以外の国で処理される場合があります。適切な安全管理措置を講じています。"
+        ]
+      },
+      {
+        "heading": "6. データの保持期間 (Data retention)",
+        "paragraphs": [
+          "アカウントが有効な間、および以下の目的のために必要な期間データを保持します："
+        ],
+        "list": [
+          "Legal obligations (法的義務)",
+          "Fraud prevention (不正防止)",
+          "Dispute resolution (紛争解決)",
+          "Contract enforcement (契約履行)"
+        ]
+      },
+      {
+        "heading": "7. ユーザーの権利 (Your rights)",
+        "paragraphs": [
+          "適用される法令に基づき、以下の権利を有する場合があります："
+        ],
+        "list": [
+          "個人データへのアクセス権 (Access)",
+          "不正確な情報の訂正権 (Correction)",
+          "データの削除リクエスト (Deletion)",
+          "処理の制限・異議申し立て",
+          "同意の撤回 (Withdraw consent)",
+          "データポータビリティの権利"
+        ]
+      },
+      {
+        "heading": "8. セキュリティ (Security)",
+        "paragraphs": [
+          "暗号化やアクセス制限など、適切な技術的・組織的安全管理措置を実施しています。"
+        ]
+      },
+      {
+        "heading": "9. 未成年者のプライバシー (Children's privacy)",
+        "paragraphs": [
+          "当社のサービスは 18 歳以上の方のみを対象としています。"
+        ]
+      },
+      {
+        "heading": "10. お問い合わせ (Contact us)",
+        "paragraphs": [
+          "ご質問は support@b2binsightpanel.com または当社"
+        ],
+        "contactLink": true
+      }
+    ]
+  },
+  "cookie": {
+    "title": "クッキーポリシー (Cookie Policy)",
+    "meta": {
+      "title": "Cookie Policy | B2B Insight Panel",
+      "description": "B2B Insight Panel における Cookie および類似技術の利用について。",
+      "ogAlt": "B2B Insight Panel Cookie Policy"
+    },
+    "intro": "Cookie は、Web サイトの利便性向上や機能提供のためにデバイスに保存される小さなファイルです。",
+    "sections": [
+      {
+        "heading": "1. Cookie とは (What are cookies)",
+        "paragraphs": [
+          "ユーザー体験の向上やサイトの基本機能を提供するために使用されます。"
+        ]
+      },
+      {
+        "heading": "2. 使用する Cookie の種類",
+        "paragraphs": [],
+        "table": {
+          "headers": ["カテゴリ (Category)", "目的 (Purpose)"],
+          "rows": [
+            ["Essential (必須)", "ログインや基本機能の提供に必要な Cookie"],
+            ["Analytics (分析)", "利用状況を把握し、サービスを改善するための Cookie"],
+            ["Preference (設定)", "ユーザー設定や優先事項を記録する Cookie"],
+            ["Marketing (マーケティング)", "同意に基づき最適化されたコンテンツを届けるための Cookie"]
+          ]
+        }
+      },
+      {
+        "heading": "3. Cookie の管理方法 (Managing cookies)",
+        "paragraphs": [
+          "ブラウザの設定から Cookie を無効化できますが、一部の機能が正常に動作しない場合があります。"
+        ]
+      },
+      {
+        "heading": "4. お問い合わせ (Contact us)",
+        "paragraphs": [
+          "ご質問は support@b2binsightpanel.com または"
+        ],
+        "contactLink": true
+      }
+    ]
+  },
+  "eula": {
+    "title": "エンドユーザーライセンス規約 (EULA)",
+    "meta": {
+      "title": "EULA — End User License Agreement | B2B Insight Panel",
+      "description": "B2B Insight Panel アプリおよび Web サイトの利用に関するライセンス利用規約。",
+      "ogAlt": "B2B Insight Panel End User License Agreement"
+    },
+    "intro": "本 EULA は、B2B Insight Panel のアプリおよび Web サイトの利用条件を規定するものです。",
+    "sections": [
+      {
+        "heading": "1. ライセンスの付与 (License grant)",
+        "paragraphs": [
+          "当社は、非独占的かつ譲渡不可の制限付き使用許諾をユーザーに付与します。"
+        ]
+      },
+      {
+        "heading": "2. 禁止事項 (Restrictions)",
+        "paragraphs": [],
+        "list": [
+          "リバースエンジニアリング (Reverse engineering)",
+          "システムの無断複製・修正・配信",
+          "Bot や自動化ツールの使用",
+          "セキュリティ機能への妨害行為"
+        ]
+      },
+      {
+        "heading": "3. ユーザーコンテンツ (User content)",
+        "paragraphs": [
+          "回答データやプロフィール情報は Privacy Policy に従って保護されます。"
+        ]
+      },
+      {
+        "heading": "4. アップデート (Updates)",
+        "paragraphs": [
+          "当社は必要に応じてソフトウェアのアップデートを実施します。"
+        ]
+      },
+      {
+        "heading": "5. アカウントの停止 (Account suspension)",
+        "paragraphs": [
+          "以下の場合、アカウントを停止することがあります："
+        ],
+        "list": [
+          "不正行為 (Fraudulent activities)",
+          "虚偽情報の登録 (Misrepresentation)",
+          "サービスの悪用",
+          "法令違反行為"
+        ]
+      },
+      {
+        "heading": "6. 知的財産権 (Intellectual property)",
+        "paragraphs": [
+          "すべてのロゴ、商標、コンテンツは B2B Insight Panel および Beacon Martech に帰属します。"
+        ]
+      },
+      {
+        "heading": "7. 免責事項 (Disclaimer)",
+        "paragraphs": [
+          "本サービスは「現状有姿 (as is)」で提供されます。"
+        ]
+      },
+      {
+        "heading": "8. 責任の制限 (Limitation of liability)",
+        "paragraphs": [
+          "当社は、サービス利用に伴い発生した間接的な損害について責任を負いません。"
+        ]
+      },
+      {
+        "heading": "9. 準拠法 (Governing law)",
+        "paragraphs": [
+          "本規約はインド法に準拠します。"
+        ]
+      },
+      {
+        "heading": "10. お問い合わせ (Contact us)",
+        "paragraphs": [
+          "規約に関する問い合わせは"
+        ],
+        "contactLink": true
+      }
+    ]
+  },
+  "terms": {
+    "title": "利用規約 (Terms & Conditions)",
+    "meta": {
+      "title": "Terms & Conditions | B2B Insight Panel",
+      "description": "B2B Insight Panel の利用条件に関する規約。",
+      "ogAlt": "B2B Insight Panel Terms & Conditions"
+    },
+    "intro": "B2B Insight Panel をご利用いただくことで、本規約に同意したものとみなされます。",
+    "sections": [
+      {
+        "heading": "1. 利用資格 (Eligibility)",
+        "paragraphs": [
+          "以下の要件を満たす必要があります："
+        ],
+        "list": [
+          "18 歳以上であること",
+          "正確な情報を提供すること",
+          "原則 1 人 1 アカウントを保持すること"
+        ]
+      },
+      {
+        "heading": "2. ユーザーの同意 (Participant consent)",
+        "paragraphs": [
+          "アカウント作成により、以下に同意したものとみなされます："
+        ],
+        "list": [
+          "リサーチ活動への参加",
+          "案件案内の受信",
+          "関心に合わせたコンテンツや通知の受信",
+          "プライバシーポリシーに基づくデータ処理"
+        ]
+      },
+      {
+        "heading": "3. 調査への参加 (Research participation)",
+        "paragraphs": [
+          "参加機会は保証されません。虚偽回答を行った場合、アカウントが停止される場合があります。"
+        ]
+      },
+      {
+        "heading": "4. 謝礼とリワード (Rewards & Honorariums)",
+        "paragraphs": [
+          "案件により条件が異なります。以下の場合、謝礼が支払われない場合があります："
+        ],
+        "list": [
+          "不正回答・不正参加",
+          "重複アカウントの保有",
+          "虚偽データの入力",
+          "Bot などの自動化ツールの使用"
+        ]
+      },
+      {
+        "heading": "5. 不正防止 (Fraud prevention)",
+        "paragraphs": [
+          "以下の行為を禁止します："
+        ],
+        "list": [
+          "VPN、プロキシ、Bot の利用",
+          "複数アカウントの作成",
+          "職歴やプロフィールの詐称"
+        ]
+      },
+      {
+        "heading": "6. 連絡事項 (Communications)",
+        "paragraphs": [
+          "当社から以下の案内を送信することに同意するものとします："
+        ],
+        "list": [
+          "調査への招待 (Invitations)",
+          "システム更新通知",
+          "謝礼に関する通知",
+          "プロモーションおよびソリューション情報"
+        ]
+      },
+      {
+        "heading": "7. 知的財産権 (Intellectual property)",
+        "paragraphs": [
+          "プラットフォーム内の権利は当社および Beacon Martech に帰属します。"
+        ]
+      },
+      {
+        "heading": "8. 責任の限定 (Limitation of liability)",
+        "paragraphs": [
+          "安定した運用に努めますが、無中断でのサービス提供を保証するものではありません。"
+        ]
+      },
+      {
+        "heading": "9. アカウント解約 (Termination)",
+        "paragraphs": [
+          "規約違反があった場合、事前に予告なくアカウントを解除する権利を有します。"
+        ]
+      },
+      {
+        "heading": "10. お問い合わせ (Contact us)",
+        "paragraphs": [
+          "規約に関するお問い合わせは"
+        ],
+        "contactLink": true
+      }
+    ]
+  }
+}

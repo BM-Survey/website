@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Contact Us — Support & Help | B2B Insight Panel",
+    "description": "Erreichen Sie den InsightPanel Support für Account-, Payout- oder Brand-Anfragen. Wir antworten innerhalb eines Werktages.",
+    "keywords": ["contact insight panel", "survey support", "brand inquiry"],
+    "ogAlt": "Kontaktieren Sie das InsightPanel Team"
+  },
+  "hero": {
+    "eyebrow": "Kontakt",
+    "title": "Let's talk"
+  },
+  "cards": {
+    "email": {
+      "title": "E-Mail Support",
+      "value": "support@b2binsightpanel.com"
+    },
+    "chat": {
+      "title": "Live Chat",
+      "value": "Immer für Sie da – 24/7"
+    },
+    "brands": {
+      "title": "Für Brands & Research Teams",
+      "text": "Sie möchten eine Studie auf unserem Panel fielden?",
+      "link": "See collaboration"
+    }
+  },
+  "form": {
+    "label": "Senden Sie uns eine Message",
+    "reassure": "Wir antworten normalerweise innerhalb von 24 Business-Hours.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Ihr Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "you@email.com",
+    "topicLabel": "Topic",
+    "topics": [
+      "Account Support",
+      "Rewards & Payments",
+      "Study Participation",
+      "Technical Issue",
+      "Other"
+    ],
+    "messageLabel": "Message",
+    "messagePlaceholder": "Bitte teilen Sie uns Details zu Ihrer Frage oder Anfrage mit.",
+    "submit": "Message senden",
+    "submitting": "Sending…",
+    "errorMessage": "Something went wrong. Bitte versuchen Sie es noch einmal.",
+    "submitted": "Sent",
+    "sentMessage": "Message erhalten — wir antworten innerhalb von 24 Stunden."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "brand": {
+    "prefix": "B2B",
+    "name": "Insight Panel"
+  },
+  "nav": {
+    "howItWorks": "How It Works",
+    "rewards": "Rewards",
+    "about": "Über uns",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "collaboration": "Für Organisationen",
+    "blog": "Blog"
+  },
+  "actions": {
+    "login": "Log in",
+    "signupFree": "Join Our Community",
+    "earnMoney": "Start Sharing Insights",
+    "seeHowItWorks": "See how it works",
+    "startNow": "Join Our Community",
+    "cashOut": "Cash out"
+  },
+  "language": {
+    "label": "Language",
+    "select": "Language auswählen"
+  },
+  "a11y": {
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "primaryNavigation": "Hauptnavigation",
+    "footerNavigation": "Footer",
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "footer": {
+    "tagline": "Eine globale Community aus Business Professionals und Entscheidern, die an exklusiven Research-Opportunities teilnehmen.",
+    "product": {
+      "title": "Produkt",
+      "home": "Home",
+      "howItWorks": "How It Works",
+      "faq": "FAQ",
+      "blog": "Blog",
+      "contact": "Kontakt",
+      "collaboration": "Für Organisationen"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "cookie": "Cookie Policy",
+      "eula": "EULA",
+      "terms": "Terms & Conditions"
+    },
+    "app": {
+      "title": "Get the app",
+      "downloadOn": "Download im",
+      "appStore": "App Store",
+      "getItOn": "Jetzt bei",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© {year} B2B Insight Panel. Powered by Beacon Martech. Alle Rechte vorbehalten.",
+    "bottom": {
+      "privacy": "Privacy",
+      "cookies": "Cookies",
+      "terms": "Terms"
+    },
+    "social": {
+      "x": "X (Twitter)",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  }
+}

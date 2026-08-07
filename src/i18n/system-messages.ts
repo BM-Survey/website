@@ -47,28 +47,40 @@ const messages: Record<Locale, SystemMessages> = {
       backHome: "العودة إلى الرئيسية",
     },
   },
-  hi: {
+  gr: {
     error: {
-      title: "कुछ गलत हो गया",
-      description: "एक अप्रत्याशित त्रुटि हुई। कृपया पुनः प्रयास करें।",
-      retry: "पुनः प्रयास करें",
+      title: "Etwas ist schief gelaufen",
+      description: "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+      retry: "Erneut versuchen",
     },
     notFound: {
-      title: "पेज नहीं मिला",
-      description: "आप जो पेज खोज रहे हैं वह मौजूद नहीं है या हटा दिया गया है।",
-      backHome: "होम पर वापस जाएँ",
+      title: "Seite nicht gefunden",
+      description: "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+      backHome: "Zurück zur Startseite",
     },
   },
-  te: {
+  sp: {
     error: {
-      title: "ఏదో తప్పు జరిగింది",
-      description: "ఊహించని లోపం సంభవించింది. దయచేసి మళ్లీ ప్రయత్నించండి.",
-      retry: "మళ్లీ ప్రయత్నించండి",
+      title: "Algo salió mal",
+      description: "Ocurrió un error inesperado. Por favor, inténtalo de nuevo.",
+      retry: "Intentar de nuevo",
     },
     notFound: {
-      title: "పేజీ కనబడలేదు",
-      description: "మీరు వెతుకుతున్న పేజీ లేదు లేదా తరలించబడింది.",
-      backHome: "హోమ్‌కు తిరిగి వెళ్లండి",
+      title: "Página no encontrada",
+      description: "La página que buscas no existe o fue movida.",
+      backHome: "Volver al inicio",
+    },
+  },
+  jp: {
+    error: {
+      title: "エラーが発生しました",
+      description: "予期しないエラーが発生しました。もう一度お試しください。",
+      retry: "再試行",
+    },
+    notFound: {
+      title: "ページが見つかりません",
+      description: "お探しのページは存在しないか、移動されました。",
+      backHome: "ホームに戻る",
     },
   },
 };

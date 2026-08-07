@@ -1,107 +1,107 @@
 {
   "meta": {
-    "title": "Comment ça marche — Gagnez de l'argent avec des sondages | B2B Insight Panel",
-    "description": "De l'inscription au paiement : voyez comment InsightPanel vous met en contact avec des sondages, propose des récompenses justes et vous paie le jour même.",
+    "title": "How It Works — Gagnez de la money avec des Surveys | B2B Insight Panel",
+    "description": "Du sign-up jusqu'au payout : découvrez comment InsightPanel vous matche avec des surveys, paye des rewards équitables et vous cash out le jour même.",
     "keywords": [
-      "comment fonctionnent les sondages rémunérés",
-      "processus de récompense des sondages",
-      "paiements rapides",
-      "panel d'insight B2B"
+      "how paid surveys work",
+      "survey rewards process",
+      "fast payouts",
+      "B2B insight panel"
     ],
-    "ogAlt": "Comment fonctionne InsightPanel, de l'avis au paiement"
+    "ogAlt": "Comment fonctionne InsightPanel, du feedback jusqu'au payout"
   },
   "hero": {
-    "eyebrow": "Comment ça marche",
-    "titleLead": "De l'expertise à l'",
-    "titleHighlight": "impact",
-    "subtitle": "Participez à des opportunités de recherche B2B exclusives adaptées à votre expérience professionnelle. Partagez des idées précieuses, influencez les décisions d'affaires et recevez des récompenses pour votre contribution. Voici exactement comment cela fonctionne."
+    "eyebrow": "How It Works",
+    "titleLead": "De l'expertise à ",
+    "titleHighlight": "l'impact",
+    "subtitle": "Participez à des opportunités de research B2B exclusives et adaptées à votre expérience pro. Partagez des insights de valeur, influencez les décisions business et récupérez des rewards pour votre contribution. Voici exactement comment ça marche."
   },
   "steps": [
     {
       "number": "01",
-      "title": " Créez votre profil professionnel",
-      "text": "Complétez votre profil professionnel afin que nous puissions vous mettre en contact avec des études qui correspondent à votre expertise."
+      "title": " Buildez votre Professional Profile",
+      "text": "Complétez votre profil pro pour qu'on puisse vous connecter avec des études de research qui matchent avec votre expertise."
     },
     {
       "number": "02",
-      "title": " Soyez mis en contact avec des études",
-      "text": "Recevez des invitations à des études qui correspondent à votre expérience sectorielle et votre profil professionnel."
+      "title": " Soyez matché avec des études",
+      "text": "Recevez des invitations pour des études de recherche alignées avec votre expérience sectorielle et votre background pro."
     },
     {
       "number": "03",
       "title": " Partagez votre expertise",
-      "text": "Participez à des opportunités de recherche pertinentes et partagez vos idées professionnelles par le biais de sondages, entretiens et autres activités de recherche."
+      "text": "Participez à des opportunités de recherche pertinentes et partagez vos insights professionnels via des surveys, interviews et autres activités."
     },
     {
       "number": "04",
-      "title": "Recevez une récompense",
-      "text": "La récompense arrive dans votre solde le jour même. Retirez vos gains via UPI, PayPal ou virement bancaire à partir de 5 $."
+      "title": "Recevez votre Reward",
+      "text": "Le reward arrive sur votre balance le jour même. Customisez votre cash out via UPI, PayPal ou virement bancaire dès 5 $ seulement."
     }
   ],
   "surveyPreview": {
-    "eyebrow": "Transparence, toujours",
+    "eyebrow": "Transparent, toujours",
     "title": "Exemples d'opportunités de recherche",
     "cards": [
       {
-        "tag": "Technologie",
+        "tag": "Technology",
         "tone": "primary",
-        "title": "Adoption du cloud en entreprise",
+        "title": "Cloud Infrastructure Adoption",
         "time": "15 min",
-        "reward": "12,50 $"
+        "reward": "$12.50"
       },
       {
-        "tag": "Cybersécurité",
+        "tag": "Cybersecurity",
         "tone": "purple",
-        "title": "Tendances en cybersécurité d'entreprise",
+        "title": "Enterprise Cybersecurity Trends",
         "time": "20 min",
-        "reward": "11 $"
+        "reward": "$11"
       },
       {
         "tag": "Finance",
         "tone": "orange",
-        "title": "Adoption de l'IA dans les services financiers",
+        "title": "AI Adoption in Financial Services",
         "time": "15 min",
-        "reward": "10,50 $"
+        "reward": "$10.50"
       },
       {
-        "tag": "Approvisionnement",
+        "tag": "Procurement",
         "tone": "success",
-        "title": "Évaluation des logiciels d'approvisionnement",
+        "title": "Procurement Software Evaluation",
         "time": "20 min",
-        "reward": "12,50 $"
+        "reward": "$12.50"
       }
     ]
   },
   "payoutSpeed": {
-    "eyebrow": "OPTIONS DE RÉCOMPENSE",
-    "title": "Avec quelle rapidité vous êtes payé",
+    "eyebrow": "OPTIONS DE REWARDS",
+    "title": "À quelle vitesse vous êtes payé",
     "items": [
       {
         "title": "UPI / PayPal — Le jour même",
-        "text": "Envoyé à votre ID UPI ou compte PayPal"
+        "text": "Envoyé directement sur votre UPI ID ou compte PayPal"
       },
       {
-        "title": "Cartes-cadeaux — Le jour même",
-        "text": "Plus de 100 marques, bonus de +5 % sur certaines cartes"
+        "title": "Gift cards — Le jour même",
+        "text": "Plus de 100 brands, +5% de bonus sur une sélection de cartes"
       },
       {
-        "title": "Virement bancaire — 1 à 2 jours",
-        "text": "Directement sur votre compte, zéro frais"
+        "title": "Virement bancaire — 1–2 jours",
+        "text": "Directement sur votre compte, zéro fee"
       }
     ]
   },
   "cta": {
     "title": "Prêt à partager votre expertise ?",
-    "subtitle": "Rejoignez une communauté fiable de professionnels participant à des opportunités de recherche exclusives et contribuant à façonner les décisions d'affaires.",
-    "button": "Inscription gratuite"
+    "subtitle": "Rejoignez une community de confiance composée de professionnels qui participent à des opportunités de recherche exclusives et aident à driver les décisions d'affaires.",
+    "button": "Rejoindre la Community"
   },
   "phoneScreens": {
     "nav": {
-      "surveys": "Sondages",
-      "history": "Historique",
-      "wallet": "Portefeuille",
-      "analytics": "Statistiques",
-      "profile": "Profil"
+      "surveys": "Surveys",
+      "history": "History",
+      "wallet": "Wallet",
+      "analytics": "Analytics",
+      "profile": "Profile"
     },
     "profile": {
       "title": "Votre profil",
@@ -110,29 +110,29 @@
       "nameValue": "Alex Carter",
       "emailLabel": "Email",
       "emailValue": "alex@email.com",
-      "interestsLabel": "Intérêts",
-      "interests": ["Technologie", "Santé", "Services financiers"],
+      "interestsLabel": "Interests",
+      "interests": ["Technology", "Healthcare", "Financial Services"],
       "progressLabel": "Profil complété",
-      "progressValue": "80 %",
-      "cta": "Continuer"
+      "progressValue": "80%",
+      "cta": "Continue"
     },
     "matched": {
-      "heading": "Études pour vous",
+      "heading": "Des études pour vous",
       "subtitle": "Basé sur votre profil",
-      "search": "Rechercher des sondages...",
-      "allChip": "Tous"
+      "search": "Chercher des surveys...",
+      "allChip": "Tout"
     },
     "answer": {
       "progressLabel": "Question 5 sur 18",
       "question": "Quelles plateformes cloud votre organisation utilise-t-elle actuellement ?",
       "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "Autre"],
-      "submitCta": "Soumettre les réponses"
+      "submitCta": "Next"
     },
     "paid": {
-      "title": "Récompense reçue",
-      "via": "Envoyée à votre PayPal",
-      "balanceLabel": "Récompense disponible",
-      "balanceValue": "129,50 $"
+      "title": "Reward Reçu",
+      "via": "Envoyé sur votre PayPal",
+      "balanceLabel": "Reward disponible",
+      "balanceValue": "$129.50"
     }
   }
 }

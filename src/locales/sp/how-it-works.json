@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "How It Works — Gana Dinero con Surveys | B2B Insight Panel",
+    "description": "Desde el sign-up hasta el payout: mira exactamente cómo InsightPanel te matchea con surveys, te paga un reward justo y te hace el cash out el mismo día.",
+    "keywords": [
+      "how paid surveys work",
+      "survey rewards process",
+      "fast payouts",
+      "B2B insight panel"
+    ],
+    "ogAlt": "Cómo funciona InsightPanel, de tu opinión al payout"
+  },
+  "hero": {
+    "eyebrow": "How It Works",
+    "titleLead": "De tu expertise al ",
+    "titleHighlight": "impacto",
+    "subtitle": "Participa en exclusivas oportunidades de research B2B diseñadas a la medida de tu experiencia profesional. Comparte insights valiosos, influye en decisiones de negocio y recibe rewards por tu contribución. Así es exactamente como funciona."
+  },
+  "steps": [
+    {
+      "number": "01",
+      "title": " Arma tu Professional Profile",
+      "text": "Completa tu perfil profesional para que podamos conectarte con estudios de investigación que hagan match con tu expertise."
+    },
+    {
+      "number": "02",
+      "title": " Consigue Matches con Estudios",
+      "text": "Recibe invitaciones a proyectos de research que se alineen con tu experiencia en la industria y tu background profesional."
+    },
+    {
+      "number": "03",
+      "title": " Comparte tu Expertise",
+      "text": "Participa en oportunidades de research relevantes y comparte tus insights profesionales a través de surveys, entrevistas y otros formatos."
+    },
+    {
+      "number": "04",
+      "title": "Recibe tu Reward",
+      "text": "Tu reward cae en tu balance el mismo día. Haz cash out mediante UPI, PayPal o transferencia bancaria desde solo $5."
+    }
+  ],
+  "surveyPreview": {
+    "eyebrow": "Transparentes, siempre",
+    "title": "Ejemplos de oportunidades de research",
+    "cards": [
+      {
+        "tag": "Technology",
+        "tone": "primary",
+        "title": "Cloud Infrastructure Adoption",
+        "time": "15 min",
+        "reward": "$12.50"
+      },
+      {
+        "tag": "Cybersecurity",
+        "tone": "purple",
+        "title": "Enterprise Cybersecurity Trends",
+        "time": "20 min",
+        "reward": "$11"
+      },
+      {
+        "tag": "Finance",
+        "tone": "orange",
+        "title": "AI Adoption in Financial Services",
+        "time": "15 min",
+        "reward": "$10.50"
+      },
+      {
+        "tag": "Procurement",
+        "tone": "success",
+        "title": "Procurement Software Evaluation",
+        "time": "20 min",
+        "reward": "$12.50"
+      }
+    ]
+  },
+  "payoutSpeed": {
+    "eyebrow": "OPCIONES DE REWARDS",
+    "title": "Qué tan rápido te pagan",
+    "items": [
+      {
+        "title": "UPI / PayPal — El mismo día",
+        "text": "Enviado directo a tu UPI ID o cuenta de PayPal"
+      },
+      {
+        "title": "Gift cards — El mismo día",
+        "text": "Más de 100 marcas, con +5% de bono en tarjetas seleccionadas"
+      },
+      {
+        "title": "Transferencia bancaria — 1–2 días",
+        "text": "Directo a tu cuenta, con absolutamente zero fees"
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para compartir tu expertise?",
+    "subtitle": "Únete a una community de confianza llena de profesionales que participan en oportunidades exclusivas de research y ayudan a darle forma a las decisiones de negocio.",
+    "button": "Join Our Community"
+  },
+  "phoneScreens": {
+    "nav": {
+      "surveys": "Surveys",
+      "history": "History",
+      "wallet": "Wallet",
+      "analytics": "Analytics",
+      "profile": "Profile"
+    },
+    "profile": {
+      "title": "Tu perfil",
+      "subtitle": "Toma unos 2 minutos",
+      "nameLabel": "Nombre completo",
+      "nameValue": "Alex Carter",
+      "emailLabel": "Email",
+      "emailValue": "alex@email.com",
+      "interestsLabel": "Intereses",
+      "interests": ["Technology", "Healthcare", "Financial Services"],
+      "progressLabel": "Perfil completado",
+      "progressValue": "80%",
+      "cta": "Continue"
+    },
+    "matched": {
+      "heading": "Estudios para ti",
+      "subtitle": "Basado en tu perfil",
+      "search": "Buscar surveys...",
+      "allChip": "Todo"
+    },
+    "answer": {
+      "progressLabel": "Pregunta 5 de 18",
+      "question": "¿Qué plataformas cloud utiliza actualmente tu organización?",
+      "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "Otro"],
+      "submitCta": "Next"
+    },
+    "paid": {
+      "title": "Reward Recibido",
+      "via": "Enviado a tu PayPal",
+      "balanceLabel": "Reward disponible",
+      "balanceValue": "$129.50"
+    }
+  }
+}

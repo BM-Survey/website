@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Für Organisationen — Runnen Sie Ihre Surveys auf InsightPanel | B2B Insight Panel",
+    "description": "Bringen Sie Ihre Surveys zu InsightPanel: Launch in wenigen Minuten, targeten Sie verifizierte Professionals nach Department, tracken Sie Insights in Real-Time und lassen Sie Rewards vollautomatisch laufen.",
+    "keywords": [
+      "Survey Management Plattform",
+      "Surveys für Business runnen",
+      "B2B Survey Panel",
+      "Market Research für Unternehmen"
+    ],
+    "ogAlt": "Warum Organisationen ihre Surveys auf InsightPanel runnen"
+  },
+  "hero": {
+    "eyebrow": "Für Organisationen",
+    "titleLead": "Connecten Sie mit verifizierten Professionals und ",
+    "titleHighlight": "transformieren Sie Expertise in actionable Insights",
+    "subtitle": "Accessen Sie High-Quality-Responses von Business Professionals aus allen Branchen. Launchen Sie Studien, erreichen Sie Ihre Target Audience und nutzen Sie actionable Insights, um fundierte Business-Entscheidungen zu treffen."
+  },
+  "whyWorkWithUs": {
+    "eyebrow": "Warum Unternehmen mit uns worken",
+    "title": "End-to-End Research Support",
+    "subtitle": "Vom Projekt-Setup bis zum finalen Reporting managt unser Team den gesamten Research Lifecycle.",
+    "cards": [
+      {
+        "title": "Verifizierte Professional Respondents",
+        "text": "Access zu Entscheidern und Industry Experts."
+      },
+      {
+        "title": "Quality-Assured Data",
+        "text": "Multiple Validation-Layer garantieren verlässliche Insights."
+      },
+      {
+        "title": "Flexible Research-Lösungen",
+        "text": "Custom-Studien, perfekt gelauncht nach Ihren Objectives."
+      },
+      {
+        "title": "Dediziertes Project Management",
+        "text": "Ein einziges Team, das Sie während des gesamten Projekts supportet."
+      },
+      {
+        "title": "Schnelle Turnaround-Times",
+        "text": "Effiziente Execution ohne Kompromisse bei der Qualität."
+      },
+      {
+        "title": "Sicheres Data Handling",
+        "text": "Confidentiality und Data Security in jeder Stage."
+      }
+    ]
+  },
+  "story": {
+    "eyebrow": "Ihre Journey mit uns",
+    "title": "Von Business-Questions zu actionable Insights",
+    "subtitle": "Wir supporten jede Stage der Research-Journey – vom Definieren der Objectives und Identifizieren der richtigen Zielgruppe bis zum Delivery von actionable Insights und finalen Reports.",
+    "chapters": [
+      {
+        "number": "01",
+        "label": "Step 01",
+        "title": "Business Objectives verstehen",
+        "text": "Wir starten damit, Ihr Produkt, Ihren Service, Ihre Research-Ziele und Ihre Business-Challenges genau zu verstehen.",
+        "points": [
+          "Research-Consultation",
+          "Business Objective Alignment",
+          "Definition der Success Metrics",
+          "Target Audience Planning"
+        ]
+      },
+      {
+        "number": "02",
+        "label": "Step 02",
+        "title": "Die richtige Audience definieren",
+        "text": "Identifizieren und builden Sie Respondent-Profile basierend auf Industry, Job-Titeln, Department, Geography, Company Size und Product Usage.",
+        "points": [
+          "Custom Respondent Profiling",
+          "Audience Qualification Criteria",
+          "Verifiziertes Professional Targeting"
+        ]
+      },
+      {
+        "number": "03",
+        "label": "Step 03",
+        "title": "Survey-Design & Programmierung",
+        "text": "Unser Team entwickelt Screener und Fragebögen, die perfekt mit Ihren Research Objectives matchen.",
+        "points": [
+          "Screener-Development",
+          "Fragebogen-Design",
+          "Survey-Programmierung",
+          "Logic- und Routing-Setup"
+        ]
+      },
+      {
+        "number": "04",
+        "label": "Step 04",
+        "title": "Testing & Quality Assurance",
+        "text": "Jede Studie durchläuft vor dem Launch intensives internes und clientseitiges Testing.",
+        "points": [
+          "Internes QA-Testing",
+          "Client Review & Feedback",
+          "Revisions & Approvals",
+          "Finale Launch-Readiness-Checks"
+        ]
+      },
+      {
+        "number": "05",
+        "label": "Step 05",
+        "title": "Soft-Launch & Respondent-Outreach",
+        "text": "Studien werden zuerst für eine kleinere Audience gelauncht, um Performance und Respondent-Qualität zu validieren.",
+        "points": [
+          "Soft-Launch-Monitoring",
+          "E-Mail-Outreach-Kampagnen",
+          "Panel-Recruitment-Management",
+          "Early Response Validation"
+        ]
+      },
+      {
+        "number": "06",
+        "label": "Step 06",
+        "title": "Full-Launch Execution",
+        "text": "Nach erfolgreicher Validierung werden die Studien im Full-Scale-Modus gelauncht.",
+        "points": [
+          "Real-Time Response Monitoring",
+          "Sample-Management",
+          "Continuous Optimization",
+          "Target-Completion-Management"
+        ]
+      },
+      {
+        "number": "07",
+        "label": "Step 07",
+        "title": "Data Quality Management",
+        "text": "Jede Response wird gecoacht und geredet, um Data Reliability zu sichern.",
+        "points": [
+          "Fraud-Detection",
+          "Speeding-Checks",
+          "Logic-Validation",
+          "Incomplete Response Removal",
+          "Duplicate-Detection"
+        ]
+      },
+      {
+        "number": "08",
+        "label": "Step 08",
+        "title": "Data Processing & Analyse",
+        "text": "Die gesammelten Daten werden für das Reporting und strategische Decisions vorbereitet.",
+        "points": [
+          "Data-Extraction",
+          "Benchmark-Analyse",
+          "Trend-Identification",
+          "Insight-Generation"
+        ]
+      },
+      {
+        "number": "09",
+        "label": "Step 09",
+        "title": "Reporting & Delivery",
+        "text": "Erhalten Sie klare, actionable Insights, die Ihre Business-Entscheidungen supporten.",
+        "points": [
+          "Clean Datasets",
+          "Executive Summaries",
+          "Charts und Visualisierungen",
+          "Strategische Empfehlungen",
+          "Finales Reporting-Package"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready, Ihr nächstes Research-Projekt zu launchen?",
+    "subtitle": "Partnern Sie mit dem B2B Insight Panel, um mit verifizierten Professionals zu connecten und High-Quality Business Insights zu generieren.",
+    "button": "Kontaktieren Sie unser Team ←"
+  }
+}

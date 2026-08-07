@@ -4,7 +4,7 @@
  * and native display labels used by the language switcher.
  */
 
-export const locales = ["en", "fr", "ar", "hi", "te"] as const;
+export const locales = ["en", "ar", "fr", "gr", "sp", "jp"] as const;
 
 export type Locale = (typeof locales)[number];
 
@@ -21,10 +21,11 @@ type LocaleMeta = {
 
 export const localeMeta: Record<Locale, LocaleMeta> = {
   en: { label: "English", dir: "ltr", htmlLang: "en" },
-  fr: { label: "Français", dir: "ltr", htmlLang: "fr" },
   ar: { label: "العربية", dir: "rtl", htmlLang: "ar" },
-  hi: { label: "हिन्दी", dir: "ltr", htmlLang: "hi" },
-  te: { label: "తెలుగు", dir: "ltr", htmlLang: "te" },
+  fr: { label: "Français", dir: "ltr", htmlLang: "fr" },
+  gr: { label: "Deutsch", dir: "ltr", htmlLang: "de" },
+  sp: { label: "Español", dir: "ltr", htmlLang: "es" },
+  jp: { label: "日本語", dir: "ltr", htmlLang: "ja" },
 };
 
 export function isLocale(value: string): value is Locale {
