@@ -1,171 +1,166 @@
 {
   "meta": {
-    "title": "Für Organisationen — Runnen Sie Ihre Surveys auf InsightPanel | B2B Insight Panel",
-    "description": "Bringen Sie Ihre Surveys zu InsightPanel: Launch in wenigen Minuten, targeten Sie verifizierte Professionals nach Department, tracken Sie Insights in Real-Time und lassen Sie Rewards vollautomatisch laufen.",
-    "keywords": [
-      "Survey Management Plattform",
-      "Surveys für Business runnen",
-      "B2B Survey Panel",
-      "Market Research für Unternehmen"
-    ],
-    "ogAlt": "Warum Organisationen ihre Surveys auf InsightPanel runnen"
+    "title": "Für Unternehmen — Starten Sie Ihre Umfragen auf InsightPanel | B2B Insight Panel",
+    "description": "Bringen Sie Ihre Umfragen auf InsightPanel: In wenigen Minuten starten, verifizierte Fachkräfte zielgerichtet ansprechen, Insights in Echtzeit analysieren und Rewards automatisiert auszahlen.",
+    "keywords": ["Umfrage-Plattform für Unternehmen", "B2B Umfragen durchführen", "B2B Research Panel", "Marktforschung für Unternehmen"],
+    "ogAlt": "Warum Unternehmen ihre B2B-Umfragen auf InsightPanel durchführen"
   },
   "hero": {
-    "eyebrow": "Für Organisationen",
-    "titleLead": "Connecten Sie mit verifizierten Professionals und ",
-    "titleHighlight": "transformieren Sie Expertise in actionable Insights",
-    "subtitle": "Accessen Sie High-Quality-Responses von Business Professionals aus allen Branchen. Launchen Sie Studien, erreichen Sie Ihre Target Audience und nutzen Sie actionable Insights, um fundierte Business-Entscheidungen zu treffen."
+    "eyebrow": "Für Unternehmen",
+    "titleLead": "Erreichen Sie verifizierte Fachkräfte und ",
+    "titleHighlight": "verwandeln Sie Expertise in wertvolle Insights",
+    "subtitle": "Erhalten Sie hochqualitative Antworten von B2B-Entscheidern und Experten aller Branchen. Starten Sie Studien, erreichen Sie genau Ihre Zielgruppe und nutzen Sie fundierte Insights für Ihre Business-Entscheidungen."
   },
   "whyWorkWithUs": {
-    "eyebrow": "Warum Unternehmen mit uns worken",
-    "title": "End-to-End Research Support",
-    "subtitle": "Vom Projekt-Setup bis zum finalen Reporting managt unser Team den gesamten Research Lifecycle.",
+    "eyebrow": "Warum Unternehmen auf uns setzen",
+    "title": "End-to-End Marktforschungs-Support",
+    "subtitle": "Von der Projekteinrichtung bis zum finalen Reporting begleitet unser Team Ihren gesamten Research-Prozess.",
     "cards": [
       {
-        "title": "Verifizierte Professional Respondents",
-        "text": "Access zu Entscheidern und Industry Experts."
+        "title": "Verifizierte B2B-Teilnehmer",
+        "text": "Direkter Zugang zu Entscheidern und Fachexperten."
       },
       {
-        "title": "Quality-Assured Data",
-        "text": "Multiple Validation-Layer garantieren verlässliche Insights."
+        "title": "Geprüfte Datenqualität",
+        "text": "Mehrstufige Validierungsprozesse garantieren verlässliche Insights."
       },
       {
         "title": "Flexible Research-Lösungen",
-        "text": "Custom-Studien, perfekt gelauncht nach Ihren Objectives."
+        "text": "Maßgeschneiderte Studien, exakt auf Ihre Ziele abgestimmt."
       },
       {
-        "title": "Dediziertes Project Management",
-        "text": "Ein einziges Team, das Sie während des gesamten Projekts supportet."
+        "title": "Dediziertes Projektmanagement",
+        "text": "Ein festes Ansprechpartner-Team begleitet Sie durch das gesamte Projekt."
       },
       {
-        "title": "Schnelle Turnaround-Times",
-        "text": "Effiziente Execution ohne Kompromisse bei der Qualität."
+        "title": "Schnelle Turnaround-Zeiten",
+        "text": "Effiziente Umsetzung ohne Kompromisse bei der Datenqualität."
       },
       {
-        "title": "Sicheres Data Handling",
-        "text": "Confidentiality und Data Security in jeder Stage."
+        "title": "Sichere Datenverarbeitung",
+        "text": "Lückenloser Datenschutz und höchste Vertraulichkeit in jeder Phase."
       }
     ]
   },
   "story": {
     "eyebrow": "Ihre Journey mit uns",
-    "title": "Von Business-Questions zu actionable Insights",
-    "subtitle": "Wir supporten jede Stage der Research-Journey – vom Definieren der Objectives und Identifizieren der richtigen Zielgruppe bis zum Delivery von actionable Insights und finalen Reports.",
+    "title": "Von der Fragestellung zu fundierten Insights",
+    "subtitle": "Wir unterstützen Sie in jeder Phase des Research-Prozesses – von der Zieldefinition über das Recruiting der passenden Teilnehmenden bis hin zu finalen Insights und Reports.",
     "chapters": [
       {
         "number": "01",
-        "label": "Step 01",
-        "title": "Business Objectives verstehen",
-        "text": "Wir starten damit, Ihr Produkt, Ihren Service, Ihre Research-Ziele und Ihre Business-Challenges genau zu verstehen.",
+        "label": "Schritt 01",
+        "title": "Verstehen Ihrer Unternehmensziele",
+        "text": "Zu Beginn analysieren wir Ihr Produkt, Ihre Dienstleistung, Ihre Forschungsziele und Ihre geschäftlichen Herausforderungen.",
         "points": [
-          "Research-Consultation",
-          "Business Objective Alignment",
-          "Definition der Success Metrics",
-          "Target Audience Planning"
+          "Forschungs-Consulting",
+          "Abstimmung der Business-Ziele",
+          "Definition der Erfolgsmetriken",
+          "Zielgruppen-Analyse und -Planung"
         ]
       },
       {
         "number": "02",
-        "label": "Step 02",
-        "title": "Die richtige Audience definieren",
-        "text": "Identifizieren und builden Sie Respondent-Profile basierend auf Industry, Job-Titeln, Department, Geography, Company Size und Product Usage.",
+        "label": "Schritt 02",
+        "title": "Definition der passenden Zielgruppe",
+        "text": "Präzises Profiling der Befragten nach Branche, Position, Abteilung, Region, Unternehmensgröße und Produktnutzung.",
         "points": [
-          "Custom Respondent Profiling",
-          "Audience Qualification Criteria",
-          "Verifiziertes Professional Targeting"
+          "Individuelles Teilnehmer-Profiling",
+          "Kriterien zur Zielgruppen-Qualifizierung",
+          "Targeting verifizierter Fachkräfte"
         ]
       },
       {
         "number": "03",
-        "label": "Step 03",
-        "title": "Survey-Design & Programmierung",
-        "text": "Unser Team entwickelt Screener und Fragebögen, die perfekt mit Ihren Research Objectives matchen.",
+        "label": "Schritt 03",
+        "title": "Fragebogen-Design & Programmierung",
+        "text": "Unser Team entwickelt zielgerichtete Screener und Fragebögen, die perfekt zu Ihren Forschungszielen passen.",
         "points": [
-          "Screener-Development",
+          "Screener-Entwicklung",
           "Fragebogen-Design",
-          "Survey-Programmierung",
-          "Logic- und Routing-Setup"
+          "Umfrage-Programmierung",
+          "Set-up von Logiken und Filterführung"
         ]
       },
       {
         "number": "04",
-        "label": "Step 04",
-        "title": "Testing & Quality Assurance",
-        "text": "Jede Studie durchläuft vor dem Launch intensives internes und clientseitiges Testing.",
+        "label": "Schritt 04",
+        "title": "Testing & Qualitätssicherung",
+        "text": "Jede Studie durchläuft vor dem Launch umfangreiche interne und kundenseitige Pre-Tests.",
         "points": [
           "Internes QA-Testing",
-          "Client Review & Feedback",
-          "Revisions & Approvals",
-          "Finale Launch-Readiness-Checks"
+          "Kunden-Review und Feedback",
+          "Überarbeitung und Freigabe",
+          "Finaler Pre-Launch-Check"
         ]
       },
       {
         "number": "05",
-        "label": "Step 05",
-        "title": "Soft-Launch & Respondent-Outreach",
-        "text": "Studien werden zuerst für eine kleinere Audience gelauncht, um Performance und Respondent-Qualität zu validieren.",
+        "label": "Schritt 05",
+        "title": "Soft-Launch & Zielgruppen-Ansprache",
+        "text": "Studien starten zunächst mit einer kleinen Stichprobe, um System-Performance und Antwortqualität zu testen.",
         "points": [
           "Soft-Launch-Monitoring",
-          "E-Mail-Outreach-Kampagnen",
-          "Panel-Recruitment-Management",
-          "Early Response Validation"
+          "E-Mail-Einladungskampagnen",
+          "Panel-Recruiting-Steuerung",
+          "Frühzeitige Validierung der Antworten"
         ]
       },
       {
         "number": "06",
-        "label": "Step 06",
-        "title": "Full-Launch Execution",
-        "text": "Nach erfolgreicher Validierung werden die Studien im Full-Scale-Modus gelauncht.",
+        "label": "Schritt 06",
+        "title": "Full Launch & Feldphase",
+        "text": "Nach erfolgreicher Validierung geht die Studie auf voller Skalierung live.",
         "points": [
-          "Real-Time Response Monitoring",
-          "Sample-Management",
-          "Continuous Optimization",
-          "Target-Completion-Management"
+          "Echtzeit-Monitoring der Rückläufe",
+          "Stichproben-Steuerung",
+          "Kontinuierliche Feld-Optimierung",
+          "Quoten-Management"
         ]
       },
       {
         "number": "07",
-        "label": "Step 07",
-        "title": "Data Quality Management",
-        "text": "Jede Response wird gecoacht und geredet, um Data Reliability zu sichern.",
+        "label": "Schritt 07",
+        "title": "Datenqualitäts-Management",
+        "text": "Jeder Datensatz wird sorgfältig geprüft, um maximale Datenverlässlichkeit zu garantieren.",
         "points": [
-          "Fraud-Detection",
-          "Speeding-Checks",
-          "Logic-Validation",
-          "Incomplete Response Removal",
-          "Duplicate-Detection"
+          "Betrugserkennung (Fraud Detection)",
+          "Prüfung auf Schnellklicker (Speeding)",
+          "Logik- und Konsistenzprüfung",
+          "Bereinigung unvollständiger Antworten",
+          "Dubletten-Erkennung"
         ]
       },
       {
         "number": "08",
-        "label": "Step 08",
-        "title": "Data Processing & Analyse",
-        "text": "Die gesammelten Daten werden für das Reporting und strategische Decisions vorbereitet.",
+        "label": "Schritt 08",
+        "title": "Datenaufbereitung & Analyse",
+        "text": "Die erhobenen Daten werden für aussagekräftiges Reporting und strategische Entscheidungen aufbereitet.",
         "points": [
-          "Data-Extraction",
-          "Benchmark-Analyse",
-          "Trend-Identification",
-          "Insight-Generation"
+          "Daten-Extraktion & -Bereinigung",
+          "Benchmark-Analysen",
+          "Trend-Identifikation",
+          "Insight-Generierung"
         ]
       },
       {
         "number": "09",
-        "label": "Step 09",
-        "title": "Reporting & Delivery",
-        "text": "Erhalten Sie klare, actionable Insights, die Ihre Business-Entscheidungen supporten.",
+        "label": "Schritt 09",
+        "title": "Reporting & Auslieferung",
+        "text": "Sie erhalten klare, direkt anwendbare Insights für Ihre Business-Entscheidungen.",
         "points": [
-          "Clean Datasets",
+          "Bereinigte Datensätze (Clean Datasets)",
           "Executive Summaries",
-          "Charts und Visualisierungen",
-          "Strategische Empfehlungen",
-          "Finales Reporting-Package"
+          "Charts und Daten-Visualisierungen",
+          "Strategische Handlungsempfehlungen",
+          "Finales Reporting-Paket"
         ]
       }
     ]
   },
   "cta": {
-    "title": "Ready, Ihr nächstes Research-Projekt zu launchen?",
-    "subtitle": "Partnern Sie mit dem B2B Insight Panel, um mit verifizierten Professionals zu connecten und High-Quality Business Insights zu generieren.",
-    "button": "Kontaktieren Sie unser Team ←"
+    "title": "Bereit für Ihr nächstes Marktforschungsprojekt?",
+    "subtitle": "Arbeiten Sie mit InsightPanel zusammen, um B2B-Fachkräfte zu erreichen und hochwertige Business-Insights zu generieren.",
+    "button": "Team kontaktieren →"
   }
 }

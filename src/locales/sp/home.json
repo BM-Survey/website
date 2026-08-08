@@ -1,206 +1,206 @@
 {
   "meta": {
-    "title": "Earn Real Money Sharing Your Opinions | B2B Insight Panel",
-    "description": "Responde surveys rápidos de marcas valoradas. Retira tu dinero a PayPal o gift cards — 100% gratis, sin fees de ningún tipo.",
+    "title": "Gana dinero compartiendo tu opinión | Panel de Estudios B2B",
+    "description": "Responde encuestas rápidas de empresas que valoran tu experiencia. Cobra por PayPal o tarjetas de regalo — 100% gratis, sin comisiones.",
     "keywords": [
-      "paid surveys",
-      "earn money online",
-      "survey rewards",
-      "PayPal payouts",
-      "gift cards",
-      "market research panel",
-      "B2B insight panel"
+      "encuestas pagadas",
+      "ganar dinero online",
+      "recompensas por encuestas",
+      "pagos por PayPal",
+      "tarjetas de regalo",
+      "panel investigación de mercado",
+      "panel de estudios B2B"
     ],
-    "ogAlt": "B2B Insight Panel — earn real money for your opinions"
+    "ogAlt": "Panel de Estudios B2B — gana dinero por tu opinión profesional"
   },
   "hero": {
     "ratingValue": "4.6",
-    "ratingLabel": "De confianza para profesionales y líderes de opinión a nivel global",
-    "titleLead": "Influence the",
-    "titleSharing": "world with your",
-    "titleHighlight": "insights",
-    "subtitle": "Participa en estudios de mercado B2B exclusivos, ",
-    "subtitleBold": "comparte tu experiencia profesional, influye en decisiones de negocio y recibe rewards,",
-    "subtitleTail": " por aportar tus valiosos conocimientos.",
+    "ratingLabel": "Utilizado por profesionales y tomadores de decisión en todo el mundo",
+    "titleLead": "Influye en el",
+    "titleSharing": "mundo con tus",
+    "titleHighlight": "ideas",
+    "subtitle": "Participa en estudios B2B exclusivos, ",
+    "subtitleBold": "comparte tu expertise profesional, influye en decisiones de negocio y recibe recompensas,",
+    "subtitleTail": " por tus valiosos insights.",
     "steps": {
-      "browse": "Browse / Explorar",
-      "answer": "Answer / Responder",
-      "submit": "Submit / Enviar",
-      "getPaid": "Get Paid / Recibir pago"
+      "browse": "Explorar",
+      "answer": "Responder",
+      "submit": "Enviar",
+      "getPaid": "Cobrar"
     },
     "phone": {
       "greeting": "Buenas noches",
       "userName": "Alex",
-      "balanceLabel": "Balance / Saldo",
+      "balanceLabel": "Saldo acumulado",
       "balanceValue": "$124.50",
-      "surveysForYou": "Surveys disponibles para ti",
+      "surveysForYou": "Encuestas para ti",
       "cards": {
         "shopping": {
-          "tag": "Technology",
+          "tag": "Tecnología",
           "reward": "$12",
-          "title": "Cloud Infrastructure Adoption",
+          "title": "Adopción de infraestructura Cloud",
           "time": "4 min",
           "questions": "8 preguntas",
-          "spots": "Quedan 8 cupos",
-          "date": "08 Jul"
+          "spots": "Quedan 8 lugares",
+          "date": "08 jul"
         },
         "tech": {
-          "tag": "Cyber Security",
+          "tag": "Ciberseguridad",
           "reward": "$12.50",
-          "title": "Cybersecurity Priorities",
+          "title": "Prioridades en ciberseguridad",
           "time": "3 min",
           "questions": "6 preguntas",
-          "spots": "Quedan 3 cupos",
-          "date": "15 Jul"
+          "spots": "Quedan 3 lugares",
+          "date": "15 jul"
         },
         "food": {
-          "tag": "Procurement",
+          "tag": "Compras",
           "reward": "$15",
-          "title": "Procurement Software Evaluation",
-          "spots": "Quedan 12 cupos",
-          "date": "21 Jul"
+          "title": "Evaluación de software de compras",
+          "spots": "Quedan 12 lugares",
+          "date": "21 jul"
         }
       },
       "flow": {
-        "answerQuestion": "¿Qué plataformas cloud utiliza actualmente tu empresa?",
+        "answerQuestion": "¿Qué plataformas Cloud utiliza actualmente tu organización?",
         "answerOptions": [
           "AWS",
           "Microsoft Azure",
           "Google Cloud Platform",
-          "Otra (Other)"
+          "Otra"
         ],
         "answerProgress": "Pregunta 3 de 15",
-        "answerNext": "Siguiente (Next)",
-        "submitTitle": "Revisar y enviar (Review & submit)",
-        "submitDone": "Se respondieron las 8 preguntas",
+        "answerNext": "Siguiente",
+        "submitTitle": "Revisar y enviar",
+        "submitDone": "Respuestas completadas para las 8 preguntas",
         "submitCta": "Enviar respuestas",
-        "paidTitle": "Tu reward ha sido procesado con éxito",
+        "paidTitle": "Tu recompensa ha sido procesada",
         "paidAmount": "$12",
         "paidVia": "Enviado a tu cuenta de PayPal",
-        "paidBalanceLabel": "Saldo en Wallet",
+        "paidBalanceLabel": "Saldo de tu billetera",
         "paidBalanceValue": "$127.00"
       },
       "browse": {
-        "title": "Discover Surveys",
-        "subtitle": "Completa encuestas y gana rewards",
-        "search": "Buscar surveys...",
-        "chips": ["Todos", "Technology", "Healthcare"],
-        "statusNew": "Nuevo",
+        "title": "Descubrir encuestas",
+        "subtitle": "Completa encuestas, gana recompensas",
+        "search": "Buscar encuestas...",
+        "chips": ["Todas", "Tecnología", "Salud"],
+        "statusNew": "Nueva",
         "statusEndsSoon": "Finaliza pronto",
         "nav": {
-          "surveys": "Surveys",
-          "history": "History",
-          "wallet": "Wallet",
-          "analytics": "Analytics",
-          "profile": "Profile"
+          "surveys": "Encuestas",
+          "history": "Historial",
+          "wallet": "Billetera",
+          "analytics": "Analíticas",
+          "profile": "Perfil"
         }
       },
       "submit": {
-        "detailsTitle": "Survey Details",
+        "detailsTitle": "Detalles del estudio",
         "tag": "Tech",
-        "statusLabel": "Completado (Completed)",
-        "title": "Cloud Infrastructure Adoption",
-        "alert": "Ya has completado este survey previamente.",
+        "statusLabel": "Completada",
+        "title": "Adopción de infraestructura Cloud",
+        "alert": "Ya has participado en esta encuesta.",
         "reward": "$12 ",
         "rewardLabel": "al completar con éxito",
         "expiresLabel": "El estudio cierra el",
-        "expiresDate": "21 Jul 2026",
-        "spotsLabel": "Participantes restantes:",
+        "expiresDate": "21 jul 2026",
+        "spotsLabel": "Lugares restantes:",
         "spotsValue": "1",
         "spotsTotal": "",
-        "postedByLabel": "POSTEADO POR",
-        "creatorName": "B2B Insight Panel",
-        "orgName": "Powered by Beacon Martech",
-        "ctaUnavailable": "Ya participaste"
+        "postedByLabel": "PUBLICADO POR",
+        "creatorName": "Panel de Estudios B2B",
+        "orgName": "Desarrollado por Beacon Martech",
+        "ctaUnavailable": "Ya participante"
       }
     },
     "badges": {
       "paid": {
-        "value": "Trusted by thousands ",
-        "label": "de expertos en la industria"
+        "value": "Confianza de miles ",
+        "label": "de expertos de la industria"
       },
       "instant": {
-        "value": "Same day",
-        "label": "Cobros por PayPal"
+        "value": "Pagos en PayPal",
+        "label": "procesados el mismo día"
       }
     },
-    "scroll": "Scroll / Desplazar"
+    "scroll": "Desplazar"
   },
   "trust": {
-    "heading": "La elección confiable para equipos de investigación en más de 120+ marcas"
+    "heading": "Confían en nosotros equipos de investigación de más de 120 marcas"
   },
   "stats": {
-    "eyebrow": "By the numbers",
-    "title": "Insights at Scale",
+    "eyebrow": "En números",
+    "title": "Investigación a gran escala",
     "paid": {
       "label": " ",
       "value": "700+",
-      "description": "Proyectos de investigación B2B realizados con éxito a nivel global."
+      "description": "Proyectos de investigación B2B realizados con éxito en diversos sectores."
     },
     "members": {
       "label": "Países representados",
       "value": "30+"
     },
     "brands": {
-      "label": "Socios de investigación (Research Partners)",
+      "label": "Socios de investigación",
       "value": "20+"
     },
     "rating": {
       "value": "25K +",
-      "reviews": "Profesionales y líderes verificados dentro de nuestra comunidad."
+      "reviews": "Profesionales y tomadores de decisión verificados en nuestra comunidad."
     }
   },
   "video": {
-    "eyebrow": "Real members, real payouts",
-    "titleLine1": "Descubre cómo",
-    "titleLine2": " funciona B2B Insight Panel",
-    "watch": "Ver video explicativo (90s)",
-    "featured": "Destacado (Featured)",
-    "posterAlt": "Video testimonio de miembro en B2B Insight Panel"
+    "eyebrow": "Miembros reales, pagos reales",
+    "titleLine1": "Descubre cómo funciona",
+    "titleLine2": " el Panel de Estudios B2B",
+    "watch": "Ver el video (90 seg)",
+    "featured": "Destacado",
+    "posterAlt": "Video testimonio de un miembro del panel B2B"
   },
   "feature1": {
-    "eyebrow": "RESEARCH MATCHED TO YOUR EXPERTISE",
-    "titleLine1": "Solo estudios 100% alineados ",
-    "titleLine2": "a tu experiencia profesional",
-    "description": "Recibe invitaciones de investigación acordes a tu carrera, asegurando que tu tiempo siempre sea recompensado.",
+    "eyebrow": "ESTUDIOS ADAPTADOS A TU EXPERIENCIA",
+    "titleLine1": "Solo estudios relevantes ",
+    "titleLine2": "para tu perfil profesional",
+    "description": "Recibe invitaciones para proyectos alineados con tu trayectoria, garantizando que tu tiempo y conocimientos sean bien valorados.",
     "points": {
       "matching": {
-        "title": "Smart matching",
-        "text": "Emparejamiento inteligente según tu perfil profesional."
+        "title": "Emparejamiento inteligente",
+        "text": "Estudios seleccionados según tu perfil profesional y sector."
       },
       "upfront": {
-        "title": "Upfront rewards",
-        "text": "Rewards claros mostrados antes de empezar a responder."
+        "title": "Recompensas claras",
+        "text": "Monto de los incentivos transparente antes de iniciar."
       },
       "biteSized": {
         "title": "Participación flexible",
-        "text": "Formatoes diseñados para adaptarse a tu agenda."
+        "text": "Formatos diseñados para ajustarse a tus horarios laborales."
       }
     },
     "phone": {
       "heading": "Estudios para ti",
-      "subtitle": "Seleccionados en base a tus datos de perfil.",
-      "search": "Buscar surveys compatibles...",
-      "chips": ["Todos", "Technology", "Healthcare", "Finance"],
+      "subtitle": "Seleccionados según tu perfil profesional.",
+      "search": "Buscar encuestas compatibles...",
+      "chips": ["Todas", "Tecnología", "Salud", "Finanzas"],
       "cards": [
         {
-          "match": "98% coincidencia",
+          "match": "98% de compatibilidad",
           "reward": "$12",
-          "title": "Enterprise AI Adoption",
+          "title": "Adopción de IA en empresas",
           "time": "15 min",
-          "questions": "Research Survey"
+          "questions": "Estudio de mercado"
         },
         {
-          "match": "91% coincidencia",
+          "match": "91% de compatibilidad",
           "reward": "$8",
-          "title": "Cloud Infrastructure Strategy",
+          "title": "Estrategia de infraestructura Cloud",
           "time": "4 min",
           "questions": "9 preguntas"
         },
         {
-          "match": "87% coincidencia",
+          "match": "87% de compatibilidad",
           "reward": "$13",
-          "title": "Cybersecurity Investment Priorities",
+          "title": "Prioridades de inversión en Ciberseguridad",
           "time": "6 min",
           "questions": "14 preguntas"
         }
@@ -208,223 +208,223 @@
     }
   },
   "feature2": {
-    "eyebrow": "REWARDS FOR YOUR INSIGHTS",
-    "title": "Recibe una recompensa justa por tu valioso conocimiento",
+    "eyebrow": "RECOMPENSAS POR TUS IDEAS",
+    "title": "Recibe incentivos por compartir tu experiencia",
     "cards": {
       "threshold": {
-        "title": "Múltiples opciones de Reward",
-        "text": "Tus pagos son procesados de forma rápida y segura tras cada participación."
+        "title": "Opciones de cobro flexibles",
+        "text": "Las recompensas se acreditan de forma segura tras completar el estudio."
       },
       "noFees": {
-        "title": "Pagos directos y seguros",
-        "text": "Procesamiento transparente a través de métodos confiables."
+        "title": "Pagos seguros",
+        "text": "Procesamos las transferencias mediante plataformas de pago confiables."
       }
     },
     "phone": {
-      "appName": "B2B Insight Panel",
-      "pageTitle": "Rewards Center",
-      "modalTitle": "Redimir rewards disponibles",
-      "fromLabel": "FROM",
+      "appName": "Panel de Estudios B2B",
+      "pageTitle": "Centro de Recompensas",
+      "modalTitle": "Canjear ganancias acumuladas",
+      "fromLabel": "DE",
       "orgName": "Beacon Martech",
       "availableValue": "$140",
-      "availableSuffix": "disponible",
+      "availableSuffix": "disponibles",
       "fullBalance": "Saldo total",
       "customAmount": "Monto personalizado",
       "amountLabel": "Monto",
       "amountValue": "$140",
-      "receiveLabel": "Monto a recibir",
+      "receiveLabel": "Monto del incentivo",
       "receiveValue": "$140",
-      "requestCta": "Redimir Rewards",
-      "disclaimer": "Tu solicitud es enviada a Beacon Martech. El pago se procesa de forma segura tras ser verificado.",
+      "requestCta": "Cobrar recompensa",
+      "disclaimer": "Tu solicitud pasa a revisión de Beacon Martech. Las recompensas se procesan de forma segura tras la verificación.",
       "nav": {
-        "surveys": "Surveys",
-        "history": "History",
-        "wallet": "Wallet",
-        "analytics": "Analytics",
-        "profile": "Profile"
+        "surveys": "Encuestas",
+        "history": "Historial",
+        "wallet": "Billetera",
+        "analytics": "Analíticas",
+        "profile": "Perfil"
       }
     }
   },
   "rewards": {
-    "eyebrow": "Rewards",
-    "titleLine1": "Opciones de cobro flexibles ",
-    "titleLine2": "por tu colaboración",
-    "description": "Elige entre PayPal, transferencia bancaria, UPI y gift cards según tus preferencias e idioma.",
+    "eyebrow": "Recompensas",
+    "titleLine1": "Opciones de pago flexibles ",
+    "titleLine2": "por tu participación",
+    "description": "Elige entre múltiples medios de cobro seguros como PayPal, transferencia bancaria, UPI o tarjetas de regalo según tu país.",
     "stats": {
       "minCashout": {
         "value": "🔒 ",
-        "label": "Pagos 100% Seguros"
+        "label": "Pagos seguros"
       },
       "fees": {
         "value": "🌍",
-        "label": "Opciones Globales"
+        "label": "Opciones globales"
       },
       "options": {
         "value": "⚡",
-        "label": "Procesamiento Rápido"
+        "label": "Procesamiento rápido"
       }
     },
     "options": {
       "paypal": "PayPal",
-      "bank": "Transferencia Bancaria",
+      "bank": "Transferencia bancaria",
       "upi": "UPI",
-      "gift": "Gift Cards"
+      "gift": "Tarjetas de regalo"
     }
   },
   "about": {
-    "eyebrow": "Why we exist",
-    "title": "Valoramos tu expertise y cuidamos tu confianza.",
-    "paragraph1": "Las empresas necesitan la opinión de expertos para tomar mejores decisiones. Creemos que los profesionales deben ser reconocidos y recompensados por compartir su tiempo.",
-    "paragraph2": "Nos comprometemos con la transparencia, el resguardo de tu información y retribuciones justas.",
+    "eyebrow": "Nuestra razón de ser",
+    "title": "Valoramos tu conocimiento y cuidamos tu confianza.",
+    "paragraph1": "Las empresas confían en la experiencia de los profesionales para tomar mejores decisiones de negocio. Creemos que los profesionales merecen reconocimiento y recompensas por compartir su conocimiento.",
+    "paragraph2": "Estamos comprometidos con la transparencia, la participación segura y la protección de tus datos, garantizando recompensas justas por tus valiosas contribuciones.",
     "badge": {
-      "title": "Conforme con GDPR / RGPD",
-      "text": "Tu privacidad y seguridad de datos son nuestra máxima prioridad."
+      "title": "Conforme al RGPD",
+      "text": "Tu privacidad y la seguridad de tus datos son lo primero."
     },
     "chips": {
-      "neverSold": "Nunca se vende a terceros",
+      "neverSold": "Nunca vendemos datos a terceros",
       "encryption": "Encriptación de nivel bancario",
-      "delete": "Elimina tu cuenta cuando quieras",
-      "confidential": "Participación confidencial",
-      "privacyProtected": "Datos protegidos al 100%"
+      "delete": "Baja en cualquier momento",
+      "confidential": "Participación 100% confidencial",
+      "privacyProtected": "Privacidad de datos garantizada"
     },
-    "photoAlt": "Un participante respondiendo un survey desde su móvil"
+    "photoAlt": "Un usuario respondiendo una encuesta desde su teléfono móvil"
   },
   "testimonials": {
     "eyebrow": "★ 4.6 · opiniones",
-    "title": "Lo que dicen nuestros miembros",
+    "title": "Lo que opinan nuestros miembros",
     "items": [
       {
         "name": "Sarah M.",
-        "role": "Technology Director",
-        "headline": "Oportunidades muy acertadas",
-        "text": "Los estudios que me envían se alinean muy bien con mi experiencia laboral. Da gusto colaborar así."
+        "role": "Directora de Tecnología",
+        "headline": "Oportunidades relevantes en todo momento",
+        "text": "Los estudios que recibo están completamente enfocados en mi perfil profesional, haciendo que participar sea interesante y gratificante."
       },
       {
         "name": "Michael T.",
-        "role": "Procurement Manager",
-        "headline": "Profesionalismo y transparencia",
-        "text": "Aprecio la claridad sobre los requisitos y los honorariums desde el inicio. La experiencia es muy ágil."
+        "role": "Gerente de Compras",
+        "headline": "Profesional y transparente",
+        "text": "Aprecio la claridad con la que explican los requisitos y honorarios de cada estudio. Todo el proceso es muy fluido."
       },
       {
         "name": "David R.",
-        "role": "Operations Executive",
-        "headline": "Valoran y respetan mi tiempo",
-        "text": "A diferencia de otros sitios, las encuestas de aquí son de valor y realmente valen el esfuerzo."
+        "role": "Ejecutivo de Operaciones",
+        "headline": "Respetan mi tiempo",
+        "text": "A diferencia de otras plataformas, las propuestas que me llegan son realmente relevantes y valen el tiempo invertido."
       },
       {
         "name": "Emily K.",
-        "role": "Finance Professional",
-        "headline": "Plataforma muy segura y confiable",
-        "text": "La privacidad es fundamental para mí, y B2B Insight Panel me brinda total tranquilidad."
+        "role": "Especialista en Finanzas",
+        "headline": "Seguro y confiable",
+        "text": "La privacidad de mis datos es fundamental. La transparencia del panel me genera absoluta confianza."
       },
       {
         "name": "James L.",
-        "role": "IT Decision Maker",
-        "headline": "Aporte real al sector empresarial",
-        "text": "Es gratificante saber que mis respuestas ayudan a empresas a afinar sus decisiones de negocio."
+        "role": "Tomador de decisiones en TI",
+        "headline": "Aporte de verdadero valor para la industria",
+        "text": "Es muy gratificante saber que mi experiencia ayuda a otras empresas a tomar decisiones estratégicas."
       },
       {
         "name": "Jennifer P.",
-        "role": "Healthcare Executive",
-        "headline": "Estudios de gran nivel",
-        "text": "Estudios bien estructurados, enfocados en retos reales del mercado y con excelente gestión."
+        "role": "Ejecutiva del sector Salud",
+        "headline": "Estudios de gran calidad",
+        "text": "Los proyectos están muy bien estructurados, son administrados con profesionalismo y abordan retos reales de negocio."
       },
       {
         "name": "Robert S.",
-        "role": "Manufacturing Leader",
-        "headline": "Red profesional valiosa",
-        "text": "Brinda excelentes oportunidades para opinar sobre temas estratégicos de la industria."
+        "role": "Líder de Manufactura",
+        "headline": "Excelente red para compartir conocimiento",
+        "text": "La plataforma me permite opinar sobre temas relevantes de mi sector de forma muy dinámica."
       },
       {
         "name": "Linda W.",
-        "role": "Marketing Director",
-        "headline": "Reconocimiento justo para profesionales",
-        "text": "Los incentivos son claros y respetan el nivel y experiencia de cada participante."
+        "role": "Directora de Marketing",
+        "headline": "Reconocimiento justo para la experiencia",
+        "text": "Los incentivos son claros y transparentes, y valoran en verdad la trayectoria del profesional."
       }
     ]
   },
   "faq": {
-    "eyebrow": "FAQ / Preguntas frecuentes",
-    "title": "¿Tienes dudas? Respondemos.",
-    "moreText": "¿Tienes más preguntas? Tenemos las respuestas preparadas.",
-    "moreLink": "Ver todas las FAQs",
+    "eyebrow": "FAQ",
+    "title": "¿Tienes dudas? Aquí las respondemos.",
+    "moreText": "¿Aún tienes preguntas? Tenemos todas las respuestas que buscas.",
+    "moreLink": "Ver todas las preguntas frecuentes",
     "items": [
       {
-        "question": "¿Es gratis unirse?",
-        "answer": "Sí. Unirte a B2B Insight Panel es 100% gratuito. No hay costos de registro, cuotas de suscripción ni cobros ocultos."
+        "question": "¿Unirme es gratis?",
+        "answer": "Sí. Registrarte en nuestro panel de estudios B2B es 100% gratuito. No hay tarifas de registro, suscripciones ni costos ocultos."
       },
       {
-        "question": "¿Qué es B2B Insight Panel?",
-        "answer": "Es una comunidad global de profesionales y tomadores de decisiones que participan en estudios y encuestas de investigación de mercado."
+        "question": "¿Qué es este panel de estudios B2B?",
+        "answer": "Somos una comunidad global de profesionales y líderes de negocio que participan en estudios, encuestas y entrevistas para ayudar a empresas a tomar mejores decisiones."
       },
       {
         "question": "¿Quiénes pueden unirse?",
-        "answer": "Profesionales de diversas industrias: directivos, líderes IT, expertos en compras, finanzas, salud y más."
+        "answer": "Son bienvenidos profesionales de todos los sectores: ejecutivos, gerentes, expertos en TI, compras, finanzas, profesionales de la salud y tomadores de decisión."
       },
       {
-        "question": "¿Cómo se seleccionan los participantes para los estudios?",
-        "answer": "Se emparejan según tu perfil (sector, cargo, nivel de responsabilidad y especialidad). Mantener el perfil al día ayuda a recibir más opciones."
+        "question": "¿Cómo eligen a los participantes para cada estudio?",
+        "answer": "Las invitaciones se envían según tu perfil profesional (sector, cargo, años de experiencia). Mantener tu información actualizada te dará mejores oportunidades."
       },
       {
         "question": "¿Qué tipo de estudios realizan?",
-        "answer": "Surveys en línea, entrevistas personalizadas, focus groups y pruebas de concepto o productos."
+        "answer": "Invitamos a nuestros miembros a encuestas online, entrevistas uno a uno, grupos focales, foros de discusión y pruebas de producto."
       },
       {
-        "question": "¿Cuánto tiempo toma cada estudio?",
-        "answer": "Las encuestas suelen tomar 10–30 minutos; las entrevistas 30–60 minutos. El tiempo estimado siempre se indica por adelantado."
+        "question": "¿Cuánto suele durar cada estudio?",
+        "answer": "Depende del formato: las encuestas online toman entre 10 y 30 minutos; las entrevistas entre 30 y 60 minutos. Siempre sabrás la duración estimada de antemano."
       },
       {
-        "question": "¿Recibiré remuneración por mi participación?",
-        "answer": "Sí. Recibes honorarios o rewards por cada proyecto completado. El monto varía según la duración y complejidad."
+        "question": "¿Recibiré una recompensa por participar?",
+        "answer": "Sí. Otorgamos incentivos o recompensas por completar con éxito los estudios calificados. El valor varía según la complejidad, duración y perfil requerido."
       },
       {
-        "question": "¿Cómo se procesan los rewards?",
-        "answer": "Los pagos se envían de forma segura vía PayPal, transferencia bancaria, gift cards o UPI según tu país."
+        "question": "¿Cómo entregan las recompensas?",
+        "answer": "Procesamos los pagos de forma segura vía PayPal, transferencia bancaria, tarjetas de regalo o métodos locales según tu país."
       },
       {
-        "question": "¿Cómo se calculan los montos de recompensa?",
-        "answer": "Dependen del tiempo requerido, el nivel de seniority y la complejidad de la investigación."
+        "question": "¿Cómo determinan el valor de la recompensa?",
+        "answer": "Se calcula según el tiempo requerido, nivel de especialización y perfil del participante. Siempre verás el monto antes de aceptar participar."
       },
       {
         "question": "¿Qué pasa si no califico para un estudio?",
-        "answer": "Algunos proyectos buscan perfiles muy específicos. Si no aplicas a uno, continuarás recibiendo futuras opciones."
+        "answer": "Algunos estudios requieren perfiles muy específicos. Si no aplicas para uno en particular, seguirás recibiendo invitaciones para proyectos futuros."
       },
       {
-        "question": "¿Mis datos se mantendrán confidenciales?",
-        "answer": "Absolutamente. Tus datos están protegidos por normativas de privacidad y las respuestas se analizan de forma agregada y anónima."
+        "question": "¿Mi información personal está segura?",
+        "answer": "Por supuesto. Protegemos tus datos bajo estrictas normas de privacidad. Las respuestas se analizan de forma grupal y anónima."
       },
       {
-        "question": "¿La plataforma es segura?",
-        "answer": "Sí. Empleamos medidas de seguridad de estándares industriales para proteger la información de nuestros miembros."
+        "question": "¿Es seguro el manejo de mis datos?",
+        "answer": "Sí. Cumplimos con estándares de seguridad avanzados para garantizar la protección de toda tu información personal."
       },
       {
-        "question": "¿Mi empleador sabrá que participo?",
-        "answer": "No. La participación es totalmente confidencial e independiente. Nunca contactamos a tu empresa."
+        "question": "¿Mi empresa o empleador sabrá que participo?",
+        "answer": "No. La participación es completamente voluntaria y confidencial. Nunca notificamos a tu empleador sobre tu actividad en el panel."
       },
       {
         "question": "¿Puedo actualizar los datos de mi perfil?",
-        "answer": "Sí, puedes editar tu perfil profesional en cualquier momento desde la plataforma."
+        "answer": "Sí. Puedes modificar tus datos laborales, sector y áreas de especialidad en cualquier momento desde tu cuenta."
       },
       {
         "question": "¿Con qué frecuencia recibiré invitaciones?",
-        "answer": "Depende de la demanda del mercado y la coincidencia con tu perfil profesional."
+        "answer": "Depende de tu perfil profesional y de la demanda de estudios activos en tu sector. Algunos perfiles reciben invitaciones con mayor frecuencia."
       },
       {
         "question": "¿Puedo darme de baja cuando quiera?",
-        "answer": "Sí, puedes cancelar tu cuenta o darte de baja de los correos en cualquier momento."
+        "answer": "Sí. Puedes solicitar la eliminación de tu cuenta o cancelar la suscripción a los correos en el momento que lo desees."
       }
     ]
   },
   "cta": {
-    "titleLine1": "Sé parte de una",
-    "titleLine2": "comunidad de investigación confiable.",
-    "subtitle": "Súmate a miles de profesionales que aportan sus conocimientos a estudios B2B exclusivos. Sin costos ni condiciones.",
-    "primary": "Join Our Community / Registrarme gratis",
-    "secondary": "How it works / Cómo funciona",
+    "titleLine1": "Únete a una comunidad",
+    "titleLine2": "de investigación confiable.",
+    "subtitle": "Forma parte de miles de profesionales que aportan valiosos conocimientos a través de estudios B2B exclusivos. Sin costos, sin compromisos.",
+    "primary": "Unirme a la comunidad",
+    "secondary": "Cómo funciona",
     "assurances": {
-      "noCard": "Registro 100% Gratis",
-      "cashOut": "Seguro & Confidencial",
-      "rated": "Rewards Flexibles"
+      "noCard": " Registro gratuito",
+      "cashOut": " Seguro & Confidencial",
+      "rated": " Recompensas flexibles"
     }
   }
 }

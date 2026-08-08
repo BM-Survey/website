@@ -1,66 +1,66 @@
 {
   "brand": {
     "prefix": "B2B",
-    "name": "Insight Panel"
+    "name": "Forschungspanel"
   },
   "nav": {
-    "howItWorks": "How It Works",
-    "rewards": "Rewards",
+    "howItWorks": "So funktioniert's",
+    "rewards": "Prämien",
     "about": "Über uns",
     "faq": "FAQ",
     "contact": "Kontakt",
-    "collaboration": "Für Organisationen",
+    "collaboration": "Für Unternehmen",
     "blog": "Blog"
   },
   "actions": {
-    "login": "Log in",
-    "signupFree": "Join Our Community",
-    "earnMoney": "Start Sharing Insights",
-    "seeHowItWorks": "See how it works",
-    "startNow": "Join Our Community",
-    "cashOut": "Cash out"
+    "login": "Anmelden",
+    "signupFree": "Community beitreten",
+    "earnMoney": "Insights teilen",
+    "seeHowItWorks": "Funktionsweise ansehen",
+    "startNow": "Community beitreten",
+    "cashOut": "Guthaben auszahlen"
   },
   "language": {
-    "label": "Language",
-    "select": "Language auswählen"
+    "label": "Sprache",
+    "select": "Sprache auswählen"
   },
   "a11y": {
     "openMenu": "Menü öffnen",
     "closeMenu": "Menü schließen",
     "primaryNavigation": "Hauptnavigation",
-    "footerNavigation": "Footer",
+    "footerNavigation": "Fußzeilennavigation",
     "skipToContent": "Zum Inhalt springen"
   },
   "footer": {
-    "tagline": "Eine globale Community aus Business Professionals und Entscheidern, die an exklusiven Research-Opportunities teilnehmen.",
+    "tagline": "Eine globale Community aus Experten und B2B-Entscheidern, die an exklusiven Marktforschungsstudien teilnehmen.",
     "product": {
       "title": "Produkt",
-      "home": "Home",
-      "howItWorks": "How It Works",
+      "home": "Startseite",
+      "howItWorks": "So funktioniert's",
       "faq": "FAQ",
       "blog": "Blog",
       "contact": "Kontakt",
-      "collaboration": "Für Organisationen"
+      "collaboration": "Für Unternehmen"
     },
     "legal": {
-      "title": "Legal",
-      "privacy": "Privacy Policy",
-      "cookie": "Cookie Policy",
+      "title": "Rechtliches",
+      "privacy": "Datenschutz",
+      "cookie": "Cookie-Richtlinie",
       "eula": "EULA",
-      "terms": "Terms & Conditions"
+      "terms": "AGB"
     },
     "app": {
-      "title": "Get the app",
-      "downloadOn": "Download im",
+      "title": "App herunterladen",
+      "downloadOn": "Laden im",
       "appStore": "App Store",
       "getItOn": "Jetzt bei",
       "googlePlay": "Google Play"
     },
-    "copyright": "© {year} B2B Insight Panel. Powered by Beacon Martech. Alle Rechte vorbehalten.",
+    "copyright": "© {year} B2B Forschungspanel. Bereitgestellt von Beacon Martech. Alle Rechte vorbehalten.",
     "bottom": {
-      "privacy": "Privacy",
+      "privacy": "Datenschutz",
       "cookies": "Cookies",
-      "terms": "Terms"
+      "terms": "AGB"
     },
     "social": {
       "x": "X (Twitter)",

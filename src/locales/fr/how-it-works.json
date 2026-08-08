@@ -1,138 +1,138 @@
 {
   "meta": {
-    "title": "How It Works — Gagnez de la money avec des Surveys | B2B Insight Panel",
-    "description": "Du sign-up jusqu'au payout : découvrez comment InsightPanel vous matche avec des surveys, paye des rewards équitables et vous cash out le jour même.",
+    "title": "Comment ça marche — Gagnez de l'argent avec des sondages | B2B Insight Panel",
+    "description": "De l'inscription au paiement : découvrez comment InsightPanel vous associe à des études, vous rémunère équitablement et vous verse vos gains le jour même.",
     "keywords": [
-      "how paid surveys work",
-      "survey rewards process",
-      "fast payouts",
-      "B2B insight panel"
+      "comment fonctionnent les sondages rémunérés",
+      "processus de récompense sondage",
+      "paiements rapides",
+      "panel d'études B2B"
     ],
-    "ogAlt": "Comment fonctionne InsightPanel, du feedback jusqu'au payout"
+    "ogAlt": "Comment fonctionne InsightPanel, de votre avis à votre paiement"
   },
   "hero": {
-    "eyebrow": "How It Works",
-    "titleLead": "De l'expertise à ",
-    "titleHighlight": "l'impact",
-    "subtitle": "Participez à des opportunités de research B2B exclusives et adaptées à votre expérience pro. Partagez des insights de valeur, influencez les décisions business et récupérez des rewards pour votre contribution. Voici exactement comment ça marche."
+    "eyebrow": "Comment ça marche",
+    "titleLead": "De votre expertise à votre ",
+    "titleHighlight": "impact",
+    "subtitle": "Participez à des opportunités d'études B2B exclusives, adaptées à votre parcours professionnel. Partagez des insights précieux, influencez les décisions business et recevez des récompenses pour votre contribution. Voici exactement comment ça marche."
   },
   "steps": [
     {
       "number": "01",
-      "title": " Buildez votre Professional Profile",
-      "text": "Complétez votre profil pro pour qu'on puisse vous connecter avec des études de research qui matchent avec votre expertise."
+      "title": "Créez votre profil professionnel",
+      "text": "Remplissez votre profil pour que nous puissions vous connecter aux études de marché qui correspondent à votre expertise."
     },
     {
       "number": "02",
-      "title": " Soyez matché avec des études",
-      "text": "Recevez des invitations pour des études de recherche alignées avec votre expérience sectorielle et votre background pro."
+      "title": "Soyez sélectionné pour des études",
+      "text": "Recevez des invitations pour des études en phase avec votre secteur d'activité et votre expérience professionnelle."
     },
     {
       "number": "03",
-      "title": " Partagez votre expertise",
-      "text": "Participez à des opportunités de recherche pertinentes et partagez vos insights professionnels via des surveys, interviews et autres activités."
+      "title": "Partagez votre expertise",
+      "text": "Participez à des projets de recherche pertinents et donnez votre avis d'expert à travers des sondages, des interviews et d'autres études."
     },
     {
       "number": "04",
-      "title": "Recevez votre Reward",
-      "text": "Le reward arrive sur votre balance le jour même. Customisez votre cash out via UPI, PayPal ou virement bancaire dès 5 $ seulement."
+      "title": "Recevez votre récompense",
+      "text": "Votre récompense est créditée sur votre solde le jour même. Retirez vos gains via UPI, PayPal ou virement bancaire dès 5 $."
     }
   ],
   "surveyPreview": {
-    "eyebrow": "Transparent, toujours",
-    "title": "Exemples d'opportunités de recherche",
+    "eyebrow": "Transparence garantie",
+    "title": "Exemples d'opportunités d'études",
     "cards": [
       {
-        "tag": "Technology",
+        "tag": "Tech",
         "tone": "primary",
-        "title": "Cloud Infrastructure Adoption",
+        "title": "Adoption des infrastructures Cloud",
         "time": "15 min",
-        "reward": "$12.50"
+        "reward": "12,50 $"
       },
       {
-        "tag": "Cybersecurity",
+        "tag": "Cybersécurité",
         "tone": "purple",
-        "title": "Enterprise Cybersecurity Trends",
+        "title": "Tendances de la cybersécurité en entreprise",
         "time": "20 min",
-        "reward": "$11"
+        "reward": "11 $"
       },
       {
         "tag": "Finance",
         "tone": "orange",
-        "title": "AI Adoption in Financial Services",
+        "title": "Adoption de l'IA dans les services financiers",
         "time": "15 min",
-        "reward": "$10.50"
+        "reward": "10,50 $"
       },
       {
-        "tag": "Procurement",
+        "tag": "Achats",
         "tone": "success",
-        "title": "Procurement Software Evaluation",
+        "title": "Évaluation des logiciels d'achats",
         "time": "20 min",
-        "reward": "$12.50"
+        "reward": "12,50 $"
       }
     ]
   },
   "payoutSpeed": {
-    "eyebrow": "OPTIONS DE REWARDS",
+    "eyebrow": "OPTIONS DE PAIEMENT",
     "title": "À quelle vitesse vous êtes payé",
     "items": [
       {
         "title": "UPI / PayPal — Le jour même",
-        "text": "Envoyé directement sur votre UPI ID ou compte PayPal"
+        "text": "Envoyé sur votre identifiant UPI ou compte PayPal"
       },
       {
-        "title": "Gift cards — Le jour même",
-        "text": "Plus de 100 brands, +5% de bonus sur une sélection de cartes"
+        "title": "Cartes cadeaux — Le jour même",
+        "text": "Plus de 100 enseignes, +5% de bonus sur une sélection de cartes"
       },
       {
-        "title": "Virement bancaire — 1–2 jours",
-        "text": "Directement sur votre compte, zéro fee"
+        "title": "Virement bancaire — 1 à 2 jours",
+        "text": "Directement sur votre compte, zéro frais"
       }
     ]
   },
   "cta": {
     "title": "Prêt à partager votre expertise ?",
-    "subtitle": "Rejoignez une community de confiance composée de professionnels qui participent à des opportunités de recherche exclusives et aident à driver les décisions d'affaires.",
-    "button": "Rejoindre la Community"
+    "subtitle": "Rejoignez une communauté de confiance composée de professionnels qui participent à des études exclusives et aident à orienter les décisions business.",
+    "button": "Rejoindre la communauté"
   },
   "phoneScreens": {
     "nav": {
-      "surveys": "Surveys",
-      "history": "History",
-      "wallet": "Wallet",
-      "analytics": "Analytics",
-      "profile": "Profile"
+      "surveys": "Études",
+      "history": "Historique",
+      "wallet": "Portefeuille",
+      "analytics": "Analyses",
+      "profile": "Profil"
     },
     "profile": {
       "title": "Votre profil",
       "subtitle": "Prend environ 2 minutes",
       "nameLabel": "Nom complet",
       "nameValue": "Alex Carter",
-      "emailLabel": "Email",
+      "emailLabel": "E-mail",
       "emailValue": "alex@email.com",
-      "interestsLabel": "Interests",
-      "interests": ["Technology", "Healthcare", "Financial Services"],
+      "interestsLabel": "Centres d'intérêt",
+      "interests": ["Tech", "Santé", "Services financiers"],
       "progressLabel": "Profil complété",
       "progressValue": "80%",
-      "cta": "Continue"
+      "cta": "Continuer"
     },
     "matched": {
-      "heading": "Des études pour vous",
+      "heading": "Études pour vous",
       "subtitle": "Basé sur votre profil",
-      "search": "Chercher des surveys...",
-      "allChip": "Tout"
+      "search": "Chercher une étude...",
+      "allChip": "Toutes"
     },
     "answer": {
       "progressLabel": "Question 5 sur 18",
-      "question": "Quelles plateformes cloud votre organisation utilise-t-elle actuellement ?",
+      "question": "Quelles plateformes Cloud votre entreprise utilise-t-elle actuellement ?",
       "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "Autre"],
-      "submitCta": "Next"
+      "submitCta": "Suivant"
     },
     "paid": {
-      "title": "Reward Reçu",
-      "via": "Envoyé sur votre PayPal",
-      "balanceLabel": "Reward disponible",
-      "balanceValue": "$129.50"
+      "title": "Récompense reçue",
+      "via": "Envoyée sur votre PayPal",
+      "balanceLabel": "Solde disponible",
+      "balanceValue": "129,50 $"
     }
   }
 }

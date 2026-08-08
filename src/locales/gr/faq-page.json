@@ -1,44 +1,44 @@
 {
   "meta": {
-    "title": "FAQ — Frequently Asked Questions | B2B Insight Panel",
-    "description": "Antworten zu Ihrem Account, Earnings, Payouts und Privacy auf InsightPanel — dem B2B Insight Panel, das echtes Geld für echte Meinungen zahlt.",
-    "keywords": ["survey FAQ", "paid survey questions", "payout questions", "B2B insight panel"],
-    "ogAlt": "Frequently asked questions über InsightPanel"
+    "title": "FAQ — Häufig gestellte Fragen | B2B Forschungspanel",
+    "description": "Antworten zu Ihrem Konto, Verdienstmöglichkeiten, Auszahlungen und Datenschutz auf unserer Plattform für B2B-Marktforschung.",
+    "keywords": ["Umfrage FAQ", "bezahlte Umfragen Fragen", "Auszahlung Marktforschung", "B2B Forschungspanel"],
+    "ogAlt": "Häufig gestellte Fragen zu unserem B2B Forschungspanel"
   },
   "hero": {
     "eyebrow": "FAQ",
     "titleLead": "Fragen?",
-    "titleHighlight": "Beantwortet.",
-    "subtitleText": "Immer noch stuck?",
-    "subtitleLink": "Kontaktieren Sie unser Support-Team"
+    "titleHighlight": "Hier sind die Antworten.",
+    "subtitleText": "Noch etwas unklar?",
+    "subtitleLink": "Kontaktieren Sie unseren Support"
   },
   "categories": [
     { "key": "all", "label": "Alle" },
-    { "key": "account", "label": "Account" },
-    { "key": "earning", "label": "Earnings" },
-    { "key": "payouts", "label": "Payouts" },
-    { "key": "privacy", "label": "Privacy" }
+    { "key": "account", "label": "Konto" },
+    { "key": "earning", "label": "Verdienst" },
+    { "key": "payouts", "label": "Auszahlung" },
+    { "key": "privacy", "label": "Datenschutz" }
   ],
   "items": [
-    { "cat": "account", "question": "Ist das Joinen kostenlos?", "answer": "Ja. Dem B2B Insight Panel beizutreten ist komplett kostenlos. Es gibt keine Registrierungsgebühren, Abo-Kosten oder versteckte Fees." },
-    { "cat": "account", "question": "Was ist das B2B Insight Panel?", "answer": "B2B Insight Panel ist eine globale Community aus Business Professionals und Entscheidern, die an Research-Studien, Surveys, Interviews und Diskussionen teilnehmen, um Unternehmen dabei zu helfen, bessere Business-Entscheidungen zu treffen." },
-    { "cat": "account", "question": "Wer kann der Community beitreten?", "answer": "Professionals aus verschiedenen Industrien und Funktionen sind herzlich eingeladen zu joinen, darunter Executives, Manager, IT-Experten, Procurement-Leader, Finance-Experten, Healthcare-Professionals und andere Business-Entscheider." },
-    { "cat": "account", "question": "Wie werden Member für Research-Opportunities ausgewählt?", "answer": "Research-Einladungen werden basierend auf Ihrem professionellen Profil gematcht. Dazu zählen Faktoren wie Branche, Job-Rolle, Seniorität, Expertise und Entscheidungsverantwortung. Ihren Account up-to-date zu halten, hilft uns, Ihnen relevantere Opportunities anzubieten." },
-    { "cat": "account", "question": "Kann ich meine Profil-Informationen updaten?", "answer": "Ja. Sie können Ihre professionellen Details, Branchen-Infos und Expertise-Bereiche jederzeit updaten. Ein akkurates Profil hilft uns, Ihnen passendere Research-Opportunities anzubieten." },
-    { "cat": "account", "question": "Kann ich die Community jederzeit verlassen?", "answer": "Ja. Sie können jederzeit die Löschung Ihres Accounts beantragen oder sich von unseren Kommunikationskanälen abmelden." },
-    { "cat": "earning", "question": "Welche Arten von Research-Opportunities gibt es?", "answer": "Member können eingeladen werden, an Online-Surveys, One-on-One-Interviews, Fokusgruppen, Discussion Boards, Produkt-Evaluierungen und Industrie-Research-Studien teilzunehmen." },
-    { "cat": "earning", "question": "Wie lange dauern die Studien normalerweise?", "answer": "Die Studiendauer variiert je nach Research-Typ: Online-Surveys dauern meistens 10–30 Minuten, Interviews 30–60 Minuten, und Discussion Boards oder spezialisierte Studien können variieren. Die geschätzte Participation-Time wird immer vorab kommuniziert." },
-    { "cat": "earning", "question": "Werde ich für die Teilnahme kompensiert?", "answer": "Ja. Member erhalten Rewards oder Honorare für das erfolgreiche Abschließen von qualifizierten Research-Projekten. Die Vergütung variiert je nach Komplexität der Studie, Dauer und erforderlicher Expertise." },
-    { "cat": "earning", "question": "Wie werden die Reward-Beträge bestimmt?", "answer": "Die Reward-Höhe hängt von Faktoren wie Studiendauer, Level der benötigten Expertise, Seniorität der Teilnehmer und Komplexität der Research ab. Reward-Details werden vor der Participation geteilt." },
-    { "cat": "earning", "question": "Was passiert, wenn ich mich nicht für eine Studie qualifiziere?", "answer": "Einige Studien haben spezifische Screening-Anforderungen. Wenn Sie sich für eine bestimmte Studie nicht qualifizieren, können Sie dennoch Einladungen für zukünftige Opportunities erhalten, die besser zu Ihrem professionellen Background matchen." },
-    { "cat": "earning", "question": "Wie oft erhalte ich Einladungen?", "answer": "Die Einladungsfrequenz hängt von Ihrem professionellen Background und den Needs laufender Research-Projekte ab. Einige Professionals erhalten basierend auf der Market Demand häufiger Opportunities als andere." },
-    { "cat": "payouts", "question": "Wie werden Rewards geprocesst?", "answer": "Rewards werden sicher über die verfügbaren Zahlungsmethoden geprocesst, dazu gehören PayPal, Banktransfer, Gift Cards, UPI oder andere lokale Optionen. Die verfügbaren Methoden können je nach Land variieren." },
-    { "cat": "privacy", "question": "Werden meine Informationen vertraulich behandelt?", "answer": "Absolut. Ihre persönlichen Daten sind geschützt und werden in Übereinstimmung mit den geltenden Privacy-Regulations behandelt. Individuelle Antworten werden normalerweise aggregiert analysiert und niemals ohne entsprechende Zustimmung geteilt." },
-    { "cat": "privacy", "question": "Sind meine Daten sicher?", "answer": "Ja. Wir nutzen Industry-Standard Sicherheitsmaßnahmen und Privacy-Practices, um die Member-Informationen zu schützen und eine sichere Research-Umgebung zu garantieren." },
-    { "cat": "privacy", "question": "Erfährt mein Arbeitgeber von meiner Teilnahme?", "answer": "Nein. Die Teilnahme ist komplett freiwillig und vertraulich. Wir informieren Arbeitgeber nicht über Ihre Participation, es sei denn, es wird für eine spezifische Studie explizit gefordert und vereinbart." }
+    { "cat": "account", "question": "Ist die Mitgliedschaft kostenlos?", "answer": "Ja. Die Teilnahme an unserem B2B Forschungspanel ist absolut kostenlos. Es gibt keine Anmeldegebühren, Abos oder versteckten Kosten." },
+    { "cat": "account", "question": "Was ist das B2B Forschungspanel?", "answer": "Es ist eine globale Community aus Fach- und Führungskräften, die an Studien, Umfragen und Interviews teilnehmen, um Unternehmen bei strategischen Entscheidungen zu unterstützen." },
+    { "cat": "account", "question": "Wer kann der Community beitreten?", "answer": "Fach- und Führungskräfte aller Branchen sind willkommen – darunter Manager, IT-Experten, Einkaufsleiter, Finanzfachleute, Mediziner und weitere Entscheidungsträger." },
+    { "cat": "account", "question": "Wie werden Teilnehmer für Studien ausgewählt?", "answer": "Einladungen basieren auf Ihrem Berufsprofil (Branche, Position, Erfahrung, Entscheidungsbefugnis). Ein aktuelles Profil sorgt für passende Einladungen." },
+    { "cat": "account", "question": "Kann ich meine Profilangaben aktualisieren?", "answer": "Ja. Sie können Ihre beruflichen Angaben, Ihre Branche und Ihre Fachgebiete jederzeit in Ihrem Konto anpassen." },
+    { "cat": "account", "question": "Kann ich die Community jederzeit verlassen?", "answer": "Ja. Sie können Ihr Konto jederzeit löschen lassen oder sich von allen Benachrichtigungen abmelden." },
+    { "cat": "earning", "question": "Welche Arten von Studien gibt es?", "answer": "Unsere Mitglieder werden zu Online-Umfragen, Einzelinterviews, Fokusgruppen, Expertenforen oder Produkttests eingeladen." },
+    { "cat": "earning", "question": "Wie lange dauert eine Teilnahme gewöhnlich?", "answer": "Die Dauer unterscheidet sich je nach Format: Online-Umfragen dauern oft 10–30 Minuten, Interviews 30–60 Minuten. Der Zeitaufwand wird immer vorab mitgeteilt." },
+    { "cat": "earning", "question": "Werde ich für meine Teilnahme entschädigt?", "answer": "Ja. Für erfolgreich absolvierte Studien erhalten Sie eine Aufwandsentschädigung. Die Höhe richtet sich nach Aufwand, Dauer und benötigtem Fachwissen." },
+    { "cat": "earning", "question": "Wie wird die Honorarhöhe festgelegt?", "answer": "Das Honorar hängt von der Studiendauer, dem Expertenstatus, der Position und der Komplexität des Themas ab. Die genaue Vergütung erfahren Sie vorab." },
+    { "cat": "earning", "question": "Was passiert, wenn ich für eine Studie nicht qualifiziert bin?", "answer": "Manche Studien haben sehr spezielle Zielgruppen. Wenn Sie einmal nicht passen, erhalten Sie weiterhin passende Angebote für zukünftige Projekte." },
+    { "cat": "earning", "question": "Wie oft erhalte ich Einladungen?", "answer": "Die Häufigkeit hängt von Ihrem Profil und den aktuellen Kundenprojekten ab. Je nach Marktnachfrage werden einige Profile öfter angefragt als andere." },
+    { "cat": "payouts", "question": "Wie werden die Prämien ausgezahlt?", "answer": "Die Auszahlung erfolgt sicher über PayPal, Banküberweisung, Gutscheine oder je nach Land über andere lokale Auszahlungsmöglichkeiten." },
+    { "cat": "privacy", "question": "Werden meine Daten vertraulich behandelt?", "answer": "Absolut. Ihre Daten werden gemäß den geltenden Datenschutzgesetzen streng vertraulich behandelt. Ergebnisse werden anonymisiert und aggregiert ausgewertet." },
+    { "cat": "privacy", "question": "Sind meine Daten sicher?", "answer": "Ja. Wir nutzen etablierte Sicherheitsstandards und Datenschutzverfahren, um Ihre persönlichen Informationen lückenlos zu schützen." },
+    { "cat": "privacy", "question": "Erfährt mein Arbeitgeber von meiner Teilnahme?", "answer": "Nein. Die Teilnahme ist rein freiwillig und vertraulich. Wir informieren Ihren Arbeitgeber zu keinem Zeitpunkt über Ihre Aktivitäten." }
   ],
   "cta": {
-    "title": "Haben Sie Ihre Antwort nicht gefunden?",
+    "title": "Antwort nicht gefunden?",
     "subtitle": "Unser Support-Team antwortet innerhalb eines Werktages.",
     "button": "Support kontaktieren"
   }

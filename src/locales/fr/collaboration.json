@@ -1,171 +1,166 @@
 {
   "meta": {
-    "title": "Pour les Organisations — Runnez vos Surveys sur InsightPanel | B2B Insight Panel",
-    "description": "Lancez vos surveys sur InsightPanel en quelques minutes. Ciblez des pros vérifiés par département, suivez les insights en temps réel et laissez les rewards tourner tout seul.",
-    "keywords": [
-      "survey management platform",
-      "lancer des surveys business",
-      "B2B survey panel",
-      "market research pour les entreprises"
-    ],
-    "ogAlt": "Pourquoi les organisations lancent leurs surveys sur InsightPanel"
+    "title": "Pour les Entreprises — Lancez vos sondages sur InsightPanel | B2B Insight Panel",
+    "description": "Passez à InsightPanel pour vos sondages : lancez en quelques minutes, ciblez des professionnels vérifiés par département, suivez les résultats en temps réel et automatisez les récompenses.",
+    "keywords": ["plateforme de sondage", "réaliser des études B2B", "panel B2B", "étude de marché entreprises"],
+    "ogAlt": "Pourquoi les entreprises choisissent InsightPanel pour leurs sondages"
   },
   "hero": {
-    "eyebrow": "Pour les Organisations",
-    "titleLead": "Connectez avec des pros vérifiés et ",
-    "titleHighlight": "transformez l'expertise en insights actionnables",
-    "subtitle": "Accédez à des feedbacks de super qualité de la part de professionnels de tous secteurs. Lancez vos études, touchez votre target audience, et récupérez des insights actionnables pour prendre des bonnes décisions business."
+    "eyebrow": "Pour les Entreprises",
+    "titleLead": "Connectez-vous à des professionnels vérifiés et ",
+    "titleHighlight": "transformez leur expertise en insights actionnables",
+    "subtitle": "Accédez à des réponses à haute valeur ajoutée provenant d'experts et de décideurs de tous secteurs. Lancez vos études, touchez votre cible et appuyez vos décisions business sur des données concrètes."
   },
   "whyWorkWithUs": {
-    "eyebrow": "Pourquoi bosser avec nous",
-    "title": "Un support de recherche de bout en bout",
-    "subtitle": "Du setup du projet jusqu'au reporting final, notre équipe gère tout le cycle de vie de votre recherche.",
+    "eyebrow": "Pourquoi travailler avec nous",
+    "title": "Un accompagnement recherche de A à Z",
+    "subtitle": "Du cadrage initial au rapport final, notre équipe prend en charge l'ensemble de votre projet de recherche.",
     "cards": [
       {
-        "title": "Des répondants pros et vérifiés",
-        "text": "Accédez aux décisionnaires et aux experts de l'industrie."
+        "title": "Répondants professionnels vérifiés",
+        "text": "Échangez directement avec des décideurs et des experts métiers."
       },
       {
-        "title": "Des data de qualité assurée",
-        "text": "Plusieurs layers de validation garantissent des insights fiables."
+        "title": "Données garanties de haute qualité",
+        "text": "Niveaux de contrôle multiples pour assurer la fiabilité des insights."
       },
       {
-        "title": "Des solutions de recherche flexibles",
-        "text": "Des études custom designées selon vos objectifs."
+        "title": "Solutions d'études sur mesure",
+        "text": "Projets personnalisés et conçus autour de vos objectifs stratégiques."
       },
       {
-        "title": "Un Project Management dédié",
-        "text": "Une seule et même équipe pour vous supporter tout au long du projet."
+        "title": "Gestion de projet dédiée",
+        "text": "Une équipe unique pour vous accompagner à chaque étape du projet."
       },
       {
-        "title": "Des délais de turnaround rapides",
-        "text": "Une exécution efficace sans jamais compromettre la qualité."
+        "title": "Délais de livraison rapides",
+        "text": "Une exécution efficace et agile sans compromis sur la qualité."
       },
       {
-        "title": "Un handling sécurisé des data",
-        "text": "Confidentialité et sécurité de la data à chaque étape."
+        "title": "Gestion sécurisée des données",
+        "text": "Confidentialité stricte et sécurité des données assurées à tous les niveaux."
       }
     ]
   },
   "story": {
-    "eyebrow": "Votre journey avec nous",
-    "title": "De vos questions business aux insights actionnables",
-    "subtitle": "On gère chaque étape de votre research journey : définition des objectifs, ciblage de l'audience, delivery des insights et reports finaux.",
+    "eyebrow": "Votre parcours avec nous",
+    "title": "De vos questions stratégiques à des insights actionnables",
+    "subtitle": "Nous vous accompagnons à chaque phase : de la définition de vos objectifs au ciblage des bons répondants, jusqu'à la livraison des livrables et recommandations finales.",
     "chapters": [
       {
         "number": "01",
-        "label": "Step 01",
-        "title": "Comprendre vos objectifs business",
-        "text": "On commence par bien comprendre votre produit, votre service, vos objectifs de recherche et vos challenges business.",
+        "label": "Étape 01",
+        "title": "Compréhension de vos enjeux business",
+        "text": "Nous commençons par analyser votre offre, vos enjeux stratégiques et vos objectifs de recherche.",
         "points": [
-          "Consultation de recherche",
+          "Consultation cadrage méthodologique",
           "Alignement sur les objectifs business",
-          "Définition des success metrics",
-          "Planning de la target audience"
+          "Définition des indicateurs clés (KPIs)",
+          "Ciblage de l'audience"
         ]
       },
       {
         "number": "02",
-        "label": "Step 02",
-        "title": "Définir la bonne audience",
-        "text": "On identifie et build les profils des répondants selon l'industrie, les job titles, le département, la géo, la taille de la boîte et l'usage produit.",
+        "label": "Étape 02",
+        "title": "Ciblage précis de l'audience",
+        "text": "Définition et sélection des profils répondants selon le secteur, le poste, le département, la zone géographique, la taille de l'entreprise et les usages.",
         "points": [
-          "Profilage custom des répondants",
+          "Profilage sur mesure des répondants",
           "Critères de qualification de l'audience",
           "Ciblage de professionnels vérifiés"
         ]
       },
       {
         "number": "03",
-        "label": "Step 03",
-        "title": "Design & programmation du survey",
-        "text": "Notre équipe développe les screeners et les questionnaires qui fittent parfaitement avec vos objectifs.",
+        "label": "Étape 03",
+        "title": "Conception & programmation du questionnaire",
+        "text": "Nos experts développent les screener d'éligibilité et questionnaires adaptés à vos objectifs.",
         "points": [
-          "Développement du screener",
-          "Design du questionnaire",
-          "Programmation du survey",
-          "Setup du logic et du routing"
+          "Création des screener d'éligibilité",
+          "Conception du questionnaire",
+          "Programmation du sondage",
+          "Mise en place de la logique et des filtres"
         ]
       },
       {
         "number": "04",
-        "label": "Step 04",
-        "title": "Testing & QA (Qualité)",
-        "text": "Chaque étude passe par des phases de tests intensifs en interne et côté client avant le go-live.",
+        "label": "Étape 04",
+        "title": "Tests & assurance qualité (QA)",
+        "text": "Chaque étude fait l'objet de tests internes approfondis et d'une validation par vos soins avant le lancement.",
         "points": [
-          "Tests QA en interne",
-          "Review client et feedbacks",
-          "Revisions et approvals",
-          "Derniers checks de launch readiness"
+          "Recette et QA interne",
+          "Revue et retours client",
+          "Ajustements et validations",
+          "Vérification finale avant mise en ligne"
         ]
       },
       {
         "number": "05",
-        "label": "Step 05",
-        "title": "Soft launch & outreach des répondants",
-        "text": "Les études sont d'abord lancées sur un petit échantillon pour valider les perfs et la qualité des répondants.",
+        "label": "Étape 05",
+        "title": "Soft launch & recrutement des répondants",
+        "text": "Les études sont d'abord lancées sur un échantillon restreint pour valider la qualité du parcours et des données.",
         "points": [
-          "Monitoring du soft launch",
-          "Campagnes d'outreach par email",
-          "Management du recrutement du panel",
-          "Validation des premiers feedbacks"
+          "Suivi du soft launch",
+          "Campagnes d'invitation e-mail",
+          "Gestion du recrutement du panel",
+          "Validation précoce de la qualité des réponses"
         ]
       },
       {
         "number": "06",
-        "label": "Step 06",
-        "title": "Exécution du full launch",
-        "text": "Une fois validées, les études sont déployées à grande échelle.",
+        "label": "Étape 06",
+        "title": "Lancement complet",
+        "text": "Une fois le test validé, l'étude est déployée à grande échelle.",
         "points": [
-          "Monitoring des réponses en temps réel",
-          "Sample management",
-          "Optimisation continue",
-          "Management des targets de complétion"
+          "Suivi des réponses en temps réel",
+          "Gestion dynamique de l'échantillon",
+          "Optimisation continue du terrain",
+          "Pilotage des quotas visés"
         ]
       },
       {
         "number": "07",
-        "label": "Step 07",
-        "title": "Management de la qualité des data",
-        "text": "Chaque feedback est vérifié pour garantir la fiabilité de la data.",
+        "label": "Étape 07",
+        "title": "Contrôle qualité de la donnée",
+        "text": "Chaque réponse est scrupuleusement analysée pour garantir une fiabilité irréprochable.",
         "points": [
-          "Détection des fraudes",
-          "Checks sur la vitesse de réponse (speeding)",
-          "Validation de la logique",
+          "Détection des fraudes et bots",
+          "Analyse des temps de réponse (speeders)",
+          "Vérification de la cohérence logique",
           "Suppression des réponses incomplètes",
-          "Détection des doublons"
+          "Détection et élimination des doublons"
         ]
       },
       {
         "number": "08",
-        "label": "Step 08",
-        "title": "Data processing & analyse",
-        "text": "La data collectée est nettoyée et préparée pour le reporting et la prise de décisions stratégiques.",
+        "label": "Étape 08",
+        "title": "Traitement & analyse des données",
+        "text": "Les données brutes sont nettoyées et structurées pour faciliter la prise de décision stratégique.",
         "points": [
-          "Extraction de la data",
-          "Analyse de benchmark",
-          "Identification des tendances (trends)",
+          "Extraction et nettoyage des données",
+          "Analyse comparative (benchmarking)",
+          "Identification des tendances clés",
           "Génération d'insights"
         ]
       },
       {
         "number": "09",
-        "label": "Step 09",
-        "title": "Reporting & delivery",
-        "text": "Recevez des insights clairs et actionnables pour driver vos décisions d'entreprise.",
+        "label": "Étape 09",
+        "title": "Restitution & livrables",
+        "text": "Recevez des insights clairs et exploitables pour orienter vos choix stratégiques.",
         "points": [
-          "Clean datasets",
-          "Executive summaries",
-          "Charts et visualisations",
+          "Jeux de données nettoyés (Clean datasets)",
+          "Executive summary synthétique",
+          "Data visualisations et graphiques",
           "Recommandations stratégiques",
-          "Reporting package final"
+          "Rapport de restitution complet"
         ]
       }
     ]
   },
   "cta": {
-    "title": "Prêt à lancer votre prochain projet de recherche ?",
-    "subtitle": "Associez-vous avec B2B Insight Panel pour vous connecter avec des pros vérifiés et générer des insights business de top qualité.",
-    "button": "Contactez notre équipe ←"
+    "title": "Prêt à lancer votre prochain projet d'étude ?",
+    "subtitle": "Faites équipe avec B2B Insight Panel pour toucher des professionnels qualifiés et obtenir des insights décisionnels à forte valeur ajoutée.",
+    "button": "Contacter notre équipe →"
   }
 }

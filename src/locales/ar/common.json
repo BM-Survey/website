@@ -1,69 +1,69 @@
 {
   "brand": {
     "prefix": "B2B",
-    "name": "Insight Panel"
+    "name": "لوحة الاستطلاعات والرؤى"
   },
   "nav": {
-    "howItWorks": "طريقة الشغل (How It Works)",
-    "rewards": "المكافآت (Rewards)",
-    "about": "عنا (About)",
-    "faq": "الأسئلة الشائعة (FAQ)",
-    "contact": "تواصل معنا (Contact)",
-    "collaboration": "للمؤسسات (For Organisations)",
-    "blog": "المدونة (Blog)"
+    "howItWorks": "كيف نعمل",
+    "rewards": "المكافآت",
+    "about": "من نحن",
+    "faq": "الأسئلة الشائعة",
+    "contact": "اتصل بنا",
+    "collaboration": "للمؤسسات",
+    "blog": "المدونة"
   },
   "actions": {
-    "login": "تسجيل دخول (Log in)",
-    "signupFree": "انضم للـ Community بتاعنا",
-    "earnMoney": "ابدأ شارك الـ Insights بتاعتك",
-    "seeHowItWorks": "شوف طريقة الشغل (How it works)",
-    "startNow": "انضم للـ Community بتاعنا",
-    "cashOut": "اسحب الفلوس (Cash out)"
+    "login": "تسجيل الدخول",
+    "signupFree": "انضم إلى مجتمعنا",
+    "earnMoney": "ابدأ بمشاركة رؤيتك",
+    "seeHowItWorks": "اكتشف كيف نعمل",
+    "startNow": "انضم إلى مجتمعنا",
+    "cashOut": "سحب الأرباح"
   },
   "language": {
-    "label": "اللغة (Language)",
-    "select": "اختار اللغة (Select language)"
+    "label": "اللغة",
+    "select": "اختر اللغة"
   },
   "a11y": {
-    "openMenu": "افتح المنيو (Open menu)",
-    "closeMenu": "اقفل المنيو (Close menu)",
-    "primaryNavigation": "الرئيسي (Primary)",
-    "footerNavigation": "الفوتر (Footer)",
-    "skipToContent": "تخطي للمحتوى (Skip to content)"
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "primaryNavigation": "التنقل الرئيسي",
+    "footerNavigation": "تذييل الصفحة",
+    "skipToContent": "الانتقال إلى المحتوى"
   },
   "footer": {
-    "tagline": "مجتمع عالمي (Global Community) من المهنيين وصناع القرار بيشاركوا في فرص أبحاث حصرية.",
+    "tagline": "مجتمع عالمي من المحترفين وصناع القرار يشاركون في فرص بحثية حصريّة.",
     "product": {
-      "title": "المنتج (Product)",
-      "home": "الرئيسية (Home)",
-      "howItWorks": "طريقة الشغل (How It Works)",
-      "faq": "الأسئلة الشائعة (FAQ)",
-      "blog": "المدونة (Blog)",
-      "contact": "تواصل معنا (Contact)",
-      "collaboration": "للمؤسسات (For Organisations)"
+      "title": "المنتج",
+      "home": "الرئيسية",
+      "howItWorks": "كيف نعمل",
+      "faq": "الأسئلة الشائعة",
+      "blog": "المدونة",
+      "contact": "اتصل بنا",
+      "collaboration": "للمؤسسات"
     },
     "legal": {
-      "title": "قانوني (Legal)",
-      "privacy": "سياسة الخصوصية (Privacy Policy)",
-      "cookie": "سياسة الكوكيز (Cookie Policy)",
-      "eula": "اتفاقية المستخدم (EULA)",
-      "terms": "الشروط والأحكام (Terms & Conditions)"
+      "title": "الشروط القانونية",
+      "privacy": "سياسة الخصوصية",
+      "cookie": "سياسة ملفات تعريف الارتباط",
+      "eula": "اتفاقية ترخيص المستخدم النهائي",
+      "terms": "الشروط والأحكام"
     },
     "app": {
-      "title": "حمل الأبلكيشن (Get the app)",
-      "downloadOn": "حمل من الـ (Download on the)",
-      "appStore": "App Store",
-      "getItOn": "نزله من (Get it on)",
-      "googlePlay": "Google Play"
+      "title": "حمل التطبيق",
+      "downloadOn": "حمله من",
+      "appStore": "آب ستور",
+      "getItOn": "احصل عليه من",
+      "googlePlay": "جوجل بلاي"
     },
-    "copyright": "© {year} B2B Insight Panel. بدعم من Beacon Martech. كل الحقوق محفوظة.",
+    "copyright": "© {year} لوحة أبحاث واستطلاعات B2B. مدعوم من Beacon Martech. جميع الحقوق محفوظة.",
     "bottom": {
-      "privacy": "الخصوصية (Privacy)",
-      "cookies": "الكوكيز (Cookies)",
-      "terms": "الشروط (Terms)"
+      "privacy": "الخصوصية",
+      "cookies": "ملفات الكوكيز",
+      "terms": "الشروط"
     },
     "social": {
-      "x": "X (تويتر سابقاً)",
+      "x": "إكس (تويتر)",
       "instagram": "إنستغرام",
       "linkedin": "لينكد إن"
     }

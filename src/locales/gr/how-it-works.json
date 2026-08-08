@@ -1,138 +1,138 @@
 {
   "meta": {
-    "title": "How It Works — Geld verdienen mit Surveys | B2B Insight Panel",
-    "description": "Vom Sign-up bis zum Payout: Sehen Sie genau, wie InsightPanel Sie mit Surveys matcht, faire Rewards zahlt und Sie am selben Tag auscasht.",
+    "title": "So funktioniert's — Geld verdienen mit Umfragen | B2B Insight Panel",
+    "description": "Von der Anmeldung bis zur Auszahlung: Sieh genau, wie InsightPanel dich mit passenden Studien matcht, faire Rewards zahlt und am selben Tag auszahlt.",
     "keywords": [
-      "how paid surveys work",
-      "survey rewards process",
-      "fast payouts",
+      "wie bezahlte umfragen funktionieren",
+      "umfragen belohnung ablauf",
+      "schnelle auszahlung",
       "B2B insight panel"
     ],
-    "ogAlt": "Wie InsightPanel funktioniert – von der Meinung zum Payout"
+    "ogAlt": "So funktioniert InsightPanel, von deiner Meinung bis zur Auszahlung"
   },
   "hero": {
-    "eyebrow": "How It Works",
-    "titleLead": "Von Expertise zu ",
-    "titleHighlight": "Impact",
-    "subtitle": "Nehmen Sie an exklusiven B2B Research-Opportunities teil, die perfekt auf Ihre professionelle Erfahrung zugeschnitten sind. Sharen Sie wertvolle Insights, beeinflussen Sie Business-Decisions und erhalten Sie Rewards für Ihren Contribution. Hier ist der genaue Ablauf."
+    "eyebrow": "So funktioniert's",
+    "titleLead": "Von Fachwissen zu echten ",
+    "titleHighlight": "Insights",
+    "subtitle": "Nimm an exklusiven B2B-Studien teil, die genau zu deiner beruflichen Erfahrung passen. Teile wertvolle Insights, beeinflusse Business-Entscheidungen und erhalte attraktive Rewards für deinen Beitrag. So geht's."
   },
   "steps": [
     {
       "number": "01",
-      "title": " Builden Sie Ihr Professional Profile",
-      "text": "Vervollständigen Sie Ihr Profil, damit wir Sie mit Research-Studien connecten können, die zu Ihrer Expertise matchen."
+      "title": "Erstelle dein Profil",
+      "text": "Vervollständige dein Berufsprofil, damit wir dich mit Research-Studien matchen können, die zu deiner Expertise passen."
     },
     {
       "number": "02",
-      "title": " Werden Sie mit Studien gematcht",
-      "text": "Erhalten Sie Einladungen zu Research-Projekten, die perfekt mit Ihrer Branchenerfahrung und Ihrem Background alignen."
+      "title": "Erhalte passende Studien",
+      "text": "Bekomme Einladungen zu Studien, die perfekt zu deiner Branchenerfahrung und deinem beruflichen Hintergrund passen."
     },
     {
       "number": "03",
-      "title": " Sharen Sie Ihre Expertise",
-      "text": "Nehmen Sie an relevanten Opportunities teil und sharen Sie Ihre professionellen Insights über Surveys, Interviews und andere Formate."
+      "title": "Teile dein Fachwissen",
+      "text": "Nimm an relevanten Research-Projekten teil und gib deine Expertise in Umfragen, Interviews und anderen Formaten weiter."
     },
     {
       "number": "04",
-      "title": "Erhalten Sie Ihr Reward",
-      "text": "Das Reward landet noch am selben Tag auf Ihrer Balance. Cachen Sie ab nur 5 $ via UPI, PayPal oder Banktransfer aus."
+      "title": "Belohnung kassieren",
+      "text": "Deine Rewards landen noch am selben Tag auf deinem Konto. Zahle bequem ab 5 $ via UPI, PayPal oder Banküberweisung aus."
     }
   ],
   "surveyPreview": {
     "eyebrow": "Immer transparent",
-    "title": "Beispiele für Research-Opportunities",
+    "title": "Beispiele für aktuelle Studien",
     "cards": [
       {
-        "tag": "Technology",
+        "tag": "Technologie",
         "tone": "primary",
-        "title": "Cloud Infrastructure Adoption",
+        "title": "Cloud-Infrastruktur Adoption",
         "time": "15 Min.",
-        "reward": "$12.50"
+        "reward": "12,50 $"
       },
       {
         "tag": "Cybersecurity",
         "tone": "purple",
-        "title": "Enterprise Cybersecurity Trends",
+        "title": "Cybersecurity-Trends im Enterprise-Bereich",
         "time": "20 Min.",
-        "reward": "$11"
+        "reward": "11,00 $"
       },
       {
-        "tag": "Finance",
+        "tag": "Finanzen",
         "tone": "orange",
-        "title": "AI Adoption in Financial Services",
+        "title": "KI-Einsatz in Finanzdienstleistungen",
         "time": "15 Min.",
-        "reward": "$10.50"
+        "reward": "10,50 $"
       },
       {
-        "tag": "Procurement",
+        "tag": "Einkauf",
         "tone": "success",
-        "title": "Procurement Software Evaluation",
+        "title": "Bewertung von Procurement-Software",
         "time": "20 Min.",
-        "reward": "$12.50"
+        "reward": "12,50 $"
       }
     ]
   },
   "payoutSpeed": {
-    "eyebrow": "REWARD-OPTIONEN",
-    "title": "Wie schnell Sie paid werden",
+    "eyebrow": "AUSZAHLUNGS-OPTIONEN",
+    "title": "Wie schnell du bezahlt wirst",
     "items": [
       {
         "title": "UPI / PayPal — Am selben Tag",
-        "text": "Direkt an Ihre UPI-ID oder Ihren PayPal-Account gesendet"
+        "text": "Direkt an deine UPI-ID oder dein PayPal-Konto"
       },
       {
-        "title": "Gift cards — Am selben Tag",
-        "text": "Über 100 Brands, +5 % Bonus auf ausgewählte Karten"
+        "title": "Gutscheine — Am selben Tag",
+        "text": "100+ Top-Marken, +5% Bonus auf ausgewählte Gutscheine"
       },
       {
-        "title": "Banktransfer — 1–2 Tage",
-        "text": "Direkt auf Ihr Konto, absolut zero Fees"
+        "title": "Banküberweisung — 1–2 Tage",
+        "text": "Direkt auf dein Konto, komplett ohne Gebühren"
       }
     ]
   },
   "cta": {
-    "title": "Ready, Ihre Expertise zu sharen?",
-    "subtitle": "Joinen Sie einer trusted Community von Professionals, die an exklusiven Research-Projekten teilnehmen und Business-Entscheidungen mitshapen.",
-    "button": "Join Our Community"
+    "title": "Bereit, deine Expertise zu teilen?",
+    "subtitle": "Werde Teil einer starken Community von Professionals, nimm an exklusiven Studien teil und forme die Business-Welt von morgen.",
+    "button": "Jetzt der Community beitreten"
   },
   "phoneScreens": {
     "nav": {
-      "surveys": "Surveys",
-      "history": "History",
+      "surveys": "Umfragen",
+      "history": "Verlauf",
       "wallet": "Wallet",
-      "analytics": "Analytics",
-      "profile": "Profile"
+      "analytics": "Analysen",
+      "profile": "Profil"
     },
     "profile": {
-      "title": "Ihr Profil",
+      "title": "Dein Profil",
       "subtitle": "Dauert ca. 2 Minuten",
       "nameLabel": "Vollständiger Name",
       "nameValue": "Alex Carter",
       "emailLabel": "E-Mail",
       "emailValue": "alex@email.com",
-      "interestsLabel": "Interests",
-      "interests": ["Technology", "Healthcare", "Financial Services"],
-      "progressLabel": "Profil vollständig",
+      "interestsLabel": "Interessen",
+      "interests": ["Technologie", "Gesundheitswesen", "Finanzdienstleistungen"],
+      "progressLabel": "Profil ausgefüllt",
       "progressValue": "80%",
-      "cta": "Continue"
+      "cta": "Weiter"
     },
     "matched": {
-      "heading": "Studien für Sie",
-      "subtitle": "Basierend auf Ihrem Profil",
-      "search": "Surveys suchen...",
+      "heading": "Studien für dich",
+      "subtitle": "Basierend auf deinem Profil",
+      "search": "Umfragen suchen...",
       "allChip": "Alle"
     },
     "answer": {
       "progressLabel": "Frage 5 von 18",
-      "question": "Welche Cloud-Plattformen nutzt Ihre Organisation aktuell?",
+      "question": "Welche Cloud-Plattformen nutzt dein Unternehmen aktuell?",
       "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "Andere"],
-      "submitCta": "Next"
+      "submitCta": "Weiter"
     },
     "paid": {
       "title": "Reward erhalten",
-      "via": "An Ihr PayPal gesendet",
-      "balanceLabel": "Verfügbares Reward",
-      "balanceValue": "$129.50"
+      "via": "An dein PayPal-Konto gesendet",
+      "balanceLabel": "Verfügbares Guthaben",
+      "balanceValue": "129,50 $"
     }
   }
 }

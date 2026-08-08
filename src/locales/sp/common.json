@@ -1,66 +1,66 @@
 {
   "brand": {
     "prefix": "B2B",
-    "name": "Insight Panel"
+    "name": "Panel de Estudios"
   },
   "nav": {
-    "howItWorks": "How It Works",
-    "rewards": "Rewards",
-    "about": "About us",
-    "faq": "FAQ",
+    "howItWorks": "Cómo funciona",
+    "rewards": "Recompensas",
+    "about": "Nosotros",
+    "faq": "Preguntas frecuentes",
     "contact": "Contacto",
-    "collaboration": "Para Organizaciones",
+    "collaboration": "Para Empresas",
     "blog": "Blog"
   },
   "actions": {
-    "login": "Log in",
-    "signupFree": "Join Our Community",
-    "earnMoney": "Empieza a compartir Insights",
-    "seeHowItWorks": "Mira cómo funciona",
-    "startNow": "Join Our Community",
-    "cashOut": "Hacer Cash out"
+    "login": "Iniciar sesión",
+    "signupFree": "Unirme a la comunidad",
+    "earnMoney": "Compartir mi experiencia",
+    "seeHowItWorks": "Ver cómo funciona",
+    "startNow": "Unirme a la comunidad",
+    "cashOut": "Retirar fondos"
   },
   "language": {
-    "label": "Language",
-    "select": "Seleccionar language"
+    "label": "Idioma",
+    "select": "Seleccionar idioma"
   },
   "a11y": {
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
     "primaryNavigation": "Navegación principal",
-    "footerNavigation": "Footer",
-    "skipToContent": "Saltar al contenido"
+    "footerNavigation": "Navegación de pie de página",
+    "skipToContent": "Saltar al contenido principal"
   },
   "footer": {
-    "tagline": "Una global community de profesionales y tomadores de decisión que participan en oportunidades exclusivas de research.",
+    "tagline": "Una comunidad global de profesionales y líderes de negocio que participan en estudios de mercado exclusivos.",
     "product": {
-      "title": "Product",
-      "home": "Home",
-      "howItWorks": "How It Works",
-      "faq": "FAQ",
+      "title": "Producto",
+      "home": "Inicio",
+      "howItWorks": "Cómo funciona",
+      "faq": "Preguntas frecuentes",
       "blog": "Blog",
       "contact": "Contacto",
-      "collaboration": "Para Organizaciones"
+      "collaboration": "Para Empresas"
     },
     "legal": {
-      "title": "Legal",
-      "privacy": "Privacy Policy",
-      "cookie": "Cookie Policy",
+      "title": "Legales",
+      "privacy": "Política de privacidad",
+      "cookie": "Política de cookies",
       "eula": "EULA",
-      "terms": "Terms & Conditions"
+      "terms": "Términos y condiciones"
     },
     "app": {
-      "title": "Get the app",
-      "downloadOn": "Descárgalo en el",
+      "title": "Descarga la app",
+      "downloadOn": "Consíguelo en el",
       "appStore": "App Store",
-      "getItOn": "Consíguelo en",
+      "getItOn": "Disponible en",
       "googlePlay": "Google Play"
     },
-    "copyright": "© {year} B2B Insight Panel. Powered by Beacon Martech. Todos los derechos reservados.",
+    "copyright": "© {year} Panel de Estudios B2B. Desarrollado por Beacon Martech. Todos los derechos reservados.",
     "bottom": {
-      "privacy": "Privacy",
+      "privacy": "Privacidad",
       "cookies": "Cookies",
-      "terms": "Terms"
+      "terms": "Términos"
     },
     "social": {
       "x": "X (Twitter)",

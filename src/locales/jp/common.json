@@ -1,66 +1,66 @@
 {
   "brand": {
     "prefix": "B2B",
-    "name": "Insight Panel"
+    "name": "リサーチパネル"
   },
   "nav": {
-    "howItWorks": "仕組み (How It Works)",
-    "rewards": "リワード (Rewards)",
-    "about": "会社概要 (About)",
-    "faq": "FAQ",
-    "contact": "お問い合わせ (Contact)",
-    "collaboration": "オーガナイゼーション向け",
+    "howItWorks": "ご利用の流れ",
+    "rewards": "謝礼・特典",
+    "about": "サービス概要",
+    "faq": "よくある質問",
+    "contact": "お問い合わせ",
+    "collaboration": "法人のお客様",
     "blog": "ブログ"
   },
   "actions": {
-    "login": "ログイン (Log in)",
-    "signupFree": "コミュニティにジョインする",
-    "earnMoney": "インサイトの共有をスタート",
-    "seeHowItWorks": "仕組みをチェックする",
-    "startNow": "コミュニティにジョインする",
-    "cashOut": "キャッシュアウト (Cash out)"
+    "login": "ログイン",
+    "signupFree": "コミュニティに参加",
+    "earnMoney": "知見をシェアする",
+    "seeHowItWorks": "流れを見る",
+    "startNow": "コミュニティに参加",
+    "cashOut": "換金・謝礼受取"
   },
   "language": {
-    "label": "言語 (Language)",
+    "label": "言語",
     "select": "言語を選択"
   },
   "a11y": {
     "openMenu": "メニューを開く",
     "closeMenu": "メニューを閉じる",
     "primaryNavigation": "メインナビゲーション",
-    "footerNavigation": "フッター",
-    "skipToContent": "コンテンツへスキップ"
+    "footerNavigation": "フッターナビゲーション",
+    "skipToContent": "メインコンテンツへ移動"
   },
   "footer": {
-    "tagline": "エクスクルーシブなリサーチに参画する、ビジネスプロフェッショナルやディシジョンメーカーのグローバルコミュニティ。",
+    "tagline": "特別リサーチプロジェクトに参加する、ビジネスパーソンや意思決定者のグローバルコミュニティ。",
     "product": {
-      "title": "プロダクト",
+      "title": "製品・サービス",
       "home": "ホーム",
-      "howItWorks": "仕組み (How It Works)",
-      "faq": "FAQ",
+      "howItWorks": "ご利用の流れ",
+      "faq": "よくある質問",
       "blog": "ブログ",
-      "contact": "お問い合わせ (Contact)",
-      "collaboration": "オーガナイゼーション向け"
+      "contact": "お問い合わせ",
+      "collaboration": "法人のお客様"
     },
     "legal": {
-      "title": "リーガル",
+      "title": "法的情報",
       "privacy": "プライバシーポリシー",
       "cookie": "クッキーポリシー",
-      "eula": "EULA (利用規約)",
-      "terms": "利用規約 (Terms & Conditions)"
+      "eula": "エンドユーザーライセンス契約",
+      "terms": "利用規約"
     },
     "app": {
-      "title": "アプリをダウンロード",
-      "downloadOn": "ダウンロードはこちら",
+      "title": "アプリを入手",
+      "downloadOn": "ダウンロード",
       "appStore": "App Store",
       "getItOn": "手に入れよう",
       "googlePlay": "Google Play"
     },
-    "copyright": "© {year} B2B Insight Panel. Powered by Beacon Martech. All rights reserved.",
+    "copyright": "© {year} B2B リサーチパネル Powered by Beacon Martech. All rights reserved.",
     "bottom": {
       "privacy": "プライバシー",
-      "cookies": "クッキー",
-      "terms": "規約"
+      "cookies": "Cookie設定",
+      "terms": "利用規約"
     },
     "social": {
       "x": "X (旧Twitter)",

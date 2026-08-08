@@ -1,430 +1,430 @@
 {
   "meta": {
-    "title": "Earn Real Money Sharing Your Opinions | B2B Insight Panel",
-    "description": "あなたの意見でリワードを獲得。簡単なオンライン Survey に答えて PayPal や ギフトカード へ即時換金 — 完全無料で利用可能。",
+    "title": "あなたの意見が報酬に | B2B リサーチパネル",
+    "description": "専門知識を活かして企業のWebアンケートに回答。PayPalやギフトカードで即時換金 — 完全無料で利用可能。",
     "keywords": [
-      "paid surveys",
-      "earn money online",
-      "survey rewards",
-      "PayPal payouts",
-      "gift cards",
-      "market research panel",
-      "B2B insight panel"
+      "アンケートモニター",
+      "副収入 オンライン",
+      "アンケート 謝礼",
+      "PayPal 換金",
+      "ギフト券 謝礼",
+      "市場調査パネル",
+      "B2B リサーチパネル"
     ],
-    "ogAlt": "B2B Insight Panel — earn real money for your opinions"
+    "ogAlt": "B2B リサーチパネル — ビジネスの知見を提供して報酬を獲得"
   },
   "hero": {
     "ratingValue": "4.6",
-    "ratingLabel": "世界中のプロフェッショナルおよび意思決定者から信頼されています",
-    "titleLead": "Influence the",
-    "titleSharing": "world with your",
-    "titleHighlight": "insights",
-    "subtitle": "独占的な B2B リサーチ調査に参加し、",
-    "subtitleBold": "専門知識を共有してビジネスの意思決定に影響を与え、Rewards を受取ろう、",
-    "subtitleTail": "あなたの価値あるインサイトに対して。",
+    "ratingLabel": "世界中のビジネスパーソン・意思決定者から信頼されています",
+    "titleLead": "あなたの知見で",
+    "titleSharing": "世界に影響を",
+    "titleHighlight": "",
+    "subtitle": "独占的なB2Bリサーチに参加して、",
+    "subtitleBold": "専門知識をシェアし、ビジネスの意思決定に影響を与えて、報酬を受け取ろう、",
+    "subtitleTail": " 貴重なインサイトに対して。",
     "steps": {
-      "browse": "Browse / 探す",
-      "answer": "Answer / 答える",
-      "submit": "Submit / 提出",
-      "getPaid": "Get Paid / 報酬獲得"
+      "browse": "探す",
+      "answer": "答える",
+      "submit": "送信する",
+      "getPaid": "謝礼を受け取る"
     },
     "phone": {
       "greeting": "こんばんは",
       "userName": "Alex",
-      "balanceLabel": "残高 / Balance",
+      "balanceLabel": "獲得残高",
       "balanceValue": "$124.50",
-      "surveysForYou": "あなたへのおすすめ Survey",
+      "surveysForYou": "あなたへのおすすめ調査",
       "cards": {
         "shopping": {
-          "tag": "Technology",
+          "tag": "テクノロジー",
           "reward": "$12",
-          "title": "Cloud Infrastructure Adoption",
-          "time": "4 分",
-          "questions": "8 質問",
-          "spots": "残り 8 枠",
-          "date": "08 Jul"
+          "title": "クラウドインフラの導入・利用状況",
+          "time": "4分",
+          "questions": "8問",
+          "spots": "残り8枠",
+          "date": "07月08日"
         },
         "tech": {
-          "tag": "Cyber Security",
+          "tag": "サイバーセキュリティ",
           "reward": "$12.50",
-          "title": "Cybersecurity Priorities",
-          "time": "3 分",
-          "questions": "6 質問",
-          "spots": "残り 3 枠",
-          "date": "15 Jul"
+          "title": "セキュリティ対策の優先課題",
+          "time": "3分",
+          "questions": "6問",
+          "spots": "残り3枠",
+          "date": "07月15日"
         },
         "food": {
-          "tag": "Procurement",
+          "tag": "調達・購買",
           "reward": "$15",
-          "title": "Procurement Software Evaluation",
-          "spots": "残り 12 枠",
-          "date": "21 Jul"
+          "title": "調達購買ツールの導入評価",
+          "spots": "残り12枠",
+          "date": "07月21日"
         }
       },
       "flow": {
-        "answerQuestion": "貴社で現在利用しているクラウドプラットフォームは何ですか？",
+        "answerQuestion": "現在、貴社で導入しているクラウドプラットフォームを選択してください。",
         "answerOptions": [
           "AWS",
           "Microsoft Azure",
           "Google Cloud Platform",
-          "その他 (Other)"
+          "その他"
         ],
         "answerProgress": "質問 3 / 15",
-        "answerNext": "次へ (Next)",
-        "submitTitle": "確認 & 提出 (Review & submit)",
-        "submitDone": "全 8 質問への回答が完了しました",
+        "answerNext": "次へ",
+        "submitTitle": "内容を確認して送信",
+        "submitDone": "全8問に回答済み",
         "submitCta": "回答を送信する",
-        "paidTitle": "Reward の受け取り手続きが完了しました",
+        "paidTitle": "謝礼のお支払いが完了しました",
         "paidAmount": "$12",
-        "paidVia": "PayPal アカウントへ送信済み",
-        "paidBalanceLabel": "ウォレット残高 (Wallet balance)",
+        "paidVia": "PayPalアカウントに送金されました",
+        "paidBalanceLabel": "ウォレット残高",
         "paidBalanceValue": "$127.00"
       },
       "browse": {
-        "title": "Discover Surveys",
-        "subtitle": "Survey に回答して Reward を獲得",
-        "search": "Survey を検索...",
-        "chips": ["すべて", "Technology", "Healthcare"],
+        "title": "アンケートを探す",
+        "subtitle": "調査に答えて謝礼を獲得",
+        "search": "アンケートを検索...",
+        "chips": ["すべて", "テクノロジー", "医療・ヘルスケア"],
         "statusNew": "新着",
         "statusEndsSoon": "まもなく終了",
         "nav": {
-          "surveys": "Surveys",
-          "history": "History",
-          "wallet": "Wallet",
-          "analytics": "Analytics",
-          "profile": "Profile"
+          "surveys": "アンケート",
+          "history": "履歴",
+          "wallet": "ウォレット",
+          "analytics": "分析",
+          "profile": "プロフィール"
         }
       },
       "submit": {
-        "detailsTitle": "Survey Details",
+        "detailsTitle": "調査の詳細",
         "tag": "Tech",
-        "statusLabel": "完了済み (Completed)",
-        "title": "Cloud Infrastructure Adoption",
-        "alert": "この Survey には回答済みです。",
+        "statusLabel": "完了済み",
+        "title": "クラウドインフラの導入・利用状況",
+        "alert": "このアンケートには回答済みです。",
         "reward": "$12 ",
-        "rewardLabel": "承認後に受取可能",
-        "expiresLabel": "募集終了日:",
-        "expiresDate": "21 Jul 2026",
-        "spotsLabel": "残り参加可能人数:",
+        "rewardLabel": "回答完了時に進呈",
+        "expiresLabel": "募集終了日時：",
+        "expiresDate": "2026年7月21日",
+        "spotsLabel": "残り参加可能枠：",
         "spotsValue": "1",
         "spotsTotal": "",
-        "postedByLabel": "POSTED BY",
-        "creatorName": "B2B Insight Panel",
+        "postedByLabel": "実施主体",
+        "creatorName": "B2B リサーチパネル",
         "orgName": "Powered by Beacon Martech",
-        "ctaUnavailable": "参加済みです"
+        "ctaUnavailable": "参加済み"
       }
     },
     "badges": {
       "paid": {
-        "value": "Trusted by thousands ",
-        "label": "の業界エキスパート"
+        "value": "数千名以上の ",
+        "label": "ビジネスエキスパートが利用"
       },
       "instant": {
-        "value": "Same day",
-        "label": "PayPal 出金対応"
+        "value": "PayPal送金",
+        "label": "即日対応"
       }
     },
-    "scroll": "Scroll / スクロール"
+    "scroll": "スクロール"
   },
   "trust": {
-    "heading": "世界 120 以上の有名ブランドの調査チームから信頼されています"
+    "heading": "120社以上のグローバル企業・調査機関が利用"
   },
   "stats": {
-    "eyebrow": "By the numbers",
-    "title": "Insights at Scale",
+    "eyebrow": "数字で見る実績",
+    "title": "確固たるリサーチ基盤",
     "paid": {
       "label": " ",
       "value": "700+",
-      "description": "多様な業界で成功裏に実施された B2B リサーチプロジェクト。"
+      "description": "多岐にわたる業界でB2Bリサーチプロジェクトを無事完了。"
     },
     "members": {
-      "label": "参加国・地域数",
+      "label": "対象国・地域",
       "value": "30+"
     },
     "brands": {
-      "label": "パートナー企業 (Research Partners)",
+      "label": "リサーチパートナー企業",
       "value": "20+"
     },
     "rating": {
-      "value": "25K +",
-      "reviews": "コミュニティ内の認証済みプロフェッショナル & 意思決定者。"
+      "value": "25,000人 +",
+      "reviews": "認証済みのビジネスパーソン・意思決定者が参加。"
     }
   },
   "video": {
-    "eyebrow": "Real members, real payouts",
-    "titleLine1": "サービスの仕組みを",
-    "titleLine2": " 90秒で紹介動画をチェック",
-    "watch": "紹介動画を見る (90s)",
-    "featured": "ピックアップ (Featured)",
-    "posterAlt": "B2B Insight Panel メンバーの紹介動画"
+    "eyebrow": "参加者のリアルな声",
+    "titleLine1": "90秒でわかる",
+    "titleLine2": " B2Bリサーチパネルの仕組み",
+    "watch": "動画を見る (90秒)",
+    "featured": "注目",
+    "posterAlt": "メンバーインタビュー動画"
   },
   "feature1": {
-    "eyebrow": "RESEARCH MATCHED TO YOUR EXPERTISE",
-    "titleLine1": "あなたの専門分野にマッチした ",
-    "titleLine2": "特別な Research のみをお届け",
-    "description": "あなたのキャリアやスキルセットに適合する調査依頼のみが届くため、貴重な時間を無駄にしません。",
+    "eyebrow": "あなたの専門分野にマッチした調査案内",
+    "titleLine1": "キャリア・専門知識に合致した ",
+    "titleLine2": "最適なリサーチプロジェクトのみ案内",
+    "description": "ご自身の職務経験や担当領域にマッチした調査依頼届くため、貴重な時間や知見が無駄になりません。",
     "points": {
       "matching": {
-        "title": "Smart matching",
-        "text": "職種や業界経験に合わせて自動マッチング。"
+        "title": "スマートマッチング",
+        "text": "職種・役職・専門領域にピッタリな案件を自動選定。"
       },
       "upfront": {
-        "title": "Upfront rewards",
-        "text": "参加前に獲得できる Reward 額を明確に表示。"
+        "title": "事前に分かる謝礼額",
+        "text": "参加前に獲得できる謝礼額が確認できる安心設計。"
       },
       "biteSized": {
         "title": "柔軟な参加方法",
-        "text": "隙間時間で効率よく回答できる案件を中心に設計。"
+        "text": "隙間時間で回答できる効率的なWebアンケート形式。"
       }
     },
     "phone": {
-      "heading": "あなたへのおすすめ案件",
-      "subtitle": "プロフィールを基に厳選された調査。",
-      "search": "マッチした Survey を検索...",
-      "chips": ["すべて", "Technology", "Healthcare", "Finance"],
+      "heading": "あなたへの案件案内",
+      "subtitle": "プロフィールに基づきマッチング中。",
+      "search": "マッチした案件を検索...",
+      "chips": ["すべて", "テクノロジー", "医療・ヘルスケア", "金融"],
       "cards": [
         {
-          "match": "98% マッチ",
+          "match": "マッチ度 98%",
           "reward": "$12",
-          "title": "Enterprise AI Adoption",
-          "time": "15 分",
-          "questions": "Research Survey"
+          "title": "エンタープライズAIの導入課題",
+          "time": "15分",
+          "questions": "Webアンケート調査"
         },
         {
-          "match": "91% マッチ",
+          "match": "マッチ度 91%",
           "reward": "$8",
-          "title": "Cloud Infrastructure Strategy",
-          "time": "4 分",
-          "questions": "9 質問"
+          "title": "クラウドインフラ構築の戦略方針",
+          "time": "4分",
+          "questions": "9問"
         },
         {
-          "match": "87% マッチ",
+          "match": "マッチ度 87%",
           "reward": "$13",
-          "title": "Cybersecurity Investment Priorities",
-          "time": "6 分",
-          "questions": "14 質問"
+          "title": "サイバーセキュリティの予算・投資優先度",
+          "time": "6分",
+          "questions": "14問"
         }
       ]
     }
   },
   "feature2": {
-    "eyebrow": "REWARDS FOR YOUR INSIGHTS",
-    "title": "あなたの貴重な知見に対して公正な Reward を",
+    "eyebrow": "知見に対する報酬",
+    "title": "ビジネスの知見を提供して公正な報酬を獲得",
     "cards": {
       "threshold": {
-        "title": "柔軟な出金オプション",
-        "text": "回答完了後、迅速かつ安全にインセンティブが処理されます。"
+        "title": "多彩な交換先",
+        "text": "回答完了後、確実かつ安全に謝礼が反映されます。"
       },
       "noFees": {
-        "title": "安心の送金システム",
-        "text": "信頼性の高い決済手段を通じてお渡しします。"
+        "title": "安全な送金プロセス",
+        "text": "信頼性の高い決済サービスを通じて謝礼を付与。"
       }
     },
     "phone": {
-      "appName": "B2B Insight Panel",
-      "pageTitle": "Rewards Center",
-      "modalTitle": "利用可能な Reward を換金する",
-      "fromLabel": "FROM",
+      "appName": "B2B リサーチパネル",
+      "pageTitle": "謝礼受け取りセンター",
+      "modalTitle": "獲得した謝礼の交換手続き",
+      "fromLabel": "差出人",
       "orgName": "Beacon Martech",
       "availableValue": "$140",
-      "availableSuffix": "引き出し可能",
-      "fullBalance": "全額を選択",
+      "availableSuffix": "受取可能",
+      "fullBalance": "全額交換",
       "customAmount": "金額を指定",
-      "amountLabel": "引き出し額",
+      "amountLabel": "交換金額",
       "amountValue": "$140",
-      "receiveLabel": "受け取り予定額",
+      "receiveLabel": "受取予定金額",
       "receiveValue": "$140",
-      "requestCta": "Reward を換金申請する",
-      "disclaimer": "リクエストは Beacon Martech で確認後、安全に処理されウォレットへ送金されます。",
+      "requestCta": "謝礼を交換する",
+      "disclaimer": "交換申請は Beacon Martech にて内容確認されます。審査完了後、速やかに送金されます。",
       "nav": {
-        "surveys": "Surveys",
-        "history": "History",
-        "wallet": "Wallet",
-        "analytics": "Analytics",
-        "profile": "Profile"
+        "surveys": "アンケート",
+        "history": "履歴",
+        "wallet": "ウォレット",
+        "analytics": "分析",
+        "profile": "プロフィール"
       }
     }
   },
   "rewards": {
-    "eyebrow": "Rewards",
-    "titleLine1": "多彩でフレキシブルな ",
-    "titleLine2": "インセンティブ受取方法",
-    "description": "PayPal、銀行振込、UPI、ギフトカードなど、お住まいの地域や用途に合わせて受け取れます。",
+    "eyebrow": "謝礼・特典",
+    "titleLine1": "ライフスタイルに合わせて ",
+    "titleLine2": "選べる豊富な受取方法",
+    "description": "お住まいの地域や用途に合わせて、銀行振込、PayPal、Amazonギフトカード、電子マネー（UPIなど）から自由に選択可能です。",
     "stats": {
       "minCashout": {
         "value": "🔒 ",
-        "label": "安全な決済"
+        "label": "安全な受取手続き"
       },
       "fees": {
         "value": "🌍",
-        "label": "グローバル対応"
+        "label": "豊富な選択肢"
       },
       "options": {
         "value": "⚡",
-        "label": "スピーディーな受取"
+        "label": "スピーディーな手配"
       }
     },
     "options": {
       "paypal": "PayPal",
-      "bank": "銀行振込 (Bank)",
-      "upi": "UPI",
-      "gift": "ギフトカード (Gift Cards)"
+      "bank": "銀行振込",
+      "upi": "電子マネー (UPI)",
+      "gift": "ギフトカード"
     }
   },
   "about": {
-    "eyebrow": "Why we exist",
-    "title": "私たちはあなたの専門知識を評価し、信頼を守ります。",
-    "paragraph1": "企業が的確な意思決定を下すには専門家のリアルな知見が不可欠です。私たちは経験共有に対する正当な対価と評価を約束します。",
-    "paragraph2": "透明性の確保、安全なデータ管理、そしてご協力に対する適切な受取りをお約束します。",
+    "eyebrow": "私たちの想い",
+    "title": "あなたの知識を尊重し、信頼を守ります。",
+    "paragraph1": "企業はより良いビジネス上の意思決定を行うために、専門家の知見を頼りにしています。私たちは、専門知識を共有してくださる専門家の方々が正当に評価され、報酬を受け取るべきだと考えています。",
+    "paragraph2": "透明性の確保、安全なご参加、 pigletsお客様のデータ保護に努めながら、貴重なご協力に対して公正な報酬をお約束いたします。",
     "badge": {
-      "title": "GDPR 準拠 (GDPR compliant)",
-      "text": "ユーザーのプライバシーとデータ保護を第一に考えています。"
+      "title": "GDPR準拠",
+      "text": "個人情報保護とデータセキュリティを第一に考えています。"
     },
     "chips": {
       "neverSold": "第三者へのデータ販売なし",
-      "encryption": "銀行レベルの暗号化セキュリティ",
-      "delete": "いつでもアカウント削除可能",
-      "confidential": "完全匿名の調査参加",
-      "privacyProtected": "プライバシーを徹底保護"
+      "encryption": "銀行と同等の暗号化技術",
+      "delete": "いつでも退会・データ削除可能",
+      "confidential": "匿名性の完全確保",
+      "privacyProtected": "プライバシー完全保護"
     },
-    "photoAlt": "スマホで Survey に回答するパネルメンバー"
+    "photoAlt": "スマートフォンでアンケートに回答するメンバー"
   },
   "testimonials": {
-    "eyebrow": "★ 4.6 · メンバーレビュー",
-    "title": "パネルメンバーの声",
+    "eyebrow": "★ 4.6 · 評価",
+    "title": "参加者の声",
     "items": [
       {
         "name": "Sarah M.",
-        "role": "Technology Director",
-        "headline": "常に自分に関連のある案件ばかり",
-        "text": "自分のバックグラウンドに非常に適した調査が届くため、時間を有効活用しつつ参加できています。"
+        "role": "IT・技術ディレクター",
+        "headline": "毎回自分の専門分野に合った案件が届く",
+        "text": "自分のバックグラウンドに合った調査ばかり案内されるので、時間をかける価値をしっかり感じられます。"
       },
       {
         "name": "Michael T.",
-        "role": "Procurement Manager",
-        "headline": "プロフェッショナルで透明性が高い",
-        "text": "調査要件や Honorarium (謝礼) についての説明が明瞭で、ストレスなく利用できます。"
+        "role": "調達・購買マネージャー",
+        "headline": "透明性が高くプロフェッショナル",
+        "text": "調査の条件や謝礼体系が非常に明certainでわかりやすいです。やり取りも実にスムーズでした。"
       },
       {
         "name": "David R.",
-        "role": "Operations Executive",
+        "role": "オペレーション役員",
         "headline": "時間を尊重してくれるサービス",
-        "text": "他のプラットフォームと異なり、関連性の高い価値ある案件を共有してくれるのが魅力的です。"
+        "text": "他社のアンケートと違い、内容が具体的で真剣に答える価値があるプロジェクトが多いです。"
       },
       {
         "name": "Emily K.",
-        "role": "Finance Professional",
-        "headline": "安全で非常に信頼できる",
-        "text": "個人情報の取り扱いが徹底されており、安心してプロジェクトに参加できます。"
+        "role": "財務スペシャリスト",
+        "headline": "安全で信頼できる",
+        "text": "データの扱いにはシビアにならざるを得ませんが、このプラットフォームはプライバシー管理が徹底されていて安心です。"
       },
       {
         "name": "James L.",
-        "role": "IT Decision Maker",
-        "headline": "業界への影響力を実感",
-        "text": "自分の知識が企業の次の意思決定に役立っていると感じられるのは大きなやりがいです。"
+        "role": "IT意思決定者",
+        "headline": "業界への貢献を感じられる",
+        "text": "自分の知識や意見が、実際の企業の課題解決に役立っていると感じられる点が魅力的です。"
       },
       {
         "name": "Jennifer P.",
-        "role": "Healthcare Executive",
-        "headline": "高品質なリサーチ調査",
-        "text": "調査の質が非常に高く、構造もしっかりしており、実ビジネス課題に直接焦点を当てています。"
+        "role": "医療業界 役員",
+        "headline": "質の高いリサーチ調査",
+        "text": "アンケートの設計が非常に丁寧で、実際のビジネスのリアルな課題にフォーカスされています。"
       },
       {
         "name": "Robert S.",
-        "role": "Manufacturing Leader",
-        "headline": "貴重なアウトプットの場",
-        "text": "自らの業界において本質的に重要なテーマについて知識を共有できる機会になっています。"
+        "role": "製造業 現場リーダー",
+        "headline": "知識のアウトプットに最適な場",
+        "text": "自分の業界でいまホットなテーマについて、意見を共有・発信できる貴重な機会となっています。"
       },
       {
         "name": "Linda W.",
-        "role": "Marketing Director",
-        "headline": "専門性に対する公正な対価",
-        "text": "謝礼体系が明確で、プロとしての実績と時間がしっかりと尊重されています。"
+        "role": "マーケティングディレクター",
+        "headline": "専門知識に対する正当な対価",
+        "text": "謝礼額が明瞭で、ビジネスパーソンの専門性と時間の価値をしっかりと理解してくれていると感じます。"
       }
     ]
   },
   "faq": {
-    "eyebrow": "FAQ / よくある質問",
-    "title": "疑問点はありませんか？",
-    "moreText": "他に気になる点がありますか？サポートチームがお答えします。",
-    "moreLink": "FAQをすべて見る",
+    "eyebrow": "FAQ",
+    "title": "ご不明な点はありますか？",
+    "moreText": "解決しない場合は、詳しいQ&Aページをご確認いただけます。",
+    "moreLink": "すべてのFAQを見る",
     "items": [
       {
-        "question": "参加は無料ですか？",
-        "answer": "はい。B2B Insight Panel への登録や利用は完全に無料です。入会金や月額費、非公表の費用は一切かかりません。"
+        "question": "登録は無料ですか？",
+        "answer": "はい、完全無料です。登録料、月額利用料、その他の隠れた費用は一切かかりません。"
       },
       {
-        "question": "B2B Insight Panel とは何ですか？",
-        "answer": "企業の意思決定をサポートするために、世界中のビジネスパーソンや専門家がリサーチ調査やインタビューに参加するグローバルコミュニティです。"
+        "question": "B2Bリサーチパネルとはどのようなサービスですか？",
+        "answer": "企業のより良い意思決定を支援するために、調査やインタビュー、グループインタビューに参加するビジネスパーソンのグローバルコミュニティです。"
       },
       {
         "question": "どのような人が参加できますか？",
-        "answer": "経営者、IT責任者、購買マネージャー、財務エキスパート、医療関係者など、あらゆる分野のビジネス意思決定者が対象です。"
+        "answer": "経営者、管理職、IT担当者、調達・購買責任者、財務エキスパート、医療従事者など、幅広い業界・職種のビジネスパーソンが対象です。"
       },
       {
-        "question": "調査への参加者はどのように選ばれますか？",
-        "answer": "ご登録いただいた職種、業界、役職、専門知識などのプロフィール情報に基づいて最適マッチングが行われます。"
+        "question": "調査への案内はどのように選ばれますか？",
+        "answer": "業種、職種、役職、専門知識などのプロフィール情報に基づいてマッチングされます。プロフィールを最新に保つことで、最適な案件が届きやすくなります。"
       },
       {
-        "question": "どのような形式の調査がありますか？",
-        "answer": "Web Survey、1対1のオンラインインタビュー、フォーカスグループディスカッション、製品評価などがあります。"
+        "question": "どのような形式のリサーチがありますか？",
+        "answer": "Webアンケート、1対1のオンラインインタビュー、座談会（グループインタビュー）、意見交換掲示板、製品モニターなどがあります。"
       },
       {
         "question": "所要時間はどのくらいですか？",
-        "answer": "Web Survey は 10〜30 分程度、インタビューは 30〜60 分程度です。事前に所要時間をお知らせします。"
+        "answer": "形式によって異なります。Webアンケートは10〜30分、インタビューは30〜60分程度です。事前に所要時間の目安をお知らせします。"
       },
       {
-        "question": "参加に対する謝礼（報酬）はありますか？",
-        "answer": "はい。調査を最後まで正しく完了された方には、条件に応じた Reward や Honorarium が進呈されます。"
+        "question": "参加すると謝礼はもらえますか？",
+        "answer": "はい。調査を最後まで完了された方には、難易度、所要時間、求められる専門性に応じた謝礼をお支払いします。"
       },
       {
-        "question": "報酬はどのように支払われますか？",
-        "answer": "PayPal、銀行振込、ギフトカードなど、お住まいの地域に対応した安全な決済方法で受け取ることができます。"
+        "question": "謝礼はどのように受け取れますか？",
+        "answer": "銀行振込、PayPal、Amazonギフトカード、その他各種電子マネーなど、安全な方法でお受け取りいただけます（お住まいの国により異なります）。"
       },
       {
-        "question": "報酬額はどのように決定されますか？",
-        "answer": "調査の長さ、求められる専門性の高さ、役職レベル、内容の複雑さなどに応じて金額が決められます。"
+        "question": "謝礼の金額はどのように決まりますか？",
+        "answer": "調査の所要時間、専門性の高さ、対象者の役職などを総合的に考慮して設定されます。事前案内時に謝礼金額をご確認いただけます。"
       },
       {
-        "question": "調査の対象外（スクリーニングアウト）になった場合は？",
-        "answer": "特定の条件に合致しなかった場合でも、次回以降の別のプロジェクトでご条件に合う機会が案内されます。"
+        "question": "対象条件に合わなかった場合はどうなりますか？",
+        "answer": "特定の条件を満たす方を対象とした調査もあります。条件に合致しなかった場合でも、次回以降の別の調査にご案内いたします。"
       },
       {
         "question": "個人情報は保護されますか？",
-        "answer": "はい。お客様の個人情報は適切なプライバシー法に基づき厳重に管理され、同意なく外部へ開示されることはありません。"
+        "answer": "はい、厳重に保護されます。回答データは統計的に処理され、個人の同意なく第三者へ開示されることはありません。"
       },
       {
         "question": "セキュリティ対策は万全ですか？",
-        "answer": "業界標準のセキュリティ技術を導入し、パネルメンバーの皆様が安心して利用できる環境を提供しています。"
+        "answer": "はい。業界標準の暗号化技術とセキュリティ対策を講じ、安全な環境でデータを管理しています。"
       },
       {
-        "question": "勤務先に参加していることが知られますか？",
-        "answer": "いいえ。参加は完全に個人の自由であり、秘密が保持されます。勤務先に通知が行くことは一切ありません。"
+        "question": "勤務先に参加していることが知られることはありますか？",
+        "answer": "いいえ、参加は完全な任意であり、秘密が厳守されます。特別な合意がない限り、勤務先に通知されることはありません。"
       },
       {
-        "question": "登録情報はいつでも変更できますか？",
-        "answer": "はい、マイページからいつでも最新の職歴や役職、専門分野などのプロフィールを修正・更新していただけます。"
+        "question": "登録情報は後から変更できますか？",
+        "answer": "はい、いつでも変更可能です。役職や担当業務などの変更に合わせて更新いただくことで、より最適な案件をご案内できます。"
       },
       {
-        "question": "どのくらいの頻度で依頼が届きますか？",
-        "answer": "ご自身の専門性とクライアントのニーズによって異なります。市場の需要状況により頻度が変化します。"
+        "question": "調査の案内はどのくらいの頻度で届きますか？",
+        "answer": "ご登録の属性や進行中のプロジェクト需要によって異なります。専門分野や市場ニーズにより、案内の頻度は個人差があります。"
       },
       {
-        "question": "いつでも退会することはできますか？",
-        "answer": "はい。いつでもアカウントの削除やメール配信停止の手続きを行うことができます。"
+        "question": "途中で退会することはできますか？",
+        "answer": "はい、いつでもアカウントの削除やメール配信の停止をお手続きいただけます。"
       }
     ]
   },
   "cta": {
-    "titleLine1": "信頼される",
-    "titleLine2": "リサーチコミュニティの仲間になりませんか。",
-    "subtitle": "数千人のプロフェッショナルと共に、B2B リサーチを通じてあなたの知見を価値に変えましょう。費用は一切不要です。",
-    "primary": "Join Our Community / 無料登録する",
-    "secondary": "How it works / 詳細を見る",
+    "titleLine1": "信頼できるリサーチコミュニティに",
+    "titleLine2": "今すぐ参加しよう。",
+    "subtitle": "独占的なB2Bリサーチに参加し、自らの知見を提供している数千名の専門家の仲間入りをしましょう。手数料や隠れた条件はありません。",
+    "primary": "コミュニティに参加",
+    "secondary": "ご利用の流れ",
     "assurances": {
-      "noCard": "登録・利用 完全無料",
-      "cashOut": "プライバシー厳守",
-      "rated": "柔軟な受け取り方法"
+      "noCard": " 完全無料",
+      "cashOut": " 安全・秘密厳守",
+      "rated": " 豊富な謝礼選択肢"
     }
   }
 }

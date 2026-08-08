@@ -1,66 +1,66 @@
 {
   "brand": {
     "prefix": "B2B",
-    "name": "Insight Panel"
+    "name": "Panneau d'Études"
   },
   "nav": {
     "howItWorks": "Comment ça marche",
-    "rewards": "Rewards",
+    "rewards": "Récompenses",
     "about": "À propos",
-    "faq": "FAQ",
+    "faq": "Faq",
     "contact": "Contact",
-    "collaboration": "Pour les Organisations",
+    "collaboration": "Pour les Entreprises",
     "blog": "Blog"
   },
   "actions": {
-    "login": "Log in",
-    "signupFree": "Rejoindre la Community",
-    "earnMoney": "Commencer à partager vos Insights",
-    "seeHowItWorks": "Voir comment ça marche",
-    "startNow": "Rejoindre la Community",
-    "cashOut": "Cash out"
+    "login": "Se connecter",
+    "signupFree": "Rejoindre notre communauté",
+    "earnMoney": "Partager vos perspectives",
+    "seeHowItWorks": "Découvrir le fonctionnement",
+    "startNow": "Rejoindre notre communauté",
+    "cashOut": "Encaisser"
   },
   "language": {
-    "label": "Language",
-    "select": "Sélectionner la langue"
+    "label": "Langue",
+    "select": "Choisir la langue"
   },
   "a11y": {
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
     "primaryNavigation": "Navigation principale",
-    "footerNavigation": "Footer",
-    "skipToContent": "Passer au contenu"
+    "footerNavigation": "Pied de page",
+    "skipToContent": "Aller au contenu principal"
   },
   "footer": {
-    "tagline": "Une global community de professionnels et de décisionnaires qui participent à des opportunités de recherche exclusives.",
+    "tagline": "Une communauté mondiale de professionnels et de décideurs participant à des recherches exclusives.",
     "product": {
       "title": "Produit",
-      "home": "Home",
+      "home": "Accueil",
       "howItWorks": "Comment ça marche",
-      "faq": "FAQ",
+      "faq": "Faq",
       "blog": "Blog",
       "contact": "Contact",
-      "collaboration": "Pour les Organisations"
+      "collaboration": "Pour les Entreprises"
     },
     "legal": {
-      "title": "Legal",
-      "privacy": "Privacy Policy",
-      "cookie": "Cookie Policy",
-      "eula": "EULA",
-      "terms": "Terms & Conditions"
+      "title": "Informations légales",
+      "privacy": "Politique de confidentialité",
+      "cookie": "Gestion des cookies",
+      "eula": "Contrat de licence utilisateur final (CLUF)",
+      "terms": "Conditions générales d'utilisation"
     },
     "app": {
-      "title": "Get the app",
-      "downloadOn": "Télécharger sur l'",
+      "title": "Télécharger l'application",
+      "downloadOn": "Télécharger dans l'",
       "appStore": "App Store",
       "getItOn": "Disponible sur",
       "googlePlay": "Google Play"
     },
-    "copyright": "© {year} B2B Insight Panel. Powered by Beacon Martech. Tous droits réservés.",
+    "copyright": "© {year} Panneau d'Études B2B. Propulsé par Beacon Martech. Tous droits réservés.",
     "bottom": {
-      "privacy": "Privacy",
+      "privacy": "Confidentialité",
       "cookies": "Cookies",
-      "terms": "Terms"
+      "terms": "Conditions"
     },
     "social": {
       "x": "X (Twitter)",

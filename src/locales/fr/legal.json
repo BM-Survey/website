@@ -1,144 +1,159 @@
 {
-  "badge": "Legal · Mis à jour July 2026",
+  "badge": "Mentions légales · Dernière mise à jour juillet 2026",
   "contactPageLabel": "Page de contact",
   "nav": {
-    "privacy": "Privacy Policy / Politique de confidentialité",
-    "cookie": "Cookie Policy / Politique relatif aux cookies",
-    "eula": "EULA / CLUF",
-    "terms": "Terms & Conditions / Conditions Générales"
+    "privacy": "Politique de confidentialité",
+    "cookie": "Politique relative aux cookies",
+    "eula": "EULA",
+    "terms": "Conditions générales"
   },
   "privacy": {
-    "title": "Privacy Policy (Politique de confidentialité)",
+    "title": "Politique de confidentialité",
     "meta": {
-      "title": "Privacy Policy | B2B Insight Panel",
-      "description": "How B2B Insight Panel collects, uses, and protects your personal data.",
-      "ogAlt": "B2B Insight Panel Privacy Policy"
+      "title": "Politique de confidentialité | B2B Insight Panel",
+      "description": "Comment B2B Insight Panel collecte, utilise et protège vos données personnelles.",
+      "ogAlt": "Politique de confidentialité de B2B Insight Panel"
     },
-    "intro": "B2B Insight Panel (\"we,\" \"us,\" or \"our\"), powered by Beacon Martech, gère une communauté globale de professionnels. Cette Politique de confidentialité explique comment nous collectons, utilisons et protégeons vos données.",
+    "intro": "B2B Insight Panel (« nous » ou « notre »), propulsé par Beacon Martech, exploite une communauté mondiale de professionnels et de décideurs participant à des activités de recherche, notamment des sondages, des entretiens, des groupes de discussion et d'autres initiatives d'études de marché. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations.",
     "sections": [
       {
-        "heading": "2. Information we collect (Données collectées)",
+        "heading": "2. Informations que nous collectons",
         "paragraphs": [
-          "Personal information: nom, email, pays et région, informations professionnelles (poste, secteur, taille d'entreprise), domaines d'expertise, et données de paiement pour les honorariums.",
-          "Research information: réponses aux sondages, historique de participation, profil, et réponses de qualification.",
-          "Technical information: adresse IP, identifiants d'appareil, type de navigateur, système d'exploitation, analytics, et cookies."
+          "Informations personnelles : nom, adresse e-mail, pays et région, informations professionnelles (intitulé de poste, secteur, taille de l'entreprise, niveau de responsabilité), domaines d'expertise et informations de paiement requises pour les rémunérations.",
+          "Informations d'études : réponses aux sondages, historique de participation, informations de profil et réponses de qualification aux études.",
+          "Informations techniques : adresse IP, identifiants d'appareil, informations sur le navigateur, système d'exploitation, analyses d'utilisation et cookies."
         ]
       },
       {
-        "heading": "3. How we use your information (Utilisation des données)",
+        "heading": "3. Comment nous utilisons vos informations",
         "paragraphs": [],
         "list": [
-          "Match participants avec des opportunités de recherche pertinentes",
-          "Traiter les récompenses et honorariums de participation",
+          "Mettre en relation les participants avec des opportunités d'études pertinentes",
+          "Traiter les récompenses de participation et les rémunérations",
           "Vérifier l'éligibilité et prévenir la fraude",
-          "Améliorer notre plateforme et l'expérience utilisateur",
-          "Envoyer les invitations aux études et notifications de compte",
-          "Partager du contenu sectoriel pertinent selon votre consentement",
+          "Améliorer notre plateforme et l'expérience des répondants",
+          "Communiquer les invitations aux études et les mises à jour de compte",
+          "Partager du contenu sectoriel, des opportunités d'études et des solutions en lien avec les défis et intérêts identifiés dans votre profil, sous réserve de votre consentement",
           "Respecter les obligations légales"
         ]
       },
       {
-        "heading": "4. How we share information (Partage des données)",
+        "heading": "4. Comment nous partageons les informations",
         "paragraphs": [
-          "We do not sell or rent personal information. Vos données identifiables ne seront jamais partagées sans votre consentement explicite."
+          "Nous ne vendons ni ne louons vos informations personnelles. Votre nom, adresse e-mail ou information identifiable ne seront pas partagés avec les commanditaires d'études sans votre consentement explicite."
         ],
         "list": [
-          "Clients de recherche (sous forme agrégée et anonymisée)",
-          "Prestataires de services supportant la plateforme",
+          "Clients d'études, sous forme agrégée et anonymisée",
+          "Prestataires de services soutenant les opérations de la plateforme",
           "Processeurs de paiement",
-          "Autorités légales si la loi l'exige"
+          "Autorités légales lorsque la loi l'exige"
         ]
       },
       {
-        "heading": "5. International data transfers",
+        "heading": "5. Transferts internationaux de données",
         "paragraphs": [
-          "En tant que plateforme globale, vos informations peuvent être traitées hors de votre pays de résidence. Nous appliquons des protections adéquates."
+          "En tant que plateforme mondiale, vos informations peuvent être traitées dans des pays situés hors de votre pays de résidence. Nous mettons en œuvre des garanties appropriées pour protéger vos informations."
         ]
       },
       {
-        "heading": "6. Data retention (Rétention des données)",
+        "heading": "6. Conservation des données",
         "paragraphs": [
-          "Nous conservons vos données tant que votre compte est actif et si nécessaire pour :"
+          "Nous conservons les informations tant que votre compte reste actif et selon les besoins pour :"
         ],
         "list": [
-          "Obligations légales",
-          "Prévention de la fraude",
-          "Résolution des litiges",
-          "Application des contrats"
+          "Les obligations légales",
+          "La prévention de la fraude",
+          "La résolution des litiges",
+          "L'application des contrats"
         ]
       },
       {
-        "heading": "7. Your rights (Vos droits)",
+        "heading": "7. Vos droits",
         "paragraphs": [
-          "Selon les lois applicables, vous disposez des droits suivants :"
+          "Selon les lois applicables, vous pouvez disposer du droit de :"
         ],
         "list": [
-          "Access your information (Accès)",
-          "Rectification des informations inexactes",
-          "Demande de suppression (Effacement)",
-          "Restreindre le traitement",
+          "Accéder à vos informations",
+          "Corriger des informations inexactes",
+          "Demander la suppression",
+          "Limiter le traitement",
           "Retirer votre consentement",
-          "S'opposer à certaines communications",
-          "Portabilité des données"
+          "Vous opposer à certaines communications",
+          "Demander la portabilité des données"
         ]
       },
       {
-        "heading": "8. Security (Sécurité)",
+        "heading": "8. Sécurité",
         "paragraphs": [
-          "Nous appliquons des mesures techniques et organisationnelles appropriées (chiffrement, contrôles d'accès) pour protéger vos données."
+          "Nous mettons en œuvre des mesures techniques et organisationnelles raisonnables pour protéger vos informations, incluant le chiffrement, les contrôles d'accès et la surveillance de la sécurité."
         ]
       },
       {
-        "heading": "9. Children's privacy",
+        "heading": "9. Protection des mineurs",
         "paragraphs": [
-          "Nos services sont strictement réservés aux personnes âgées de 18 ans et plus."
+          "Nos services sont destinés exclusivement aux personnes âgées de 18 ans ou plus."
         ]
       },
       {
-        "heading": "10. Contact us (Nous contacter)",
+        "heading": "10. Nous contacter",
         "paragraphs": [
-          "Des questions ? Écrivez-nous à support@b2binsightpanel.com ou via notre"
+          "Des questions sur cette politique ? Contactez-nous à support@b2binsightpanel.com ou via notre"
         ],
         "contactLink": true
       }
     ]
   },
   "cookie": {
-    "title": "Cookie Policy (Politique de Cookies)",
+    "title": "Politique relative aux cookies",
     "meta": {
-      "title": "Cookie Policy | B2B Insight Panel",
-      "description": "How B2B Insight Panel uses cookies and similar technologies.",
-      "ogAlt": "B2B Insight Panel Cookie Policy"
+      "title": "Politique relative aux cookies | B2B Insight Panel",
+      "description": "Comment B2B Insight Panel utilise les cookies et technologies similaires.",
+      "ogAlt": "Politique relative aux cookies de B2B Insight Panel"
     },
-    "intro": "Les cookies sont de petits fichiers texte stockés sur votre appareil pour améliorer l'expérience utilisateur. Cette politique explique notre utilisation des cookies.",
+    "intro": "Les cookies sont de petits fichiers texte stockés sur votre appareil qui aident à améliorer les fonctionnalités du site web et l'expérience utilisateur. Cette politique explique comment B2B Insight Panel utilise les cookies et technologies similaires lorsque vous visitez notre site web ou utilisez notre application.",
     "sections": [
       {
-        "heading": "1. What are cookies",
+        "heading": "1. Qu'est-ce qu'un cookie",
         "paragraphs": [
-          "Les cookies permettent d'assurer les fonctionnalités du site et d'optimiser la navigation."
+          "Les cookies sont de petits fichiers texte stockés sur votre appareil qui aident à améliorer les fonctionnalités du site web et l'expérience utilisateur."
         ]
       },
       {
-        "heading": "2. Types of cookies we use",
+        "heading": "2. Types de cookies utilisés",
         "paragraphs": [],
         "table": {
-          "headers": ["Catégorie", "Objectif / Purpose"],
+          "headers": [
+            "Catégorie",
+            "Finalité"
+          ],
           "rows": [
-            ["Essential", "Nécessaires pour la connexion au compte et le fonctionnement du site"],
-            ["Analytics", "Aident à comprendre l'utilisation de la plateforme et améliorer nos services"],
-            ["Preference", "Mémorisent vos paramètres et préférences"],
-            ["Marketing", "Utilisés avec consentement pour vous proposer du contenu ciblé"]
+            [
+              "Essentiels",
+              "Nécessaires à la connexion au compte et au fonctionnement de la plateforme"
+            ],
+            [
+              "Analytiques",
+              "Nous aident à comprendre l'utilisation de la plateforme et à améliorer les services"
+            ],
+            [
+              "Préférences",
+              "Mémorisent vos paramètres et préférences"
+            ],
+            [
+              "Marketing",
+              "Utilisés, lorsque le consentement est donné, pour fournir des communications et contenus pertinents"
+            ]
           ]
         }
       },
       {
-        "heading": "3. Managing cookies (Gérer les cookies)",
+        "heading": "3. Gestion des cookies",
         "paragraphs": [
-          "Vous pouvez désactiver les cookies dans votre navigateur. Certaines fonctionnalités pourraient ne pas fonctionner correctement."
+          "Vous pouvez désactiver les cookies dans les paramètres de votre navigateur. Certaines fonctionnalités peuvent ne pas fonctionner correctement sans cookies."
         ]
       },
       {
-        "heading": "4. Contact us",
+        "heading": "4. Nous contacter",
         "paragraphs": [
           "Des questions ? Contactez-nous à support@b2binsightpanel.com ou via notre"
         ],
@@ -147,143 +162,144 @@
     ]
   },
   "eula": {
-    "title": "End User License Agreement (CLUF)",
+    "title": "Contrat de licence utilisateur final",
     "meta": {
-      "title": "EULA — End User License Agreement | B2B Insight Panel",
-      "description": "The license terms governing your use of the B2B Insight Panel app and website.",
-      "ogAlt": "B2B Insight Panel End User License Agreement"
+      "title": "EULA — Contrat de licence utilisateur final | B2B Insight Panel",
+      "description": "Les conditions de licence régissant votre utilisation de l'application et du site B2B Insight Panel.",
+      "ogAlt": "Contrat de licence utilisateur final de B2B Insight Panel"
     },
-    "intro": "Cet accord de licence utilisateur final (EULA) régit votre utilisation de l'application et du site web B2B Insight Panel.",
+    "intro": "Ce contrat de licence utilisateur final (« EULA ») régit votre utilisation de l'application mobile et du site web de B2B Insight Panel (l'« Application »). En installant ou en utilisant l'Application, vous acceptez d'être lié par cet EULA.",
     "sections": [
       {
-        "heading": "1. License grant",
+        "heading": "1. Concession de licence",
         "paragraphs": [
-          "B2B Insight Panel vous concède une licence limitée, non exclusive et non transférable pour accéder à notre application et site web."
+          "B2B Insight Panel vous me accorde une licence limitée, non exclusive et non transférable pour accéder à notre site web et à nos applications mobiles et les utiliser."
         ]
       },
       {
         "heading": "2. Restrictions",
         "paragraphs": [],
         "list": [
-          "Faire de la rétro-ingénierie (Reverse engineer)",
-          "Copier, modifier ou distribuer des composants",
-          "Utiliser des bots ou systèmes automatisés",
+          "Faire de l'ingénierie inverse sur le logiciel",
+          "Copier, modifier ou distribuer des composants de la plateforme",
+          "Utiliser des bots ou des systèmes automatisés",
           "Perturber la sécurité de la plateforme"
         ]
       },
       {
-        "heading": "3. User content",
+        "heading": "3. Contenu utilisateur",
         "paragraphs": [
-          "Vos réponses aux sondages restent soumises à notre Politique de confidentialité."
+          "Les réponses aux études et les informations de profil restent soumises à notre Politique de confidentialité."
         ]
       },
       {
-        "heading": "4. Updates",
+        "heading": "4. Mises à jour",
         "paragraphs": [
-          "Nous pouvons fournir des mises à jour ou modifications logicielles à notre entière discrétion."
+          "Nous pouvons fournir des mises à jour et des modifications logicielles à notre seule discrétion."
         ]
       },
       {
-        "heading": "5. Account suspension",
+        "heading": "5. Suspension de compte",
         "paragraphs": [
-          "Nous pouvons suspendre l'accès en cas de :"
+          "Nous pouvons suspendre l'accès pour :"
         ],
         "list": [
           "Activités frauduleuses",
-          "Fausse déclaration (Misrepresentation)",
+          "Fausse déclaration",
           "Abus des services de la plateforme",
           "Violations des lois applicables"
         ]
       },
       {
-        "heading": "6. Intellectual property",
+        "heading": "6. Propriété intellectuelle",
         "paragraphs": [
-          "Tous les logiciels, marques et contenus appartiennent à B2B Insight Panel et/ou Beacon Martech."
+          "Tous les logiciels, marques, logos et contenus sont la propriété de B2B Insight Panel et/ou Beacon Martech."
         ]
       },
       {
-        "heading": "7. Disclaimer",
+        "heading": "7. Exclusion de garantie",
         "paragraphs": [
-          "La plateforme est fournie \"en l'état\" (\"as is\") et selon disponibilité."
+          "La plateforme est fournie « en l'état » et « selon disponibilité »."
         ]
       },
       {
-        "heading": "8. Limitation of liability",
+        "heading": "8. Limitation de responsabilité",
         "paragraphs": [
-          "B2B Insight Panel ne pourra être tenu responsable des dommages indirects issus de l'utilisation de la plateforme."
+          "Dans la mesure permise par la loi, B2B Insight Panel ne saurait être tenue responsable des dommages indirects, accessoires ou consécutifs résultant de l'utilisation de la plateforme."
         ]
       },
       {
-        "heading": "9. Governing law",
+        "heading": "9. Droit applicable",
         "paragraphs": [
-          "Régi par les lois de l'Inde, sauf exigences réglementaires locales contraires."
+          "Ces conditions sont régies par les lois de l'Inde, sauf disposition contraire des réglementations locales applicables."
         ]
       },
       {
-        "heading": "10. Contact us",
+        "heading": "10. Nous contacter",
         "paragraphs": [
-          "Des questions sur ce contrat ? Contactez-nous via notre"
+          "Des questions sur cet accord ? Contactez-nous via notre"
         ],
         "contactLink": true
       }
     ]
   },
   "terms": {
-    "title": "Terms & Conditions (Conditions Générales)",
+    "title": "Conditions générales",
     "meta": {
-      "title": "Terms & Conditions | B2B Insight Panel",
-      "description": "The terms governing your access to and use of B2B Insight Panel.",
-      "ogAlt": "B2B Insight Panel Terms & Conditions"
+      "title": "Conditions générales | B2B Insight Panel",
+      "description": "Les conditions régissant votre accès et votre utilisation de B2B Insight Panel.",
+      "ogAlt": "Conditions générales de B2B Insight Panel"
     },
-    "intro": "En accédant à B2B Insight Panel, vous acceptez les présentes Conditions Générales.",
+    "intro": "En accédant à B2B Insight Panel ou en l'utilisant, vous acceptez les présentes Conditions.",
     "sections": [
       {
-        "heading": "1. Eligibility (Éligibilité)",
+        "heading": "1. Éligibilité",
         "paragraphs": [
           "Vous devez :"
         ],
         "list": [
           "Avoir au moins 18 ans",
           "Fournir des informations exactes",
-          "Ne posséder qu'un seul compte"
+          "Ne maintenir qu'un seul compte, sauf autorisation contraire"
         ]
       },
       {
-        "heading": "2. Participant consent",
+        "heading": "2. Consentement du participant",
         "paragraphs": [
-          "En créant un compte, vous consentez à :"
+          "En créant un compte et en complétant votre profil, vous consentez à :"
         ],
         "list": [
           "La participation à des activités de recherche",
-          "L'envoi d'invitations à des études adaptées",
-          "La réception de communications sectorielles pertinentes",
-          "Le traitement des données selon notre Privacy Policy"
+          "La réception d'invitations à des études pertinentes",
+          "La réception de communications relatives aux études, aux insights du secteur et aux solutions pertinentes face aux défis professionnels identifiés dans votre profil",
+          "Le traitement de vos informations comme décrit dans notre Politique de confidentialité"
         ]
       },
       {
-        "heading": "3. Research participation",
+        "heading": "3. Participation aux études",
         "paragraphs": [
-          "Les opportunités de participation ne sont pas garanties. Fournir de fausses informations peut entraîner la suspension du compte."
+          "Les opportunités de participation ne sont pas garanties. L'éligibilité peut varier selon les exigences de l'étude. La fourniture de fausses informations peut entraîner la suspension du compte. Vous pouvez retirer votre consentement à tout moment en mettant à jour vos préférences de communication ou en contactant le support."
         ]
       },
       {
-        "heading": "4. Rewards and honorariums",
+        "heading": "4. Récompenses et rémunérations",
         "paragraphs": [
-          "Les montants varient selon les études. Les récompenses peuvent être refusées en cas de :"
+          "Les rémunérations varient selon les études. Les récompenses peuvent être retenues en cas de :"
         ],
         "list": [
-          "Fraude ou réponses automatises",
+          "Participation frauduleuse",
           "Comptes multiples",
-          "Informations mensongères"
+          "Fausses informations",
+          "Méthodes de participation automatisées"
         ]
       },
       {
-        "heading": "5. Fraud prevention",
+        "heading": "5. Prévention de la fraude",
         "paragraphs": [
           "Les utilisateurs ne doivent pas :"
         ],
         "list": [
-          "Utiliser de VPN, proxy, ou bots",
+          "Utiliser des VPN, proxies, bots ou outils d'automatisation",
           "Créer plusieurs comptes",
           "Falsifier leurs informations professionnelles"
         ]
@@ -291,37 +307,37 @@
       {
         "heading": "6. Communications",
         "paragraphs": [
-          "Vous acceptez de recevoir :"
+          "Vous acceptez que nous puissions envoyer :"
         ],
         "list": [
-          "Invitations aux études",
-          "Mises à jour de la plateforme",
-          "Notifications de paiement/honorariums",
-          "Contenus et solutions professionnels adaptés"
+          "Des invitations aux études",
+          "Des mises à jour de la plateforme",
+          "Des notifications de rémunération",
+          "Du contenu sectoriel pertinent et des solutions professionnelles liées aux sujets identifiés dans votre profil, lorsque le consentement a été donné"
         ]
       },
       {
-        "heading": "7. Intellectual property",
+        "heading": "7. Propriété intellectuelle",
         "paragraphs": [
-          "Le contenu et la plateforme restent la propriété exclusive de B2B Insight Panel et Beacon Martech."
+          "L'ensemble du contenu, des logiciels, des logos et des supports de la plateforme restent la propriété de B2B Insight Panel et de Beacon Martech."
         ]
       },
       {
-        "heading": "8. Limitation of liability",
+        "heading": "8. Limitation de responsabilité",
         "paragraphs": [
-          "Nous nous efforçons de maintenir le service disponible sans pour autant garantir un accès ininterrompu."
+          "Nous faisons des efforts raisonnables pour maintenir la disponibilité du service, mais nous ne garantissons pas un accès ininterrompu."
         ]
       },
       {
-        "heading": "9. Termination",
+        "heading": "9. Résiliation",
         "paragraphs": [
-          "Nous nous réservons le droit de résilier un compte en cas de non-respect des règles."
+          "Nous nous réservons le droit de suspendre ou de fermer des comptes en cas de violation des présentes Conditions."
         ]
       },
       {
-        "heading": "10. Contact us",
+        "heading": "10. Nous contacter",
         "paragraphs": [
-          "Des questions sur nos Termes ? Contactez-nous via notre"
+          "Des questions sur ces Conditions ? Contactez-nous via notre"
         ],
         "contactLink": true
       }

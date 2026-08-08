@@ -1,50 +1,50 @@
 {
   "meta": {
-    "title": "Contact Us — Soporte y Ayuda | B2B Insight Panel",
-    "description": "Contacta al soporte de InsightPanel para dudas de tu cuenta, payouts o brand inquiries. Respondemos en un día hábil.",
-    "keywords": ["contact insight panel", "survey support", "brand inquiry"],
-    "ogAlt": "Contacta al equipo de InsightPanel"
+    "title": "Contacto — Ayuda y Soporte | Panel de Estudios B2B",
+    "description": "Ponte en contacto con nuestro equipo para dudas sobre tu cuenta, pagos o consultas corporativas. Respondemos en un día hábil.",
+    "keywords": ["contacto soporte", "ayuda encuestas", "consultas empresas"],
+    "ogAlt": "Contactar al equipo del panel de estudios"
   },
   "hero": {
     "eyebrow": "Contacto",
-    "title": "Let's talk"
+    "title": "Hablemos"
   },
   "cards": {
     "email": {
-      "title": "Soporte por email",
+      "title": "Soporte por e-mail",
       "value": "support@b2binsightpanel.com"
     },
     "chat": {
-      "title": "Live chat",
-      "value": "Siempre activos 24/7"
+      "title": "Chat en vivo",
+      "value": "Disponible las 24 hs, los 7 días"
     },
     "brands": {
-      "title": "Para brands y equipos de research",
-      "text": "¿Quieres correr un estudio en nuestro panel?",
-      "link": "Ver colaboraciones"
+      "title": "Para empresas y equipos de investigación",
+      "text": "¿Buscas realizar un estudio con nuestro panel?",
+      "link": "Ver soluciones para empresas"
     }
   },
   "form": {
     "label": "Envíanos un mensaje",
-    "reassure": "Normalmente respondemos dentro de 24 business hours.",
+    "reassure": "Solemos responder dentro de las 24 horas hábiles.",
     "nameLabel": "Nombre",
     "namePlaceholder": "Tu nombre",
-    "emailLabel": "Email",
+    "emailLabel": "E-mail",
     "emailPlaceholder": "you@email.com",
-    "topicLabel": "Topic",
+    "topicLabel": "Motivo",
     "topics": [
-      "Account Support",
-      "Rewards & Payments",
-      "Study Participation",
-      "Technical Issue",
-      "Other"
+      "Soporte de cuenta",
+      "Recompensas y Pagos",
+      "Participación en estudios",
+      "Problema técnico",
+      "Otro"
     ],
     "messageLabel": "Mensaje",
-    "messagePlaceholder": "Por favor escribe los detalles de tu duda o request.",
+    "messagePlaceholder": "Por favor, detalla tu pregunta o consulta.",
     "submit": "Enviar mensaje",
     "submitting": "Enviando…",
-    "errorMessage": "Something went wrong. Por favor intenta de nuevo.",
+    "errorMessage": "Algo salió mal. Por favor, vuelve a intentarlo.",
     "submitted": "Enviado",
-    "sentMessage": "Mensaje recibido — te responderemos dentro de 24 horas."
+    "sentMessage": "Mensaje recibido — te responderemos en 24 horas."
   }
 }

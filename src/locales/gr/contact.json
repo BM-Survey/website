@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "Contact Us — Support & Help | B2B Insight Panel",
-    "description": "Erreichen Sie den InsightPanel Support für Account-, Payout- oder Brand-Anfragen. Wir antworten innerhalb eines Werktages.",
-    "keywords": ["contact insight panel", "survey support", "brand inquiry"],
-    "ogAlt": "Kontaktieren Sie das InsightPanel Team"
+    "title": "Kontakt — Support & Hilfe | B2B Forschungspanel",
+    "description": "Kontaktieren Sie unseren Support bei Fragen zu Konto, Auszahlungen oder Unternehmensfragen. Wir antworten innerhalb eines Werktages.",
+    "keywords": ["support kontaktieren", "umfrage hilfe", "unternehmen anfrage"],
+    "ogAlt": "Kontakt zum Forschungspanel-Team"
   },
   "hero": {
     "eyebrow": "Kontakt",
-    "title": "Let's talk"
+    "title": "Sprechen wir miteinander"
   },
   "cards": {
     "email": {
@@ -15,36 +15,36 @@
       "value": "support@b2binsightpanel.com"
     },
     "chat": {
-      "title": "Live Chat",
-      "value": "Immer für Sie da – 24/7"
+      "title": "Live-Chat",
+      "value": "Rund um die Uhr erreichbar (24/7)"
     },
     "brands": {
-      "title": "Für Brands & Research Teams",
-      "text": "Sie möchten eine Studie auf unserem Panel fielden?",
-      "link": "See collaboration"
+      "title": "Für Unternehmen & Research-Teams",
+      "text": "Möchten Sie eine Studie über unser Panel durchführen?",
+      "link": "Lösungen für Unternehmen ansehen"
     }
   },
   "form": {
-    "label": "Senden Sie uns eine Message",
-    "reassure": "Wir antworten normalerweise innerhalb von 24 Business-Hours.",
+    "label": "Nachricht senden",
+    "reassure": "Wir antworten in der Regel innerhalb von 24 Werktagsstunden.",
     "nameLabel": "Name",
     "namePlaceholder": "Ihr Name",
     "emailLabel": "E-Mail",
     "emailPlaceholder": "you@email.com",
-    "topicLabel": "Topic",
+    "topicLabel": "Thema",
     "topics": [
-      "Account Support",
-      "Rewards & Payments",
-      "Study Participation",
-      "Technical Issue",
-      "Other"
+      "Konto-Support",
+      "Prämien & Auszahlungen",
+      "Teilnahme an Studien",
+      "Technisches Problem",
+      "Sonstiges"
     ],
-    "messageLabel": "Message",
-    "messagePlaceholder": "Bitte teilen Sie uns Details zu Ihrer Frage oder Anfrage mit.",
-    "submit": "Message senden",
-    "submitting": "Sending…",
-    "errorMessage": "Something went wrong. Bitte versuchen Sie es noch einmal.",
-    "submitted": "Sent",
-    "sentMessage": "Message erhalten — wir antworten innerhalb von 24 Stunden."
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Bitte beschreiben Sie Ihr Anliegen möglichst genau.",
+    "submit": "Nachricht absenden",
+    "submitting": "Wird gesendet…",
+    "errorMessage": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "submitted": "Gesendet",
+    "sentMessage": "Nachricht erhalten — wir melden uns innerhalb von 24 Stunden."
   }
 }

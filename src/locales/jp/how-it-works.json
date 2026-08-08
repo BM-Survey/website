@@ -1,137 +1,137 @@
 {
   "meta": {
-    "title": "仕組み (How It Works) — サーベイでアーニング | B2B Insight Panel",
-    "description": "サインアップからペイアウトまで：InsightPanelがどのように最適なサーベイをマッチングし、適正なリワードを支払い、即日キャッシュアウトできるかを詳しく解説します。",
+    "title": "仕組み — アンケートで報酬を獲得 | B2B Insight Panel",
+    "description": "登録から換金まで：InsightPanelが最適なリサーチとマッチングし、公正な報酬を即日支払う仕組みをご案内します。",
     "keywords": [
-      "how paid surveys work",
-      "survey rewards process",
-      "fast payouts",
-      "B2B insight panel"
+      "ポイ活 アンケート 仕組み",
+      "アンケート モニター 報酬",
+      "即日 換金 スピード",
+      "B2B リサーチ パネル"
     ],
-    "ogAlt": "オピニオンからペイアウトまで、InsightPanelの仕組み"
+    "ogAlt": "InsightPanelの仕組み：回答から報酬獲得まで"
   },
   "hero": {
-    "eyebrow": "仕組み (How It Works)",
-    "titleLead": "プロの知見から ",
-    "titleHighlight": "インパクトへ",
-    "subtitle": "あなたのプロフェッショナルな経験にテーラーメイドされた、エクスクルーシブなB2Bリサーチオポチュニティに参画。貴重なインサイトをシェアしてビジネスの意思決定にインフルエンスを与え、貢献に対するリワードを受け取りましょう。具体的なプロセスは以下の通りです。"
+    "eyebrow": "仕組み",
+    "titleLead": "あなたの専門知識が ",
+    "titleHighlight": "ビジネスを動かす",
+    "subtitle": "あなたの実務経験に合ったB2B市場調査に参加しませんか？プロとしてのインサイトを共有して企業の意思決定を後押しし、貢献に応じた報酬を受け取りましょう。詳しい流れをご紹介します。"
   },
   "steps": [
     {
       "number": "01",
-      "title": " プロフェッショナルプロファイルをビルド",
-      "text": "あなた自身のエキスパート知識にマッチするリサーチスタディとコネクトできるよう、プロファイルを入力・コンプリートしてください。"
+      "title": "プロフィールを登録",
+      "text": "ご自身の職歴や専門分野を登録すると、最適なリサーチ案件とマッチングされます。"
     },
     {
       "number": "02",
-      "title": " スタディとのマッチングを獲得",
-      "text": "あなたの所属インダストリーの経験やビジネスバックグラウンドにアラインしたリサーチスタディへのインビテーションが届きます。"
+      "title": "マッチした案件を受け取る",
+      "text": "あなたの業界経験やキャリアに合ったリサーチ調査の案内が届きます。"
     },
     {
       "number": "03",
-      "title": " エキスパート知識をシェア",
-      "text": "適切なリサーチオポチュニティにパーティシペートし、サーベイやインタビューなどを通じてプロフェッショナルなインサイトをシェアします。"
+      "title": "知見をシェアする",
+      "text": "アンケートやインタビューなどのリサーチに参加し、専門家としての意見を提供します。"
     },
     {
       "number": "04",
-      "title": "リワードのレシーブ",
-      "text": "リワードは即日あなたのバランス（残高）に反映。UPI、PayPal、または銀行振込経由でわずか5ドルからキャッシュアウト可能です。"
+      "title": "報酬を受け取る",
+      "text": "報酬は即日アカウントに残高として反映されます。最低5ドルからUPI、PayPal、銀行振込で交換可能です。"
     }
   ],
   "surveyPreview": {
-    "eyebrow": "いつでもトランスペアレント（透明）に",
-    "title": "リサーチオポチュニティのサンプル",
+    "eyebrow": "いつでも透明・明瞭",
+    "title": "案件例の紹介",
     "cards": [
       {
-        "tag": "Technology",
+        "tag": "テクノロジー",
         "tone": "primary",
-        "title": "Cloud Infrastructure Adoption",
+        "title": "クラウドインフラ導入に関する調査",
         "time": "15分",
         "reward": "$12.50"
       },
       {
-        "tag": "Cybersecurity",
+        "tag": "サイバーセキュリティ",
         "tone": "purple",
-        "title": "Enterprise Cybersecurity Trends",
+        "title": "エンタープライズセキュリティ動向",
         "time": "20分",
         "reward": "$11"
       },
       {
-        "tag": "Finance",
+        "tag": "ファイナンス",
         "tone": "orange",
-        "title": "AI Adoption in Financial Services",
+        "title": "金融機関におけるAI活用調査",
         "time": "15分",
         "reward": "$10.50"
       },
       {
-        "tag": "Procurement",
+        "tag": "調達・購買",
         "tone": "success",
-        "title": "Procurement Software Evaluation",
+        "title": "購買管理ソフトウェアの評価",
         "time": "20分",
         "reward": "$12.50"
       }
     ]
   },
   "payoutSpeed": {
-    "eyebrow": "リワードの選択肢 (REWARD OPTIONS)",
-    "title": "支払いのスピード感",
+    "eyebrow": "報酬受取方法",
+    "title": "振込までのスピード",
     "items": [
       {
-        "title": "UPI / PayPal — 即日（Same day）",
-        "text": "ご指定のUPI IDまたはPayPalアカウントへ送金"
+        "title": "UPI / PayPal — 即日対応",
+        "text": "ご指定のUPI IDまたはPayPal口座へ即時送金"
       },
       {
-        "title": "ギフトカード — 即日（Same day）",
-        "text": "100以上のブランドに対応、特定のカードで+5%のボーナス付与"
+        "title": "ギフトカード — 即日対応",
+        "text": "100以上のブランドから選択可能（一部5%ボーナス付き）"
       },
       {
-        "title": "銀行振込 — 1〜2日",
-        "text": "あなたのアカウントへダイレクトに入金、手数料はゼロ（zero fees）"
+        "title": "銀行振込 — 1〜2営業日",
+        "text": "ご指定の口座へ直接入金（手数料無料）"
       }
     ]
   },
   "cta": {
-    "title": "エキスパート知識をシェアするレディはできましたか？",
-    "subtitle": "エクスクルーシブなリサーチに参画し、ビジネスディシジョンを一緒に形作っていく、信頼されたプロフェッショナルコミュニティにジョインしましょう。",
-    "button": "コミュニティにジョインする"
+    "title": "あなたの知見をシェアしませんか？",
+    "subtitle": "多くのビジネスパーソンが参加する信頼のコミュニティに加入し、限定調査を通じて企業の意思決定に貢献しましょう。",
+    "button": "コミュニティに参加する"
   },
   "phoneScreens": {
     "nav": {
-      "surveys": "サーベイ",
-      "history": "履歴 (History)",
+      "surveys": "アンケート",
+      "history": "履歴",
       "wallet": "ウォレット",
-      "analytics": "アナリティクス",
-      "profile": "プロファイル"
+      "analytics": "データ分析",
+      "profile": "プロフィール"
     },
     "profile": {
-      "title": "あなたのプロファイル",
-      "subtitle": "所要時間は約2分です",
-      "nameLabel": "フルネーム",
-      "nameValue": "Alex Carter",
-      "emailLabel": "Eメール",
+      "title": "プロフィール",
+      "subtitle": "所要時間 約2分",
+      "nameLabel": "氏名",
+      "nameValue": "アレックス・カーター",
+      "emailLabel": "メールアドレス",
       "emailValue": "alex@email.com",
-      "interestsLabel": "インタレスト（関心分野）",
-      "interests": ["Technology", "Healthcare", "Financial Services"],
-      "progressLabel": "プロファイルの入力状況",
+      "interestsLabel": "関心のある分野",
+      "interests": ["テクノロジー", "ヘルスケア", "金融サービス"],
+      "progressLabel": "入力完了率",
       "progressValue": "80%",
-      "cta": "次へ進む (Continue)"
+      "cta": "次へ"
     },
     "matched": {
-      "heading": "あなた向けのスタディ",
-      "subtitle": "プロファイルに基づくマッチング",
-      "search": "サーベイを検索...",
+      "heading": "おすすめの調査",
+      "subtitle": "プロフィールに基づくマッチング",
+      "search": "アンケートを検索...",
       "allChip": "すべて"
     },
     "answer": {
       "progressLabel": "質問 5 / 18",
-      "question": "あなたの組織で現在利用しているクラウドプラットフォームはどれですか？",
-      "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "その他 (Other)"],
-      "submitCta": "次へ (Next)"
+      "question": "貴社で現在利用しているクラウドプラットフォームは何ですか？",
+      "options": ["AWS", "Microsoft Azure ", "Google Cloud Platform", "その他"],
+      "submitCta": "次へ"
     },
     "paid": {
-      "title": "リワード獲得完了",
-      "via": "ご自身のPayPalへ送金済み",
-      "balanceLabel": "利用可能なリワード残高",
+      "title": "報酬獲得完了",
+      "via": "PayPal口座へ送金完了",
+      "balanceLabel": "利用可能な報酬残高",
       "balanceValue": "$129.50"
     }
   }

@@ -1,50 +1,50 @@
 {
   "meta": {
-    "title": "お問い合わせ — Support & Help | B2B Insight Panel",
-    "description": "アカウント、ペイアウト、またはブランドからのお問い合わせは、InsightPanelのサポートまで。1営業日以内にリプライいたします。",
-    "keywords": ["contact insight panel", "survey support", "brand inquiry"],
-    "ogAlt": "InsightPanelチームへのお問い合わせ"
+    "title": "お問い合わせ — サポート＆ヘルプ | B2B リサーチパネル",
+    "description": "アカウント、謝礼受取、法人向けお問い合わせはこちらから。1営業日以内にご返信いたします。",
+    "keywords": ["お問い合わせ", "アンケートサポート", "法人問い合わせ"],
+    "ogAlt": "リサーチパネルサポートチームへのお問い合わせ"
   },
   "hero": {
-    "eyebrow": "コンタクト (Contact)",
-    "title": "Let's talk"
+    "eyebrow": "お問い合わせ",
+    "title": "お気軽にご相談ください"
   },
   "cards": {
     "email": {
-      "title": "Eメールサポート",
+      "title": "メールサポート",
       "value": "support@b2binsightpanel.com"
     },
     "chat": {
-      "title": "ライブチャット (Live chat)",
-      "value": "24時間年中無休で稼働中 (Always At Work 24/7)"
+      "title": "ライブチャット",
+      "value": "24時間365日対応"
     },
     "brands": {
-      "title": "ブランド＆リサーチチーム向け",
-      "text": "弊社のパネルでスタディをフィールド（実施）することをご検討中ですか？",
-      "link": "コラボレーションを見る"
+      "title": "企業・調査機関の皆様へ",
+      "text": "当パネルでの調査配信・実施をご検討ですか？",
+      "link": "法人向けソリューションを見る"
     }
   },
   "form": {
-    "label": "メッセージを送信する",
-    "reassure": "通常、24ビジネスアワーズ（営業時間内）以内に対応いたします。",
-    "nameLabel": "お名前 (Name)",
-    "namePlaceholder": "お名前を入力してください",
-    "emailLabel": "Eメール (Email)",
+    "label": "メッセージを送信",
+    "reassure": "通常24営業時間以内にご返信いたします。",
+    "nameLabel": "お名前",
+    "namePlaceholder": "山田 太郎",
+    "emailLabel": "メールアドレス",
     "emailPlaceholder": "you@email.com",
-    "topicLabel": "トピック (Topic)",
+    "topicLabel": "お問い合わせ件名",
     "topics": [
-      "Account Support",
-      "Rewards & Payments",
-      "Study Participation",
-      "Technical Issue",
-      "Other"
+      "アカウントに関するサポート",
+      "謝礼・お支払いについて",
+      "調査への参加について",
+      "不具合・技術的な問題",
+      "その他"
     ],
-    "messageLabel": "メッセージ (Message)",
-    "messagePlaceholder": "ご質問やリクエストの詳細を記述してください。",
-    "submit": "メッセージ送信",
-    "submitting": "送信中… (Sending…)",
-    "errorMessage": "Something went wrong. もう一度トライしてください。",
-    "submitted": "送信完了 (Sent)",
-    "sentMessage": "メッセージを受領しました — 24時間以内にご連絡いたします。"
+    "messageLabel": "お問い合わせ内容",
+    "messagePlaceholder": "ご質問やご要望の詳細をご記入ください。",
+    "submit": "メッセージを送信",
+    "submitting": "送信中…",
+    "errorMessage": "送信に失敗しました。もう一度お試しください。",
+    "submitted": "送信完了",
+    "sentMessage": "メッセージを受け付けました。24時間以内にご返信いたします。"
   }
 }
