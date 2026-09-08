@@ -62,6 +62,82 @@ export function Check(props: IconProps) {
   );
 }
 
+export function Pause(props: IconProps) {
+  return (
+    <svg {...svgDefaults({ fill: "currentColor", ...props })}>
+      <path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" />
+    </svg>
+  );
+}
+
+export function VolumeHigh(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <path
+        d="M4 9.5h3.2L12 5.5v13l-4.8-4H4z"
+        fill="currentColor"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M16 9a4.2 4.2 0 0 1 0 6M18.8 6.4a8 8 0 0 1 0 11.2"
+        stroke="currentColor"
+        strokeWidth="1.9"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function VolumeMuted(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <path
+        d="M4 9.5h3.2L12 5.5v13l-4.8-4H4z"
+        fill="currentColor"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M16.5 9.8l4.2 4.4M20.7 9.8l-4.2 4.4"
+        stroke="currentColor"
+        strokeWidth="1.9"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function Fullscreen(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <path
+        d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function FullscreenExit(props: IconProps) {
+  return (
+    <svg {...svgDefaults(props)}>
+      <path
+        d="M3 9h6V3M21 9h-6V3M3 15h6v6M21 15h-6v6"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 export function Play(props: IconProps) {
   return (
     <svg {...svgDefaults({ fill: "currentColor", ...props })}>

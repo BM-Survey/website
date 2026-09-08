@@ -443,3 +443,136 @@ body {
 .marquee-group:hover .marquee-track {
   animation-play-state: paused;
 }
+
+/* ---------------------------------------------------------------------------
+   Custom video player (components/ui/VideoPlayer.tsx)
+   ------------------------------------------------------------------------ */
+
+/* Control-bar buttons */
+.vp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  flex: none;
+  cursor: pointer;
+  border-radius: 9999px;
+  color: #fff;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+.vp-btn:hover {
+  background: rgb(255 255 255 / 0.18);
+}
+.vp-btn:active {
+  transform: scale(0.92);
+}
+.vp-btn:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* Shared range styling. `--vp-fill` is the filled percentage, set inline so the
+   track paints without a second element. Track and thumb must be declared in
+   separate rules — browsers drop the whole block on an unknown pseudo-element. */
+.vp-range {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  cursor: pointer;
+  height: 1rem;
+  margin: 0;
+}
+.vp-range:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+.vp-range:focus {
+  outline: none;
+}
+
+.vp-range::-webkit-slider-runnable-track {
+  height: 0.375rem;
+  border-radius: 9999px;
+  background: linear-gradient(
+    to right,
+    var(--color-primary) 0%,
+    var(--color-primary) var(--vp-fill, 0%),
+    transparent var(--vp-fill, 0%)
+  );
+}
+.vp-range::-moz-range-track {
+  height: 0.375rem;
+  border-radius: 9999px;
+  background: rgb(255 255 255 / 0.25);
+}
+.vp-range::-moz-range-progress {
+  height: 0.375rem;
+  border-radius: 9999px;
+  background: var(--color-primary);
+}
+
+/* The volume track has no buffered layer behind it, so it paints its own rest
+   colour rather than leaving the unfilled portion transparent. */
+.vp-range--volume::-webkit-slider-runnable-track {
+  background: linear-gradient(
+    to right,
+    #fff 0%,
+    #fff var(--vp-fill, 0%),
+    rgb(255 255 255 / 0.3) var(--vp-fill, 0%)
+  );
+}
+.vp-range--volume::-moz-range-progress {
+  background: #fff;
+}
+
+/* Thumb: hidden at rest on the seek bar, revealed on hover/focus/drag, so the
+   resting timeline stays a clean line. */
+.vp-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 0.875rem;
+  width: 0.875rem;
+  margin-top: -0.25rem;
+  border: none;
+  border-radius: 9999px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgb(11 18 32 / 0.5);
+  transform: scale(0);
+  transition: transform 0.18s ease;
+}
+.vp-range::-moz-range-thumb {
+  height: 0.875rem;
+  width: 0.875rem;
+  border: none;
+  border-radius: 9999px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgb(11 18 32 / 0.5);
+  transform: scale(0);
+  transition: transform 0.18s ease;
+}
+.vp-range:hover::-webkit-slider-thumb,
+.vp-range:focus-visible::-webkit-slider-thumb,
+.vp-range:active::-webkit-slider-thumb {
+  transform: scale(1);
+}
+.vp-range:hover::-moz-range-thumb,
+.vp-range:focus-visible::-moz-range-thumb,
+.vp-range:active::-moz-range-thumb {
+  transform: scale(1);
+}
+/* The volume thumb is small and always visible — it doubles as the level readout. */
+.vp-range--volume::-webkit-slider-thumb {
+  transform: scale(1);
+}
+.vp-range--volume::-moz-range-thumb {
+  transform: scale(1);
+}
+
+.vp-range:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+  border-radius: 9999px;
+}

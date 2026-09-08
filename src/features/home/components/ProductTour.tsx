@@ -2,6 +2,7 @@ import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
 import { Section } from "@/components/ui/Section";
+import { VideoPlayer } from "@/components/ui/VideoPlayer";
 import type { HomeDictionary } from "@/i18n/dictionaries";
 
 type ProductTourProps = {
@@ -44,15 +45,11 @@ export function ProductTour({ demo }: ProductTourProps) {
           {/* `isolate` forces a stacking context so Safari honours the rounded
               corners on the video instead of painting it square. */}
           <div className="relative isolate aspect-video w-full overflow-hidden rounded-[24px] border-2 border-primary bg-ink shadow-[0_24px_60px_rgba(46,91,255,0.18)]">
-            <video
-              className="absolute inset-0 h-full w-full object-cover"
+            <VideoPlayer
               src={VIDEO_SRC}
               poster={POSTER_SRC}
-              preload="metadata"
-              playsInline
-              controls
-              controlsList="nodownload"
-              aria-label={demo.videoTitle}
+              label={demo.videoTitle}
+              labels={demo.player}
             />
           </div>
         </Reveal>

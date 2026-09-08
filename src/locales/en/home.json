@@ -166,7 +166,17 @@
     "eyebrow": "Interactive product tour",
     "title": "Take the full tour before you sign up",
     "description": "Click through the real member journey — match with a survey, answer it, and cash out your rewards. No account required.",
-    "videoTitle": "Complete Survey Workflow and Manage Rewards on B2B Insight Panel"
+    "videoTitle": "Complete Survey Workflow and Manage Rewards on B2B Insight Panel",
+    "player": {
+      "play": "Play",
+      "pause": "Pause",
+      "mute": "Mute",
+      "unmute": "Unmute",
+      "fullscreen": "Full screen",
+      "exitFullscreen": "Exit full screen",
+      "seek": "Seek",
+      "volume": "Volume"
+    }
   },
   "feature1": {
     "eyebrow": "RESEARCH MATCHED TO YOUR EXPERTISE",
