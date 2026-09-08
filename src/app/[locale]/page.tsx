@@ -9,6 +9,7 @@ import { Hero } from "@/features/home/components/Hero";
 // import { TrustStrip } from "@/features/home/components/TrustStrip";
 import { Stats } from "@/features/home/components/Stats";
 import { VideoReveal } from "@/features/home/components/VideoReveal";
+import { ProductTour } from "@/features/home/components/ProductTour";
 import { FeatureSurveys } from "@/features/home/components/FeatureSurveys";
 import { FeatureCashout } from "@/features/home/components/FeatureCashout";
 import { Rewards } from "@/features/home/components/Rewards";
@@ -85,6 +86,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       {/* <TrustStrip trust={home.trust} /> */}
       <Stats stats={home.stats} />
       {/* <VideoReveal video={home.video} /> */}
+      <ProductTour demo={home.demo} />
       <FeatureSurveys feature={home.feature1} />
       <FeatureCashout feature={home.feature2} />
       <Rewards rewards={home.rewards} />

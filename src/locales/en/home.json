@@ -84,7 +84,11 @@
         "title": "Discover Surveys",
         "subtitle": "Complete surveys, earn rewards",
         "search": "Search surveys...",
-        "chips": ["All", "Technology", "Healthcare"],
+        "chips": [
+          "All",
+          "Technology",
+          "Healthcare"
+        ],
         "statusNew": "New",
         "statusEndsSoon": "Ends soon",
         "nav": {
@@ -158,6 +162,12 @@
     "featured": "Featured",
     "posterAlt": "B2B Insight Panel member story video"
   },
+  "demo": {
+    "eyebrow": "Interactive product tour",
+    "title": "Take the full tour before you sign up",
+    "description": "Click through the real member journey — match with a survey, answer it, and cash out your rewards. No account required.",
+    "videoTitle": "Complete Survey Workflow and Manage Rewards on B2B Insight Panel"
+  },
   "feature1": {
     "eyebrow": "RESEARCH MATCHED TO YOUR EXPERTISE",
     "titleLine1": "Only the studies relevant ",
@@ -181,7 +191,12 @@
       "heading": "Studies For You",
       "subtitle": "Curated based on your professional profile.",
       "search": "Search matched surveys...",
-      "chips": ["All", "Technology", "Healthcare", "Finance"],
+      "chips": [
+        "All",
+        "Technology",
+        "Healthcare",
+        "Finance"
+      ],
       "cards": [
         {
           "match": "98% match",

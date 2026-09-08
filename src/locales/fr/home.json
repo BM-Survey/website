@@ -84,7 +84,11 @@
         "title": "Découvrir les sondages",
         "subtitle": "Remplissez des sondages, gagnez des récompenses",
         "search": "Rechercher des sondages...",
-        "chips": ["Tous", "Shopping", "Tech"],
+        "chips": [
+          "Tous",
+          "Shopping",
+          "Tech"
+        ],
         "statusNew": "Nouveau",
         "statusEndsSoon": "Se termine bientôt",
         "nav": {
@@ -158,6 +162,12 @@
     "featured": "En vedette",
     "posterAlt": "Vidéo témoignage d'un membre de B2B Insight Panel"
   },
+  "demo": {
+    "eyebrow": "Visite interactive du produit",
+    "title": "Faites le tour complet avant de vous inscrire",
+    "description": "Parcourez le vrai parcours d'un membre : trouvez une enquête, répondez-y et encaissez vos récompenses. Aucun compte requis.",
+    "videoTitle": "Parcours complet des enquêtes et gestion des récompenses sur B2B Insight Panel"
+  },
   "feature1": {
     "eyebrow": "DES ÉTUDES ADAPTÉES À VOTRE EXPERTISE",
     "titleLine1": "Uniquement les études pertinentes ",
@@ -181,7 +191,12 @@
       "heading": "Études pour vous",
       "subtitle": "Sélectionnées selon votre profil professionnel.",
       "search": "Rechercher des sondages adaptés...",
-      "chips": ["Tous", "Technologie", "Santé", "Finance"],
+      "chips": [
+        "Tous",
+        "Technologie",
+        "Santé",
+        "Finance"
+      ],
       "cards": [
         {
           "match": "98 % de correspondance",
