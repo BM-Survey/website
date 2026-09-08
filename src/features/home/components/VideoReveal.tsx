@@ -6,7 +6,15 @@ type VideoRevealProps = {
   video: HomeDictionary["video"];
 };
 
-const YOUTUBE_VIDEO_ID = "EngW7tLk6R8";
+/**
+ * Self-hosted member story. The 46 MB source is re-encoded to 1080p H.264
+ * CRF 28 / AAC 96k (~6 MB) with the moov atom moved to the front
+ * (`faststart`), so playback starts after the first few hundred KB instead of
+ * waiting for the whole file. `preload="metadata"` fetches only headers, so
+ * nothing but the poster loads until the visitor presses play.
+ */
+const VIDEO_SRC = "/video/member-story.mp4";
+const POSTER_SRC = "/video/member-story-poster.jpg";
 
 export function VideoReveal({ video }: VideoRevealProps) {
   return (
@@ -27,13 +35,17 @@ export function VideoReveal({ video }: VideoRevealProps) {
         variant="frame"
         className="relative aspect-video w-full overflow-hidden bg-ink shadow-[0_40px_100px_rgba(16,32,90,0.28)] sm:aspect-auto sm:h-screen"
       >
-        <iframe
-          className="absolute inset-0 h-full w-full"
-          src={`https://www.youtube-nocookie.com/embed/${YOUTUBE_VIDEO_ID}?rel=0&modestbranding=1`}
-          title={video.posterAlt}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-          loading="lazy"
+        {/* `object-contain` keeps the letterboxing the YouTube embed had, so
+            the frame crops nothing at the tall `sm:h-screen` size. */}
+        <video
+          className="absolute inset-0 h-full w-full object-contain"
+          src={VIDEO_SRC}
+          poster={POSTER_SRC}
+          preload="metadata"
+          playsInline
+          controls
+          controlsList="nodownload"
+          aria-label={video.posterAlt}
         />
       </Reveal>
     </section>
